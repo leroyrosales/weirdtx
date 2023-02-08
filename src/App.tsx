@@ -6,8 +6,6 @@ import * as siteData from "./data/map.json"
 function App() {
   const [position, setPosition] = useState<LatLng | null>(null)
 
-  let latlng: any[] = [];
-
   const LocationMarker = () => {
     const map = useMapEvents({
       click() {
@@ -26,17 +24,40 @@ function App() {
     )
   }
 
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+
   return (
     <>
-    <div className="maps_border">
-      <div className="maps_container">
-        <MapContainer center={[30.0912282,-98.91223]} zoom={8}>
-          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
-          {siteData.locations.map(park => (
-            <Marker
-              key={park.location.location_id}
-              position={[park.geometry.coordinates[0], park.geometry.coordinates[1]]}
-            >
+      <div className="maps_border">
+        <div className="maps_container">
+          <MapContainer center={[30.0912282, -98.91223]} zoom={8}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
+            {siteData.locations.map(park => (
+              <Marker
+                key={park.location.location_id}
+                position={[park.geometry.coordinates[0], park.geometry.coordinates[1]]}
+
+                eventHandlers={{
+                  click: () => {
+                    openModal
+                  },
+                }}
+              >
                 <Popup
                   position={[park.geometry.coordinates[0], park.geometry.coordinates[1]]}
                 >
@@ -46,12 +67,13 @@ function App() {
                     <a target="_blank" href={`https://www.google.com/maps/search/?api=1&query=${park.location.ADDRESS}`}>View on Google Maps</a>
                   </div>
                 </Popup>
+
               </Marker>
-          ))}
-          <LocationMarker/>
-        </MapContainer>
+            ))}
+            <LocationMarker />
+          </MapContainer>
+        </div>
       </div>
-    </div>
     </>
   )
 }
