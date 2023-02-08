@@ -1,0 +1,37 @@
+{
+  "locations": [
+    {
+      "location": {
+        "location_id": 1,
+        "NAME": "Pecan Pie Vending Machine",
+        "DESCRIPTION": "A 24-hour vending machine restocked daily with homemade full-sized pecan pies.",
+        "ADDRESS": "2626 TX-71 Cedar Creek, Texas, 78612 United States"
+      },
+      "geometry": {
+        "coordinates": [30.1668, -97.5111]
+      }
+    },
+    {
+      "location": {
+        "location_id": 2,
+        "NAME": "Cadillac Ranch",
+        "DESCRIPTION": "CADILLAC RANCH, BUILT IN 1974, is the product of eccentric helium millionaire Stanley Marsh 3 (he didn't like the Roman numeral III and found it pretentious). In collaboration with The Ant Farm, a San Francisco art collective, Marsh funded the placement of ten graffiti-covered Cadillacs half-buried in a dusty Texas field. The cars are positioned nose-down and face west “at the same angle as the Cheops' pyramids.” The cars were actually moved two miles further out in 1997 to avoid the expanding city.",
+        "ADDRESS": "Interstate 40 Amarillo, Texas, 79124 United States"
+      },
+      "geometry": {
+        "coordinates": [35.1872, -101.9871]
+      }
+    },
+    {
+      "location": {
+        "location_id": 3,
+        "NAME": "Munster Mansion",
+        "DESCRIPTION": "A Victorian mansion, painstakingly reproduced to appear just as the the Munster's family home did on TV.",
+        "ADDRESS": "F.M 813 1313 Mockingbird Lane Waxahachie, Texas, 75165 United States"
+      },
+      "geometry": {
+        "coordinates": [32.4361, -96.8107]
+      }
+    }
+  ]
+}
