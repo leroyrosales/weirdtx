@@ -2,14 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.leaflet-container {
-    width: 100%;
-    height: 100vh;
-    border: 10px solid red;
+body {
+  @apply bg-off-white;
 }
 
-/*
-body {
-  @apply border-2 border-red-500 border-solid;
-} */
+.leaflet-container {
+    @apply p-8 w-full h-screen max-h-[600px] border-copper border-8 border-solid;
+}
+
+a.leaflet-control-zoom-in,
+a.leaflet-control-zoom-out {
+  @apply bg-bluebonnet text-white hover:bg-white hover:text-bluebonnet;
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  @apply border-none;
+}
+
+.leaflet-popup {
+  @apply drop-shadow-2xl;
+}
+
+.leaflet-popup-content-wrapper {
+  @apply px-4 pb-8 pt-3 w-96 text-black;
+}
+
+.leaflet-popup-content {
+  @apply m-0;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  @apply bg-white;
+}
+
+.leaflet-popup-content {
+  width: 100%!important;
+}
+
+.leaflet-popup-content p {
+  @apply text-base pb-4;
+}
+
+.leaflet-popup-content a {
+  @apply font-medium bg-bluebonnet text-white px-4 py-2 rounded border-2 border-bluebonnet hover:bg-white hover:text-bluebonnet;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  @apply top-[-4px] right-[-4px] leading-[1] text-lg w-8 h-8 bg-bluebonnet rounded-full p-1 text-white border-bluebonnet border-2 border-solid hover:bg-white hover:text-bluebonnet;
+}

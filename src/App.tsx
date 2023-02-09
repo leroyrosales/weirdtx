@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import * as siteData from "./data/map.json"
 
+import Header from './components/Header.component';
+import Footer from './components/Footer.component';
+
 function App() {
   const [position, setPosition] = useState<LatLng | null>(null)
 
@@ -19,16 +22,17 @@ function App() {
 
     return position === null ? null : (
       <Marker position={position}>
-        <Popup>You are here</Popup>
+        <Popup><p className="text-center pb-0">You are here</p></Popup>
       </Marker>
     )
   }
 
   return (
     <>
+      <Header/>
       <div className="maps_border">
-        <div className="maps_container">
-          <MapContainer center={[30.0912282, -98.91223]} zoom={8}>
+        <div className="container  mx-auto">
+          <MapContainer center={[31.4912284, -98.91225]} zoom={6}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
             {siteData.locations.map(park => (
               <Marker
@@ -39,7 +43,7 @@ function App() {
                   position={[park.geometry.coordinates[0], park.geometry.coordinates[1]]}
                 >
                   <div>
-                    <h2>{park.location.NAME}</h2>
+                    <h2 className="text-lg font-bold">{park.location.NAME}</h2>
                     <p>{park.location.DESCRIPTION}</p>
                     <a target="_blank" href={`https://www.google.com/maps/search/?api=1&query=${park.location.ADDRESS}`}>View on Google Maps</a>
                   </div>
@@ -51,6 +55,7 @@ function App() {
           </MapContainer>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }
