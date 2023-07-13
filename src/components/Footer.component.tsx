@@ -5,7 +5,7 @@ export default function Footer() {
     <>
         <footer>
             <div className="container mx-auto py-8">
-                <p className="text-center font-bold">&copy; 2023</p>
+                <p className="text-center font-bold">Weird TX &copy; 2023</p>
             </div>
         </footer>
     </>

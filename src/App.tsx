@@ -31,8 +31,8 @@ function App() {
     <>
       <Header/>
       <div className="maps_border">
-        <div className="container  mx-auto">
-          <MapContainer center={[31.4912284, -98.91225]} zoom={6}>
+        <section className="">
+          <MapContainer center={[31.4912284, -98.91225]} zoom={7}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
             {siteData.locations.map(park => (
               <Marker
@@ -53,7 +53,7 @@ function App() {
             ))}
             <LocationMarker />
           </MapContainer>
-        </div>
+        </section>
       </div>
       <Footer/>
     </>

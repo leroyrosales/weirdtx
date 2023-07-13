@@ -7,7 +7,7 @@ body {
 }
 
 .leaflet-container {
-    @apply p-8 w-full h-screen max-h-[600px] border-copper border-8 border-solid;
+    @apply p-8 w-full min-h-[750px] border-copper border-4 border-solid;
 }
 
 a.leaflet-control-zoom-in,
