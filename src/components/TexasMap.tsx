@@ -2,6 +2,7 @@ import { useEffect, useId } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import { Link } from 'react-router-dom'
+import MarkerClusterGroup from 'react-leaflet-cluster'
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 import markerShadow from 'leaflet/dist/images/marker-shadow.png'
@@ -96,40 +97,44 @@ export function TexasMap({
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Recenter center={center} zoom={zoom} />
-        {markers.map((m) => {
-          const hideDetailLink =
-            suppressDetailLinkFor != null &&
-            m.kind === suppressDetailLinkFor.kind &&
-            m.id === suppressDetailLinkFor.slug
+        <MarkerClusterGroup chunkedLoading showCoverageOnHover={false}>
+          {markers.map((m) => {
+            const hideDetailLink =
+              suppressDetailLinkFor != null &&
+              m.kind === suppressDetailLinkFor.kind &&
+              m.id === suppressDetailLinkFor.slug
 
-          return (
-            <Marker key={m.id} position={[m.lat, m.lng]} title={m.title}>
-              <Popup>
-                <div className="min-w-[140px] font-body text-ink">
-                  <p
-                    className={`text-xs font-bold uppercase tracking-wide ${
-                      m.kind === 'place' ? 'text-sage-dark' : 'text-mustard'
-                    }`}
-                  >
-                    <span className="sr-only">Listing type: </span>
-                    {m.kind === 'place' ? 'Place' : 'Event'}
-                  </p>
-                  <h2 className="font-display text-base font-normal leading-tight text-sky-deep">{m.title}</h2>
-                  {m.subtitle ? <p className="text-xs text-ink/70">{m.subtitle}</p> : null}
-                  {!hideDetailLink ? (
-                    <Link
-                      to={m.kind === 'place' ? `/places/${m.id}` : `/events/${m.id}`}
-                      className="mt-2 inline-flex min-h-11 items-center text-sm font-bold text-clay underline decoration-2 underline-offset-2 hover:text-clay-dark"
+            return (
+              <Marker key={m.id} position={[m.lat, m.lng]} title={m.title}>
+                <Popup>
+                  <div className="min-w-[140px] font-body text-ink">
+                    <p
+                      className={`text-xs font-bold uppercase tracking-wide ${
+                        m.kind === 'place' ? 'text-sage-dark' : 'text-mustard'
+                      }`}
                     >
-                      View details<span className="sr-only">: {m.title}</span>
-                    </Link>
-                  ) : null}
-                  <MapLocationButton lat={m.lat} lng={m.lng} title={m.title} />
-                </div>
-              </Popup>
-            </Marker>
-          )
-        })}
+                      <span className="sr-only">Listing type: </span>
+                      {m.kind === 'place' ? 'Place' : 'Event'}
+                    </p>
+                    <h2 className="font-display text-base font-normal leading-tight text-sky-deep">
+                      {m.title}
+                    </h2>
+                    {m.subtitle ? <p className="text-xs text-ink/70">{m.subtitle}</p> : null}
+                    {!hideDetailLink ? (
+                      <Link
+                        to={m.kind === 'place' ? `/places/${m.id}` : `/events/${m.id}`}
+                        className="mt-2 inline-flex min-h-11 items-center text-sm font-bold text-clay underline decoration-2 underline-offset-2 hover:text-clay-dark"
+                      >
+                        View details<span className="sr-only">: {m.title}</span>
+                      </Link>
+                    ) : null}
+                    <MapLocationButton lat={m.lat} lng={m.lng} title={m.title} />
+                  </div>
+                </Popup>
+              </Marker>
+            )
+          })}
+        </MarkerClusterGroup>
       </MapContainer>
     </div>
   )
