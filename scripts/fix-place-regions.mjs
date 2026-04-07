@@ -127,6 +127,7 @@ const CITY_TO_REGION = {
   Neece: 'Central Texas',
   'New Braunfels': 'Hill Country',
   Odessa: 'West Texas',
+  Orange: 'Gulf Coast',
   Palmer: 'Central Texas',
   Panhandle: 'Panhandle',
   Paradise: 'DFW',
