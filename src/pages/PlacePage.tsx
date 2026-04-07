@@ -51,6 +51,18 @@ export function PlacePage() {
         {place.tags?.length ? (
           <p className="mt-3 text-sm text-ink/60">{place.tags.join(' · ')}</p>
         ) : null}
+        {place.url ? (
+          <p className="mt-4">
+            <a
+              href={place.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex min-h-11 items-center font-bold text-clay underline decoration-2 underline-offset-2 hover:text-clay-dark sm:min-h-0"
+            >
+              Official website →
+            </a>
+          </p>
+        ) : null}
       </header>
 
       <div

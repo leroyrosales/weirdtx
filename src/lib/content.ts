@@ -23,6 +23,42 @@ function slugFromPath(path: string): string {
   return file.replace(/\.md$/i, '')
 }
 
+function escapeHtml(value: string): string {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;')
+}
+
+function linkifyBareUrls(markdown: string): string {
+  // Convert bare URLs into autolink form (<https://...>) so `marked` renders them as links.
+  // Keep it conservative: avoid touching code blocks/inline code and existing autolinks.
+  const parts = markdown.split(/(```[\s\S]*?```|`[^`]*`)/g)
+  return parts
+    .map((part) => {
+      if (part.startsWith('```') || part.startsWith('`')) return part
+      return part.replace(/(^|[\s(])((https?:\/\/)[^\s<>()]+)(?=$|[\s).,!?:;])/g, (m, pre, url) => {
+        if (url.startsWith('<') && url.endsWith('>')) return m
+        return `${pre}<${url}>`
+      })
+    })
+    .join('')
+}
+
+marked.use({
+  renderer: {
+    link({ href, title, text }) {
+      const safeHref = href ?? ''
+      const safeTitleAttr = title ? ` title="${escapeHtml(title)}"` : ''
+      const isExternal = /^https?:\/\//i.test(safeHref)
+      const externalAttrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : ''
+      return `<a href="${escapeHtml(safeHref)}"${safeTitleAttr}${externalAttrs}>${text}</a>`
+    },
+  },
+})
+
 function parsePlace(raw: string, path: string): PlaceItem {
   const { data, content } = parseMatter(raw)
   const d = data as Record<string, unknown>
@@ -40,6 +76,7 @@ function parsePlace(raw: string, path: string): PlaceItem {
     featured: Boolean(d.featured),
     teaser: d.teaser != null ? String(d.teaser) : undefined,
     address: d.address != null ? String(d.address) : undefined,
+    url: d.url != null ? String(d.url) : undefined,
   }
   if (!fm.title || !fm.city || Number.isNaN(fm.lat) || Number.isNaN(fm.lng)) {
     throw new Error(`Missing required fields in place ${path}`)
@@ -47,7 +84,7 @@ function parsePlace(raw: string, path: string): PlaceItem {
   return {
     slug: slugFromPath(path),
     ...fm,
-    bodyHtml: marked.parse(content.trim(), { async: false }) as string,
+    bodyHtml: marked.parse(linkifyBareUrls(content.trim()), { async: false }) as string,
   }
 }
 
@@ -69,6 +106,7 @@ function parseEvent(raw: string, path: string): EventItem {
     tags: Array.isArray(d.tags) ? d.tags.map(String) : undefined,
     featured: Boolean(d.featured),
     teaser: d.teaser != null ? String(d.teaser) : undefined,
+    url: d.url != null ? String(d.url) : undefined,
   }
   if (!fm.title || !fm.city || !fm.starts || Number.isNaN(fm.lat) || Number.isNaN(fm.lng)) {
     throw new Error(`Missing required fields in event ${path}`)
@@ -76,7 +114,7 @@ function parseEvent(raw: string, path: string): EventItem {
   return {
     slug: slugFromPath(path),
     ...fm,
-    bodyHtml: marked.parse(content.trim(), { async: false }) as string,
+    bodyHtml: marked.parse(linkifyBareUrls(content.trim()), { async: false }) as string,
   }
 }
 
