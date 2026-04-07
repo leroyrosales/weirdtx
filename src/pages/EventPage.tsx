@@ -38,7 +38,7 @@ export function EventPage() {
         ← All events
       </Link>
       <header>
-        <p className="text-xs font-bold uppercase tracking-wide text-mustard">{ev.region}</p>
+        <p className="text-xs font-bold uppercase tracking-wide text-sage-dark">{ev.region}</p>
         <h1
           id="event-title"
           className="font-display text-4xl leading-tight tracking-wide text-sky-deep"

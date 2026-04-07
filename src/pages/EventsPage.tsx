@@ -60,7 +60,7 @@ export function EventsPage() {
               className="flex h-full min-h-[11rem] flex-col rounded-2xl border border-ink/10 bg-white/50 p-5 shadow-sm transition-all hover:border-mustard/55 hover:shadow-md"
               aria-label={`${e.title}, ${formatEventRange(e.starts, e.ends)}, ${e.city}, ${e.region}`}
             >
-              <span className="text-xs font-bold uppercase tracking-wide text-mustard">
+              <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
                 {e.region}
               </span>
               <span className="font-display mt-1 text-xl text-sky-deep">{e.title}</span>

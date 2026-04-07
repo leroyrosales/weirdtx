@@ -84,7 +84,7 @@ export function HomePage() {
         <h2 id="home-map-heading" className="font-display text-2xl tracking-wide text-sky-deep">
           Statewide map
         </h2>
-        <p className="mt-1 max-w-2xl text-ink/75">
+        <p className="mt-1 text-ink/75">
           Open a pin for a quick link — every listing has coordinates. Map tiles © OpenStreetMap
           contributors.
         </p>
@@ -154,7 +154,7 @@ export function HomePage() {
                   className="block rounded-xl border border-ink/10 bg-white/55 p-4 shadow-sm transition-all hover:border-mustard/55 hover:shadow"
                   aria-label={`${e.title}, ${e.region}, ${e.city}`}
                 >
-                  <span className="text-xs font-bold uppercase tracking-wide text-mustard">
+                  <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
                     {e.region}
                   </span>
                   <p className="font-display text-lg text-sky-deep">{e.title}</p>
