@@ -1,7 +1,7 @@
 ---
 title: Dr Pepper Museum
 city: Waco
-region: Texas
+region: Central Texas
 lat: 31.555056
 lng: -97.129398
 tags: ['waco']

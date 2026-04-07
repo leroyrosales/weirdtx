@@ -1,7 +1,7 @@
 ---
-title: 'Cast Away' Crossroads
+title: "'Cast Away' Crossroads"
 city: Neece
-region: Texas
+region: Panhandle
 lat: 35.633944
 lng: -100.451278
 tags: ['neece']

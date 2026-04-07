@@ -1,7 +1,7 @@
 ---
 title: Target Marathon
 city: Alpine
-region: Texas
+region: Big Bend
 lat: 30.308381
 lng: -103.459904
 tags: ['alpine']

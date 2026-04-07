@@ -1,7 +1,7 @@
 ---
 title: The Sometimes Islands
 city: Austin
-region: Texas
+region: Central Texas
 lat: 30.40186
 lng: -97.891468
 tags: ['austin']

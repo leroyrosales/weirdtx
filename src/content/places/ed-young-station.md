@@ -1,7 +1,7 @@
 ---
 title: Ed Young Station
 city: Glen Rose
-region: Texas
+region: DFW
 lat: 32.247389
 lng: -97.730173
 tags: ['glen-rose']

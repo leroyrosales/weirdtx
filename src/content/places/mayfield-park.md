@@ -1,7 +1,7 @@
 ---
 title: Mayfield Park 
 city: Austin
-region: Texas
+region: Central Texas
 lat: 30.314512
 lng: -97.769076
 tags: ['austin']

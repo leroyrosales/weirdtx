@@ -1,7 +1,7 @@
 ---
 title: National WASP WWII Museum
 city: Sweetwater
-region: Texas
+region: West Texas
 lat: 32.458535
 lng: -100.464508
 tags: ['sweetwater']

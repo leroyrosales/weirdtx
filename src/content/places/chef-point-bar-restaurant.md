@@ -1,7 +1,7 @@
 ---
 title: Chef Point Bar & Restaurant
 city: Watauga
-region: Texas
+region: DFW
 lat: 32.86105
 lng: -97.253633
 tags: ['watauga']

@@ -1,7 +1,7 @@
 ---
 title: Alexander the Great Theatre
 city: Mansfield
-region: Texas
+region: DFW
 lat: 41.805462
 lng: -72.241826
 tags: ['mansfield']

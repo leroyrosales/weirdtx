@@ -1,7 +1,7 @@
 ---
 title: Kim Son
 city: Houston
-region: Texas
+region: Gulf Coast
 lat: 29.745837
 lng: -95.360199
 tags: ['houston']

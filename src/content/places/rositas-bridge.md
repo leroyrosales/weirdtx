@@ -1,7 +1,7 @@
 ---
 title: Rosita's Bridge
 city: San Antonio
-region: Texas
+region: South Texas
 lat: 29.421754
 lng: -98.489115
 tags: ['san-antonio']

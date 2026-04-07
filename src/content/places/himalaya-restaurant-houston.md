@@ -1,7 +1,7 @@
 ---
 title: Himalaya Restaurant
 city: Houston
-region: Texas
+region: Gulf Coast
 lat: 29.716787
 lng: -95.500796
 tags: ['houston']

@@ -1,7 +1,7 @@
 ---
-title: 'Hi, How Are You' Mural
+title: "'Hi, How Are You' Mural"
 city: Austin
-region: Texas
+region: Central Texas
 lat: 30.283853
 lng: -97.742169
 tags: ['austin']

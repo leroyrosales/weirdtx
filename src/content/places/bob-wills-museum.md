@@ -1,7 +1,7 @@
 ---
 title: Bob Wills Museum
 city: Turkey
-region: Texas
+region: Panhandle
 lat: 34.390768
 lng: -100.893869
 tags: ['turkey']

@@ -1,7 +1,7 @@
 ---
 title: Pape’s Nutcracker Museum
 city: Seguin
-region: Texas
+region: Central Texas
 lat: 29.540522
 lng: -97.956349
 tags: ['seguin']

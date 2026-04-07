@@ -1,7 +1,7 @@
 ---
 title: Adrian E. Flatt, M.D., Hand Collection
 city: Dallas
-region: Texas
+region: DFW
 lat: 32.789961
 lng: -96.780593
 tags: ['dallas']

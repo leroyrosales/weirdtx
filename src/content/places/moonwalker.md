@@ -1,7 +1,7 @@
 ---
 title: ‘Moonwalker’
 city: Houston
-region: Texas
+region: Gulf Coast
 lat: 29.99022
 lng: -95.336783
 tags: ['houston']

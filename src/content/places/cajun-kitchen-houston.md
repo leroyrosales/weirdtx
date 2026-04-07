@@ -1,7 +1,7 @@
 ---
 title: Cajun Kitchen
 city: Houston
-region: Texas
+region: Gulf Coast
 lat: 29.701962
 lng: -95.571918
 tags: ['houston']

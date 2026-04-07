@@ -1,7 +1,7 @@
 ---
 title: Hotel Paisano
 city: Marfa
-region: Texas
+region: Big Bend
 lat: 30.312274
 lng: -104.021902
 tags: ['marfa']

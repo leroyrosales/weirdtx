@@ -1,7 +1,7 @@
 ---
 title: Momo Spot
 city: Irving
-region: Texas
+region: DFW
 lat: 32.856601
 lng: -96.992776
 tags: ['irving']

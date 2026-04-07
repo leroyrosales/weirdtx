@@ -1,7 +1,7 @@
 ---
 title: Sanderson Station
 city: Sanderson
-region: Texas
+region: West Texas
 lat: 30.140226
 lng: -102.399504
 tags: ['sanderson']

@@ -1,7 +1,7 @@
 ---
 title: Caelum Mór
 city: Arlington
-region: Texas
+region: DFW
 lat: 32.753079
 lng: -97.085753
 tags: ['arlington']

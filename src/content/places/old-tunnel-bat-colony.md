@@ -1,7 +1,7 @@
 ---
 title: Old Tunnel Bat Colony
 city: Fredericksburg
-region: Texas
+region: Hill Country
 lat: 30.1005
 lng: -98.820967
 tags: ['fredericksburg']

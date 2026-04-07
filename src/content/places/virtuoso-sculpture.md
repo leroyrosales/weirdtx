@@ -1,7 +1,7 @@
 ---
 title: Virtuoso Sculpture
 city: Houston
-region: Texas
+region: Gulf Coast
 lat: 29.762859
 lng: -95.365113
 tags: ['houston']

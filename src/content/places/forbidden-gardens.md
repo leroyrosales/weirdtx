@@ -1,7 +1,7 @@
 ---
 title: Forbidden Gardens
 city: Katy
-region: Texas
+region: Gulf Coast
 lat: 29.802332
 lng: -95.777221
 tags: ['katy']

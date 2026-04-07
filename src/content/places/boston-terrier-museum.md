@@ -1,7 +1,7 @@
 ---
 title: Boston Terrier Museum
 city: Floydada
-region: Texas
+region: Panhandle
 lat: 33.978854
 lng: -101.336526
 tags: ['floydada']

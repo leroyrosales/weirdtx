@@ -1,7 +1,7 @@
 ---
 title: American Wind Power Center
 city: Lubbock
-region: Texas
+region: Panhandle
 lat: 33.579443
 lng: -101.823341
 tags: ['lubbock']

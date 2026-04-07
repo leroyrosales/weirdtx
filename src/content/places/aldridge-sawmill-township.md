@@ -1,7 +1,7 @@
 ---
 title: Aldridge Sawmill
 city: Zavalla
-region: Texas
+region: East Texas
 lat: 31.033759
 lng: -94.280841
 tags: ['zavalla']

@@ -1,7 +1,7 @@
 ---
 title: Possum Kingdom Stone Arch Bridge
 city: Graford
-region: Texas
+region: DFW
 lat: 32.858402
 lng: -98.411635
 tags: ['graford']
