@@ -89,14 +89,15 @@ export function Layout() {
       <footer className="mt-auto border-t-2 border-gold-bright/45 bg-ink/[0.03]" aria-label="Site information">
         <div className="mx-auto max-w-5xl px-4 py-6 text-center text-sm leading-relaxed text-ink/70">
           <p>
-            Made for curious travelers. Content lives in easy-to-edit Markdown under{' '}
-            <code
-              className="rounded bg-ink/5 px-1 py-0.5 text-xs text-ink/90"
-              translate="no"
-              aria-label="Content folder path: src/content/"
+            Built by{' '}
+            <a
+              href="https://leroyrosales.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-clay underline decoration-2 underline-offset-2 hover:text-clay-dark"
             >
-              src/content/
-            </code>
+              Leroy Rosales
+            </a>
             .
           </p>
         </div>
