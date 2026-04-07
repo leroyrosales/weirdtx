@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { getPlaceBySlug, places } from '../lib/content'
-import { encodeParam } from '../lib/routeParams'
+import { encodeParam, regionToSlug } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function PlacePage() {
@@ -40,7 +40,7 @@ export function PlacePage() {
       <header>
         <p className="text-xs font-bold uppercase tracking-wide text-sage-dark">
           <Link
-            to={`/regions/${encodeParam(place.region)}`}
+            to={`/regions/${regionToSlug(place.region)}`}
             className="underline decoration-2 underline-offset-2 hover:text-clay"
           >
             {place.region}

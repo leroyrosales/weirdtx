@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { events, regions } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
-import { encodeParam } from '../lib/routeParams'
+import { encodeParam, regionToSlug } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function EventsPage() {
@@ -59,7 +59,7 @@ export function EventsPage() {
             <article className="flex h-full min-h-[11rem] flex-col rounded-2xl border border-ink/10 bg-white/50 p-5 shadow-sm transition-all hover:border-mustard/55 hover:shadow-md">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <Link
-                  to={`/regions/${encodeParam(e.region)}`}
+                  to={`/regions/${regionToSlug(e.region)}`}
                   className="text-xs font-bold uppercase tracking-wide text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
                 >
                   {e.region}

@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { events, places } from '../lib/content'
-import { decodeParam, encodeParam } from '../lib/routeParams'
+import { decodeParam, regionToSlug } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function CategoryPage() {
@@ -51,7 +51,7 @@ export function CategoryPage() {
                 </Link>
                 <p className="text-sm text-ink/70">
                   <Link
-                    to={`/regions/${encodeParam(p.region)}`}
+                    to={`/regions/${regionToSlug(p.region)}`}
                     className="font-semibold text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
                   >
                     {p.region}

@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { events, places } from '../lib/content'
-import { decodeParam, encodeParam } from '../lib/routeParams'
+import { decodeParam, encodeParam, regionToSlug } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function TagPage() {
@@ -57,7 +57,7 @@ export function TagPage() {
                 </Link>
                 <p className="text-sm text-ink/70">
                   <Link
-                    to={`/regions/${encodeParam(p.region)}`}
+                    to={`/regions/${regionToSlug(p.region)}`}
                     className="font-semibold text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
                   >
                     {p.region}
@@ -86,7 +86,7 @@ export function TagPage() {
                 </Link>
                 <p className="text-sm text-ink/70">
                   <Link
-                    to={`/regions/${encodeParam(e.region)}`}
+                    to={`/regions/${regionToSlug(e.region)}`}
                     className="font-semibold text-mustard underline decoration-2 underline-offset-2 hover:text-clay"
                   >
                     {e.region}

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { places, regions } from '../lib/content'
-import { encodeParam } from '../lib/routeParams'
+import { encodeParam, regionToSlug } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function PlacesPage() {
@@ -57,7 +57,7 @@ export function PlacesPage() {
             <article className="flex h-full min-h-[11rem] flex-col rounded-2xl border border-ink/10 bg-white/50 p-5 shadow-sm transition-all hover:border-sage/45 hover:shadow-md">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <Link
-                  to={`/regions/${encodeParam(p.region)}`}
+                  to={`/regions/${regionToSlug(p.region)}`}
                   className="text-xs font-bold uppercase tracking-wide text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
                 >
                   {p.region}

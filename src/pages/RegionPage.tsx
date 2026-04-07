@@ -1,15 +1,15 @@
 import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { events, places, regions } from '../lib/content'
-import { decodeParam, encodeParam } from '../lib/routeParams'
+import { encodeParam, regionFromSlug, regionToSlug } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function RegionPage() {
   const { region } = useParams<{ region: string }>()
-  const regionValue = decodeParam(region).trim()
+  const regionValue = regionFromSlug(region, regions)
 
-  const isValid = regions.includes(regionValue as (typeof regions)[number])
-  useDocumentTitle(isValid ? `Region: ${regionValue}` : 'Region not found')
+  const isValid = regionValue != null
+  useDocumentTitle(isValid && regionValue ? `Region: ${regionValue}` : 'Region not found')
 
   if (!isValid) {
     return (
@@ -58,7 +58,7 @@ export function RegionPage() {
         <p className="mt-2 text-ink/75">
           {regionPlaces.length} places · {regionEvents.length} events.{' '}
           <Link
-            to={`/regions/${encodeParam(regionValue)}`}
+            to={`/regions/${regionToSlug(regionValue)}`}
             className="font-semibold text-clay underline decoration-2 underline-offset-2 hover:text-clay-dark"
           >
             Permalink
