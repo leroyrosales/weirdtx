@@ -4,7 +4,6 @@ city: "Amarillo"
 region: "Panhandle"
 lat: 35.1872
 lng: -101.9871
-category: "General"
 tags:
   - "art"
   - "roadside"

@@ -4,7 +4,6 @@ city: "Cisco"
 region: "Central Texas"
 lat: 32.388796
 lng: -98.979948
-category: "General"
 tags:
   - "cisco"
 teaser: "Site of the Santa Claus Bank Robbery in Cisco — a Central Texas detour for odd-Texas hunters."

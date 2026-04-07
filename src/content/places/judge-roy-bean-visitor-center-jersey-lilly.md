@@ -4,7 +4,6 @@ city: "Langtry"
 region: "West Texas"
 lat: 29.809215
 lng: -101.560211
-category: "General"
 tags:
   - "langtry"
 teaser: "Judge Roy Bean Visitor Center in Langtry — a West Texas detour for odd-Texas hunters."

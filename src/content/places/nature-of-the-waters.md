@@ -4,7 +4,6 @@ city: "San Marcos"
 region: "Central Texas"
 lat: 29.882686
 lng: -97.939997
-category: "General"
 tags:
   - "san-marcos"
 teaser: "Nature of the Waters in San Marcos — a Central Texas detour for odd-Texas hunters."

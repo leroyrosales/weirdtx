@@ -4,7 +4,6 @@ city: "Katy"
 region: "Gulf Coast"
 lat: 29.778159
 lng: -95.847281
-category: "General"
 tags:
   - "katy"
 teaser: "World’s Longest Car Wash in Katy — a Gulf Coast detour for odd-Texas hunters."

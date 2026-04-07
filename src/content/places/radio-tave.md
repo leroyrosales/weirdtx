@@ -4,7 +4,6 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.772107
 lng: -95.347701
-category: "General"
 tags:
   - "houston"
 teaser: "Radio Tave in Houston — a Gulf Coast detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "College Station"
 region: "Central Texas"
 lat: 30.617718
 lng: -96.346522
-category: "General"
 tags:
   - "college-station"
 teaser: "Bottle Cap Alley in College Station — a Central Texas detour for odd-Texas hunters."

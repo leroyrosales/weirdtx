@@ -4,7 +4,6 @@ city: "Bastrop"
 region: "Central Texas"
 lat: 30.048085
 lng: -97.338934
-category: "General"
 tags:
   - "bastrop"
 teaser: "The Gas Station in Bastrop — a Central Texas detour for odd-Texas hunters."

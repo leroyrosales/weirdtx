@@ -4,7 +4,6 @@ city: "Dallas"
 region: "DFW"
 lat: 32.789961
 lng: -96.780593
-category: "General"
 tags:
   - "dallas"
 teaser: "Adrian E. Flatt, M.D., Hand Collection in Dallas — a DFW detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.309912
 lng: -94.793058
-category: "General"
 tags:
   - "galveston"
 teaser: "The Elissa in Galveston — a Gulf Coast detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Comfort"
 region: "Hill Country"
 lat: 29.997233
 lng: -98.830957
-category: "General"
 tags:
   - "comfort"
 teaser: "The Cartoon Saloon in Comfort — a Hill Country detour for odd-Texas hunters."

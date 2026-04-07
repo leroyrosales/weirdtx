@@ -4,7 +4,6 @@ city: "Goliad"
 region: "Gulf Coast"
 lat: 28.686285
 lng: -97.234007
-category: "General"
 tags:
   - "goliad"
 teaser: "Fannin Battleground State Historic Site in Goliad — a Gulf Coast detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.20083
 lng: -97.776351
-category: "General"
 tags:
   - "austin"
 teaser: "Curia Arcanum in Austin — a Central Texas detour for odd-Texas hunters."

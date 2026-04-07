@@ -4,7 +4,6 @@ city: "Rockport"
 region: "Gulf Coast"
 lat: 28.152565
 lng: -96.976682
-category: "General"
 tags:
   - "rockport"
 teaser: "The Big Tree in Rockport — a Gulf Coast detour for odd-Texas hunters."

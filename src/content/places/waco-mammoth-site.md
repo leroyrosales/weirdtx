@@ -4,7 +4,6 @@ city: "Waco"
 region: "Central Texas"
 lat: 31.607691
 lng: -97.169965
-category: "General"
 tags:
   - "waco"
 teaser: "Waco Mammoth Site in Waco — a Central Texas detour for odd-Texas hunters."

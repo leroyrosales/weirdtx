@@ -4,7 +4,6 @@ city: "Grand Saline"
 region: "East Texas"
 lat: 32.674532
 lng: -95.709581
-category: "General"
 tags:
   - "grand-saline"
 teaser: "The Salt Palace in Grand Saline — a East Texas detour for odd-Texas hunters."

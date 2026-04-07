@@ -4,7 +4,6 @@ city: "Panhandle"
 region: "Panhandle"
 lat: 35.330532
 lng: -101.545944
-category: "General"
 tags:
   - "panhandle"
 teaser: "Pantex Plant in Panhandle — a Panhandle detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Alpine"
 region: "Big Bend"
 lat: 30.308381
 lng: -103.459904
-category: "General"
 tags:
   - "alpine"
 teaser: "Target Marathon in Alpine — a Big Bend detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Richland Township"
 region: "Central Texas"
 lat: 39.075435
 lng: -86.854319
-category: "General"
 tags:
   - "richland-township"
 teaser: "Tulip Trestle in Richland Township — a Central Texas detour for odd-Texas hunters."

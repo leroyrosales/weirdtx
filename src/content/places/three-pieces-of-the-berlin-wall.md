@@ -4,7 +4,6 @@ city: "Madrid"
 region: "West Texas"
 lat: 40.450407
 lng: -3.675756
-category: "General"
 tags:
   - "madrid"
 teaser: "Three Pieces of the Berlin Wall in Madrid — a West Texas detour for odd-Texas hunters."

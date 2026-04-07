@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.446123
 lng: -98.52598
-category: "General"
 tags:
   - "san-antonio"
 teaser: "St. Thérèse of Lisieux Painting in San Antonio — a South Texas detour for odd-Texas hunters."

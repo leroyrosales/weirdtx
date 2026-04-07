@@ -4,7 +4,6 @@ city: "Dallas"
 region: "DFW"
 lat: 32.777331
 lng: -96.798034
-category: "General"
 tags:
   - "dallas"
 teaser: "Pioneer Plaza Cattle Drive in Dallas — a DFW detour for odd-Texas hunters."

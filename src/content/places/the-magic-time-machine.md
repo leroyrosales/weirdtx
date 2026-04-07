@@ -4,7 +4,6 @@ city: "Dallas"
 region: "DFW"
 lat: 32.9546338
 lng: -96.825299
-category: "General"
 tags:
   - "dallas"
   - "restaurant"

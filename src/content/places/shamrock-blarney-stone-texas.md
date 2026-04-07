@@ -4,7 +4,6 @@ city: "Shamrock"
 region: "Panhandle"
 lat: 35.215556
 lng: -100.248812
-category: "General"
 tags:
   - "shamrock"
 teaser: "Shamrock Blarney Stone in Shamrock — a Panhandle detour for odd-Texas hunters."

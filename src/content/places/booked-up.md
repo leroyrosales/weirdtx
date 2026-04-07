@@ -4,7 +4,6 @@ city: "Archer City"
 region: "DFW"
 lat: 33.594204
 lng: -98.625767
-category: "General"
 tags:
   - "archer-city"
 teaser: "Booked Up in Archer City — a DFW detour for odd-Texas hunters."

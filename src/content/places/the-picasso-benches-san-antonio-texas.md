@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.41014
 lng: -98.495511
-category: "General"
 tags:
   - "san-antonio"
 teaser: "The Picasso Benches in San Antonio — a South Texas detour for odd-Texas hunters."

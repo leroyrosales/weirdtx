@@ -4,7 +4,6 @@ city: "Comfort"
 region: "Hill Country"
 lat: 29.969696
 lng: -98.906587
-category: "General"
 tags:
   - "comfort"
 teaser: "Hygieostatic Bat Roost in Comfort — a Hill Country detour for odd-Texas hunters."

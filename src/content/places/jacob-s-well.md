@@ -4,7 +4,6 @@ city: "Wimberley"
 region: "Hill Country"
 lat: 30.039092
 lng: -98.126351
-category: "General"
 tags:
   - "wimberley"
 teaser: "Jacob's Well in Wimberley — a Hill Country detour for odd-Texas hunters."

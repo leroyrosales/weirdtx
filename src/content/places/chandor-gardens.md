@@ -4,7 +4,6 @@ city: "Weatherford"
 region: "DFW"
 lat: 32.753464
 lng: -97.808515
-category: "General"
 tags:
   - "weatherford"
 teaser: "Chandor Gardens in Weatherford — a DFW detour for odd-Texas hunters."

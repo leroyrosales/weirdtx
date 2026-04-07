@@ -4,7 +4,6 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.745837
 lng: -95.360199
-category: "General"
 tags:
   - "houston"
 teaser: "Kim Son in Houston — a Gulf Coast detour for odd-Texas hunters."

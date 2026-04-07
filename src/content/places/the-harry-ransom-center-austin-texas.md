@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.284114
 lng: -97.741086
-category: "General"
 tags:
   - "austin"
 teaser: "The Harry Ransom Center in Austin — a Central Texas detour for odd-Texas hunters."

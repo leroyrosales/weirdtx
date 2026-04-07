@@ -4,7 +4,6 @@ city: "Schulenburg"
 region: "Central Texas"
 lat: 29.717426
 lng: -96.927652
-category: "General"
 tags:
   - "schulenburg"
 teaser: "Painted Churches of Texas in Schulenburg — a Central Texas detour for odd-Texas hunters."

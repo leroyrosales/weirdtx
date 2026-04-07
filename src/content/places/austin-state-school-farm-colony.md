@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.27403
 lng: -97.639093
-category: "General"
 tags:
   - "austin"
 teaser: "Austin State School Farm Colony in Austin — a Central Texas detour for odd-Texas hunters."

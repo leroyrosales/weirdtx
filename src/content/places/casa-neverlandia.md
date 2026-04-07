@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.247481
 lng: -97.753581
-category: "General"
 tags:
   - "austin"
 teaser: "Casa Neverlandia in Austin — a Central Texas detour for odd-Texas hunters."

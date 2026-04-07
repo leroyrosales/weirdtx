@@ -4,7 +4,6 @@ city: "Dallas"
 region: "DFW"
 lat: 32.7819
 lng: -96.7989
-category: "General"
 tags:
   - "art"
   - "photo-op"

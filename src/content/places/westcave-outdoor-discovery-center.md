@@ -4,7 +4,6 @@ city: "Round Mountain"
 region: "Hill Country"
 lat: 30.339045
 lng: -98.140838
-category: "General"
 tags:
   - "round-mountain"
 teaser: "Westcave Outdoor Discovery Center in Round Mountain — a Hill Country detour for odd-Texas

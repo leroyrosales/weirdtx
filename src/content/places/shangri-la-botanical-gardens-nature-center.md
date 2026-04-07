@@ -4,7 +4,6 @@ city: "Orange"
 region: "Gulf Coast"
 lat: 30.102735
 lng: -93.751799
-category: "General"
 tags:
   - "orange"
   - "gardens"

@@ -4,7 +4,6 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.770743
 lng: -106.505131
-category: "General"
 tags:
   - "el-paso"
 teaser: "Lhakhang Cultural Exhibit in El Paso — a West Texas detour for odd-Texas hunters."

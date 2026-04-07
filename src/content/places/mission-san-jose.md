@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.361394
 lng: -98.478347
-category: "General"
 tags:
   - "san-antonio"
 teaser: "Mission San Jose in San Antonio — a South Texas detour for odd-Texas hunters."

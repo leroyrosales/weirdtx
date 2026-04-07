@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.306613
 lng: -97.712682
-category: "General"
 tags:
   - "austin"
 teaser: "Mueller SunFlowers in Austin — a Central Texas detour for odd-Texas hunters."

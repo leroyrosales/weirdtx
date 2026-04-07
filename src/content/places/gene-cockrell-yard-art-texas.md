@@ -4,7 +4,6 @@ city: "Canadian"
 region: "Panhandle"
 lat: 35.907586
 lng: -100.350382
-category: "General"
 tags:
   - "canadian"
 teaser: "Gene Cockrell's Yard Art in Canadian — a Panhandle detour for odd-Texas hunters."

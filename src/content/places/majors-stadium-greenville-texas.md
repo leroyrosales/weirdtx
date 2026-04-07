@@ -4,7 +4,6 @@ city: "Greenville"
 region: "DFW"
 lat: 33.141077
 lng: -96.102227
-category: "General"
 tags:
   - "greenville"
 teaser: "Majors Stadium in Greenville — a DFW detour for odd-Texas hunters."

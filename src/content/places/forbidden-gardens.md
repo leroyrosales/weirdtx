@@ -4,7 +4,6 @@ city: "Katy"
 region: "Gulf Coast"
 lat: 29.802332
 lng: -95.777221
-category: "General"
 tags:
   - "katy"
 teaser: "Forbidden Gardens in Katy — a Gulf Coast detour for odd-Texas hunters."

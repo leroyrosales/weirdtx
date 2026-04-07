@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.420278
 lng: -98.487083
-category: "General"
 tags:
   - "san-antonio"
 teaser: "The Berlin Bear in San Antonio — a South Texas detour for odd-Texas hunters."

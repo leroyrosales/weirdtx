@@ -4,7 +4,6 @@ city: "Richardson"
 region: "DFW"
 lat: 32.938319
 lng: -96.737114
-category: "General"
 tags:
   - "richardson"
 teaser: "Texas Triffid Ranch in Richardson — a DFW detour for odd-Texas hunters."

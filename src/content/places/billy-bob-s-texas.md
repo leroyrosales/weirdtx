@@ -4,7 +4,6 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.791326
 lng: -97.34743
-category: "General"
 tags:
   - "fort-worth"
 teaser: "Billy Bob’s Texas in Fort Worth — a DFW detour for odd-Texas hunters."

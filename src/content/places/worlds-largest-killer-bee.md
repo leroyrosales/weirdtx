@@ -4,7 +4,6 @@ city: "Hidalgo"
 region: "South Texas"
 lat: 26.103814
 lng: -98.25367
-category: "General"
 tags:
   - "hidalgo"
 teaser: "World's Largest Killer Bee in Hidalgo — a South Texas detour for odd-Texas hunters."

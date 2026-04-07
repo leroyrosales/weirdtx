@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.3196373
 lng: -97.7196015
-category: "General"
 tags:
   - "austin"
   - "interesting-spot"

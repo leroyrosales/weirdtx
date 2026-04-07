@@ -4,7 +4,6 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.846135
 lng: -106.064796
-category: "General"
 tags:
   - "el-paso"
 teaser: "Hueco Tanks in El Paso — a West Texas detour for odd-Texas hunters."

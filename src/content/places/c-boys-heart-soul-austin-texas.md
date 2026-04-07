@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.243639
 lng: -97.752158
-category: "General"
 tags:
   - "austin"
 teaser: "C-Boy's Heart & Soul in Austin — a Central Texas detour for odd-Texas hunters."

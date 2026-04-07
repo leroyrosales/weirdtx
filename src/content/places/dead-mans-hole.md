@@ -4,7 +4,6 @@ city: "Marble Falls Township"
 region: "Hill Country"
 lat: 30.528417
 lng: -98.264947
-category: "General"
 tags:
   - "marble-falls-township"
 teaser: "Dead Man's Hole in Marble Falls Township — a Hill Country detour for odd-Texas hunters."

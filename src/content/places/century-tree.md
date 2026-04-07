@@ -4,7 +4,6 @@ city: "College Station"
 region: "Central Texas"
 lat: 30.615889
 lng: -96.341364
-category: "General"
 tags:
   - "college-station"
 teaser: "Century Tree in College Station — a Central Texas detour for odd-Texas hunters."

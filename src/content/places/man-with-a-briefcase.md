@@ -4,7 +4,6 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.750451
 lng: -97.333705
-category: "General"
 tags:
   - "fort-worth"
 teaser: "Man With a Briefcase in Fort Worth — a DFW detour for odd-Texas hunters."

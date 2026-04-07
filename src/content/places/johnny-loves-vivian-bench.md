@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.46092
 lng: -98.467742
-category: "General"
 tags:
   - "san-antonio"
 teaser: "'Johnny Loves Vivian' Bench in San Antonio — a South Texas detour for odd-Texas hunters."

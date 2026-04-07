@@ -4,7 +4,6 @@ city: "Marfa"
 region: "West Texas"
 lat: 30.3053
 lng: -103.9576
-category: "General"
 tags:
   - "mystery"
   - "night-sky"

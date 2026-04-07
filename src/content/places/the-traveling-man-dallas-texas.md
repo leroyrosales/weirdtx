@@ -4,7 +4,6 @@ city: "Dallas"
 region: "DFW"
 lat: 32.785833
 lng: -96.7885
-category: "General"
 tags:
   - "dallas"
 teaser: "The Traveling Man in Dallas — a DFW detour for odd-Texas hunters."

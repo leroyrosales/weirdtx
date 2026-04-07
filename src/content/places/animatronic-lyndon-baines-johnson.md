@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.285823
 lng: -97.729261
-category: "General"
 tags:
   - "austin"
 teaser: "Animatronic Lyndon Baines Johnson in Austin — a Central Texas detour for odd-Texas hunters."

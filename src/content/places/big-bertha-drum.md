@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.283682
 lng: -97.732534
-category: "General"
 tags:
   - "austin"
 teaser: "Big Bertha Drum in Austin — a Central Texas detour for odd-Texas hunters."

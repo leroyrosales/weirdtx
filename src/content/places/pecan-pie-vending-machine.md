@@ -4,7 +4,6 @@ city: "Cedar Creek"
 region: "Central Texas"
 lat: 30.166755
 lng: -97.511084
-category: "General"
 tags:
   - "cedar-creek"
 teaser: "Pecan Pie Vending Machine in Cedar Creek — a Central Texas detour for odd-Texas hunters."

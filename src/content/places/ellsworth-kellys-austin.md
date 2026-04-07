@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.281599
 lng: -97.737825
-category: "General"
 tags:
   - "austin"
 teaser: "Ellsworth Kelly's 'Austin' in Austin — a Central Texas detour for odd-Texas hunters."

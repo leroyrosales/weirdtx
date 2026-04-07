@@ -4,7 +4,6 @@ city: "Tomball"
 region: "Gulf Coast"
 lat: 30.097837
 lng: -95.615405
-category: "General"
 tags:
   - "tomball"
 teaser: "Tomball Pickle Man in Tomball — a Gulf Coast detour for odd-Texas hunters."

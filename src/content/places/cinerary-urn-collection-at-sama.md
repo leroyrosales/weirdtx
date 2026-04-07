@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.437609
 lng: -98.482069
-category: "General"
 tags:
   - "san-antonio"
 teaser: "Roman Urn Collection at SAMA in San Antonio — a South Texas detour for odd-Texas hunters."

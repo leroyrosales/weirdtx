@@ -4,7 +4,6 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.309417
 lng: -104.023527
-category: "General"
 tags:
   - "marfa"
 teaser: "The Sentinel in Marfa — a Big Bend detour for odd-Texas hunters."

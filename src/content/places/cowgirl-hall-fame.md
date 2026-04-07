@@ -4,7 +4,6 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.742992
 lng: -97.368549
-category: "General"
 tags:
   - "fort-worth"
 teaser: "Cowgirl Hall of Fame in Fort Worth — a DFW detour for odd-Texas hunters."

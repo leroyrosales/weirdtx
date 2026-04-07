@@ -4,7 +4,6 @@ city: "Paris"
 region: "East Texas"
 lat: 33.642936
 lng: -95.552544
-category: "General"
 tags:
   - "paris"
 teaser: "Jesus in Cowboy Boots in Paris — a East Texas detour for odd-Texas hunters."

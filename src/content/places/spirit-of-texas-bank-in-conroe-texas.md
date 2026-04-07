@@ -4,7 +4,6 @@ city: "Conroe"
 region: "Gulf Coast"
 lat: 30.31191
 lng: -95.466902
-category: "General"
 tags:
   - "conroe"
 teaser: "Spirit of Texas Bank in Conroe — a Gulf Coast detour for odd-Texas hunters."

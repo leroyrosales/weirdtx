@@ -4,7 +4,6 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.305276
 lng: -104.044417
-category: "General"
 tags:
   - "marfa"
 teaser: "Stardust Motel Sign in Marfa — a Big Bend detour for odd-Texas hunters."

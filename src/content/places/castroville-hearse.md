@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.416494
 lng: -98.481932
-category: "General"
 tags:
   - "san-antonio"
 teaser: "Castroville Hearse in San Antonio — a South Texas detour for odd-Texas hunters."

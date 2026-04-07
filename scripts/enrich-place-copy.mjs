@@ -109,7 +109,7 @@ function categoryFromKind(kind) {
     case 'folklore':
       return 'Folklore'
     default:
-      return 'General'
+      return undefined
   }
 }
 

@@ -4,7 +4,6 @@ city: "Smithville"
 region: "Central Texas"
 lat: 30.082839
 lng: -97.141168
-category: "General"
 tags:
   - "smithville"
 teaser: "Giant 'Luecke' Signature in Smithville — a Central Texas detour for odd-Texas hunters."

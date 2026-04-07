@@ -4,7 +4,6 @@ city: "Converse"
 region: "South Texas"
 lat: 29.467445
 lng: -98.31171
-category: "General"
 tags:
   - "converse"
 teaser: "The Giant Stag of Converse in Converse — a South Texas detour for odd-Texas hunters."

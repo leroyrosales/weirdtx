@@ -61,6 +61,8 @@ type TexasMapProps = {
   markers: MapMarker[]
   center?: [number, number]
   zoom?: number
+  fitBoundsToMarkers?: boolean
+  maxFitZoom?: number
   className?: string
   ariaLabel?: string
   /** Hides “View details” for this marker when the user is already on that place/event page. */
@@ -70,10 +72,28 @@ type TexasMapProps = {
 const defaultCenter: [number, number] = [31.4, -99.2]
 const defaultZoom = 6
 
+function FitBoundsToMarkers({
+  markers,
+  maxZoom = 10,
+}: {
+  markers: MapMarker[]
+  maxZoom?: number
+}) {
+  const map = useMap()
+  useEffect(() => {
+    if (markers.length === 0) return
+    const bounds = L.latLngBounds(markers.map((m) => [m.lat, m.lng] as [number, number]))
+    map.fitBounds(bounds, { padding: [22, 22], maxZoom })
+  }, [map, markers, maxZoom])
+  return null
+}
+
 export function TexasMap({
   markers,
   center = defaultCenter,
   zoom = defaultZoom,
+  fitBoundsToMarkers = false,
+  maxFitZoom = 10,
   className = '',
   ariaLabel = 'Interactive map of Texas places and events. Use zoom and pan controls to explore.',
   suppressDetailLinkFor,
@@ -96,6 +116,7 @@ export function TexasMap({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        {fitBoundsToMarkers ? <FitBoundsToMarkers markers={markers} maxZoom={maxFitZoom} /> : null}
         <Recenter center={center} zoom={zoom} />
         <MarkerClusterGroup chunkedLoading showCoverageOnHover={false}>
           {markers.map((m) => {

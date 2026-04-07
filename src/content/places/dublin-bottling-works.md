@@ -4,7 +4,6 @@ city: "Dublin"
 region: "Central Texas"
 lat: 32.084315
 lng: -98.342646
-category: "General"
 tags:
   - "dublin"
 teaser: "Dublin Bottling Works in Dublin — a Central Texas detour for odd-Texas hunters."

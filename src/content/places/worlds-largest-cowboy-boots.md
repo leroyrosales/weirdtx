@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.518007
 lng: -98.4975
-category: "General"
 tags:
   - "san-antonio"
 teaser: "World's Largest Cowboy Boots in San Antonio — a South Texas detour for odd-Texas hunters."

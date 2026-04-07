@@ -4,7 +4,6 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.809284
 lng: -106.478204
-category: "General"
 tags:
   - "el-paso"
 teaser: "B-36 Bomber Crash Site in El Paso — a West Texas detour for odd-Texas hunters."

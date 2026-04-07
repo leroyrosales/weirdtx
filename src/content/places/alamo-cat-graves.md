@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.425745
 lng: -98.486156
-category: "General"
 tags:
   - "san-antonio"
 teaser: "Alamo Cat Graves in San Antonio — a South Texas detour for odd-Texas hunters."

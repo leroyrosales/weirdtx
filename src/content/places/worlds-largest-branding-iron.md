@@ -4,7 +4,6 @@ city: "Vega"
 region: "Panhandle"
 lat: 35.245938
 lng: -102.42898
-category: "General"
 tags:
   - "vega"
 teaser: "World's Largest Branding Iron in Vega — a Panhandle detour for odd-Texas hunters."

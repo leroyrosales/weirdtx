@@ -4,7 +4,6 @@ city: "Irving"
 region: "DFW"
 lat: 32.870379
 lng: -96.937789
-category: "General"
 tags:
   - "irving"
 teaser: "Mustangs of Las Colinas in Irving — a DFW detour for odd-Texas hunters."

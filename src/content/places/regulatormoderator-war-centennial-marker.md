@@ -4,7 +4,6 @@ city: "Linden"
 region: "East Texas"
 lat: 32.891389
 lng: -94.421389
-category: "General"
 tags:
   - "linden"
 teaser: "Regulator-Moderator War Centennial Marker in Linden — a East Texas detour for odd-Texas hunters."

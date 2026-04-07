@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.280337
 lng: -97.739069
-category: "General"
 tags:
   - "austin"
 teaser: "The Goddess of Liberty in Austin — a Central Texas detour for odd-Texas hunters."

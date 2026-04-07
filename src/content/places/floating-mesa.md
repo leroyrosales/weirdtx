@@ -4,7 +4,6 @@ city: "Bushland"
 region: "Panhandle"
 lat: 35.265114
 lng: -102.050642
-category: "General"
 tags:
   - "bushland"
 teaser: "Floating Mesa in Bushland — a Panhandle detour for odd-Texas hunters."

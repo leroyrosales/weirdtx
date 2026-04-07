@@ -4,7 +4,6 @@ city: "Edinburg"
 region: "South Texas"
 lat: 26.536654
 lng: -98.054702
-category: "General"
 tags:
   - "edinburg"
 teaser: "Sal del Rey in Edinburg — a South Texas detour for odd-Texas hunters."

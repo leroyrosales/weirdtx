@@ -4,7 +4,6 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.419305
 lng: -98.524637
-category: "General"
 tags:
   - "san-antonio"
 teaser: "Educación in San Antonio — a South Texas detour for odd-Texas hunters."

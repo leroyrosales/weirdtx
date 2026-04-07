@@ -4,7 +4,6 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.766074
 lng: -95.36717
-category: "General"
 tags:
   - "houston"
 teaser: "POST Houston in Houston — a Gulf Coast detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Seguin"
 region: "Central Texas"
 lat: 29.628144
 lng: -97.970122
-category: "General"
 tags:
   - "seguin"
 teaser: "World's Largest Pecan in Seguin — a Central Texas detour for odd-Texas hunters."

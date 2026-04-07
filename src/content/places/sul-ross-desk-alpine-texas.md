@@ -4,7 +4,6 @@ city: "Alpine"
 region: "Big Bend"
 lat: 30.366405
 lng: -103.653321
-category: "General"
 tags:
   - "alpine"
 teaser: "Sul Ross Desk in Alpine — a Big Bend detour for odd-Texas hunters."

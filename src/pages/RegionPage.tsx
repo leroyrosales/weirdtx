@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
+import { TexasMap } from '../components/TexasMap'
 import { events, places, regions } from '../lib/content'
 import { decodeParam, encodeParam } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
@@ -30,6 +31,25 @@ export function RegionPage() {
     .filter((e) => e.region === regionValue)
     .sort((a, b) => new Date(a.starts).getTime() - new Date(b.starts).getTime())
 
+  const mapMarkers = [
+    ...regionPlaces.map((p) => ({
+      id: p.slug,
+      lat: p.lat,
+      lng: p.lng,
+      title: p.title,
+      kind: 'place' as const,
+      subtitle: p.city,
+    })),
+    ...regionEvents.map((e) => ({
+      id: e.slug,
+      lat: e.lat,
+      lng: e.lng,
+      title: e.title,
+      kind: 'event' as const,
+      subtitle: e.city,
+    })),
+  ]
+
   return (
     <div className="space-y-8">
       <header>
@@ -45,6 +65,21 @@ export function RegionPage() {
           </Link>
         </p>
       </header>
+
+      <section aria-label={`Map of ${regionValue} listings`}>
+        <h2 className="font-display text-xl tracking-wide text-sky-deep">Map</h2>
+        <p className="mt-1 text-sm text-ink/75">
+          Zoom in to break clusters apart. Open a pin to jump to details.
+        </p>
+        <div className="mt-4">
+          <TexasMap
+            markers={mapMarkers}
+            fitBoundsToMarkers
+            maxFitZoom={10}
+            ariaLabel={`Map of Weird TX places and events in ${regionValue}`}
+          />
+        </div>
+      </section>
 
       <section aria-label="Places in this region">
         <h2 className="font-display text-xl tracking-wide text-sky-deep">Places</h2>

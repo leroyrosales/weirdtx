@@ -4,7 +4,6 @@ city: "Ingram"
 region: "Hill Country"
 lat: 30.071656
 lng: -99.247439
-category: "General"
 tags:
   - "ingram"
 teaser: "Stonehenge II in Ingram — a Hill Country detour for odd-Texas hunters."

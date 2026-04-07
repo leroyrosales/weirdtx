@@ -4,7 +4,6 @@ city: "Waco"
 region: "Central Texas"
 lat: 31.548825
 lng: -97.117756
-category: "General"
 tags:
   - "waco"
 teaser: "Lev's Gathering Place in Waco — a Central Texas detour for odd-Texas hunters."

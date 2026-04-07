@@ -4,7 +4,6 @@ city: "Irving"
 region: "DFW"
 lat: 32.856601
 lng: -96.992776
-category: "General"
 tags:
   - "irving"
 teaser: "Momo Spot in Irving — a DFW detour for odd-Texas hunters."

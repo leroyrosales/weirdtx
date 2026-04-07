@@ -4,7 +4,6 @@ city: "Italy"
 region: "Central Texas"
 lat: 32.19612
 lng: -96.898376
-category: "General"
 tags:
   - "italy"
 teaser: "Starship Pegasus in Italy — a Central Texas detour for odd-Texas hunters."

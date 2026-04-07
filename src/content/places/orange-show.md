@@ -4,7 +4,6 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.717855
 lng: -95.324662
-category: "General"
 tags:
   - "houston"
 teaser: "The Orange Show in Houston — a Gulf Coast detour for odd-Texas hunters."

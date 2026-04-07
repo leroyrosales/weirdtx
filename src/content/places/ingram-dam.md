@@ -4,7 +4,6 @@ city: "Ingram"
 region: "Hill Country"
 lat: 30.071168
 lng: -99.256023
-category: "General"
 tags:
   - "ingram"
 teaser: "Ingram Dam in Ingram — a Hill Country detour for odd-Texas hunters."

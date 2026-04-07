@@ -4,7 +4,6 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.240763
 lng: -97.785176
-category: "General"
 tags:
   - "austin"
   - "restaurant"

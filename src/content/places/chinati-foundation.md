@@ -4,7 +4,6 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.297337
 lng: -104.027897
-category: "General"
 tags:
   - "marfa"
 teaser: "Chinati Foundation in Marfa — a Big Bend detour for odd-Texas hunters."

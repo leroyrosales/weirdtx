@@ -4,7 +4,6 @@ city: "Big Bend National Park"
 region: "Big Bend"
 lat: 29.095364
 lng: -103.187535
-category: "General"
 tags:
   - "big-bend-national-park"
 teaser: "Mariscal Mine in Big Bend National Park — a Big Bend detour for odd-Texas hunters."

@@ -4,7 +4,6 @@ city: "Sanderson"
 region: "West Texas"
 lat: 30.140226
 lng: -102.399504
-category: "General"
 tags:
   - "sanderson"
 teaser: "Sanderson Station in Sanderson — a West Texas detour for odd-Texas hunters."

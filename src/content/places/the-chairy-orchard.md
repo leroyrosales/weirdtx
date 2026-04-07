@@ -4,7 +4,6 @@ city: "Denton"
 region: "DFW"
 lat: 33.243889
 lng: -97.111103
-category: "General"
 tags:
   - "denton"
 teaser: "The Chairy Orchard in Denton — a DFW detour for odd-Texas hunters."

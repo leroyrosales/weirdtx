@@ -4,7 +4,6 @@ city: "Winkler County"
 region: "West Texas"
 lat: 31.776883
 lng: -103.136128
-category: "General"
 tags:
   - "winkler-county"
 teaser: "Wink Sink in Winkler County — a West Texas detour for odd-Texas hunters."
