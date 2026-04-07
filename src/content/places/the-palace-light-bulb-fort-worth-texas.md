@@ -1,0 +1,11 @@
+---
+title: The Palace Light Bulb
+city: Fort Worth
+region: Texas
+lat: 32.78946
+lng: -97.346595
+tags: ['fort-worth']
+teaser: 
+
+---
+
