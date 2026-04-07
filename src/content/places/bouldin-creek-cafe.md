@@ -6,6 +6,7 @@ lat: 30.2464928
 lng: -97.7567904
 tags: [austin, restaurant]
 teaser: From the Weird Texas map — Restaurants.
+url: https://bouldincreekcafe.com/
 ---
 
 Originally listed on the **Weird Texas** map under *Restaurants*.

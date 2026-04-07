@@ -9,6 +9,7 @@ ends: 2026-11-08
 tags: [food, festival, outdoors]
 featured: true
 teaser: The granddaddy of competitive chili — desert air, serious spice, and serious fun.
+url: https://abowlofred.com/
 ---
 
 Teams and spectators gather in the shadow of the Chisos Mountains for a weekend of **competition, music, and desert hospitality**. Dates shift slightly year to year; confirm before you road-trip.
