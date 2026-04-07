@@ -1,6 +1,17 @@
 import { useEffect, useRef } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
+function ScrollToTopOnNavigate() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    // Match typical website behavior: new route starts at top.
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [pathname])
+
+  return null
+}
+
 function RouteAnnouncer() {
   const { pathname } = useLocation()
   const ref = useRef<HTMLDivElement>(null)
@@ -90,6 +101,7 @@ export function Layout() {
           </p>
         </div>
       </footer>
+      <ScrollToTopOnNavigate />
       <RouteAnnouncer />
     </div>
   )
