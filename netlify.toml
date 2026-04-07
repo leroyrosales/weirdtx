@@ -4,3 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20.19.0"
+
+# SPA: let React Router handle client routes on refresh / deep links
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
