@@ -1,52 +1,134 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Rye", ui-serif, Georgia, serif;
+  --font-body: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --color-cream: #fff8f0;
+  --color-ink: #2a2520;
+  --color-clay: #c75b4a;
+  --color-clay-dark: #9a3f32;
+  --color-sage: #6b8f71;
+  --color-sage-dark: #4a6b50;
+  /* Kept from the bolder pass: deep denim blue */
+  --color-sky-deep: #154a7a;
+  --color-mustard: #e4b04a;
+  --color-lavender: #c4b5e0;
+  /* Kept: gold accents (focus, stars, highlights) */
+  --color-gold: #c9950c;
+  --color-gold-bright: #f0c530;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold-bright);
+  outline-offset: 3px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  background-color: var(--color-gold-bright);
+  border: 3px solid var(--color-sky-deep);
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px 0 var(--color-sky-deep);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.skip-link:focus {
+  clip-path: none;
+  height: auto;
+  width: auto;
+  overflow: visible;
+}
 
 body {
-  @apply bg-off-white;
+  @apply bg-cream text-ink antialiased;
+  font-family: var(--font-body);
+  background-image:
+    radial-gradient(ellipse 120% 80% at 50% -20%, rgb(240 197 48 / 0.18), transparent),
+    radial-gradient(ellipse 80% 50% at 100% 50%, rgb(196 181 224 / 0.14), transparent);
+  min-height: 100vh;
 }
 
 .leaflet-container {
-    @apply p-8 w-full min-h-[750px] border-copper border-4 border-solid;
+  font-family: var(--font-body);
+  border-radius: 1rem;
 }
 
-a.leaflet-control-zoom-in,
-a.leaflet-control-zoom-out {
-  @apply bg-bluebonnet text-white hover:bg-white hover:text-bluebonnet;
+.leaflet-container:focus-visible {
+  outline: 3px solid var(--color-gold-bright);
+  outline-offset: 2px;
 }
 
-.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
-  @apply border-none;
+.prose-weird h2 {
+  @apply font-display text-xl text-sky-deep mt-6 mb-2;
 }
 
-.leaflet-popup {
-  @apply drop-shadow-2xl;
+.prose-weird p {
+  @apply mb-3 leading-relaxed text-ink;
 }
 
-.leaflet-popup-content-wrapper {
-  @apply px-4 pb-8 pt-3 w-96 text-black;
+.prose-weird ul {
+  @apply list-disc pl-5 mb-3 space-y-1 text-ink;
 }
 
-.leaflet-popup-content {
-  @apply m-0;
+.prose-weird a {
+  @apply text-sky-deep font-semibold underline decoration-2 underline-offset-2 decoration-sky-deep/40 hover:text-clay-dark hover:decoration-clay-dark;
 }
 
-.leaflet-popup-content-wrapper, .leaflet-popup-tip {
-  @apply bg-white;
+.prose-weird strong {
+  @apply text-ink font-bold;
 }
 
-.leaflet-popup-content {
-  width: 100%!important;
+select:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--color-gold-bright);
+  outline-offset: 2px;
 }
 
-.leaflet-popup-content p {
-  @apply text-base pb-4;
-}
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 3px solid CanvasText;
+    outline-offset: 2px;
+  }
 
-.leaflet-popup-content a {
-  @apply font-medium bg-bluebonnet text-white px-4 py-2 rounded border-2 border-bluebonnet hover:bg-white hover:text-bluebonnet;
-}
-
-.leaflet-container a.leaflet-popup-close-button {
-  @apply top-[-4px] right-[-4px] leading-[1] text-lg w-8 h-8 bg-bluebonnet rounded-full p-1 text-white border-bluebonnet border-2 border-solid hover:bg-white hover:text-bluebonnet;
+  .skip-link:focus {
+    outline: 3px solid Highlight;
+  }
 }
