@@ -4,6 +4,7 @@ city: "Cape Town"
 region: "Central Texas"
 lat: -34.069753
 lng: 18.44119
+category: "Food & Drink"
 tags:
   - "cape-town"
 teaser: "Poolsmoor Prison Cantina in Cape Town — flavor and Central Texas road-trip fuel."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.755556
 lng: -95.356111
+category: "Structure"
 tags:
   - "houston"
 teaser: "Arthur B. Cohn House — built character in Houston, Gulf Coast."

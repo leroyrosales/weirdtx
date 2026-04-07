@@ -4,6 +4,7 @@ city: "Fredericksburg"
 region: "Hill Country"
 lat: 30.50658
 lng: -98.81893
+category: "General"
 tags:
   - "fredericksburg"
 teaser: "Enchanted Rock in Fredericksburg — a Hill Country detour for odd-Texas hunters."

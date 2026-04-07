@@ -4,6 +4,7 @@ city: "Luling"
 region: "Central Texas"
 lat: 29.674909
 lng: -97.633336
+category: "Structure"
 tags:
   - "luling"
 teaser: "Luling Watermelon Water Tower — built character in Luling, Central Texas."

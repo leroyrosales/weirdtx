@@ -4,6 +4,7 @@ city: "Laredo"
 region: "South Texas"
 lat: 27.597062
 lng: -99.537701
+category: "Structure"
 tags:
   - "laredo"
 teaser: "World Trade Bridge — built character in Laredo, South Texas."

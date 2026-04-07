@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.26169
 lng: -97.74517
+category: "Structure"
 tags:
   - "austin"
 teaser: "Congress Bridge Bats — built character in Austin, Central Texas."

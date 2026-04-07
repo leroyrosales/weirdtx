@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { getPlaceBySlug, places } from '../lib/content'
+import { encodeParam } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function PlacePage() {
@@ -37,7 +38,25 @@ export function PlacePage() {
         ← All places
       </Link>
       <header>
-        <p className="text-xs font-bold uppercase tracking-wide text-sage-dark">{place.region}</p>
+        <p className="text-xs font-bold uppercase tracking-wide text-sage-dark">
+          <Link
+            to={`/regions/${encodeParam(place.region)}`}
+            className="underline decoration-2 underline-offset-2 hover:text-clay"
+          >
+            {place.region}
+          </Link>
+          {place.category ? (
+            <>
+              <span className="text-ink/40"> · </span>
+              <Link
+                to={`/categories/${encodeParam(place.category)}`}
+                className="underline decoration-2 underline-offset-2 hover:text-clay"
+              >
+                {place.category}
+              </Link>
+            </>
+          ) : null}
+        </p>
         <h1
           id="place-title"
           className="font-display text-4xl leading-tight tracking-wide text-sky-deep"
@@ -49,7 +68,17 @@ export function PlacePage() {
           <p className="mt-1 text-sm text-ink/65">{place.address}</p>
         ) : null}
         {place.tags?.length ? (
-          <p className="mt-3 text-sm text-ink/60">{place.tags.join(' · ')}</p>
+          <p className="mt-3 flex flex-wrap gap-2">
+            {place.tags.map((t) => (
+              <Link
+                key={t}
+                to={`/tags/${encodeParam(t)}`}
+                className="rounded-full bg-ink/5 px-2.5 py-1 text-xs font-semibold text-ink/70 ring-1 ring-ink/10 hover:bg-ink/10"
+              >
+                {t}
+              </Link>
+            ))}
+          </p>
         ) : null}
         {place.url ? (
           <p className="mt-4">

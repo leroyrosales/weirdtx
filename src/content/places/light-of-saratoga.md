@@ -4,6 +4,7 @@ city: "Saratoga"
 region: "East Texas"
 lat: 30.360524
 lng: -94.552441
+category: "General"
 tags:
   - "saratoga"
 teaser: "Light of Saratoga in Saratoga — a East Texas detour for odd-Texas hunters."

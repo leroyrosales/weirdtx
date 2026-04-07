@@ -4,6 +4,7 @@ city: "Nederland"
 region: "Gulf Coast"
 lat: 29.97323
 lng: -93.99388
+category: "Museum"
 tags:
   - "nederland"
 teaser: "Exhibits and odd collections in Nederland — a Gulf Coast stop for curious minds."

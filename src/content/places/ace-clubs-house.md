@@ -4,6 +4,7 @@ city: "Texarkana"
 region: "East Texas"
 lat: 33.423478
 lng: -94.044178
+category: "Structure"
 tags:
   - "texarkana"
 teaser: "Ace of Clubs House — built character in Texarkana, East Texas."

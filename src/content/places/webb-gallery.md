@@ -4,6 +4,7 @@ city: "Waxahachie"
 region: "DFW"
 lat: 32.385325
 lng: -96.848969
+category: "Museum"
 tags:
   - "waxahachie"
 teaser: "Exhibits and odd collections in Waxahachie — a DFW stop for curious minds."

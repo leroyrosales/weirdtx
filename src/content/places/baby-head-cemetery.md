@@ -4,6 +4,7 @@ city: "Llano"
 region: "Hill Country"
 lat: 30.887605
 lng: -98.656111
+category: "Cemetery"
 tags:
   - "llano"
 teaser: "Baby Head Cemetery — quiet history under open sky in Llano, Hill Country."

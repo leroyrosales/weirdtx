@@ -4,6 +4,7 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.308601
 lng: -104.02033
+category: "Shop"
 tags:
   - "marfa"
 teaser: "Wrong Store — browse something you didn’t know you needed in Marfa."

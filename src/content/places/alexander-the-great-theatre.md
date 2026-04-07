@@ -4,6 +4,7 @@ city: "Mansfield"
 region: "DFW"
 lat: 41.805462
 lng: -72.241826
+category: "Entertainment"
 tags:
   - "mansfield"
 teaser: "Alexander the Great Theatre — lights, lore, or a night out in Mansfield, DFW."

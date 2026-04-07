@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.178995
 lng: -97.746657
+category: "Outdoors"
 tags:
   - "austin"
 teaser: "Ghost Streets of Onion Creek — Central Texas landscape and fresh air near Austin."

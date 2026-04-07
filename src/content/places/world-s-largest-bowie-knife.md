@@ -4,6 +4,7 @@ city: "Bowie"
 region: "Panhandle"
 lat: 33.547247
 lng: -97.832197
+category: "General"
 tags:
   - "bowie"
 teaser: "World's Largest Bowie Knife in Bowie — a Panhandle detour for odd-Texas hunters."

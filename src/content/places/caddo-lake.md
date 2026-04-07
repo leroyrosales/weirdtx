@@ -4,6 +4,7 @@ city: "Karnack"
 region: "East Texas"
 lat: 32.682407
 lng: -94.176838
+category: "Outdoors"
 tags:
   - "karnack"
 teaser: "Caddo Lake — East Texas landscape and fresh air near Karnack."

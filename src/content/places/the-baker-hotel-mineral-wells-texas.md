@@ -4,6 +4,7 @@ city: "Mineral Wells"
 region: "DFW"
 lat: 32.809173
 lng: -98.112016
+category: "Structure"
 tags:
   - "mineral-wells"
 teaser: "The Baker Hotel — built character in Mineral Wells, DFW."

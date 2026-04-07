@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.773289
 lng: -96.792944
+category: "Public Art"
 tags:
   - "dallas"
 teaser: "Bowler Hat Sculpture — public art and photo ops in Dallas, DFW."

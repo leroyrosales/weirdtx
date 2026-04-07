@@ -4,6 +4,7 @@ city: "Bronson"
 region: "East Texas"
 lat: 31.47788
 lng: -93.949396
+category: "General"
 tags:
   - "bronson"
 teaser: "Lobanillo Swales in Bronson — a East Texas detour for odd-Texas hunters."

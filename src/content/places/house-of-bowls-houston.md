@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.70613
 lng: -95.552287
+category: "Structure"
 tags:
   - "houston"
 teaser: "House of Bowls — built character in Houston, Gulf Coast."

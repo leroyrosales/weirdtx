@@ -4,6 +4,7 @@ city: "Waxahachie"
 region: "DFW"
 lat: 32.428116
 lng: -96.864332
+category: "Sacred Site"
 tags:
   - "waxahachie"
 teaser: "Cowboy Church of Ellis County in Waxahachie — DFW faith, stone, and community."

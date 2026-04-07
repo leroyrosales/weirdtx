@@ -4,6 +4,7 @@ city: "Quitaque"
 region: "Panhandle"
 lat: 34.436991
 lng: -101.059862
+category: "Outdoors"
 tags:
   - "quitaque"
 teaser: "Caprock Canyon State Park — Panhandle landscape and fresh air near Quitaque."
@@ -11,7 +12,6 @@ image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Caprock_Canyons_Haynes_Ridge_2005.J\
     PG/1920px-Caprock_Canyons_Haynes_Ridge_2005.JPG"
   alt: "Caprock Canyon State Park"
-  credit: "Leaflet"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Caprock_Canyons_Haynes_Ridge_2005.JPG"
   license: "CC BY-SA 3.0"
 ---

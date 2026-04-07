@@ -4,6 +4,7 @@ city: "Culberson County"
 region: "Big Bend"
 lat: 31.977364
 lng: -104.752273
+category: "Outdoors"
 tags:
   - "culberson-county"
 teaser: "McKittrick Canyon — Big Bend landscape and fresh air near Culberson County."

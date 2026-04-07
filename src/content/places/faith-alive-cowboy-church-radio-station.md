@@ -4,6 +4,7 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.310634
 lng: -104.011288
+category: "Sacred Site"
 tags:
   - "marfa"
 teaser: "Faith Alive Cowboy Church Radio Station in Marfa — Big Bend faith, stone, and community."

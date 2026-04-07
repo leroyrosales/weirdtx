@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.265362
 lng: -97.747948
+category: "General"
 tags:
   - "austin"
 teaser: "Toy Joy in Austin — a Central Texas detour for odd-Texas hunters."

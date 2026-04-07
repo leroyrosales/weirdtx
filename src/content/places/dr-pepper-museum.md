@@ -4,6 +4,7 @@ city: "Waco"
 region: "Central Texas"
 lat: 31.555056
 lng: -97.129398
+category: "Museum"
 tags:
   - "waco"
 teaser: "Exhibits and odd collections in Waco — a Central Texas stop for curious minds."

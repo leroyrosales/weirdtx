@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.28205
 lng: -97.75254
+category: "Outdoors"
 tags:
   - "austin"
 teaser: "‘Malin’s Fountain’ — Central Texas landscape and fresh air near Austin."

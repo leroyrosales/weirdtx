@@ -4,6 +4,7 @@ city: "Grapevine"
 region: "DFW"
 lat: 32.965908
 lng: -97.042787
+category: "General"
 tags:
   - "grapevine"
 teaser: "The Real Unreal in Grapevine — a DFW detour for odd-Texas hunters."

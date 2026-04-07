@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.743379
 lng: -96.825927
+category: "Entertainment"
 tags:
   - "dallas"
 teaser: "Texas Theatre — lights, lore, or a night out in Dallas, DFW."

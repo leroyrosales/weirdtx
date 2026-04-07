@@ -4,6 +4,7 @@ city: "Carthage"
 region: "East Texas"
 lat: 32.033497
 lng: -94.04278
+category: "General"
 tags:
   - "carthage"
 teaser: "Last Remaining Boundary Marker for the Republic of Texas in Carthage — a East Texas detour

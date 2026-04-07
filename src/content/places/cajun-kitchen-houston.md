@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.701962
 lng: -95.571918
+category: "Food & Drink"
 tags:
   - "houston"
 teaser: "Cajun Kitchen in Houston — flavor and Gulf Coast road-trip fuel."

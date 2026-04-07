@@ -4,6 +4,7 @@ city: "Arlington"
 region: "DFW"
 lat: 32.753079
 lng: -97.085753
+category: "General"
 tags:
   - "arlington"
 teaser: "Caelum Mór in Arlington — a DFW detour for odd-Texas hunters."

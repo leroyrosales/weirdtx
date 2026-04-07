@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.456517
 lng: -98.456341
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Old Time Wooden Nickel Company in San Antonio — a South Texas detour for odd-Texas hunters."

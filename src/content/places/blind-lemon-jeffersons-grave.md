@@ -4,6 +4,7 @@ city: "Wortham"
 region: "Central Texas"
 lat: 31.79737
 lng: -96.46254
+category: "Cemetery"
 tags:
   - "wortham"
 teaser: "Blind Lemon Jefferson’s Grave — quiet history under open sky in Wortham, Central Texas."

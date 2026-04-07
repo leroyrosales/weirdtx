@@ -4,6 +4,7 @@ city: "Texas City"
 region: "Gulf Coast"
 lat: 29.408063
 lng: -94.937405
+category: "Memorial"
 tags:
   - "texas-city"
 teaser: "Texas City Memorial — Gulf Coast remembers, in Texas City."

@@ -4,6 +4,7 @@ city: "Amarillo"
 region: "Panhandle"
 lat: 35.091805
 lng: -101.766566
+category: "General"
 tags:
   - "amarillo"
 teaser: "Combine City in Amarillo — a Panhandle detour for odd-Texas hunters."

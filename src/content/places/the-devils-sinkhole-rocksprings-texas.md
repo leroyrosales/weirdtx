@@ -4,6 +4,7 @@ city: "Rocksprings"
 region: "West Texas"
 lat: 30.05754
 lng: -100.109133
+category: "Outdoors"
 tags:
   - "rocksprings"
 teaser: "Devil's Sinkhole — West Texas landscape and fresh air near Rocksprings."

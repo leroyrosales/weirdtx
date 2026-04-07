@@ -4,6 +4,7 @@ city: "Uvalde"
 region: "South Texas"
 lat: 29.25616
 lng: -99.729988
+category: "General"
 tags:
   - "uvalde"
 teaser: "Giant Matthew McConaughey in Uvalde — a South Texas detour for odd-Texas hunters."

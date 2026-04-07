@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.264093
 lng: -97.771277
+category: "Outdoors"
 tags:
   - "austin"
 teaser: "Barton Springs — Central Texas landscape and fresh air near Austin."

@@ -4,6 +4,7 @@ city: "Beaumont"
 region: "Gulf Coast"
 lat: 30.096713
 lng: -94.114101
+category: "Museum"
 tags:
   - "beaumont"
 teaser: "Exhibits and odd collections in Beaumont — a Gulf Coast stop for curious minds."

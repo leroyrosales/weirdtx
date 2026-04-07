@@ -4,6 +4,7 @@ city: "Aurora"
 region: "DFW"
 lat: 33.053361
 lng: -97.500022
+category: "Cemetery"
 tags:
   - "aurora"
 teaser: "1890s Alien Gravesite — quiet history under open sky in Aurora, DFW."

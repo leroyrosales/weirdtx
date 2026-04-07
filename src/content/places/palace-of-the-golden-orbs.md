@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.720711
 lng: -95.611931
+category: "General"
 tags:
   - "houston"
 teaser: "Palace of the Golden Orbs in Houston — a Gulf Coast detour for odd-Texas hunters."

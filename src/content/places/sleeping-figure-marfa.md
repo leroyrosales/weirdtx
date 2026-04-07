@@ -4,6 +4,7 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.309781
 lng: -103.998626
+category: "General"
 tags:
   - "marfa"
 teaser: "‘Sleeping Figure’ in Marfa — a Big Bend detour for odd-Texas hunters."

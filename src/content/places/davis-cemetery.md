@@ -4,6 +4,7 @@ city: "Leander"
 region: "Central Texas"
 lat: 30.582759
 lng: -97.826087
+category: "Cemetery"
 tags:
   - "leander"
 teaser: "Davis Cemetery — quiet history under open sky in Leander, Central Texas."

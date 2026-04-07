@@ -4,6 +4,7 @@ city: "Lubbock"
 region: "Panhandle"
 lat: 33.579443
 lng: -101.823341
+category: "General"
 tags:
   - "lubbock"
 teaser: "American Wind Power Center in Lubbock — a Panhandle detour for odd-Texas hunters."

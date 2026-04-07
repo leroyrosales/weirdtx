@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.770566
 lng: -96.799448
+category: "General"
 tags:
   - "dallas"
 teaser: "Good Luck Gas Station in Dallas — a DFW detour for odd-Texas hunters."

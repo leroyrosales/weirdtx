@@ -4,6 +4,7 @@ city: "Saint Hedwig"
 region: "South Texas"
 lat: 29.448
 lng: -98.1888
+category: "Outdoors"
 tags:
   - "saint-hedwig"
 teaser: "Woman Hollering Creek — South Texas landscape and fresh air near Saint Hedwig."

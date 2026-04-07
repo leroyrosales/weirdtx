@@ -4,6 +4,7 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.78946
 lng: -97.346595
+category: "Structure"
 tags:
   - "fort-worth"
 teaser: "The Palace Light Bulb — built character in Fort Worth, DFW."

@@ -4,6 +4,7 @@ city: "Redford"
 region: "Big Bend"
 lat: 29.279586
 lng: -103.841169
+category: "General"
 tags:
   - "redford"
 teaser: "Contrabando in Redford — a Big Bend detour for odd-Texas hunters."

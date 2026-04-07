@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.762328
 lng: -95.368473
+category: "General"
 tags:
   - "houston"
 teaser: "Old ‘Hanging’ Oak in Houston — a Gulf Coast detour for odd-Texas hunters."

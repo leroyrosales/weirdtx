@@ -4,6 +4,7 @@ city: "Junction"
 region: "Hill Country"
 lat: 30.490484
 lng: -99.775755
+category: "General"
 tags:
   - "junction"
 teaser: "Deer Horn Tree in Junction — a Hill Country detour for odd-Texas hunters."

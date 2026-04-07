@@ -4,6 +4,7 @@ city: "San Angelo"
 region: "West Texas"
 lat: 31.494527
 lng: -100.512391
+category: "Outdoors"
 tags:
   - "san-angelo"
 teaser: "Blood Lake- the O.C. Fisher Reservoir — West Texas landscape and fresh air near San Angelo."

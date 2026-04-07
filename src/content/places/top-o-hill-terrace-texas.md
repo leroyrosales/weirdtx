@@ -4,6 +4,7 @@ city: "Arlington"
 region: "DFW"
 lat: 32.738961
 lng: -97.156006
+category: "General"
 tags:
   - "arlington"
 teaser: "Top 'o Hill Terrace in Arlington — a DFW detour for odd-Texas hunters."

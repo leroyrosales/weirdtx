@@ -4,6 +4,7 @@ city: "Hearne"
 region: "Central Texas"
 lat: 30.871254
 lng: -96.593048
+category: "Cemetery"
 tags:
   - "hearne"
 teaser: "Grave in the Road — quiet history under open sky in Hearne, Central Texas."

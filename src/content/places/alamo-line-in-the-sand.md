@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.425967
 lng: -98.486142
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Alamo Line in the Sand in San Antonio — a South Texas detour for odd-Texas hunters."

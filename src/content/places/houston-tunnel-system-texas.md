@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.758425
 lng: -95.36802
+category: "General"
 tags:
   - "houston"
 teaser: "Downtown Houston Tunnel System in Houston — a Gulf Coast detour for odd-Texas hunters."

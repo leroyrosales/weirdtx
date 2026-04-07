@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.779363
 lng: -96.761193
+category: "General"
 tags:
   - "dallas"
 teaser: "Texas Centennial Art Deco Buildings in Dallas — a DFW detour for odd-Texas hunters."

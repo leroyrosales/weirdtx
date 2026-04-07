@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.344073
 lng: -94.786791
+category: "General"
 tags:
   - "galveston"
 teaser: "S. S. Selma in Galveston — a Gulf Coast detour for odd-Texas hunters."

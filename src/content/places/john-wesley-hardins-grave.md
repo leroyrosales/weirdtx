@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.781628
 lng: -106.449567
+category: "Cemetery"
 tags:
   - "el-paso"
 teaser: "John Wesley Hardin's Grave — quiet history under open sky in El Paso, West Texas."

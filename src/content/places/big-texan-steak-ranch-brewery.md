@@ -4,6 +4,7 @@ city: "Amarillo"
 region: "Panhandle"
 lat: 35.19381
 lng: -101.754857
+category: "Food & Drink"
 tags:
   - "amarillo"
 teaser: "Big Texan Steak Ranch & Brewery in Amarillo — flavor and Panhandle road-trip fuel."

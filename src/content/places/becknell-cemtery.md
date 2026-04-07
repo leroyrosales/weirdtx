@@ -4,6 +4,7 @@ city: "Clarksville"
 region: "East Texas"
 lat: 33.626292
 lng: -95.153532
+category: "Cemetery"
 tags:
   - "clarksville"
 teaser: "Becknell Cemetery — quiet history under open sky in Clarksville, East Texas."

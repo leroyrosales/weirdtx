@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.314512
 lng: -97.769076
+category: "Outdoors"
 tags:
   - "austin"
 teaser: "Mayfield Park — Central Texas landscape and fresh air near Austin."

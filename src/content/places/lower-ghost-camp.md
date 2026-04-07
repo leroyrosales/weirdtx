@@ -4,6 +4,7 @@ city: "San Angelo"
 region: "West Texas"
 lat: 31.500402
 lng: -100.540225
+category: "Folklore"
 tags:
   - "san-angelo"
 teaser: "Lower Ghost Camp — West Texas legend, tall tale, or roadside whispers near San Angelo."

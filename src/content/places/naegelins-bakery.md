@@ -4,6 +4,7 @@ city: "New Braunfels"
 region: "Hill Country"
 lat: 29.702802
 lng: -98.123744
+category: "Food & Drink"
 tags:
   - "new-braunfels"
 teaser: "Naegelin's Bakery in New Braunfels — flavor and Hill Country road-trip fuel."

@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.789413
 lng: -96.801611
+category: "Outdoors"
 tags:
   - "dallas"
 teaser: "Klyde Warren Park — DFW landscape and fresh air near Dallas."

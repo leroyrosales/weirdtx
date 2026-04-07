@@ -4,6 +4,7 @@ city: "Sweetwater"
 region: "West Texas"
 lat: 32.458535
 lng: -100.464508
+category: "Museum"
 tags:
   - "sweetwater"
 teaser: "Exhibits and odd collections in Sweetwater — a West Texas stop for curious minds."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.764202
 lng: -95.365793
+category: "General"
 tags:
   - "houston"
 teaser: "The Big Bubble in Houston — a Gulf Coast detour for odd-Texas hunters."

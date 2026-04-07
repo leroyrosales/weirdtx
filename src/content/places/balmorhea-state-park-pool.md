@@ -4,6 +4,7 @@ city: "Balmorhea"
 region: "West Texas"
 lat: 30.944022
 lng: -103.786196
+category: "Outdoors"
 tags:
   - "balmorhea"
 teaser: "Balmorhea State Park Pool — West Texas landscape and fresh air near Balmorhea."

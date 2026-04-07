@@ -4,6 +4,7 @@ city: "Midland"
 region: "West Texas"
 lat: 31.97279
 lng: -102.072603
+category: "Museum"
 tags:
   - "midland"
 teaser: "Exhibits and odd collections in Midland — a West Texas stop for curious minds."

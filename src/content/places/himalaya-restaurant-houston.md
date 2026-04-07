@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.716787
 lng: -95.500796
+category: "Food & Drink"
 tags:
   - "houston"
 teaser: "Himalaya Restaurant in Houston — flavor and Gulf Coast road-trip fuel."

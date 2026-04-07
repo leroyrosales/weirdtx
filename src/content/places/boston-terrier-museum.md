@@ -4,6 +4,7 @@ city: "Floydada"
 region: "Panhandle"
 lat: 33.978854
 lng: -101.336526
+category: "Museum"
 tags:
   - "floydada"
 teaser: "Exhibits and odd collections in Floydada — a Panhandle stop for curious minds."

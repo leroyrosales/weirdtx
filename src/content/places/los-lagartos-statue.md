@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.759278
 lng: -106.48806
+category: "Public Art"
 tags:
   - "el-paso"
 teaser: "Los Lagartos Statue — public art and photo ops in El Paso, West Texas."

@@ -4,6 +4,7 @@ city: "Brackettville"
 region: "South Texas"
 lat: 29.438402
 lng: -100.394543
+category: "General"
 tags:
   - "brackettville"
 teaser: "Alamo Village in Brackettville — a South Texas detour for odd-Texas hunters."

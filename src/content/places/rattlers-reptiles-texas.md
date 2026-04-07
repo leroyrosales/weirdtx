@@ -4,6 +4,7 @@ city: "Fort Davis"
 region: "Big Bend"
 lat: 30.600525
 lng: -103.885922
+category: "General"
 tags:
   - "fort-davis"
 teaser: "Rattlers & Reptiles in Fort Davis — a Big Bend detour for odd-Texas hunters."

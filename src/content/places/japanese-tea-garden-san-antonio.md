@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.460873
 lng: -98.476995
+category: "Outdoors"
 tags:
   - "san-antonio"
 teaser: "Japanese Tea Garden — South Texas landscape and fresh air near San Antonio."

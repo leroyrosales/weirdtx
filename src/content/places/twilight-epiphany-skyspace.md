@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.720462
 lng: -95.396361
+category: "Structure"
 tags:
   - "houston"
 teaser: "Twilight Epiphany Skyspace — built character in Houston, Gulf Coast."

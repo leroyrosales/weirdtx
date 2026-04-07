@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.776692
 lng: -106.44459
+category: "Outdoors"
 tags:
   - "el-paso"
 teaser: "Lincoln Park aka Chicano Park — West Texas landscape and fresh air near El Paso."

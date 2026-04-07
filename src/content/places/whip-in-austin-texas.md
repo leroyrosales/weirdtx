@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.238033
 lng: -97.739455
+category: "General"
 tags:
   - "austin"
 teaser: "Whip In in Austin — a Central Texas detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.716771
 lng: -95.324647
+category: "Outdoors"
 tags:
   - "houston"
 teaser: "Smither Park — Gulf Coast landscape and fresh air near Houston."

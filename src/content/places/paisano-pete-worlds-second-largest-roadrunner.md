@@ -4,6 +4,7 @@ city: "Fort Stockton"
 region: "West Texas"
 lat: 30.892943
 lng: -102.87885
+category: "General"
 tags:
   - "fort-stockton"
 teaser: "Paisano Pete in Fort Stockton — a West Texas detour for odd-Texas hunters."

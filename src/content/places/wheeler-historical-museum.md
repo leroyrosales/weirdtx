@@ -4,6 +4,7 @@ city: "Wheeler"
 region: "Panhandle"
 lat: 35.447856
 lng: -100.271821
+category: "Museum"
 tags:
   - "wheeler"
 teaser: "Exhibits and odd collections in Wheeler — a Panhandle stop for curious minds."

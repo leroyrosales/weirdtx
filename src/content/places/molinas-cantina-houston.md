@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.736547
 lng: -95.506372
+category: "Food & Drink"
 tags:
   - "houston"
 teaser: "Molina's Cantina in Houston — flavor and Gulf Coast road-trip fuel."

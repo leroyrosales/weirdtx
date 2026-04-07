@@ -4,6 +4,7 @@ city: "Wichita Falls"
 region: "Panhandle"
 lat: 33.9144
 lng: -98.4897
+category: "Structure"
 tags:
   - "wichita-falls"
 teaser: "Newby-McMahon Building — built character in Wichita Falls, Panhandle."

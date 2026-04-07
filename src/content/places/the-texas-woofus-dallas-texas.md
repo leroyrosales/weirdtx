@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.780605
 lng: -96.757391
+category: "General"
 tags:
   - "dallas"
 teaser: "The Texas Woofus in Dallas — a DFW detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "Baytown"
 region: "Gulf Coast"
 lat: 29.732808
 lng: -94.969211
+category: "General"
 tags:
   - "baytown"
 teaser: "Umbrella Alley in Baytown — a Gulf Coast detour for odd-Texas hunters."

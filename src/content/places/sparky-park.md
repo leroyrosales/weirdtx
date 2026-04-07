@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.299035
 lng: -97.732193
+category: "Outdoors"
 tags:
   - "austin"
 teaser: "Sparky Park — Central Texas landscape and fresh air near Austin."

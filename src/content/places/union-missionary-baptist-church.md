@@ -4,6 +4,7 @@ city: "Jefferson"
 region: "East Texas"
 lat: 32.750191
 lng: -94.34726
+category: "Sacred Site"
 tags:
   - "jefferson"
 teaser: "Union Missionary Baptist Church in Jefferson — East Texas faith, stone, and community."

@@ -4,6 +4,7 @@ city: "Grapevine"
 region: "DFW"
 lat: 32.904086
 lng: -97.105158
+category: "Outdoors"
 tags:
   - "grapevine"
 teaser: "Parr Park Rock Trail — DFW landscape and fresh air near Grapevine."

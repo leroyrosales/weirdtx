@@ -4,6 +4,7 @@ city: "Huntsville"
 region: "East Texas"
 lat: 30.712481
 lng: -95.535176
+category: "Cemetery"
 tags:
   - "huntsville"
 teaser: "Captain Joe Byrd Cemetery — quiet history under open sky in Huntsville, East Texas."

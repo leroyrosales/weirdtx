@@ -4,6 +4,7 @@ city: "Laredo"
 region: "South Texas"
 lat: 27.502146
 lng: -99.505711
+category: "Museum"
 tags:
   - "laredo"
 teaser: "Exhibits and odd collections in Laredo — a South Texas stop for curious minds."

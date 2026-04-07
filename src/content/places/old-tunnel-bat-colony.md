@@ -4,6 +4,7 @@ city: "Fredericksburg"
 region: "Hill Country"
 lat: 30.1005
 lng: -98.820967
+category: "Outdoors"
 tags:
   - "fredericksburg"
 teaser: "Old Tunnel Bat Colony — Hill Country landscape and fresh air near Fredericksburg."

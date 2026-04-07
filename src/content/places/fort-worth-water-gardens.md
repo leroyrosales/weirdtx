@@ -4,6 +4,7 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.747749
 lng: -97.32663
+category: "Structure"
 tags:
   - "fort-worth"
 teaser: "Fort Worth Water Gardens — built character in Fort Worth, DFW."

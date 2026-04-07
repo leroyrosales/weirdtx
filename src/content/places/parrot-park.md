@@ -4,6 +4,7 @@ city: "Lindale"
 region: "East Texas"
 lat: 32.477619
 lng: -95.392227
+category: "Museum"
 tags:
   - "lindale"
 teaser: "Exhibits and odd collections in Lindale — a East Texas stop for curious minds."

@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.440599
 lng: -98.482433
+category: "General"
 tags:
   - "san-antonio"
 teaser: "The Grotto in San Antonio — a South Texas detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.303445
 lng: -94.782168
+category: "General"
 tags:
   - "galveston"
 teaser: "Bishop's Palace in Galveston — a Gulf Coast detour for odd-Texas hunters."

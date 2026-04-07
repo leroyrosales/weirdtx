@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.76387
 lng: -95.362715
+category: "Cemetery"
 tags:
   - "houston"
 teaser: "The Donnellan Crypt — quiet history under open sky in Houston, Gulf Coast."

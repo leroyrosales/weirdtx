@@ -4,6 +4,7 @@ city: "Bellaire"
 region: "Gulf Coast"
 lat: 29.706195
 lng: -95.449651
+category: "General"
 tags:
   - "bellaire"
 teaser: "‘Move One Place On’ in Bellaire — a Gulf Coast detour for odd-Texas hunters."

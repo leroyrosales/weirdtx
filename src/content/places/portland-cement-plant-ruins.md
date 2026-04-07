@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.460952
 lng: -98.479585
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Portland Cement Plant Ruins in San Antonio — a South Texas detour for odd-Texas hunters."

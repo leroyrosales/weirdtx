@@ -4,6 +4,7 @@ city: "Kilgore"
 region: "East Texas"
 lat: 32.384313
 lng: -94.873822
+category: "Museum"
 tags:
   - "kilgore"
 teaser: "Exhibits and odd collections in Kilgore — a East Texas stop for curious minds."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.716956
 lng: -95.389596
+category: "Outdoors"
 tags:
   - "houston"
 teaser: "Destination Mound Town (Hermann Park Train Tunnel) — Gulf Coast landscape and fresh air

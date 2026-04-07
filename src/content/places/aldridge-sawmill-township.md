@@ -4,6 +4,7 @@ city: "Zavalla"
 region: "East Texas"
 lat: 31.033759
 lng: -94.280841
+category: "General"
 tags:
   - "zavalla"
 teaser: "Aldridge Sawmill in Zavalla — a East Texas detour for odd-Texas hunters."

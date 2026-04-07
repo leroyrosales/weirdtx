@@ -4,6 +4,7 @@ city: "Florence"
 region: "Central Texas"
 lat: 30.834848
 lng: -97.794396
+category: "Memorial"
 tags:
   - "florence"
 teaser: "‘It’s Chaos, Be Kind’ — Central Texas remembers, in Florence."

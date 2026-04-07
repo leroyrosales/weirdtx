@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.75582
 lng: -96.822586
+category: "Structure"
 tags:
   - "dallas"
 teaser: "Lee Harvey Oswald's Rooming House — built character in Dallas, DFW."

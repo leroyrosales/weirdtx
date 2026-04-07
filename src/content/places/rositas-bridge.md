@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.421754
 lng: -98.489115
+category: "Structure"
 tags:
   - "san-antonio"
 teaser: "Rosita's Bridge — built character in San Antonio, South Texas."

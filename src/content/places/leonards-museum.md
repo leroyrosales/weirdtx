@@ -4,6 +4,7 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.757791
 lng: -97.35499
+category: "Museum"
 tags:
   - "fort-worth"
 teaser: "Exhibits and odd collections in Fort Worth — a DFW stop for curious minds."

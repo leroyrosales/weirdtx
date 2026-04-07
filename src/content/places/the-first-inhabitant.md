@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.423529
 lng: -98.488148
+category: "General"
 tags:
   - "san-antonio"
 teaser: "The First Inhabitant in San Antonio — a South Texas detour for odd-Texas hunters."

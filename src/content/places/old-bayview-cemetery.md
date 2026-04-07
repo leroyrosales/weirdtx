@@ -4,6 +4,7 @@ city: "Corpus Christi"
 region: "Gulf Coast"
 lat: 27.801141
 lng: -97.399375
+category: "Cemetery"
 tags:
   - "corpus-christi"
 teaser: "Old Bayview Cemetery — quiet history under open sky in Corpus Christi, Gulf Coast."

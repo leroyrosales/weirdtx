@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.797894
 lng: -95.398834
+category: "General"
 tags:
   - "houston"
 teaser: "The Wilde Collection in Houston — a Gulf Coast detour for odd-Texas hunters."

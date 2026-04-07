@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.767241
 lng: -106.454337
+category: "Memorial"
 tags:
   - "el-paso"
 teaser: "Chamizal National Memorial — West Texas remembers, in El Paso."

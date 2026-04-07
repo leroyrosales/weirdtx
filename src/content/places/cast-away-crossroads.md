@@ -4,6 +4,7 @@ city: "Neece"
 region: "Panhandle"
 lat: 35.633944
 lng: -100.451278
+category: "General"
 tags:
   - "neece"
 teaser: "'Cast Away' Crossroads in Neece — a Panhandle detour for odd-Texas hunters."

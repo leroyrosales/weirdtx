@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.422945
 lng: -98.488834
+category: "Outdoors"
 tags:
   - "san-antonio"
 teaser: "McNutt Sculpture Garden — South Texas landscape and fresh air near San Antonio."

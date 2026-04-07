@@ -15,6 +15,7 @@ export interface PlaceFrontmatter {
   region: Region
   lat: number
   lng: number
+  category?: string
   tags?: string[]
   featured?: boolean
   teaser?: string
@@ -37,6 +38,7 @@ export interface EventFrontmatter {
   lng: number
   starts: string
   ends?: string
+  category?: string
   tags?: string[]
   featured?: boolean
   teaser?: string

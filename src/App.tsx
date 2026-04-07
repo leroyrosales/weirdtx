@@ -6,6 +6,9 @@ import { ExplorePage } from './pages/ExplorePage'
 import { HomePage } from './pages/HomePage'
 import { PlacePage } from './pages/PlacePage'
 import { PlacesPage } from './pages/PlacesPage'
+import { TagPage } from './pages/TagPage'
+import { RegionPage } from './pages/RegionPage'
+import { CategoryPage } from './pages/CategoryPage'
 
 export default function App() {
   return (
@@ -17,6 +20,9 @@ export default function App() {
         <Route path="places/:slug" element={<PlacePage />} />
         <Route path="events" element={<EventsPage />} />
         <Route path="events/:slug" element={<EventPage />} />
+        <Route path="tags/:tag" element={<TagPage />} />
+        <Route path="regions/:region" element={<RegionPage />} />
+        <Route path="categories/:category" element={<CategoryPage />} />
       </Route>
     </Routes>
   )

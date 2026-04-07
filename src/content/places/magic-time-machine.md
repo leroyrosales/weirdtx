@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.5157346
 lng: -98.4609582
+category: "General"
 tags:
   - "san-antonio"
   - "restaurant"

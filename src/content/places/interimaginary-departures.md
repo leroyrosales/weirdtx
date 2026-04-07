@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.194085
 lng: -97.671089
+category: "General"
 tags:
   - "austin"
 teaser: "Interimaginary Departures in Austin — a Central Texas detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.762859
 lng: -95.365113
+category: "Public Art"
 tags:
   - "houston"
 teaser: "Virtuoso Sculpture — public art and photo ops in Houston, Gulf Coast."

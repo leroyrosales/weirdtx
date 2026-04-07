@@ -4,6 +4,7 @@ city: "Singapore"
 region: "East Texas"
 lat: 1.306123
 lng: 103.811762
+category: "Food & Drink"
 tags:
   - "singapore"
 teaser: "Samy's Curry Restaurant in Singapore — flavor and East Texas road-trip fuel."

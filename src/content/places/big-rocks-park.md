@@ -4,6 +4,7 @@ city: "Glen Rose"
 region: "DFW"
 lat: 32.238754
 lng: -97.745291
+category: "Outdoors"
 tags:
   - "glen-rose"
 teaser: "Big Rocks Park — DFW landscape and fresh air near Glen Rose."

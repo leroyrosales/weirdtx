@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.344523
 lng: -97.736292
+category: "General"
 tags:
   - "austin"
 teaser: "Lala’s Little Nugget in Austin — a Central Texas detour for odd-Texas hunters."

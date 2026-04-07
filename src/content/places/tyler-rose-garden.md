@@ -4,6 +4,7 @@ city: "Tyler"
 region: "East Texas"
 lat: 32.344959
 lng: -95.322413
+category: "Outdoors"
 tags:
   - "tyler"
 teaser: "Tyler Rose Garden — East Texas landscape and fresh air near Tyler."

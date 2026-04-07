@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.297604
 lng: -94.789121
+category: "Museum"
 tags:
   - "galveston"
 teaser: "Exhibits and odd collections in Galveston — a Gulf Coast stop for curious minds."

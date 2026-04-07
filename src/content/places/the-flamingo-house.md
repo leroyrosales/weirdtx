@@ -4,6 +4,7 @@ city: "Round Rock"
 region: "Central Texas"
 lat: 30.545297
 lng: -97.704017
+category: "Structure"
 tags:
   - "round-rock"
 teaser: "The Flamingo House — built character in Round Rock, Central Texas."

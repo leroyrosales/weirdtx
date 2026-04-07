@@ -4,6 +4,7 @@ city: "Columbus"
 region: "Central Texas"
 lat: 29.70446
 lng: -96.542191
+category: "Museum"
 tags:
   - "columbus"
 teaser: "Exhibits and odd collections in Columbus — a Central Texas stop for curious minds."

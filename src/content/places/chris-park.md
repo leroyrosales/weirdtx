@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.412967
 lng: -98.500763
+category: "Outdoors"
 tags:
   - "san-antonio"
 teaser: "Chris Park — South Texas landscape and fresh air near San Antonio."

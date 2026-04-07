@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.733858
 lng: -95.414845
+category: "Food & Drink"
 tags:
   - "houston"
 teaser: "The Hobbit Café in Houston — flavor and Gulf Coast road-trip fuel."

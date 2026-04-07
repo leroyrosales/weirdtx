@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.737615
 lng: -95.396166
+category: "Sacred Site"
 tags:
   - "houston"
 teaser: "Rothko Chapel in Houston — Gulf Coast faith, stone, and community."

@@ -4,6 +4,7 @@ city: "Burnet"
 region: "Hill Country"
 lat: 30.835695
 lng: -98.394802
+category: "Folklore"
 tags:
   - "burnet"
 teaser: "Old Bluffton Underwater Ghost Town — Hill Country legend, tall tale, or roadside whispers

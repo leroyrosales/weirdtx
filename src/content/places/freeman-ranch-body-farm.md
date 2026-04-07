@@ -4,6 +4,7 @@ city: "San Marcos"
 region: "Central Texas"
 lat: 29.912541
 lng: -98.010103
+category: "General"
 tags:
   - "san-marcos"
 teaser: "Freeman Ranch Body Farm in San Marcos — a Central Texas detour for odd-Texas hunters."

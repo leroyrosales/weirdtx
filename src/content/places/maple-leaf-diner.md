@@ -1,11 +1,14 @@
 ---
-title: Maple Leaf Diner
-city: Dallas
-region: DFW
+title: "Maple Leaf Diner"
+city: "Dallas"
+region: "DFW"
 lat: 32.923259
 lng: -96.80538
-tags: [dallas, restaurant]
-teaser: From the Weird Texas map — Restaurants.
+category: "Food & Drink"
+tags:
+  - "dallas"
+  - "restaurant"
+teaser: "From the Weird Texas map — Restaurants."
 ---
 
 Originally listed on the **Weird Texas** map under *Restaurants*.

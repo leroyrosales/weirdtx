@@ -4,6 +4,7 @@ city: "Katy"
 region: "Gulf Coast"
 lat: 29.79979
 lng: -95.838705
+category: "Cemetery"
 tags:
   - "katy"
 teaser: "The Witch’s Grave — quiet history under open sky in Katy, Gulf Coast."

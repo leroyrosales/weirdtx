@@ -4,6 +4,7 @@ city: "Mossel Bay"
 region: "Central Texas"
 lat: -34.124391
 lng: 22.109283
+category: "Museum"
 tags:
   - "mossel-bay"
 teaser: "Exhibits and odd collections in Mossel Bay — a Central Texas stop for curious minds."

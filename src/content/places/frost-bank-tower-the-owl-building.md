@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.266399
 lng: -97.742779
+category: "Structure"
 tags:
   - "austin"
 teaser: "Frost Bank Tower — built character in Austin, Central Texas."

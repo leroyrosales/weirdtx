@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.247477
 lng: -97.744406
+category: "Public Art"
 tags:
   - "austin"
 teaser: "Larry Monroe Forever Bridge — public art and photo ops in Austin, Central Texas."

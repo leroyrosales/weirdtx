@@ -4,6 +4,7 @@ city: "Royse City"
 region: "DFW"
 lat: 32.897896
 lng: -96.300046
+category: "Structure"
 tags:
   - "royse-city"
 teaser: "Royse City Futuro House — built character in Royse City, DFW."

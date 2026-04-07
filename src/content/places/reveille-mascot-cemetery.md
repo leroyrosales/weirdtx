@@ -4,6 +4,7 @@ city: "College Station"
 region: "Central Texas"
 lat: 30.613641
 lng: -96.342549
+category: "Cemetery"
 tags:
   - "college-station"
 teaser: "Reveille Mascot Cemetery — quiet history under open sky in College Station, Central Texas."

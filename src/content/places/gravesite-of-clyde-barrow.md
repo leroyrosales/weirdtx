@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.765554
 lng: -96.846159
+category: "Cemetery"
 tags:
   - "dallas"
 teaser: "Gravesite of Clyde Barrow — quiet history under open sky in Dallas, DFW."

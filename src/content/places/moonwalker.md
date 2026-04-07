@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.99022
 lng: -95.336783
+category: "General"
 tags:
   - "houston"
 teaser: "‘Moonwalker’ in Houston — a Gulf Coast detour for odd-Texas hunters."

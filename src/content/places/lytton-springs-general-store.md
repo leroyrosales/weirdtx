@@ -4,6 +4,7 @@ city: "Dale"
 region: "Central Texas"
 lat: 30.003381
 lng: -97.612078
+category: "Outdoors"
 tags:
   - "dale"
 teaser: "Lytton Springs General Store — Central Texas landscape and fresh air near Dale."

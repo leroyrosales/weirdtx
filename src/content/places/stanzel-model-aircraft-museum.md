@@ -4,6 +4,7 @@ city: "Schulenburg"
 region: "Central Texas"
 lat: 29.677132
 lng: -96.902908
+category: "Museum"
 tags:
   - "schulenburg"
 teaser: "Exhibits and odd collections in Schulenburg — a Central Texas stop for curious minds."

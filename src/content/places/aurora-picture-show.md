@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.727292
 lng: -95.4166
+category: "General"
 tags:
   - "houston"
 teaser: "Aurora Picture Show in Houston — a Gulf Coast detour for odd-Texas hunters."

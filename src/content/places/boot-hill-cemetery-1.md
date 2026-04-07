@@ -4,6 +4,7 @@ city: "Tilden"
 region: "South Texas"
 lat: 28.461717
 lng: -98.548167
+category: "Cemetery"
 tags:
   - "tilden"
 teaser: "Boot Hill Cemetery — quiet history under open sky in Tilden, South Texas."

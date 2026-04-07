@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.793671
 lng: -106.514355
+category: "Outdoors"
 tags:
   - "el-paso"
 teaser: "Sunland Park Dinosaur Tracks — West Texas landscape and fresh air near El Paso."

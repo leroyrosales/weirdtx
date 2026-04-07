@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.346184
 lng: -98.467213
+category: "Cemetery"
 tags:
   - "san-antonio"
 teaser: "Rube Waddell's Grave — quiet history under open sky in San Antonio, South Texas."

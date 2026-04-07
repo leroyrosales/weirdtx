@@ -1,11 +1,14 @@
 ---
-title: Taco Mex
-city: Austin
-region: Central Texas
+title: "Taco Mex"
+city: "Austin"
+region: "Central Texas"
 lat: 30.2846468
 lng: -97.714858
-tags: [austin, restaurant]
-teaser: From the Weird Texas map — Restaurants.
+category: "Food & Drink"
+tags:
+  - "austin"
+  - "restaurant"
+teaser: "From the Weird Texas map — Restaurants."
 ---
 
 Originally listed on the **Weird Texas** map under *Restaurants*.

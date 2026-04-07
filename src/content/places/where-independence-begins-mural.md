@@ -4,6 +4,7 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.74175
 lng: -97.336037
+category: "Public Art"
 tags:
   - "fort-worth"
 teaser: "'Where Independence Begins' Mural — public art and photo ops in Fort Worth, DFW."

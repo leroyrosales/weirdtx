@@ -4,6 +4,7 @@ city: "Comfort"
 region: "Hill Country"
 lat: 29.973797
 lng: -98.913235
+category: "Cemetery"
 tags:
   - "comfort"
 teaser: "Seashell Graves of Comfort Cemetery — quiet history under open sky in Comfort, Hill Country."

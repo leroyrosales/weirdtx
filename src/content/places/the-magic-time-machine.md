@@ -1,11 +1,14 @@
 ---
-title: The Magic Time Machine
-city: Dallas
-region: DFW
+title: "The Magic Time Machine"
+city: "Dallas"
+region: "DFW"
 lat: 32.9546338
 lng: -96.825299
-tags: [dallas, restaurant]
-teaser: From the Weird Texas map — Restaurants.
+category: "General"
+tags:
+  - "dallas"
+  - "restaurant"
+teaser: "From the Weird Texas map — Restaurants."
 ---
 
 Originally listed on the **Weird Texas** map under *Restaurants*.

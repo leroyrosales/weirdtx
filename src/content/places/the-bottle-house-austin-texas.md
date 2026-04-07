@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.243759
 lng: -97.757839
+category: "Structure"
 tags:
   - "austin"
 teaser: "The Bottle House — built character in Austin, Central Texas."

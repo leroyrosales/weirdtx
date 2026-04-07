@@ -4,6 +4,7 @@ city: "Waco"
 region: "Central Texas"
 lat: 31.563499
 lng: -97.129597
+category: "Memorial"
 tags:
   - "waco"
 teaser: "Doris Miller Memorial — Central Texas remembers, in Waco."

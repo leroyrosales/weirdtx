@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.28499
 lng: -97.728845
+category: "General"
 tags:
   - "austin"
 teaser: "Brain Collection at the University of Texas at Austin in Austin — a Central Texas detour

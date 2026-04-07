@@ -4,6 +4,7 @@ city: "San Angelo"
 region: "West Texas"
 lat: 31.459418
 lng: -100.451444
+category: "Outdoors"
 tags:
   - "san-angelo"
 teaser: "International Water Lily Garden — West Texas landscape and fresh air near San Angelo."

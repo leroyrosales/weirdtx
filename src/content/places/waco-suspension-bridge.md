@@ -4,6 +4,7 @@ city: "Waco"
 region: "Central Texas"
 lat: 31.559916
 lng: -97.12787
+category: "Structure"
 tags:
   - "waco"
 teaser: "Waco Suspension Bridge — built character in Waco, Central Texas."

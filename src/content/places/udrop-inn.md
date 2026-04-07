@@ -4,6 +4,7 @@ city: "Shamrock"
 region: "Panhandle"
 lat: 35.22671
 lng: -100.248604
+category: "Structure"
 tags:
   - "shamrock"
 teaser: "U-Drop Inn — built character in Shamrock, Panhandle."

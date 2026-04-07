@@ -4,6 +4,7 @@ city: "Kemah"
 region: "Gulf Coast"
 lat: 29.541891
 lng: -95.018998
+category: "General"
 tags:
   - "kemah"
 teaser: "Th_Prsrv in Kemah — a Gulf Coast detour for odd-Texas hunters."

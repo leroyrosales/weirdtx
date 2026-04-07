@@ -4,6 +4,7 @@ city: "Gainesville"
 region: "DFW"
 lat: 33.669261
 lng: -97.082011
+category: "General"
 tags:
   - "gainesville"
 teaser: "Glenn Goode's Big People in Gainesville — a DFW detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "Terrell"
 region: "DFW"
 lat: 32.721399
 lng: -96.168068
+category: "Public Art"
 tags:
   - "terrell"
 teaser: "Bumblebee Statue — public art and photo ops in Terrell, DFW."

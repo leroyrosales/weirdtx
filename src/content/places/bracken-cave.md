@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.68715
 lng: -98.352606
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Bracken Cave in San Antonio — a South Texas detour for odd-Texas hunters."

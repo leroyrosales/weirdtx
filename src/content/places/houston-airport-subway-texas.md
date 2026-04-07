@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.985609
 lng: -95.333887
+category: "General"
 tags:
   - "houston"
 teaser: "Houston Airport Subway in Houston — a Gulf Coast detour for odd-Texas hunters."

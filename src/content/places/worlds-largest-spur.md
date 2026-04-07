@@ -4,6 +4,7 @@ city: "Lampasas"
 region: "Central Texas"
 lat: 31.05131
 lng: -98.182172
+category: "General"
 tags:
   - "lampasas"
 teaser: "World's Largest Spur in Lampasas — a Central Texas detour for odd-Texas hunters."

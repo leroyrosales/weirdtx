@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.201808
 lng: -97.826835
+category: "Cemetery"
 tags:
   - "austin"
 teaser: "Longview Cemetery — quiet history under open sky in Austin, Central Texas."

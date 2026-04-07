@@ -4,6 +4,7 @@ city: "Watauga"
 region: "DFW"
 lat: 32.86105
 lng: -97.253633
+category: "Food & Drink"
 tags:
   - "watauga"
 teaser: "Chef Point Bar & Restaurant in Watauga — flavor and DFW road-trip fuel."

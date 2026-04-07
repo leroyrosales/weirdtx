@@ -4,6 +4,7 @@ city: "Canyon"
 region: "Panhandle"
 lat: 34.984557
 lng: -101.701126
+category: "Outdoors"
 tags:
   - "canyon"
 teaser: "Palo Duro Canyon — Panhandle landscape and fresh air near Canyon."

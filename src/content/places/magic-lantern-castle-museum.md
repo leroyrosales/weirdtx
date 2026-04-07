@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.492141
 lng: -98.438667
+category: "Museum"
 tags:
   - "san-antonio"
 teaser: "Exhibits and odd collections in San Antonio — a South Texas stop for curious minds."

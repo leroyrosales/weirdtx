@@ -4,6 +4,7 @@ city: "Cisco"
 region: "Central Texas"
 lat: 32.444252
 lng: -98.980178
+category: "General"
 tags:
   - "cisco"
 teaser: "Old Zoo Nature Trails in Cisco — a Central Texas detour for odd-Texas hunters."

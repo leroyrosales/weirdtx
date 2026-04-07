@@ -4,6 +4,7 @@ city: "Sugar Land"
 region: "Gulf Coast"
 lat: 29.621009
 lng: -95.636453
+category: "Museum"
 tags:
   - "sugar-land"
 teaser: "Exhibits and odd collections in Sugar Land — a Gulf Coast stop for curious minds."

@@ -4,6 +4,7 @@ city: "Humble"
 region: "Gulf Coast"
 lat: 29.938158
 lng: -95.290241
+category: "Museum"
 tags:
   - "humble"
 teaser: "Exhibits and odd collections in Humble — a Gulf Coast stop for curious minds."

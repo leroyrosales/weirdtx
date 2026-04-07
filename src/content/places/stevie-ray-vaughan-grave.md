@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.673609
 lng: -96.81541
+category: "Cemetery"
 tags:
   - "dallas"
 teaser: "Stevie Ray Vaughan’s Grave — quiet history under open sky in Dallas, DFW."

@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.266367
 lng: -97.727169
+category: "Cemetery"
 tags:
   - "austin"
 teaser: "The Texas State Cemetery — quiet history under open sky in Austin, Central Texas."

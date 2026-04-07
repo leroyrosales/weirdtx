@@ -4,6 +4,7 @@ city: "Eastland"
 region: "Central Texas"
 lat: 32.401387
 lng: -98.818558
+category: "General"
 tags:
   - "eastland"
 teaser: "Old Rip in Eastland — a Central Texas detour for odd-Texas hunters."

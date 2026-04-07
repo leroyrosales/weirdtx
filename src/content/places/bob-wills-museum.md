@@ -4,6 +4,7 @@ city: "Turkey"
 region: "Panhandle"
 lat: 34.390768
 lng: -100.893869
+category: "Museum"
 tags:
   - "turkey"
 teaser: "Exhibits and odd collections in Turkey — a Panhandle stop for curious minds."

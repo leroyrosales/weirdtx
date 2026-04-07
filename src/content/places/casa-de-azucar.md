@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.833411
 lng: -106.440453
+category: "General"
 tags:
   - "el-paso"
 teaser: "Casa de Azucar in El Paso — a West Texas detour for odd-Texas hunters."

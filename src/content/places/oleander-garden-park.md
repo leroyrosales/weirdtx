@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.30008
 lng: -94.796148
+category: "Outdoors"
 tags:
   - "galveston"
 teaser: "Betty Head Oleander Garden Park — Gulf Coast landscape and fresh air near Galveston."

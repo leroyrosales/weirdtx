@@ -4,6 +4,7 @@ city: "Mineral Wells"
 region: "DFW"
 lat: 32.825762
 lng: -98.190393
+category: "Outdoors"
 tags:
   - "mineral-wells"
 teaser: "Mineral Wells Fossil Park — DFW landscape and fresh air near Mineral Wells."

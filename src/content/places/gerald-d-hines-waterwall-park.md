@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.736342
 lng: -95.461322
+category: "Outdoors"
 tags:
   - "houston"
 teaser: "Gerald D. Hines Waterwall Park — Gulf Coast landscape and fresh air near Houston."

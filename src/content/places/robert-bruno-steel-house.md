@@ -4,6 +4,7 @@ city: "Ransom Canyon"
 region: "Panhandle"
 lat: 33.530657
 lng: -101.676922
+category: "Structure"
 tags:
   - "ransom-canyon"
 teaser: "Robert Bruno’s Steel House — built character in Ransom Canyon, Panhandle."

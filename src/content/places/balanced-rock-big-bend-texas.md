@@ -4,6 +4,7 @@ city: "Big Bend National Park"
 region: "Big Bend"
 lat: 29.404883
 lng: -103.204337
+category: "General"
 tags:
   - "big-bend-national-park"
 teaser: "Balanced Rock in Big Bend National Park — a Big Bend detour for odd-Texas hunters."

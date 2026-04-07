@@ -4,6 +4,7 @@ city: "Odessa"
 region: "West Texas"
 lat: 31.89194
 lng: -102.326247
+category: "General"
 tags:
   - "odessa"
 teaser: "Stonehenge Replica in Odessa — a West Texas detour for odd-Texas hunters."

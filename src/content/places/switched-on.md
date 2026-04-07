@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.313949
 lng: -97.719897
+category: "General"
 tags:
   - "austin"
 teaser: "Switched On in Austin — a Central Texas detour for odd-Texas hunters."

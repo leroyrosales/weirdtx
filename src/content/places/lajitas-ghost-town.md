@@ -4,6 +4,7 @@ city: "Terlingua"
 region: "Big Bend"
 lat: 29.261752
 lng: -103.776752
+category: "Folklore"
 tags:
   - "terlingua"
 teaser: "Lajitas Ghost Town — Big Bend legend, tall tale, or roadside whispers near Terlingua."

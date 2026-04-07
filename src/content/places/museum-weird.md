@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.267022
 lng: -97.738744
+category: "Museum"
 tags:
   - "austin"
 teaser: "Exhibits and odd collections in Austin — a Central Texas stop for curious minds."

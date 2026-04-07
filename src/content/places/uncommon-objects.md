@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.229086
 lng: -97.783036
+category: "General"
 tags:
   - "austin"
 teaser: "Uncommon Objects in Austin — a Central Texas detour for odd-Texas hunters."

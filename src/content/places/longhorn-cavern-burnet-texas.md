@@ -4,6 +4,7 @@ city: "Burnet"
 region: "Hill Country"
 lat: 30.68386
 lng: -98.352347
+category: "Outdoors"
 tags:
   - "burnet"
 teaser: "Longhorn Cavern — Hill Country landscape and fresh air near Burnet."

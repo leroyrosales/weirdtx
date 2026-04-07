@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.767879
 lng: -95.384986
+category: "Cemetery"
 tags:
   - "houston"
 teaser: "Grave of Howard Hughes — quiet history under open sky in Houston, Gulf Coast."

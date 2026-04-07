@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.27123
 lng: -97.755549
+category: "General"
 tags:
   - "austin"
 teaser: "Treaty Oak in Austin — a Central Texas detour for odd-Texas hunters."

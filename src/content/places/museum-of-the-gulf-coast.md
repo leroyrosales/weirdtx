@@ -4,6 +4,7 @@ city: "Port Arthur"
 region: "Gulf Coast"
 lat: 29.873183
 lng: -93.932912
+category: "Museum"
 tags:
   - "port-arthur"
 teaser: "Exhibits and odd collections in Port Arthur — a Gulf Coast stop for curious minds."

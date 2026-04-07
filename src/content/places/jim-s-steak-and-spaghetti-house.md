@@ -4,6 +4,7 @@ city: "Huntington"
 region: "East Texas"
 lat: 38.419752
 lng: -82.442819
+category: "Food & Drink"
 tags:
   - "huntington"
 teaser: "Jim’s Steak and Spaghetti House in Huntington — flavor and East Texas road-trip fuel."

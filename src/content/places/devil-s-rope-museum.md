@@ -4,6 +4,7 @@ city: "McLean"
 region: "Panhandle"
 lat: 35.231661
 lng: -100.59675
+category: "Museum"
 tags:
   - "mclean"
 teaser: "Exhibits and odd collections in McLean — a Panhandle stop for curious minds."

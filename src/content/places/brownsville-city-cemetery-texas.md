@@ -4,6 +4,7 @@ city: "Brownsville"
 region: "South Texas"
 lat: 25.907929
 lng: -97.499622
+category: "Cemetery"
 tags:
   - "brownsville"
 teaser: "Brownsville City Cemetery — quiet history under open sky in Brownsville, South Texas."

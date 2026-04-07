@@ -4,6 +4,7 @@ city: "Corsicana"
 region: "Central Texas"
 lat: 32.086532
 lng: -96.487868
+category: "Cemetery"
 tags:
   - "corsicana"
 teaser: "The Grave of Rope Walker — quiet history under open sky in Corsicana, Central Texas."

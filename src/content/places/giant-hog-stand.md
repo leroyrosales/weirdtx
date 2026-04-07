@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.412805
 lng: -98.487998
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Giant Hog Stand in San Antonio — a South Texas detour for odd-Texas hunters."

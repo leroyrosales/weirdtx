@@ -4,6 +4,7 @@ city: "Valentine"
 region: "Big Bend"
 lat: 30.603437
 lng: -104.518476
+category: "General"
 tags:
   - "valentine"
 teaser: "Prada Marfa in Valentine — a Big Bend detour for odd-Texas hunters."

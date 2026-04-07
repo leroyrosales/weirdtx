@@ -4,6 +4,7 @@ city: "The Colony"
 region: "DFW"
 lat: 33.069371
 lng: -96.858661
+category: "Museum"
 tags:
   - "the-colony"
 teaser: "Exhibits and odd collections in The Colony — a DFW stop for curious minds."

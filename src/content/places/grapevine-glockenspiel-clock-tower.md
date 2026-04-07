@@ -4,6 +4,7 @@ city: "Grapevine"
 region: "DFW"
 lat: 32.934584
 lng: -97.078628
+category: "Structure"
 tags:
   - "grapevine"
 teaser: "Grapevine Glockenspiel Clock Tower — built character in Grapevine, DFW."

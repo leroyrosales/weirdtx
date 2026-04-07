@@ -4,6 +4,7 @@ city: "Kenova"
 region: "Central Texas"
 lat: 38.399531
 lng: -82.578193
+category: "General"
 tags:
   - "kenova"
 teaser: "Griffith & Feil Soda Fountain in Kenova — a Central Texas detour for odd-Texas hunters."

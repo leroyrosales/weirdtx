@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.654967
 lng: -95.528968
+category: "General"
 tags:
   - "houston"
 teaser: "United Sisters in Houston — a Gulf Coast detour for odd-Texas hunters."

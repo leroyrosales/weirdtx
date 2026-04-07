@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.305397
 lng: -94.790854
+category: "Structure"
 tags:
   - "galveston"
 teaser: "The Grand 1894 Opera House — built character in Galveston, Gulf Coast."

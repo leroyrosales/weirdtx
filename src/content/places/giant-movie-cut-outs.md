@@ -4,6 +4,7 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.321342
 lng: -104.105045
+category: "Public Art"
 tags:
   - "marfa"
 teaser: "‘Giant’ Marfa Mural — public art and photo ops in Marfa, Big Bend."

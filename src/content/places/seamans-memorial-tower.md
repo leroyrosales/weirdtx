@@ -4,6 +4,7 @@ city: "Aransas Pass"
 region: "Gulf Coast"
 lat: 27.900558
 lng: -97.136198
+category: "Structure"
 tags:
   - "aransas-pass"
 teaser: "Seaman's Memorial Tower — built character in Aransas Pass, Gulf Coast."

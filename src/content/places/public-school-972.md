@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.949979
 lng: -96.817705
+category: "General"
 tags:
   - "dallas"
 teaser: "Public School 972 in Dallas — a DFW detour for odd-Texas hunters."

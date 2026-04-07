@@ -4,6 +4,7 @@ city: "Plano"
 region: "DFW"
 lat: 33.019514
 lng: -96.736399
+category: "Museum"
 tags:
   - "plano"
 teaser: "Exhibits and odd collections in Plano — a DFW stop for curious minds."

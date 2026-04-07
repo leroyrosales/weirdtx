@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.582598
 lng: -98.366368
+category: "Outdoors"
 tags:
   - "san-antonio"
 teaser: "Comanche Lookout Park — South Texas landscape and fresh air near San Antonio."

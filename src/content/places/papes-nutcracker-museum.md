@@ -4,6 +4,7 @@ city: "Seguin"
 region: "Central Texas"
 lat: 29.540522
 lng: -97.956349
+category: "Museum"
 tags:
   - "seguin"
 teaser: "Exhibits and odd collections in Seguin — a Central Texas stop for curious minds."

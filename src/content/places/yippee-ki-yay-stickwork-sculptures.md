@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.284456
 lng: -97.754073
+category: "General"
 tags:
   - "austin"
 teaser: "Yippee Ki Yay Stickwork Sculptures in Austin — a Central Texas detour for odd-Texas hunters."

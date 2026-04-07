@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.485405
 lng: -98.451327
+category: "Outdoors"
 tags:
   - "san-antonio"
 teaser: "Kiddie Park — South Texas landscape and fresh air near San Antonio."

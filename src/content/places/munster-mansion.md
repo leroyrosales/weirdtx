@@ -4,6 +4,7 @@ city: "Waxahachie"
 region: "DFW"
 lat: 32.436125
 lng: -96.810724
+category: "General"
 tags:
   - "waxahachie"
 teaser: "Munster Mansion in Waxahachie — a DFW detour for odd-Texas hunters."

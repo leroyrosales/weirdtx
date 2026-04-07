@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.848103
 lng: -96.851206
+category: "General"
 tags:
   - "dallas"
 teaser: "LBJ Presidential Marker in Dallas — a DFW detour for odd-Texas hunters."

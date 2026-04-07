@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { events, getEventBySlug } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
+import { encodeParam } from '../lib/routeParams'
 import { useDocumentTitle } from '../lib/useDocumentTitle'
 
 export function EventPage() {
@@ -38,7 +39,25 @@ export function EventPage() {
         ← All events
       </Link>
       <header>
-        <p className="text-xs font-bold uppercase tracking-wide text-sage-dark">{ev.region}</p>
+        <p className="text-xs font-bold uppercase tracking-wide text-sage-dark">
+          <Link
+            to={`/regions/${encodeParam(ev.region)}`}
+            className="underline decoration-2 underline-offset-2 hover:text-clay"
+          >
+            {ev.region}
+          </Link>
+          {ev.category ? (
+            <>
+              <span className="text-ink/40"> · </span>
+              <Link
+                to={`/categories/${encodeParam(ev.category)}`}
+                className="underline decoration-2 underline-offset-2 hover:text-clay"
+              >
+                {ev.category}
+              </Link>
+            </>
+          ) : null}
+        </p>
         <h1
           id="event-title"
           className="font-display text-4xl leading-tight tracking-wide text-sky-deep"
@@ -50,7 +69,17 @@ export function EventPage() {
         </p>
         <p className="text-lg text-ink/80">{ev.city}</p>
         {ev.tags?.length ? (
-          <p className="mt-3 text-sm text-ink/60">{ev.tags.join(' · ')}</p>
+          <p className="mt-3 flex flex-wrap gap-2">
+            {ev.tags.map((t) => (
+              <Link
+                key={t}
+                to={`/tags/${encodeParam(t)}`}
+                className="rounded-full bg-ink/5 px-2.5 py-1 text-xs font-semibold text-ink/70 ring-1 ring-ink/10 hover:bg-ink/10"
+              >
+                {t}
+              </Link>
+            ))}
+          </p>
         ) : null}
         {ev.url ? (
           <p className="mt-4">

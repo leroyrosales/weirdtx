@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.300531
 lng: -94.792909
+category: "Memorial"
 tags:
   - "galveston"
 teaser: "Juneteenth Monument at Ashton Villa — Gulf Coast remembers, in Galveston."

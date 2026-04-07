@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.332433
 lng: -98.462189
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Espada Aqueduct in San Antonio — a South Texas detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "Warren"
 region: "East Texas"
 lat: 30.579406
 lng: -94.378234
+category: "Outdoors"
 tags:
   - "warren"
 teaser: "Geraldine Watson Rare Native Plant Preserve — East Texas landscape and fresh air near Warren."

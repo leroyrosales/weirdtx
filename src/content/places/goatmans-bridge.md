@@ -4,6 +4,7 @@ city: "Denton"
 region: "DFW"
 lat: 33.129736
 lng: -97.105979
+category: "Structure"
 tags:
   - "denton"
 teaser: "Goatman's Bridge — built character in Denton, DFW."

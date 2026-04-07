@@ -4,6 +4,7 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.729648
 lng: -97.203035
+category: "Cemetery"
 tags:
   - "fort-worth"
 teaser: "Lee Harvey Oswald's Grave — quiet history under open sky in Fort Worth, DFW."

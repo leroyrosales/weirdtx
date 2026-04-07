@@ -4,6 +4,7 @@ city: "Amarillo"
 region: "Panhandle"
 lat: 35.101752
 lng: -101.909129
+category: "General"
 tags:
   - "amarillo"
 teaser: "Ozymandias on the Plains in Amarillo — a Panhandle detour for odd-Texas hunters."

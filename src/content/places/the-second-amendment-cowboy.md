@@ -4,6 +4,7 @@ city: "Amarillo"
 region: "Panhandle"
 lat: 35.186488
 lng: -101.974123
+category: "General"
 tags:
   - "amarillo"
 teaser: "The Second Amendment Cowboy in Amarillo — a Panhandle detour for odd-Texas hunters."

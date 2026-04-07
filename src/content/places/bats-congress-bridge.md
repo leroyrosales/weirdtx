@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.263
 lng: -97.7456
+category: "Structure"
 tags:
   - "wildlife"
   - "sunset"

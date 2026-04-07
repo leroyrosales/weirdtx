@@ -4,6 +4,7 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.307106
 lng: -104.029351
+category: "Museum"
 tags:
   - "marfa"
 teaser: "Exhibits and odd collections in Marfa — a Big Bend stop for curious minds."

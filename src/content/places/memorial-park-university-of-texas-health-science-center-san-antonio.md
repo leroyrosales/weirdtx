@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.50698
 lng: -98.576164
+category: "Outdoors"
 tags:
   - "san-antonio"
 teaser: "Memorial Park at UT Health Science Center — South Texas landscape and fresh air near San Antonio."

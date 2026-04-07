@@ -4,6 +4,7 @@ city: "Sonora"
 region: "West Texas"
 lat: 30.555088
 lng: -100.812286
+category: "General"
 tags:
   - "sonora"
 teaser: "Caverns of Sonora in Sonora — a West Texas detour for odd-Texas hunters."

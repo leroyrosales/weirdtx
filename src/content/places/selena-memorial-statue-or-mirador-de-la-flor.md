@@ -4,6 +4,7 @@ city: "Corpus Christi"
 region: "Gulf Coast"
 lat: 27.796648
 lng: -97.391015
+category: "Public Art"
 tags:
   - "corpus-christi"
 teaser: "Mirador de la Flor — public art and photo ops in Corpus Christi, Gulf Coast."

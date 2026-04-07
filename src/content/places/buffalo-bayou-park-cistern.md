@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.762381
 lng: -95.376423
+category: "Outdoors"
 tags:
   - "houston"
 teaser: "Buffalo Bayou Park Cistern — Gulf Coast landscape and fresh air near Houston."

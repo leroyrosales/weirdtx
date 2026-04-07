@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.284584
 lng: -97.765712
+category: "General"
 tags:
   - "austin"
 teaser: "Stone Windmill in Austin — a Central Texas detour for odd-Texas hunters."

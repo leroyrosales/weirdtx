@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.86767
 lng: -96.86331
+category: "Cemetery"
 tags:
   - "dallas"
 teaser: "The Grave of Bonnie Parker — quiet history under open sky in Dallas, DFW."

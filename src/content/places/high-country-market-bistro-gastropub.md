@@ -4,6 +4,7 @@ city: "Round Rock"
 region: "Central Texas"
 lat: 30.497186
 lng: -97.616595
+category: "Shop"
 tags:
   - "round-rock"
 teaser: "High Country Market Bistro & GastroPub — browse something you didn’t know you needed in

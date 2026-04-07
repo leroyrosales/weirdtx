@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.418432
 lng: -98.514877
+category: "Public Art"
 tags:
   - "san-antonio"
 teaser: "Largest Virgin Mary Mosaic in the World — public art and photo ops in San Antonio, South Texas."

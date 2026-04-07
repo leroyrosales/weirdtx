@@ -1,11 +1,14 @@
 ---
-title: The Dinosaur Park
-city: Cedar Creek
-region: Central Texas
+title: "The Dinosaur Park"
+city: "Cedar Creek"
+region: "Central Texas"
 lat: 30.141859
 lng: -97.4818066
-tags: [cedar-creek, interesting-spot]
-teaser: From the Weird Texas map — Interesting Spots.
+category: "Outdoors"
+tags:
+  - "cedar-creek"
+  - "interesting-spot"
+teaser: "From the Weird Texas map — Interesting Spots."
 ---
 
 Originally listed on the **Weird Texas** map under *Interesting Spots*.

@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.36496
 lng: -98.470189
+category: "Structure"
 tags:
   - "san-antonio"
 teaser: "Hot Wells Hotel and Spa — built character in San Antonio, South Texas."

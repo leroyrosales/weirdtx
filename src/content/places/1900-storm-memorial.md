@@ -4,6 +4,7 @@ city: "Galveston"
 region: "Gulf Coast"
 lat: 29.27278
 lng: -94.815162
+category: "Memorial"
 tags:
   - "galveston"
 teaser: "1900 Storm Memorial — Gulf Coast remembers, in Galveston."

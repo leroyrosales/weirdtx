@@ -4,6 +4,7 @@ city: "Port Aransas"
 region: "Gulf Coast"
 lat: 27.828761
 lng: -97.059739
+category: "Outdoors"
 tags:
   - "port-aransas"
 teaser: "Chapel on the Dunes — Gulf Coast landscape and fresh air near Port Aransas."

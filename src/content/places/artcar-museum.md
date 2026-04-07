@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.772008
 lng: -95.396874
+category: "Museum"
 tags:
   - "houston"
 teaser: "Exhibits and odd collections in Houston — a Gulf Coast stop for curious minds."

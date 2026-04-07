@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.419859
 lng: -98.469283
+category: "Cemetery"
 tags:
   - "san-antonio"
 teaser: "Grave of Sandra West and Her Ferrari — quiet history under open sky in San Antonio, South Texas."

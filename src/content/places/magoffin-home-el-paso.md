@@ -4,6 +4,7 @@ city: "El Paso"
 region: "West Texas"
 lat: 31.762454
 lng: -106.476985
+category: "General"
 tags:
   - "el-paso"
 teaser: "Magoffin Home in El Paso — a West Texas detour for odd-Texas hunters."

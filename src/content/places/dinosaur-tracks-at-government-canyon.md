@@ -4,6 +4,7 @@ city: "Helotes"
 region: "South Texas"
 lat: 29.582425
 lng: -98.765633
+category: "Outdoors"
 tags:
   - "helotes"
 teaser: "Dinosaur Tracks at Government Canyon — South Texas landscape and fresh air near Helotes."

@@ -4,6 +4,7 @@ city: "Glen Rose"
 region: "DFW"
 lat: 32.241228
 lng: -97.808663
+category: "Outdoors"
 tags:
   - "glen-rose"
 teaser: "Dinosaur Valley State Park — DFW landscape and fresh air near Glen Rose."

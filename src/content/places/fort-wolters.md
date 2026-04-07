@@ -4,6 +4,7 @@ city: "Mineral Wells"
 region: "DFW"
 lat: 32.837115
 lng: -98.061025
+category: "Structure"
 tags:
   - "mineral-wells"
 teaser: "Camp Wolters — built character in Mineral Wells, DFW."

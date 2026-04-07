@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.802101
 lng: -95.398038
+category: "Outdoors"
 tags:
   - "houston"
 teaser: "Paul Carr Jogging Trail — Gulf Coast landscape and fresh air near Houston."

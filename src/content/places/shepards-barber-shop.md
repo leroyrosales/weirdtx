@@ -4,6 +4,7 @@ city: "Conroe"
 region: "Gulf Coast"
 lat: 30.311426
 lng: -95.456599
+category: "Shop"
 tags:
   - "conroe"
 teaser: "Shepard's Barber Shop — browse something you didn’t know you needed in Conroe."

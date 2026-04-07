@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.432398
 lng: -98.493375
+category: "Structure"
 tags:
   - "san-antonio"
 teaser: "Fiesta Tower — built character in San Antonio, South Texas."

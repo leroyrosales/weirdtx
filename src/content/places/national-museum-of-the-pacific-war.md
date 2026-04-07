@@ -4,6 +4,7 @@ city: "Fredericksburg"
 region: "Hill Country"
 lat: 30.272688
 lng: -98.867342
+category: "Museum"
 tags:
   - "fredericksburg"
 teaser: "Exhibits and odd collections in Fredericksburg — a Hill Country stop for curious minds."

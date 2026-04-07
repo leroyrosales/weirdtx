@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.788603
 lng: -96.800588
+category: "Structure"
 tags:
   - "dallas"
 teaser: "Dallas Skyspace — built character in Dallas, DFW."

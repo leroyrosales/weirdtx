@@ -4,6 +4,7 @@ city: "Amarillo"
 region: "Panhandle"
 lat: 35.199646
 lng: -101.913324
+category: "Memorial"
 tags:
   - "amarillo"
 teaser: "Helium Time Columns Monument — Panhandle remembers, in Amarillo."

@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.247173
 lng: -97.719691
+category: "Outdoors"
 tags:
   - "austin"
 teaser: "Snake Island — Central Texas landscape and fresh air near Austin."

@@ -4,6 +4,7 @@ city: "Groom"
 region: "Panhandle"
 lat: 35.198097
 lng: -101.081914
+category: "Structure"
 tags:
   - "groom"
 teaser: "The Leaning Tower of Texas — built character in Groom, Panhandle."

@@ -4,6 +4,7 @@ city: "Fairmont"
 region: "Gulf Coast"
 lat: 39.470569
 lng: -80.155004
+category: "General"
 tags:
   - "fairmont"
 teaser: "The Poky Dot in Fairmont — a Gulf Coast detour for odd-Texas hunters."

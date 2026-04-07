@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.876767
 lng: -95.42095
+category: "Food & Drink"
 tags:
   - "houston"
 teaser: "Burns Original BBQ in Houston — flavor and Gulf Coast road-trip fuel."

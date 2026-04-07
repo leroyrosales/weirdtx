@@ -4,6 +4,7 @@ city: "Fort Worth"
 region: "DFW"
 lat: 32.790278
 lng: -97.346111
+category: "Structure"
 tags:
   - "fort-worth"
 teaser: "Fort Worth Stockyards — built character in Fort Worth, DFW."

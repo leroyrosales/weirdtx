@@ -4,6 +4,7 @@ city: "Marathon"
 region: "Big Bend"
 lat: 30.208641
 lng: -103.246011
+category: "Outdoors"
 tags:
   - "marathon"
 teaser: "Eve's Garden B&B and Ecology Resource Center — Big Bend landscape and fresh air near Marathon."

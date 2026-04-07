@@ -4,6 +4,7 @@ city: "Plano"
 region: "DFW"
 lat: 33.039812
 lng: -96.787059
+category: "Cemetery"
 tags:
   - "plano"
 teaser: "Collinsworth Cemetery — quiet history under open sky in Plano, DFW."

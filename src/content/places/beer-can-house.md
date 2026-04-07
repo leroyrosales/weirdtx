@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.763754
 lng: -95.418972
+category: "Structure"
 tags:
   - "houston"
 teaser: "Beer Can House — built character in Houston, Gulf Coast."

@@ -16,6 +16,7 @@ const KEY_ORDER = [
   'region',
   'lat',
   'lng',
+  'category',
   'tags',
   'featured',
   'teaser',
@@ -50,6 +51,11 @@ function needsBody(body) {
   return stripped.length < 45
 }
 
+function needsCategory(data) {
+  const c = data.category
+  return c == null || String(c).trim().length === 0
+}
+
 function inferKind(title, slug) {
   const s = `${title} ${slug}`.toLowerCase()
   if (/\b(grave|gravesite|cemetery|crypt|tomb|burial|funeral|cathedral of junk)\b/.test(s))
@@ -76,6 +82,35 @@ function inferKind(title, slug) {
   if (/\b(monument|memorial)\b/.test(s)) return 'memorial'
   if (/\b(ghost|haunt|legend|alien|ufo)\b/.test(s)) return 'folklore'
   return 'general'
+}
+
+function categoryFromKind(kind) {
+  switch (kind) {
+    case 'cemetery':
+      return 'Cemetery'
+    case 'museum':
+      return 'Museum'
+    case 'outdoors':
+      return 'Outdoors'
+    case 'food':
+      return 'Food & Drink'
+    case 'publicArt':
+      return 'Public Art'
+    case 'structure':
+      return 'Structure'
+    case 'entertainment':
+      return 'Entertainment'
+    case 'sacred':
+      return 'Sacred Site'
+    case 'retail':
+      return 'Shop'
+    case 'memorial':
+      return 'Memorial'
+    case 'folklore':
+      return 'Folklore'
+    default:
+      return 'General'
+  }
 }
 
 function copyForKind(kind, title, city, region) {
@@ -195,7 +230,8 @@ for (const name of readdirSync(PLACES_DIR)) {
   const { data, body } = parsed
   const nt = needsTeaser(data)
   const nb = needsBody(body)
-  if (!nt && !nb) {
+  const nc = needsCategory(data)
+  if (!nt && !nb && !nc) {
     skipped.push(name)
     continue
   }
@@ -209,6 +245,9 @@ for (const name of readdirSync(PLACES_DIR)) {
   const { teaser, body: newBody } = copyForKind(kind, title, city, region)
 
   const next = { ...data }
+  if (nc) {
+    next.category = categoryFromKind(kind)
+  }
   if (nt) next.teaser = teaser
   const finalBody = nb ? newBody : body
 

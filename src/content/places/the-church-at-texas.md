@@ -4,6 +4,7 @@ city: "Palmer"
 region: "Central Texas"
 lat: 32.465813
 lng: -96.662547
+category: "Sacred Site"
 tags:
   - "palmer"
 teaser: "The Church at Texas in Palmer — Central Texas faith, stone, and community."

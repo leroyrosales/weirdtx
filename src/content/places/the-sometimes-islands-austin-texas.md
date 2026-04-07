@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.40186
 lng: -97.891468
+category: "General"
 tags:
   - "austin"
 teaser: "The Sometimes Islands in Austin — a Central Texas detour for odd-Texas hunters."

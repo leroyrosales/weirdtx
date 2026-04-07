@@ -4,6 +4,7 @@ city: "Glen Rose"
 region: "DFW"
 lat: 32.230249
 lng: -97.80521
+category: "Museum"
 tags:
   - "glen-rose"
 teaser: "Exhibits and odd collections in Glen Rose — a DFW stop for curious minds."

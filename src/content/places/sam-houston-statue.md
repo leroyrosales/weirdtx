@@ -4,6 +4,7 @@ city: "Huntsville"
 region: "East Texas"
 lat: 30.661159
 lng: -95.510652
+category: "Public Art"
 tags:
   - "huntsville"
 teaser: "Sam Houston Statue — public art and photo ops in Huntsville, East Texas."

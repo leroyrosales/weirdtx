@@ -4,6 +4,7 @@ city: "Paris"
 region: "East Texas"
 lat: 33.640507
 lng: -95.523916
+category: "Structure"
 tags:
   - "paris"
 teaser: "Texas Eiffel Tower — built character in Paris, East Texas."

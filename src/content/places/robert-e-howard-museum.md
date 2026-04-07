@@ -4,6 +4,7 @@ city: "Cross Plains"
 region: "Central Texas"
 lat: 32.121384
 lng: -99.172011
+category: "Museum"
 tags:
   - "cross-plains"
 teaser: "Exhibits and odd collections in Cross Plains — a Central Texas stop for curious minds."

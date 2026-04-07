@@ -4,6 +4,7 @@ city: "Zavalla"
 region: "East Texas"
 lat: 30.999098
 lng: -94.418835
+category: "Cemetery"
 tags:
   - "zavalla"
 teaser: "Sturrock Cemetery — quiet history under open sky in Zavalla, East Texas."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.732239
 lng: -95.44056
+category: "Food & Drink"
 tags:
   - "houston"
 teaser: "Kolache Shoppe in Houston — flavor and Gulf Coast road-trip fuel."

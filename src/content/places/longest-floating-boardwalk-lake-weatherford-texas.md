@@ -4,6 +4,7 @@ city: "Weatherford"
 region: "DFW"
 lat: 32.798697
 lng: -97.705916
+category: "Outdoors"
 tags:
   - "weatherford"
 teaser: "The Boardwalk at Lake Weatherford — DFW landscape and fresh air near Weatherford."

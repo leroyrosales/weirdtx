@@ -4,6 +4,7 @@ city: "Hemphill"
 region: "East Texas"
 lat: 31.345813
 lng: -93.844858
+category: "Museum"
 tags:
   - "hemphill"
 teaser: "Exhibits and odd collections in Hemphill — a East Texas stop for curious minds."

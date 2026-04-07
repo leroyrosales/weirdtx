@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.342998
 lng: -97.740885
+category: "General"
 tags:
   - "austin"
 teaser: "Air Conditioned Village in Austin — a Central Texas detour for odd-Texas hunters."

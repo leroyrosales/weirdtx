@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.218617
 lng: -97.771443
+category: "Cemetery"
 tags:
   - "austin"
 teaser: "Cathedral of Junk — quiet history under open sky in Austin, Central Texas."

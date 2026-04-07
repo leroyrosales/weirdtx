@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.28491
 lng: -97.736006
+category: "Structure"
 tags:
   - "austin"
 teaser: "Skyspace- The Color Inside — built character in Austin, Central Texas."

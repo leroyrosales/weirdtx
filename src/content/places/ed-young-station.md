@@ -4,6 +4,7 @@ city: "Glen Rose"
 region: "DFW"
 lat: 32.247389
 lng: -97.730173
+category: "General"
 tags:
   - "glen-rose"
 teaser: "Ed Young Station in Glen Rose — a DFW detour for odd-Texas hunters."

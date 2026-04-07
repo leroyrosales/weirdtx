@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.458028
 lng: -98.519346
+category: "General"
 tags:
   - "san-antonio"
 teaser: "Cool Crest Miniature Golf in San Antonio — a South Texas detour for odd-Texas hunters."

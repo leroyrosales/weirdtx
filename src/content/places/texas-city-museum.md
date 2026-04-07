@@ -4,6 +4,7 @@ city: "Texas City"
 region: "Gulf Coast"
 lat: 29.388516
 lng: -94.90305
+category: "Museum"
 tags:
   - "texas-city"
 teaser: "Exhibits and odd collections in Texas City — a Gulf Coast stop for curious minds."

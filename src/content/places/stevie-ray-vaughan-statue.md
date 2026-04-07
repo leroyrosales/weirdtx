@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.263118
 lng: -97.750673
+category: "Public Art"
 tags:
   - "austin"
 teaser: "Stevie Ray Vaughan Statue — public art and photo ops in Austin, Central Texas."

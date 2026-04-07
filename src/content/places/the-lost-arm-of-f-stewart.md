@@ -4,6 +4,7 @@ city: "Paradise"
 region: "DFW"
 lat: 33.153214
 lng: -97.696531
+category: "General"
 tags:
   - "paradise"
 teaser: "The Lost Arm of F. Stewart in Paradise — a DFW detour for odd-Texas hunters."

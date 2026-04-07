@@ -4,6 +4,7 @@ city: "Henderson"
 region: "East Texas"
 lat: 32.149333
 lng: -94.851006
+category: "General"
 tags:
   - "henderson"
 teaser: "Rusk County Youth Expo Center in Henderson — a East Texas detour for odd-Texas hunters."

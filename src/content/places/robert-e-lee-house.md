@@ -4,6 +4,7 @@ city: "Boerne"
 region: "Hill Country"
 lat: 29.788239
 lng: -98.72869
+category: "Structure"
 tags:
   - "boerne"
 teaser: "Robert E. Lee House — built character in Boerne, Hill Country."

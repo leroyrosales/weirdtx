@@ -4,6 +4,7 @@ city: "Marfa"
 region: "Big Bend"
 lat: 30.275128
 lng: -103.882758
+category: "General"
 tags:
   - "marfa"
 teaser: "Marfa Lights in Marfa — a Big Bend detour for odd-Texas hunters."

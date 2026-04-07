@@ -4,6 +4,7 @@ city: "Pittsburg"
 region: "East Texas"
 lat: 32.996833
 lng: -94.966849
+category: "Museum"
 tags:
   - "pittsburg"
 teaser: "Exhibits and odd collections in Pittsburg — a East Texas stop for curious minds."

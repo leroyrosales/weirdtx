@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.782955
 lng: -96.798243
+category: "General"
 tags:
   - "dallas"
 teaser: "Thanks-Giving Square in Dallas — a DFW detour for odd-Texas hunters."

@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.424299
 lng: -98.494408
+category: "Sacred Site"
 tags:
   - "san-antonio"
 teaser: "San Fernando Cathedral City Centers in San Antonio — South Texas faith, stone, and community."

@@ -4,6 +4,7 @@ city: "Houston"
 region: "Gulf Coast"
 lat: 29.670941
 lng: -95.392524
+category: "Outdoors"
 tags:
   - "houston"
 teaser: "Eclectic Menagerie Park — Gulf Coast landscape and fresh air near Houston."

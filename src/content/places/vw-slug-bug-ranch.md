@@ -4,6 +4,7 @@ city: "Panhandle"
 region: "Panhandle"
 lat: 35.215557
 lng: -101.383807
+category: "General"
 tags:
   - "panhandle"
 teaser: "VW Slug Bug Ranch in Panhandle — a Panhandle detour for odd-Texas hunters."

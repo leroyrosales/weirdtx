@@ -4,6 +4,7 @@ city: "San Antonio"
 region: "South Texas"
 lat: 29.24588
 lng: -98.552135
+category: "Structure"
 tags:
   - "san-antonio"
 teaser: "Old Applewhite Bridge — built character in San Antonio, South Texas."

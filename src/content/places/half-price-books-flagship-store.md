@@ -4,6 +4,7 @@ city: "Dallas"
 region: "DFW"
 lat: 32.86626
 lng: -96.76474
+category: "Shop"
 tags:
   - "dallas"
 teaser: "Half Price Books Flagship Store — browse something you didn’t know you needed in Dallas."

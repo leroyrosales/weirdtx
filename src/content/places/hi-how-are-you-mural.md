@@ -4,6 +4,7 @@ city: "Austin"
 region: "Central Texas"
 lat: 30.283853
 lng: -97.742169
+category: "Public Art"
 tags:
   - "austin"
 teaser: "'Hi, How Are You' Mural — public art and photo ops in Austin, Central Texas."
