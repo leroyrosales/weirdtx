@@ -1,11 +1,14 @@
 ---
-title: The Bottle House
-city: Austin
-region: Central Texas
+title: "The Bottle House"
+city: "Austin"
+region: "Central Texas"
 lat: 30.243759
 lng: -97.757839
-tags: ['austin']
-teaser: 
-
+tags:
+  - "austin"
+teaser: "The Bottle House — built character in Austin, Central Texas."
 ---
 
+**The Bottle House** is part of **Austin**’s skyline or street grid in **Central Texas**: engineering, ego, or both.
+
+Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
