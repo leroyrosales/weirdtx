@@ -7,6 +7,12 @@ lng: -97.511084
 tags:
   - "cedar-creek"
 teaser: "Pecan Pie Vending Machine in Cedar Creek — a Central Texas detour for odd-Texas hunters."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cedar_creek_community_center.jpg"
+  alt: "Pecan Pie Vending Machine"
+  credit: "Larry D. Moore"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Cedar_creek_community_center.jpg"
+  license: "CC BY 4.0"
 ---
 
 **Pecan Pie Vending Machine** is one of those **Cedar Creek** stops that makes **Central Texas** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.

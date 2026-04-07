@@ -20,6 +20,13 @@ export interface PlaceFrontmatter {
   teaser?: string
   address?: string
   url?: string
+  image?: {
+    url: string
+    alt?: string
+    credit?: string
+    sourceUrl?: string
+    license?: string
+  }
 }
 
 export interface EventFrontmatter {
@@ -34,6 +41,13 @@ export interface EventFrontmatter {
   featured?: boolean
   teaser?: string
   url?: string
+  image?: {
+    url: string
+    alt?: string
+    credit?: string
+    sourceUrl?: string
+    license?: string
+  }
 }
 
 export interface PlaceItem extends PlaceFrontmatter {

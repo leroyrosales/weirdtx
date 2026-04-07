@@ -7,6 +7,12 @@ lng: -72.241826
 tags:
   - "mansfield"
 teaser: "Alexander the Great Theatre — lights, lore, or a night out in Mansfield, DFW."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mansfield_1917_cropped.jpg"
+  alt: "Alexander the Great Theatre"
+  credit: "Ottoline Morrell (1873-1938)"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Mansfield_1917_cropped.jpg"
+  license: "Public domain"
 ---
 
 **Alexander the Great Theatre** is a **Mansfield** hangout in **DFW** where the show (or the sign out front) is half the draw.

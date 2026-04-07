@@ -7,6 +7,13 @@ lng: -97.726333
 tags:
   - "austin"
 teaser: "Exhibits and odd collections in Austin — a Central Texas stop for curious minds."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ElisabetNeyMuseumAustinTX.JPG/1920p\
+    x-ElisabetNeyMuseumAustinTX.JPG"
+  alt: "Elisabet Ney Museum"
+  credit: "WhisperToMe"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:ElisabetNeyMuseumAustinTX.JPG"
+  license: "Public domain"
 ---
 
 **Elisabet Ney Museum** adds texture to **Austin** (Central Texas): local history, niche obsessions, and the kind of detail you only get by standing in the room.

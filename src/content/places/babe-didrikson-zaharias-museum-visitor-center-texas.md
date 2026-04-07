@@ -7,6 +7,12 @@ lng: -94.114101
 tags:
   - "beaumont"
 teaser: "Exhibits and odd collections in Beaumont — a Gulf Coast stop for curious minds."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Zaharias_museum.jpg"
+  alt: "Babe Didrikson Zaharias Museum & Visitor Center"
+  credit: "Larry D. Moore"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Zaharias_museum.jpg"
+  license: "CC BY 4.0"
 ---
 
 **Babe Didrikson Zaharias Museum & Visitor Center** adds texture to **Beaumont** (Gulf Coast): local history, niche obsessions, and the kind of detail you only get by standing in the room.

@@ -7,6 +7,13 @@ lng: -95.385494
 tags:
   - "tyler"
 teaser: "Apache Drive-In Theatre — lights, lore, or a night out in Tyler, East Texas."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mount_Bonnell_2008.jpg/1920px-Mount\
+    _Bonnell_2008.jpg"
+  alt: "Apache Drive-In Theatre"
+  credit: "Leaflet"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Mount_Bonnell_2008.jpg"
+  license: "Public domain"
 ---
 
 **Apache Drive-In Theatre** is a **Tyler** hangout in **East Texas** where the show (or the sign out front) is half the draw.

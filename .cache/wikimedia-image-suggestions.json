@@ -1,0 +1,2535 @@
+{
+  "place:1890s Alien Gravesite — Aurora": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "httpStatus": 429,
+    "at": "2026-04-07T18:56:52.349Z"
+  },
+  "place:Bumblebee Statue — Terrell": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:46:07.316Z"
+  },
+  "place:Adrian E. Flatt, M.D., Hand Collection — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:46:49.606Z"
+  },
+  "place:Aldridge Sawmill — Zavalla": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:47:32.160Z"
+  },
+  "place:Aurora Picture Show — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:48:14.274Z"
+  },
+  "place:Austin Beerworks — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:09.898Z"
+  },
+  "place:Austin State School Farm Colony — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:10.673Z"
+  },
+  "place:Baby Head Cemetery — Llano": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:11.612Z"
+  },
+  "place:Balanced Rock — Big Bend National Park": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:12.384Z"
+  },
+  "place:Balmorhea State Park Pool — Balmorhea": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:13.355Z"
+  },
+  "place:Barkin' Springs — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:14.127Z"
+  },
+  "place:Barney Smith's Toilet Seat Art Museum — The Colony": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:15.206Z"
+  },
+  "place:Barton Springs — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:15.982Z"
+  },
+  "place:Batch Craft Beer & Kolaches — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:16.962Z"
+  },
+  "place:Congress Avenue Bridge Bats — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:17.739Z"
+  },
+  "place:Becknell Cemetery — Clarksville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:18.664Z"
+  },
+  "place:Beer Can House — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:19.439Z"
+  },
+  "place:Big Bertha Drum — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:20.438Z"
+  },
+  "place:Big Rocks Park — Glen Rose": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:21.211Z"
+  },
+  "place:Big Texan Steak Ranch & Brewery — Amarillo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:22.179Z"
+  },
+  "place:Billy Bob’s Texas — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:22.964Z"
+  },
+  "place:Bishop's Palace — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:23.967Z"
+  },
+  "place:Blind Lemon Jefferson’s Grave — Wortham": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:24.745Z"
+  },
+  "place:Bob Wills Museum — Turkey": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:25.561Z"
+  },
+  "place:Booked Up — Archer City": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:26.570Z"
+  },
+  "place:Boot Hill Cemetery — Tilden": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:27.343Z"
+  },
+  "place:Boston Terrier Museum — Floydada": {
+    "status": "no_match",
+    "at": "2026-04-07T18:03:28.212Z"
+  },
+  "place:Bottle Cap Alley — College Station": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:28.229Z"
+  },
+  "place:Bouldin Creek Cafe — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:28.999Z"
+  },
+  "place:Bowler Hat Sculpture — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:29.996Z"
+  },
+  "place:Bracken Cave — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:30.771Z"
+  },
+  "place:Broken Spoke — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:31.750Z"
+  },
+  "place:Brownsville City Cemetery — Brownsville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:32.520Z"
+  },
+  "place:Bryan Mound Strategic Petroleum Reserve — Freeport": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:33.466Z"
+  },
+  "place:Bryan Museum — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:34.242Z"
+  },
+  "place:Buckhorn Saloon and Museum — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:35.222Z"
+  },
+  "place:Buffalo Bayou Park Cistern — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:35.999Z"
+  },
+  "place:Building 98 — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:36.958Z"
+  },
+  "place:Burns Original BBQ — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:37.734Z"
+  },
+  "place:C-Boy's Heart & Soul — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:38.750Z"
+  },
+  "place:Cactus King — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:39.520Z"
+  },
+  "place:Caddo Lake — Karnack": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:40.471Z"
+  },
+  "place:Cadillac Ranch — Amarillo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:41.240Z"
+  },
+  "place:Caelum Mór — Arlington": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:42.212Z"
+  },
+  "place:Cajun Kitchen — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:42.990Z"
+  },
+  "place:Caprock Canyon State Park — Quitaque": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:43.963Z"
+  },
+  "place:Captain Joe Byrd Cemetery — Huntsville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:44.741Z"
+  },
+  "place:Carousel Lounge — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:45.724Z"
+  },
+  "place:Casa de Azucar — El Paso": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:46.495Z"
+  },
+  "place:Casa Neverlandia — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T18:03:47.378Z"
+  },
+  "place:'Cast Away' Crossroads — Neece": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:47.402Z"
+  },
+  "place:Castroville Hearse — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:03:48.346Z"
+  },
+  "place:Cathedral of Junk — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cathedral_of_junk_austin.jpg",
+      "alt": "Cathedral of Junk",
+      "credit": "Jennifer Morrow",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_junk_austin.jpg",
+      "license": "CC BY 2.0"
+    },
+    "at": "2026-04-07T19:03:19.944Z"
+  },
+  "place:Caverns of Sonora — Sonora": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sonora%2C_TX%2C_welcome_sign_IMG_1381.JPG/1920px-Sonora%2C_TX%2C_welcome_sign_IMG_1381.JPG",
+      "alt": "Caverns of Sonora",
+      "credit": "Billy Hathorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sonora,_TX,_welcome_sign_IMG_1381.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:03:23.014Z"
+  },
+  "place:Century Tree — College Station": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TAMU_Harrington1.JPG/1920px-TAMU_Harrington1.JPG",
+      "alt": "Century Tree",
+      "credit": "Oldag07",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TAMU_Harrington1.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:03:26.306Z"
+  },
+  "place:Chamizal National Memorial — El Paso": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chamizal_visitor_center.JPG",
+      "alt": "Chamizal National Memorial",
+      "credit": "Original uploader was Mosamiazaz at en.wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamizal_visitor_center.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:03:29.469Z"
+  },
+  "place:Chandor Gardens — Weatherford": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mansion_looking_NW_across_koi_pond.JPG/1920px-Mansion_looking_NW_across_koi_pond.JPG",
+      "alt": "Chandor Gardens",
+      "credit": "Gettingpasttaken",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mansion_looking_NW_across_koi_pond.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:03:32.515Z"
+  },
+  "place:Chapel on the Dunes — Port Aransas": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:35.858Z"
+  },
+  "place:Chef Point Bar & Restaurant — Watauga": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:36.370Z"
+  },
+  "place:Chinati Foundation — Marfa": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marfa_courthouse.jpg",
+      "alt": "Chinati Foundation",
+      "credit": "The original uploader was Talshiarr at English Wikipedia.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marfa_courthouse.jpg",
+      "license": "CC BY-SA 2.5"
+    },
+    "at": "2026-04-07T19:03:37.008Z"
+  },
+  "place:Chris Park — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:40.209Z"
+  },
+  "place:Christie's Seafood & Steak — Houston": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:40.780Z"
+  },
+  "place:Roman Urn Collection at SAMA — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:41.285Z"
+  },
+  "place:Cinnamon Kandy the Circus Elephant — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T18:03:58.797Z"
+  },
+  "place:Classmates — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:41.840Z"
+  },
+  "place:The Cockroach Hall of Fame Museum — Plano": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:42.464Z"
+  },
+  "place:Collinsworth Cemetery — Plano": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:42.965Z"
+  },
+  "place:Comanche Lookout Park — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:43.589Z"
+  },
+  "place:Combine City — Amarillo": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:44.121Z"
+  },
+  "place:Contrabando — Redford": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:44.578Z"
+  },
+  "place:Cool Crest Miniature Golf — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:45.169Z"
+  },
+  "place:Cowboy Church of Ellis County — Waxahachie": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cowboy_Church_in_Mineral_Wells%2C_TX_Picture_2227.jpg/1920px-Cowboy_Church_in_Mineral_Wells%2C_TX_Picture_2227.jpg",
+      "alt": "Cowboy Church of Ellis County",
+      "credit": "Billy Hathorn at en.wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cowboy_Church_in_Mineral_Wells,_TX_Picture_2227.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:03:45.900Z"
+  },
+  "place:Cowboy Hat and Boot Houses — Huntsville": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:49.061Z"
+  },
+  "place:Cowgirl Hall of Fame — Fort Worth": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/MVI_2986_Texas_Cowboy_Hall_of_Fame_in_Fort_Worth.jpg",
+      "alt": "Cowgirl Hall of Fame",
+      "credit": "Billy Hathorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MVI_2986_Texas_Cowboy_Hall_of_Fame_in_Fort_Worth.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:03:49.749Z"
+  },
+  "place:Craft Pride — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/AustinSkylineLouNeffPoint-2010-03-29-b.JPG/1920px-AustinSkylineLouNeffPoint-2010-03-29-b.JPG",
+      "alt": "Craft Pride",
+      "credit": "LoneStarMike",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AustinSkylineLouNeffPoint-2010-03-29-b.JPG",
+      "license": "CC BY 3.0"
+    },
+    "at": "2026-04-07T19:03:52.852Z"
+  },
+  "place:Creation Evidence Museum — Glen Rose": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Creation_Evidence_Museum.jpg",
+      "alt": "Creation Evidence Museum",
+      "credit": "Ian Juby",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Creation_Evidence_Museum.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:03:56.031Z"
+  },
+  "place:Curia Arcanum — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:03:58.815Z"
+  },
+  "place:Czech Stop & Little Czech Bakery — West": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/CzechStopFFF2010_4kpx.jpg/1920px-CzechStopFFF2010_4kpx.jpg",
+      "alt": "Czech Stop & Little Czech Bakery",
+      "credit": "Lm13700",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CzechStopFFF2010_4kpx.jpg",
+      "license": "CC0"
+    },
+    "at": "2026-04-07T19:03:59.505Z"
+  },
+  "place:Dallas Skyspace — Dallas": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:02.412Z"
+  },
+  "place:David Adickes Studio — Houston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HuntsvilleTXSign.JPG/1920px-HuntsvilleTXSign.JPG",
+      "alt": "David Adickes Studio",
+      "credit": "WhisperToMe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HuntsvilleTXSign.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:04:03.072Z"
+  },
+  "place:Davis Cemetery — Leander": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:06.080Z"
+  },
+  "place:Dead Man's Hole — Marble Falls Township": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:06.908Z"
+  },
+  "place:Deer Horn Tree — Junction": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:07.521Z"
+  },
+  "place:DeLorean Museum — Humble": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/DowntownHumbleTexas.jpg/1920px-DowntownHumbleTexas.jpg",
+      "alt": "DeLorean Museum",
+      "credit": "The original uploader was DanielCD at English Wikipedia.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DowntownHumbleTexas.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:04:08.108Z"
+  },
+  "place:Destination Mound Town (Hermann Park Train Tunnel) — Houston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Hermann_Park_Railroad%2C_Houston%2C_Texas%2C_US.jpg/1920px-Hermann_Park_Railroad%2C_Houston%2C_Texas%2C_US.jpg",
+      "alt": "Destination Mound Town (Hermann Park Train Tunnel)",
+      "credit": "Clyde Charles Brown",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hermann_Park_Railroad,_Houston,_Texas,_US.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:04:11.383Z"
+  },
+  "place:Devil's Rope Museum — McLean": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/McLean_Commercial_Historic_District.jpg/1920px-McLean_Commercial_Historic_District.jpg",
+      "alt": "Devil's Rope Museum",
+      "credit": "Batterup55",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:McLean_Commercial_Historic_District.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:04:14.560Z"
+  },
+  "place:Sunland Park Dinosaur Tracks — El Paso": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:17.397Z"
+  },
+  "place:Dinosaur Tracks at Government Canyon — Helotes": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Gov_Canyon_State_Nat_Area3.JPG",
+      "alt": "Dinosaur Tracks at Government Canyon",
+      "credit": "Zereshk",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gov_Canyon_State_Nat_Area3.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:04:17.989Z"
+  },
+  "place:Dinosaur Valley State Park — Glen Rose": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Glen_Rose_Texas.jpg",
+      "alt": "Dinosaur Valley State Park",
+      "credit": "w:Flickr user NZ Russ (https://www.flickr.com/people/nzruss/)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glen_Rose_Texas.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    "at": "2026-04-07T19:04:21.247Z"
+  },
+  "place:Old Applewhite Bridge — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Corpus_Christi_skyline.jpg/1920px-Corpus_Christi_skyline.jpg",
+      "alt": "Old Applewhite Bridge",
+      "credit": "Quintin Soloviev",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corpus_Christi_skyline.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:04:24.359Z"
+  },
+  "place:Donn's Depot — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:27.386Z"
+  },
+  "place:Doris Miller Memorial — Waco": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dorie_Miller_-_Restoration%2C_full.jpg/1920px-Dorie_Miller_-_Restoration%2C_full.jpg",
+      "alt": "Doris Miller Memorial",
+      "credit": "Adam Cuerden",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorie_Miller_-_Restoration,_full.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:04:28.005Z"
+  },
+  "place:Dr Pepper Museum — Waco": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dr_Pepper_Dose_2024.jpg/1920px-Dr_Pepper_Dose_2024.jpg",
+      "alt": "Dr Pepper Museum",
+      "credit": "DYVER",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr_Pepper_Dose_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:04:31.056Z"
+  },
+  "place:Dublin Bottling Works — Dublin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Dublin3.jpg/1920px-Dublin3.jpg",
+      "alt": "Dublin Bottling Works",
+      "credit": "Renelibrary",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dublin3.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:04:34.164Z"
+  },
+  "place:Dutch Windmill Museum — Nederland": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:37.192Z"
+  },
+  "place:East Texas Oil Museum — Kilgore": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kilgore_May_2016_16_%28Main_Street%29.jpg/1920px-Kilgore_May_2016_16_%28Main_Street%29.jpg",
+      "alt": "East Texas Oil Museum",
+      "credit": "Michael Barera",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kilgore_May_2016_16_(Main_Street).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:04:37.898Z"
+  },
+  "place:Easy Tiger — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:40.897Z"
+  },
+  "place:Eclectic Menagerie Park — Houston": {
+    "status": "no_match",
+    "at": "2026-04-07T19:04:41.358Z"
+  },
+  "place:Ed Young Station — Glen Rose": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Highway_82.JPG/1920px-Highway_82.JPG",
+      "alt": "Ed Young Station",
+      "credit": "In-Correct at English Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Highway_82.JPG",
+      "license": "CC BY 3.0"
+    },
+    "at": "2026-04-07T19:04:42.078Z"
+  },
+  "place:Educación — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TravisStateOfficeBuilding.JPG/1920px-TravisStateOfficeBuilding.JPG",
+      "alt": "Educación",
+      "credit": "WhisperToMe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TravisStateOfficeBuilding.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:04:45.200Z"
+  },
+  "place:Elisabet Ney Museum — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ElisabetNeyMuseumAustinTX.JPG/1920px-ElisabetNeyMuseumAustinTX.JPG",
+      "alt": "Elisabet Ney Museum",
+      "credit": "WhisperToMe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ElisabetNeyMuseumAustinTX.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:04:48.363Z"
+  },
+  "place:Ellsworth Kelly's 'Austin' — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ellsworth_Kelly_%28cropped%29.jpg",
+      "alt": "Ellsworth Kelly's 'Austin'",
+      "credit": "Jeremiah Garcia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ellsworth_Kelly_(cropped).jpg",
+      "license": "CC BY 2.0"
+    },
+    "at": "2026-04-07T19:04:51.510Z"
+  },
+  "place:Enchanted Rock — Fredericksburg": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Erock.jpg",
+      "alt": "Enchanted Rock",
+      "credit": "Shane Torgerson",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erock.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:04:54.632Z"
+  },
+  "place:End of An Ear — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:33.182Z"
+  },
+  "place:Epoch Coffee - NorthLoop — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:33.959Z"
+  },
+  "place:Espada Aqueduct — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:34.941Z"
+  },
+  "place:Esther's Follies — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:35.718Z"
+  },
+  "place:Eve's Garden B&B and Ecology Resource Center — Marathon": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:36.686Z"
+  },
+  "place:'Eye' Sculpture — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:37.462Z"
+  },
+  "place:Faith Alive Cowboy Church Radio Station — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:38.486Z"
+  },
+  "place:Fannin Battleground State Historic Site — Goliad": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:39.262Z"
+  },
+  "place:Fiesta Tower — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:40.326Z"
+  },
+  "place:Floating Mesa — Bushland": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:41.095Z"
+  },
+  "place:Floppy Disk Repair Co. — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:42.068Z"
+  },
+  "place:Food Shark Museum of Electronic Wonders & Late Night Grilled Cheese Parlour — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:42.835Z"
+  },
+  "place:Forbidden Gardens — Katy": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:43.782Z"
+  },
+  "place:Camp Wolters — Mineral Wells": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:44.558Z"
+  },
+  "place:Fort Worth Stockyards — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:45.515Z"
+  },
+  "place:Fort Worth Water Gardens — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:46.289Z"
+  },
+  "place:Freeman Ranch Body Farm — San Marcos": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:47.315Z"
+  },
+  "place:Frost Bank Tower — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:48.092Z"
+  },
+  "place:Gene Cockrell's Yard Art — Canadian": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:49.050Z"
+  },
+  "place:Gerald D. Hines Waterwall Park — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:49.829Z"
+  },
+  "place:Geraldine Watson Rare Native Plant Preserve — Warren": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:50.828Z"
+  },
+  "place:Ghostcat Lounge — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:51.598Z"
+  },
+  "place:The Giant Eyeball — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:52.582Z"
+  },
+  "place:Giant Hog Stand — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:53.357Z"
+  },
+  "place:Giant 'Luecke' Signature — Smithville": {
+    "status": "no_match",
+    "at": "2026-04-07T18:04:54.228Z"
+  },
+  "place:Giant Matthew McConaughey — Uvalde": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:54.249Z"
+  },
+  "place:‘Giant’ Marfa Mural — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:55.216Z"
+  },
+  "place:The Giant Stag of Converse — Converse": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:55.994Z"
+  },
+  "place:Glass Bathrooms of Sulphur Springs — Sulphur Springs": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:57.013Z"
+  },
+  "place:Glenn Goode's Big People — Gainesville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:57.784Z"
+  },
+  "place:Goatman's Bridge — Denton": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:58.707Z"
+  },
+  "place:Good Luck Gas Station — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:04:59.480Z"
+  },
+  "place:Grapevine Glockenspiel Clock Tower — Grapevine": {
+    "status": "no_match",
+    "at": "2026-04-07T18:05:00.396Z"
+  },
+  "place:Grave in the Road — Hearne": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:00.414Z"
+  },
+  "place:The Grave of Bonnie Parker — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:01.193Z"
+  },
+  "place:Grave of Howard Hughes — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:02.255Z"
+  },
+  "place:Grave of Pat the Horse — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:03.024Z"
+  },
+  "place:Grave of Sandra West and Her Ferrari — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:03.799Z"
+  },
+  "place:Gravesite of Clyde Barrow — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:04.768Z"
+  },
+  "place:Griffith & Feil Soda Fountain — Kenova": {
+    "status": "no_match",
+    "at": "2026-04-07T18:05:05.644Z"
+  },
+  "place:Guadalupe Peak — Culberson County": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:05.667Z"
+  },
+  "place:Half Price Books Flagship Store — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:06.440Z"
+  },
+  "place:Harry Ransom Center — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:07.422Z"
+  },
+  "place:Helium Time Columns Monument — Amarillo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:08.199Z"
+  },
+  "place:'Hi, How Are You' Mural — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:09.185Z"
+  },
+  "place:High Country Market Bistro & GastroPub — Round Rock": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:09.954Z"
+  },
+  "place:Himalaya Restaurant — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:10.888Z"
+  },
+  "place:The Hobbit Café — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:11.665Z"
+  },
+  "place:HOPE Outdoor Gallery — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:12.638Z"
+  },
+  "place:Hot Wells Hotel and Spa — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:13.408Z"
+  },
+  "place:Hotel Paisano — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:14.366Z"
+  },
+  "place:House of Bowls — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:15.390Z"
+  },
+  "place:Houston Airport Subway — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:05:16.167Z"
+  },
+  "place:Houston Maritime Museum — Houston": {
+    "status": "no_match",
+    "at": "2026-04-07T19:09:23.609Z"
+  },
+  "place:Downtown Houston Tunnel System — Houston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Houston_downtown_loop_tunnel.jpg/1920px-Houston_downtown_loop_tunnel.jpg",
+      "alt": "Downtown Houston Tunnel System",
+      "credit": "Ymblanter",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houston_downtown_loop_tunnel.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:09:24.267Z"
+  },
+  "place:Hueco Tanks — El Paso": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/El_Paso_Skyline.jpg",
+      "alt": "Hueco Tanks",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Paso_Skyline.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:09:27.456Z"
+  },
+  "place:Hygieostatic Bat Roost — Comfort": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Hygieostatic_bat_roost_comfort_2009.jpg/1920px-Hygieostatic_bat_roost_comfort_2009.jpg",
+      "alt": "Hygieostatic Bat Roost",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hygieostatic_bat_roost_comfort_2009.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:09:30.611Z"
+  },
+  "place:I Luv Video — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nick_Rattigan_for_Surf_Curse%2C_2022_%28cropped%29.jpg",
+      "alt": "I Luv Video",
+      "credit": "Pbritti",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nick_Rattigan_for_Surf_Curse,_2022_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:09:33.768Z"
+  },
+  "place:Ingram Dam — Ingram": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ingram_Dam.JPG/1920px-Ingram_Dam.JPG",
+      "alt": "Ingram Dam",
+      "credit": "Brianross13",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ingram_Dam.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:09:36.823Z"
+  },
+  "place:Interimaginary Departures — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:09:39.603Z"
+  },
+  "place:International Water Lily Garden — San Angelo": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Unidentified_Hippeastrum_6648.jpg/1920px-Unidentified_Hippeastrum_6648.jpg",
+      "alt": "International Water Lily Garden",
+      "credit": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unidentified_Hippeastrum_6648.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:09:40.312Z"
+  },
+  "place:‘It’s Chaos, Be Kind’ — Florence": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Lorenz_system_r28_s10_b2-6666.png/1920px-Lorenz_system_r28_s10_b2-6666.png",
+      "alt": "‘It’s Chaos, Be Kind’",
+      "credit": "Computed in Fractint by Wikimol",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lorenz_system_r28_s10_b2-6666.png",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:09:43.420Z"
+  },
+  "place:Jacob's Well — Wimberley": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Swimming_in_Jacob%27s_Well.jpg/1920px-Swimming_in_Jacob%27s_Well.jpg",
+      "alt": "Jacob's Well",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swimming_in_Jacob%27s_Well.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:09:46.490Z"
+  },
+  "place:Janine Iron and Washing Museum — Mossel Bay": {
+    "status": "no_match",
+    "at": "2026-04-07T18:05:25.850Z"
+  },
+  "place:Japanese Tea Garden — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/SATeaGarden02.JPG",
+      "alt": "Japanese Tea Garden",
+      "credit": "Brownings at en.wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SATeaGarden02.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:09:49.658Z"
+  },
+  "place:Jesus in Cowboy Boots — Paris": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Main_Street_at_The_Plaza_Paris_Texas_DSC_0620_ad.jpg/1920px-Main_Street_at_The_Plaza_Paris_Texas_DSC_0620_ad.jpg",
+      "alt": "Jesus in Cowboy Boots",
+      "credit": "Adavyd",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street_at_The_Plaza_Paris_Texas_DSC_0620_ad.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:09:52.762Z"
+  },
+  "place:Jim’s Steak and Spaghetti House — Huntington": {
+    "status": "no_match",
+    "at": "2026-04-07T19:09:55.841Z"
+  },
+  "place:John Wesley Hardin's Grave — El Paso": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/John_Wesley_Hardin.gif",
+      "alt": "John Wesley Hardin's Grave",
+      "credit": "The original uploader was Shauri at English Wikipedia.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Wesley_Hardin.gif",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:09:56.544Z"
+  },
+  "place:'Johnny Loves Vivian' Bench — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:09:59.697Z"
+  },
+  "place:Judge Roy Bean Visitor Center — Langtry": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/LangtryTX.JPG/1920px-LangtryTX.JPG",
+      "alt": "Judge Roy Bean Visitor Center",
+      "credit": "No machine-readable author provided. Brownings assumed (based on copyright claims).",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LangtryTX.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:00.352Z"
+  },
+  "place:Juneteenth Monument at Ashton Villa — Galveston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Galveston_Texas_Skyline_From_The_Carnival_Ecstasy.jpg/1920px-Galveston_Texas_Skyline_From_The_Carnival_Ecstasy.jpg",
+      "alt": "Juneteenth Monument at Ashton Villa",
+      "credit": "TheAustinMan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galveston_Texas_Skyline_From_The_Carnival_Ecstasy.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:10:03.466Z"
+  },
+  "place:The Kettle House — Galveston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Black_Kettle_National_Grassland.jpg",
+      "alt": "The Kettle House",
+      "credit": "U.S. Forest Service",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Kettle_National_Grassland.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:06.575Z"
+  },
+  "place:Kiddie Park — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Entrance_to_Sea_World%2C_San_Antonio%2C_Texas%2C_June_4%2C_2007.JPG/1920px-Entrance_to_Sea_World%2C_San_Antonio%2C_Texas%2C_June_4%2C_2007.JPG",
+      "alt": "Kiddie Park",
+      "credit": "TheConduqtor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_to_Sea_World,_San_Antonio,_Texas,_June_4,_2007.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:10:09.730Z"
+  },
+  "place:Kim Son — Houston": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:12.730Z"
+  },
+  "place:Kitty Cohen's — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Leonard_Cohen_concert_of_the_2008_tour.jpg",
+      "alt": "Kitty Cohen's",
+      "credit": "Rama",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leonard_Cohen_concert_of_the_2008_tour.jpg",
+      "license": "CC BY-SA 2.0 fr"
+    },
+    "at": "2026-04-07T19:10:13.460Z"
+  },
+  "place:Klyde Warren Park — Dallas": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/KWP_East_Side.jpg/1920px-KWP_East_Side.jpg",
+      "alt": "Klyde Warren Park",
+      "credit": "Kevin1086",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KWP_East_Side.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:10:16.559Z"
+  },
+  "place:Kolache Shoppe — Houston": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:19.540Z"
+  },
+  "place:Koriente — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:19.893Z"
+  },
+  "place:L-Bird Flying Museum — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/San_Antonio_International_airport.JPG/1920px-San_Antonio_International_airport.JPG",
+      "alt": "L-Bird Flying Museum",
+      "credit": "— BQZip01 — talk",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Antonio_International_airport.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:10:20.551Z"
+  },
+  "place:Lady Bird Johnson Wildflower Center — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lady_Bird_Johnson_-_National_Wildflower_Research_Center_groundbreaking.jpg/1920px-Lady_Bird_Johnson_-_National_Wildflower_Research_Center_groundbreaking.jpg",
+      "alt": "Lady Bird Johnson Wildflower Center",
+      "credit": "Frank Wolfe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lady_Bird_Johnson_-_National_Wildflower_Research_Center_groundbreaking.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:23.769Z"
+  },
+  "place:Lajitas Ghost Town — Terlingua": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:26.804Z"
+  },
+  "place:Lala's Little Nugget — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:27.250Z"
+  },
+  "place:Lala’s Little Nugget — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:27.733Z"
+  },
+  "place:Largest Virgin Mary Mosaic in the World — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Virgendecandelariacamarin02.jpg",
+      "alt": "Largest Virgin Mary Mosaic in the World",
+      "credit": "Yo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgendecandelariacamarin02.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:28.561Z"
+  },
+  "place:Larry Monroe Forever Bridge — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Larry_Monroe_Forever_Bridge.jpg",
+      "alt": "Larry Monroe Forever Bridge",
+      "credit": "Evelina Monzingo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Larry_Monroe_Forever_Bridge.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:10:31.719Z"
+  },
+  "place:Last Remaining Boundary Marker for the Republic of Texas — Carthage": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:34.996Z"
+  },
+  "place:Lee Harvey Oswald's Grave — Fort Worth": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lee_Harvey_Oswald_1963.jpg",
+      "alt": "Lee Harvey Oswald's Grave",
+      "credit": "Dallas Police; Warren Commission",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lee_Harvey_Oswald_1963.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:35.663Z"
+  },
+  "place:Lee Harvey Oswald's Rooming House — Dallas": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/1026_N_Beckley.jpg",
+      "alt": "Lee Harvey Oswald's Rooming House",
+      "credit": "Timcdfw",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1026_N_Beckley.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:10:38.900Z"
+  },
+  "place:Leonard's Museum — Fort Worth": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Downtown_Fort_Worth_Skyline.jpg/1920px-Downtown_Fort_Worth_Skyline.jpg",
+      "alt": "Leonard's Museum",
+      "credit": "DerekAyala27",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Fort_Worth_Skyline.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:10:42.045Z"
+  },
+  "place:Lev's Gathering Place — Waco": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Alex_Jones_%2853808242292%29_%28cropped%29.jpg",
+      "alt": "Lev's Gathering Place",
+      "credit": "Gage Skidmore from Surprise, AZ, United States of America",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alex_Jones_(53808242292)_(cropped).jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    "at": "2026-04-07T19:10:45.114Z"
+  },
+  "place:Lhakhang Cultural Exhibit — El Paso": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:47.838Z"
+  },
+  "place:Light of Saratoga — Saratoga": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:48.568Z"
+  },
+  "place:Lincoln Park aka Chicano Park — El Paso": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/YOUNG_MEN_OF_THE_SECOND_WARD%2C_EL_PASO%27S_CLASSIC_%22BARRIO%22_NEAR_THE_MEXICAN_BORDER_-_NARA_-_545358.jpg/1920px-YOUNG_MEN_OF_THE_SECOND_WARD%2C_EL_PASO%27S_CLASSIC_%22BARRIO%22_NEAR_THE_MEXICAN_BORDER_-_NARA_-_545358.jpg",
+      "alt": "Lincoln Park aka Chicano Park",
+      "credit": "Danny Lyon",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:YOUNG_MEN_OF_THE_SECOND_WARD,_EL_PASO%27S_CLASSIC_%22BARRIO%22_NEAR_THE_MEXICAN_BORDER_-_NARA_-_545358.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:49.329Z"
+  },
+  "place:Lobanillo Swales — Bronson": {
+    "status": "no_match",
+    "at": "2026-04-07T18:05:51.657Z"
+  },
+  "place:The Boardwalk at Lake Weatherford — Weatherford": {
+    "status": "no_match",
+    "at": "2026-04-07T19:10:52.382Z"
+  },
+  "place:Longhorn Cavern — Burnet": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tourists_at_Longhorn_Cavern_IMG_2026.JPG/1920px-Tourists_at_Longhorn_Cavern_IMG_2026.JPG",
+      "alt": "Longhorn Cavern",
+      "credit": "Billy Hathorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tourists_at_Longhorn_Cavern_IMG_2026.JPG",
+      "license": "CC BY 3.0"
+    },
+    "at": "2026-04-07T19:10:52.856Z"
+  },
+  "place:Longview Cemetery — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Houston_montage.jpg",
+      "alt": "Longview Cemetery",
+      "credit": "Hequals2henry",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houston_montage.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:10:55.953Z"
+  },
+  "place:Los Lagartos Statue — El Paso": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/The_Plaza%2C_El_Paso%2C_Texas.jpg",
+      "alt": "Los Lagartos Statue",
+      "credit": "Detroit Publishing Co.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Plaza,_El_Paso,_Texas.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:10:58.994Z"
+  },
+  "place:Lower Ghost Camp — San Angelo": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Val_Verde_County_Courthouse_in_Del_Rio%2C_TX_DSCN1423.JPG",
+      "alt": "Lower Ghost Camp",
+      "credit": "Billy Hathorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Val_Verde_County_Courthouse_in_Del_Rio,_TX_DSCN1423.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:11:02.320Z"
+  },
+  "place:Lytton Springs General Store — Dale": {
+    "status": "no_match",
+    "at": "2026-04-07T19:11:05.361Z"
+  },
+  "place:Magic Lantern Castle Museum — San Antonio": {
+    "status": "no_match",
+    "at": "2026-04-07T19:11:06.028Z"
+  },
+  "place:Magic Time Machine — San Antonio": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/SPURSStadium.jpg",
+      "alt": "Magic Time Machine",
+      "credit": "Henry Camacho",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SPURSStadium.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:11:06.688Z"
+  },
+  "place:Magnolia Cafe — Austin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Magnolia_Cafe.jpg/1920px-Magnolia_Cafe.jpg",
+      "alt": "Magnolia Cafe",
+      "credit": "WhisperToMe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnolia_Cafe.jpg",
+      "license": "CC0"
+    },
+    "at": "2026-04-07T19:11:09.719Z"
+  },
+  "place:Magoffin Home — El Paso": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Magoffin_home_2009.jpg/1920px-Magoffin_home_2009.jpg",
+      "alt": "Magoffin Home",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magoffin_home_2009.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:11:12.816Z"
+  },
+  "place:Majors Stadium — Greenville": {
+    "status": "no_match",
+    "at": "2026-04-07T19:11:15.953Z"
+  },
+  "place:LBJ Presidential Marker — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:02.768Z"
+  },
+  "place:‘Malin’s Fountain’ — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:03.798Z"
+  },
+  "place:Man With a Briefcase — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:04.804Z"
+  },
+  "place:Maple Leaf Diner — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:05.839Z"
+  },
+  "place:Marfa Lights Viewing Area — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:06.808Z"
+  },
+  "place:Marfa Lights — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:07.752Z"
+  },
+  "place:Mariscal Mine — Big Bend National Park": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:08.796Z"
+  },
+  "place:Mayfield Park — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:09.803Z"
+  },
+  "place:McKittrick Canyon — Culberson County": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:10.779Z"
+  },
+  "place:McNutt Sculpture Garden — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:11.805Z"
+  },
+  "place:Memorial Park at UT Health Science Center — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:12.875Z"
+  },
+  "place:Mexic-Arte Museum — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:13.850Z"
+  },
+  "place:Mineral Wells Fossil Park — Mineral Wells": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:14.867Z"
+  },
+  "place:Miraflores — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:15.917Z"
+  },
+  "place:Mission San Jose — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:16.898Z"
+  },
+  "place:Molina's Cantina — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:17.854Z"
+  },
+  "place:Momo Spot — Irving": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:18.767Z"
+  },
+  "place:‘Moonwalker’ — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:19.736Z"
+  },
+  "place:Mount Bonnell — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:20.693Z"
+  },
+  "place:‘Move One Place On’ — Bellaire": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:21.669Z"
+  },
+  "place:Ms. Pearl — Cedar Creek": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:22.684Z"
+  },
+  "place:Mueller SunFlowers — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:23.752Z"
+  },
+  "place:Munster Mansion — Waxahachie": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:24.660Z"
+  },
+  "place:Museum of Health and Medical Science — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:25.702Z"
+  },
+  "place:Museum of Natural and Artificial Ephemerata — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:26.689Z"
+  },
+  "place:Museum of the Gulf Coast — Port Arthur": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:27.707Z"
+  },
+  "place:Museum of the Weird — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:28.752Z"
+  },
+  "place:Mustangs of Las Colinas — Irving": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:29.780Z"
+  },
+  "place:Naegelin's Bakery — New Braunfels": {
+    "status": "no_match",
+    "at": "2026-04-07T18:06:30.642Z"
+  },
+  "place:National Museum of Funeral History — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:30.923Z"
+  },
+  "place:National Museum of the Pacific War — Fredericksburg": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:32.000Z"
+  },
+  "place:National WASP WWII Museum — Sweetwater": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:33.001Z"
+  },
+  "place:Nature of the Waters — San Marcos": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:34.088Z"
+  },
+  "place:Newby-McMahon Building — Wichita Falls": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:35.098Z"
+  },
+  "place:Newman's Castle — Bellville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:36.094Z"
+  },
+  "place:Northeast Texas Rural Heritage Museum — Pittsburg": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:37.093Z"
+  },
+  "place:Blood Lake- the O.C. Fisher Reservoir — San Angelo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:38.123Z"
+  },
+  "place:O. Henry Museum — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:39.181Z"
+  },
+  "place:Oddwood Ales — Austin": {
+    "status": "no_match",
+    "at": "2026-04-07T18:06:40.087Z"
+  },
+  "place:Old Bayview Cemetery — Corpus Christi": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:40.111Z"
+  },
+  "place:Old Bluffton Underwater Ghost Town — Burnet": {
+    "status": "no_match",
+    "at": "2026-04-07T18:06:40.985Z"
+  },
+  "place:Old ‘Hanging’ Oak — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:41.005Z"
+  },
+  "place:Old Rip — Eastland": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:41.964Z"
+  },
+  "place:Old Stone Fort — Nacogdoches": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:42.931Z"
+  },
+  "place:Old Time Wooden Nickel Company — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:43.943Z"
+  },
+  "place:Old Tunnel Bat Colony — Fredericksburg": {
+    "status": "no_match",
+    "at": "2026-04-07T18:06:44.832Z"
+  },
+  "place:Old Zoo Nature Trails — Cisco": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:45.134Z"
+  },
+  "place:Betty Head Oleander Garden Park — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:46.199Z"
+  },
+  "place:Ghost Streets of Onion Creek — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:47.248Z"
+  },
+  "place:The Orange Show — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:48.321Z"
+  },
+  "place:Ozymandias on the Plains — Amarillo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:49.272Z"
+  },
+  "place:Painted Churches of Texas — Schulenburg": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:50.249Z"
+  },
+  "place:Paisano Pete — Fort Stockton": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:51.029Z"
+  },
+  "place:Palace of the Golden Orbs — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:51.803Z"
+  },
+  "place:Palo Duro Canyon — Canyon": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:52.582Z"
+  },
+  "place:Pantex Plant — Panhandle": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:53.356Z"
+  },
+  "place:Pape’s Nutcracker Museum — Seguin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:54.132Z"
+  },
+  "place:Parr Park Rock Trail — Grapevine": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:54.910Z"
+  },
+  "place:Old Mill Pond Museum (formerly Parrot Park) — Lindale": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:55.686Z"
+  },
+  "place:Patricia Huffman Smith NASA Museum — Hemphill": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:56.459Z"
+  },
+  "place:Paul Carr Jogging Trail — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:57.234Z"
+  },
+  "place:Pecan Pie Vending Machine — Cedar Creek": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:58.007Z"
+  },
+  "place:Peter Pan Mini-Golf — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:58.781Z"
+  },
+  "place:The Petroleum Museum — Midland": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:06:59.558Z"
+  },
+  "place:Phat Eatery — Katy": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:00.330Z"
+  },
+  "place:Pinballz Arcade — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:01.106Z"
+  },
+  "place:Pink Dolphin Monument — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:01.880Z"
+  },
+  "place:Pioneer Plaza Cattle Drive — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:02.663Z"
+  },
+  "place:Poolsmoor Prison Cantina — Cape Town": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:03.434Z"
+  },
+  "place:Portland Cement Plant Ruins — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:04.209Z"
+  },
+  "place:Possum Kingdom Stone Arch Bridge — Graford": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:04.986Z"
+  },
+  "place:Possum Park — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:05.761Z"
+  },
+  "place:POST Houston — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:06.538Z"
+  },
+  "place:Prada Marfa — Valentine": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:07.313Z"
+  },
+  "place:Public School 972 — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:08.084Z"
+  },
+  "place:Radio Tave — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:08.863Z"
+  },
+  "place:Rattlers & Reptiles — Fort Davis": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:09.641Z"
+  },
+  "place:Regulator-Moderator War Centennial Marker — Linden": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:10.417Z"
+  },
+  "place:Republic of the Rio Grande Museum — Laredo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:11.192Z"
+  },
+  "place:Resaca De La Palma State Park — Brownsville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:11.971Z"
+  },
+  "place:Reveille Mascot Cemetery — College Station": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:12.753Z"
+  },
+  "place:Robert Bruno’s Steel House — Ransom Canyon": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:13.530Z"
+  },
+  "place:Robert E. Howard Museum — Cross Plains": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:14.311Z"
+  },
+  "place:Robert E. Lee House — Boerne": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:15.086Z"
+  },
+  "place:Rosa's Cantina — El Paso": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:15.858Z"
+  },
+  "place:Rosita's Bridge — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:16.636Z"
+  },
+  "place:Rothko Chapel — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:17.411Z"
+  },
+  "place:Royse City Futuro House — Royse City": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:18.188Z"
+  },
+  "place:Rube Waddell's Grave — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:18.964Z"
+  },
+  "place:Ruins of St Dominic's Catholic Church — Hondo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:19.738Z"
+  },
+  "place:Rusk County Youth Expo Center — Henderson": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:20.509Z"
+  },
+  "place:Russian Banya Family Spa and Café — Carrollton": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:21.294Z"
+  },
+  "place:S. S. Selma — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:22.065Z"
+  },
+  "place:Sahara Lounge — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:22.837Z"
+  },
+  "place:Sal del Rey — Edinburg": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:23.609Z"
+  },
+  "place:The Salt Palace — Grand Saline": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:24.381Z"
+  },
+  "place:Sam Houston Statue — Huntsville": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:25.155Z"
+  },
+  "place:Samy's Curry Restaurant — Singapore": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:25.932Z"
+  },
+  "place:San Fernando Cathedral City Centers — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:26.706Z"
+  },
+  "place:Santa Claus Museum — Columbus": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:27.484Z"
+  },
+  "place:Seaman's Memorial Tower — Aransas Pass": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:28.259Z"
+  },
+  "place:Seashell Graves of Comfort Cemetery — Comfort": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:29.035Z"
+  },
+  "place:Mirador de la Flor — Corpus Christi": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:29.805Z"
+  },
+  "place:Seminole Canyon — Comstock": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:30.578Z"
+  },
+  "place:Shamrock Blarney Stone — Shamrock": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:31.351Z"
+  },
+  "place:Shepard's Barber Shop — Conroe": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:32.127Z"
+  },
+  "place:Site of the Santa Claus Bank Robbery — Cisco": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:32.902Z"
+  },
+  "place:Skyspace- The Color Inside — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:33.675Z"
+  },
+  "place:‘Sleeping Figure’ — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:34.449Z"
+  },
+  "place:Smither Park — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:35.226Z"
+  },
+  "place:Snake Island — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:36.006Z"
+  },
+  "place:Southwest Regional Library Demo Garden — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:36.779Z"
+  },
+  "place:Soy Pinoy — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:37.553Z"
+  },
+  "place:Sparky Park — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:38.331Z"
+  },
+  "place:Spider House — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:39.106Z"
+  },
+  "place:Spirit of Texas Bank — Conroe": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:39.882Z"
+  },
+  "place:St. Thérèse of Lisieux Painting — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:40.655Z"
+  },
+  "place:Stanzel Model Aircraft Museum — Schulenburg": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:41.432Z"
+  },
+  "place:Stardust Motel Sign — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:42.211Z"
+  },
+  "place:Starship Pegasus — Italy": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:42.987Z"
+  },
+  "place:Stevie Ray Vaughan’s Grave — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:43.760Z"
+  },
+  "place:Stevie Ray Vaughan Statue — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:44.530Z"
+  },
+  "place:Stone Windmill — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:45.304Z"
+  },
+  "place:Stonehenge II — Ingram": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:46.079Z"
+  },
+  "place:Stonehenge Replica — Odessa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:46.853Z"
+  },
+  "place:Sturrock Cemetery — Zavalla": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:47.632Z"
+  },
+  "place:Sugar Land Heritage Foundation and Museum — Sugar Land": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:48.403Z"
+  },
+  "place:Sul Ross Desk — Alpine": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:49.175Z"
+  },
+  "place:Desertron- The Superconducting Super Collider — Waxahachie": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:49.949Z"
+  },
+  "place:Susanna Dickinson Museum — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:50.725Z"
+  },
+  "place:Switched On — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:51.501Z"
+  },
+  "place:Taco Mex — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:52.274Z"
+  },
+  "place:Target Marathon — Alpine": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:53.049Z"
+  },
+  "place:Terlingua Ghost Town — Terlingua": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:53.824Z"
+  },
+  "place:Tesoros Trading Company Retail — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:54.597Z"
+  },
+  "place:Texas Broadcast Museum — Kilgore": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:55.375Z"
+  },
+  "place:Texas Centennial Art Deco Buildings — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:56.146Z"
+  },
+  "place:The Gas Station — Bastrop": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:56.917Z"
+  },
+  "place:Texas City Memorial — Texas City": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:57.690Z"
+  },
+  "place:Texas City Museum — Texas City": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:58.465Z"
+  },
+  "place:Texas Eiffel Tower — Paris": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:07:59.243Z"
+  },
+  "place:Texas Ranger Hall of Fame and Museum — Waco": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:00.016Z"
+  },
+  "place:Brain Collection at the University of Texas at Austin — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:00.792Z"
+  },
+  "place:Texas Theatre — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:01.572Z"
+  },
+  "place:Texas Triffid Ranch — Richardson": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:02.347Z"
+  },
+  "place:Th_Prsrv — Kemah": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:03.123Z"
+  },
+  "place:Thanks-Giving Square — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:03.900Z"
+  },
+  "place:The Aristocrat Lounge — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:04.674Z"
+  },
+  "place:The Baker Hotel — Mineral Wells": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:05.448Z"
+  },
+  "place:The Berlin Bear — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:06.223Z"
+  },
+  "place:The Big Bubble — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:06.999Z"
+  },
+  "place:The Big Tree — Rockport": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:07.771Z"
+  },
+  "place:The Bottle House — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:08.540Z"
+  },
+  "place:The Butterfly Bar @ The VORTEX — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:09.312Z"
+  },
+  "place:The Cartoon Saloon — Comfort": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:10.085Z"
+  },
+  "place:The Chairy Orchard — Denton": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:10.857Z"
+  },
+  "place:The Church at Texas — Palmer": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:11.630Z"
+  },
+  "place:Devil's Sinkhole — Rocksprings": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:12.411Z"
+  },
+  "place:The Dinosaur Park — Cedar Creek": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:13.190Z"
+  },
+  "place:The Donnellan Crypt — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:13.965Z"
+  },
+  "place:The Electric Church — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:14.736Z"
+  },
+  "place:The Elissa — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:15.509Z"
+  },
+  "place:The First Inhabitant — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:16.285Z"
+  },
+  "place:The Flamingo House — Round Rock": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:17.057Z"
+  },
+  "place:The Goddess of Liberty — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:17.828Z"
+  },
+  "place:The Grand 1894 Opera House — Galveston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:18.604Z"
+  },
+  "place:The Grand — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:19.380Z"
+  },
+  "place:The Grave of Rope Walker — Corsicana": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:20.155Z"
+  },
+  "place:The Graves of ‘Dimebag Darrell’ and ‘Vinnie Paul the Brick Wall‘ — Arlington": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:20.939Z"
+  },
+  "place:The Grotto — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:21.708Z"
+  },
+  "place:The Harry Ransom Center — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:22.484Z"
+  },
+  "place:The Leaning Tower of Texas — Groom": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:23.267Z"
+  },
+  "place:The Lost Arm of F. Stewart — Paradise": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:24.039Z"
+  },
+  "place:The Magic Time Machine — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:24.813Z"
+  },
+  "place:The Omelettry — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:25.586Z"
+  },
+  "place:The Palace Light Bulb — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:26.362Z"
+  },
+  "place:The Picasso Benches — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:27.134Z"
+  },
+  "place:The Poky Dot — Fairmont": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:27.911Z"
+  },
+  "place:The Fort Sam Houston Quadrangle and Museum — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:28.683Z"
+  },
+  "place:The Real Unreal — Grapevine": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:29.455Z"
+  },
+  "place:The Second Amendment Cowboy — Amarillo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:30.229Z"
+  },
+  "place:The Sentinel — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:31.004Z"
+  },
+  "place:The Sometimes Islands — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:31.777Z"
+  },
+  "place:The Texas State Cemetery — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:32.557Z"
+  },
+  "place:The Texas Woofus — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:33.330Z"
+  },
+  "place:The Traveling Man — Dallas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:34.107Z"
+  },
+  "place:The Velveeta Room — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:34.881Z"
+  },
+  "place:The VORTEX — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:35.652Z"
+  },
+  "place:The White Horse — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:36.427Z"
+  },
+  "place:The Wilde Collection — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:37.196Z"
+  },
+  "place:The Witch’s Grave — Katy": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:37.968Z"
+  },
+  "place:Three Pieces of the Berlin Wall — Madrid": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:38.744Z"
+  },
+  "place:Tomball Pickle Man — Tomball": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:39.516Z"
+  },
+  "place:Top 'o Hill Terrace — Arlington": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:40.291Z"
+  },
+  "place:Toy Joy — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:41.060Z"
+  },
+  "place:Treaty Oak — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:41.844Z"
+  },
+  "place:Tulip Trestle — Richland Township": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:42.619Z"
+  },
+  "place:Twilight Epiphany Skyspace — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:43.393Z"
+  },
+  "place:Tyler Rose Garden — Tyler": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:44.170Z"
+  },
+  "place:U-Drop Inn — Shamrock": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:44.946Z"
+  },
+  "place:Umbrella Alley — Baytown": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:45.721Z"
+  },
+  "place:Umlauf Sculpture Garden & Museum — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:46.493Z"
+  },
+  "place:Uncommon Objects — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:47.266Z"
+  },
+  "place:Union Missionary Baptist Church — Jefferson": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:48.038Z"
+  },
+  "place:United Sisters — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:48.813Z"
+  },
+  "place:U.S. Army Medical Department Museum — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:49.592Z"
+  },
+  "place:Virtuoso Sculpture — Houston": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:50.369Z"
+  },
+  "place:Vision del Futuro — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:51.142Z"
+  },
+  "place:VW Slug Bug Ranch — Panhandle": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:51.914Z"
+  },
+  "place:Waco Mammoth Site — Waco": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:52.685Z"
+  },
+  "place:Waco Suspension Bridge — Waco": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:53.456Z"
+  },
+  "place:Waterloo Records & Video — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:54.227Z"
+  },
+  "place:Luling Watermelon Water Tower — Luling": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:55.000Z"
+  },
+  "place:Webb Gallery — Waxahachie": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:55.772Z"
+  },
+  "place:Westcave Outdoor Discovery Center — Round Mountain": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:56.548Z"
+  },
+  "place:Wheatsville Food Co-Op — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:57.323Z"
+  },
+  "place:The Wheeler Historical Museum — Wheeler": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:58.094Z"
+  },
+  "place:'Where Independence Begins' Mural — Fort Worth": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:58.873Z"
+  },
+  "place:Whip In — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:08:59.650Z"
+  },
+  "place:Whip in — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:00.423Z"
+  },
+  "place:Wink Sink — Winkler County": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:01.198Z"
+  },
+  "place:Woman Hollering Creek — Saint Hedwig": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:01.975Z"
+  },
+  "place:Woody’s Classic Cars and Baseball Museum — Cross Plains": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:02.749Z"
+  },
+  "place:World's Largest Bowie Knife — Bowie": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:03.521Z"
+  },
+  "place:World Trade Bridge — Laredo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:04.300Z"
+  },
+  "place:World's Largest Branding Iron — Vega": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:05.074Z"
+  },
+  "place:World's Largest Cowboy Boots — San Antonio": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:05.848Z"
+  },
+  "place:World's Largest Killer Bee — Hidalgo": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:06.620Z"
+  },
+  "place:World's Largest Pecan — Seguin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:07.391Z"
+  },
+  "place:World's Largest Spur — Lampasas": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:08.164Z"
+  },
+  "place:World’s Longest Car Wash — Katy": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:08.940Z"
+  },
+  "place:Wrong Store — Marfa": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:09.711Z"
+  },
+  "place:Wyler Aerial Tramway — El Paso": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:10.487Z"
+  },
+  "place:Yippee Ki Yay Stickwork Sculptures — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:11.261Z"
+  },
+  "event:Eeyore's Birthday Party — Austin": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:12.037Z"
+  },
+  "event:Terlingua International Chili Championship — Terlingua": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:12.814Z"
+  },
+  "event:Texas Renaissance Festival — Todd Mission": {
+    "status": "error",
+    "error": "Error: HTTP 429",
+    "at": "2026-04-07T18:09:13.592Z"
+  }
+}

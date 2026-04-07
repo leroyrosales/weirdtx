@@ -77,9 +77,34 @@ function parsePlace(raw: string, path: string): PlaceItem {
     teaser: d.teaser != null ? String(d.teaser) : undefined,
     address: d.address != null ? String(d.address) : undefined,
     url: d.url != null ? String(d.url) : undefined,
+    image:
+      d.image && typeof d.image === 'object' && !Array.isArray(d.image)
+        ? {
+            url: String((d.image as Record<string, unknown>).url ?? ''),
+            alt:
+              (d.image as Record<string, unknown>).alt != null
+                ? String((d.image as Record<string, unknown>).alt)
+                : undefined,
+            credit:
+              (d.image as Record<string, unknown>).credit != null
+                ? String((d.image as Record<string, unknown>).credit)
+                : undefined,
+            sourceUrl:
+              (d.image as Record<string, unknown>).sourceUrl != null
+                ? String((d.image as Record<string, unknown>).sourceUrl)
+                : undefined,
+            license:
+              (d.image as Record<string, unknown>).license != null
+                ? String((d.image as Record<string, unknown>).license)
+                : undefined,
+          }
+        : undefined,
   }
   if (!fm.title || !fm.city || Number.isNaN(fm.lat) || Number.isNaN(fm.lng)) {
     throw new Error(`Missing required fields in place ${path}`)
+  }
+  if (fm.image && !fm.image.url) {
+    fm.image = undefined
   }
   return {
     slug: slugFromPath(path),
@@ -107,9 +132,34 @@ function parseEvent(raw: string, path: string): EventItem {
     featured: Boolean(d.featured),
     teaser: d.teaser != null ? String(d.teaser) : undefined,
     url: d.url != null ? String(d.url) : undefined,
+    image:
+      d.image && typeof d.image === 'object' && !Array.isArray(d.image)
+        ? {
+            url: String((d.image as Record<string, unknown>).url ?? ''),
+            alt:
+              (d.image as Record<string, unknown>).alt != null
+                ? String((d.image as Record<string, unknown>).alt)
+                : undefined,
+            credit:
+              (d.image as Record<string, unknown>).credit != null
+                ? String((d.image as Record<string, unknown>).credit)
+                : undefined,
+            sourceUrl:
+              (d.image as Record<string, unknown>).sourceUrl != null
+                ? String((d.image as Record<string, unknown>).sourceUrl)
+                : undefined,
+            license:
+              (d.image as Record<string, unknown>).license != null
+                ? String((d.image as Record<string, unknown>).license)
+                : undefined,
+          }
+        : undefined,
   }
   if (!fm.title || !fm.city || !fm.starts || Number.isNaN(fm.lat) || Number.isNaN(fm.lng)) {
     throw new Error(`Missing required fields in event ${path}`)
+  }
+  if (fm.image && !fm.image.url) {
+    fm.image = undefined
   }
   return {
     slug: slugFromPath(path),

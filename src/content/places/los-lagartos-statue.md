@@ -7,6 +7,12 @@ lng: -106.48806
 tags:
   - "el-paso"
 teaser: "Los Lagartos Statue — public art and photo ops in El Paso, West Texas."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/5/58/The_Plaza%2C_El_Paso%2C_Texas.jpg"
+  alt: "Los Lagartos Statue"
+  credit: "Detroit Publishing Co."
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:The_Plaza,_El_Paso,_Texas.jpg"
+  license: "Public domain"
 ---
 
 **Los Lagartos Statue** lives in plain sight in **El Paso** (West Texas): color, scale, and the occasional inside joke baked into the streetscape.

@@ -65,6 +65,38 @@ export function PlacePage() {
         ) : null}
       </header>
 
+      {place.image?.url ? (
+        <figure className="overflow-hidden rounded-2xl border border-ink/10 bg-white/40 shadow-sm">
+          <img
+            src={place.image.url}
+            alt={place.image.alt ?? `${place.title} photo`}
+            loading="lazy"
+            className="h-[min(380px,55vh)] w-full object-cover"
+          />
+          {place.image.credit || place.image.license || place.image.sourceUrl ? (
+            <figcaption className="px-4 py-3 text-xs text-ink/70">
+              <span className="font-semibold">Photo</span>
+              {place.image.credit ? <span>{` by ${place.image.credit}`}</span> : null}
+              {place.image.license ? <span>{` · ${place.image.license}`}</span> : null}
+              {place.image.sourceUrl ? (
+                <>
+                  {' '}
+                  ·{' '}
+                  <a
+                    href={place.image.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-clay underline decoration-2 underline-offset-2 hover:text-clay-dark"
+                  >
+                    source
+                  </a>
+                </>
+              ) : null}
+            </figcaption>
+          ) : null}
+        </figure>
+      ) : null}
+
       <div
         className="prose-weird max-w-none text-ink/90"
         dangerouslySetInnerHTML={{ __html: place.bodyHtml }}
