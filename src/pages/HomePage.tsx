@@ -6,7 +6,22 @@ import { useDocumentTitle } from '../lib/useDocumentTitle'
 export function HomePage() {
   useDocumentTitle('Home')
   const featuredPlaces = places.filter((p) => p.featured).slice(0, 3)
-  const featuredEvents = events.filter((e) => e.featured).slice(0, 3)
+  const today = new Date()
+  const featuredEvents = (() => {
+    const featured = events.filter((e) => e.featured)
+    if (featured.length >= 3) return featured.slice(0, 3)
+
+    const featuredSlugs = new Set(featured.map((e) => e.slug))
+    const upcoming = [...events]
+      .filter((e) => !featuredSlugs.has(e.slug))
+      .filter((e) => {
+        const endish = new Date(e.ends ?? e.starts)
+        return !Number.isNaN(endish.getTime()) && endish.getTime() >= today.getTime()
+      })
+      .sort((a, b) => new Date(a.starts).getTime() - new Date(b.starts).getTime())
+
+    return [...featured, ...upcoming].slice(0, 3)
+  })()
 
   const mapMarkers = [
     ...places.map((p) => ({
