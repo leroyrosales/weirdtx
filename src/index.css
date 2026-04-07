@@ -98,6 +98,116 @@ body {
   outline-offset: 2px;
 }
 
+/* Texas map: pins, clusters, chrome aligned with site palette */
+.leaflet-container.texas-map {
+  background: var(--color-cream);
+}
+
+.leaflet-popup-content p {
+  @apply mb-2 mt-2;
+}
+
+.leaflet-container a {
+  @apply inline;
+}
+
+.texas-map-divicon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.texas-map-pin {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2px;
+  width: 30px;
+  height: 38px;
+}
+
+.texas-map-pin-dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 9999px;
+  border: 2px solid var(--color-white);
+  box-shadow: 0 2px 6px rgb(42 37 32 / 0.35);
+}
+
+.texas-map-pin--place .texas-map-pin-dot {
+  background: var(--color-sage);
+}
+
+.texas-map-pin--event .texas-map-pin-dot {
+  background: var(--color-clay);
+}
+
+.leaflet-container.texas-map .marker-cluster-small {
+  background-color: color-mix(in srgb, var(--color-sage) 38%, transparent);
+}
+
+.leaflet-container.texas-map .marker-cluster-small div {
+  background-color: color-mix(in srgb, var(--color-sage) 72%, transparent);
+}
+
+.leaflet-container.texas-map .marker-cluster-medium {
+  background-color: color-mix(in srgb, var(--color-sky-deep) 38%, transparent);
+}
+
+.leaflet-container.texas-map .marker-cluster-medium div {
+  background-color: color-mix(in srgb, var(--color-sky-deep) 72%, transparent);
+}
+
+.leaflet-container.texas-map .marker-cluster-large {
+  background-color: color-mix(in srgb, var(--color-clay) 38%, transparent);
+}
+
+.leaflet-container.texas-map .marker-cluster-large div {
+  background-color: color-mix(in srgb, var(--color-clay) 72%, transparent);
+}
+
+.leaflet-container.texas-map .marker-cluster span {
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-weight: 700;
+}
+
+.leaflet-container.texas-map .leaflet-bar a {
+  color: var(--color-sky-deep);
+  background-color: var(--color-cream);
+  border-color: rgb(42 37 32 / 0.15);
+}
+
+.leaflet-container.texas-map .leaflet-bar a:hover {
+  color: var(--color-clay-dark);
+  background-color: var(--color-white);
+}
+
+.leaflet-container.texas-map .leaflet-bar a.leaflet-disabled {
+  color: rgb(42 37 32 / 0.35);
+  background-color: rgb(255 248 240 / 0.7);
+}
+
+.leaflet-container.texas-map .leaflet-control-attribution {
+  background: rgb(255 248 240 / 0.92) !important;
+  color: var(--color-ink);
+  font-size: 0.7rem;
+}
+
+.leaflet-container.texas-map .leaflet-control-attribution a {
+  color: var(--color-sky-deep);
+  font-weight: 600;
+}
+
+.leaflet-container.texas-map .leaflet-popup-content-wrapper {
+  border-radius: 0.75rem;
+  border: 2px solid rgb(21 74 122 / 0.25);
+  box-shadow: 0 4px 14px rgb(42 37 32 / 0.12);
+}
+
+.leaflet-container.texas-map .leaflet-popup-tip {
+  box-shadow: 0 2px 4px rgb(42 37 32 / 0.08);
+}
+
 .prose-weird h2 {
   @apply font-display text-xl text-sky-deep mt-6 mb-2;
 }

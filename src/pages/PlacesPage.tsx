@@ -46,7 +46,7 @@ export function PlacesPage() {
             </option>
           ))}
         </select>
-        <span id="region-filter-help" className="text-sm text-ink/65">
+        <span id="region-filter-help" className="text-sm text-ink/65 ml-1">
           {sorted.length} listings
         </span>
       </div>

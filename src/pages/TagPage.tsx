@@ -87,7 +87,7 @@ export function TagPage() {
                 <p className="text-sm text-ink/70">
                   <Link
                     to={`/regions/${regionToSlug(e.region)}`}
-                    className="font-semibold text-mustard underline decoration-2 underline-offset-2 hover:text-clay"
+                    className="font-semibold text-sand underline decoration-2 underline-offset-2 hover:text-clay"
                   >
                     {e.region}
                   </Link>{' '}

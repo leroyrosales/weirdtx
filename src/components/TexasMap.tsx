@@ -1,22 +1,22 @@
-import { useEffect, useId } from 'react'
+import { useEffect, useId, useMemo } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import { Link } from 'react-router-dom'
 import MarkerClusterGroup from 'react-leaflet-cluster'
-import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png'
-import markerIcon from 'leaflet/dist/images/marker-icon.png'
-import markerShadow from 'leaflet/dist/images/marker-shadow.png'
 
-const DefaultIcon = L.icon({
-  iconUrl: markerIcon,
-  iconRetinaUrl: markerIcon2x,
-  shadowUrl: markerShadow,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-})
-L.Marker.prototype.options.icon = DefaultIcon
+function pinHtml(kind: 'place' | 'event'): string {
+  return `<div class="texas-map-pin texas-map-pin--${kind}" role="presentation"><span class="texas-map-pin-dot"></span></div>`
+}
+
+function divIconForKind(kind: 'place' | 'event'): L.DivIcon {
+  return L.divIcon({
+    className: 'texas-map-divicon',
+    html: pinHtml(kind),
+    iconSize: [30, 38],
+    iconAnchor: [15, 34],
+    popupAnchor: [0, -30],
+  })
+}
 
 export type MapMarker = {
   id: string
@@ -99,6 +99,8 @@ export function TexasMap({
   suppressDetailLinkFor,
 }: TexasMapProps) {
   const mapHelpId = useId()
+  const placeIcon = useMemo(() => divIconForKind('place'), [])
+  const eventIcon = useMemo(() => divIconForKind('event'), [])
 
   return (
     <div
@@ -111,10 +113,18 @@ export function TexasMap({
         Interactive map. Tab into the map to use keyboard: arrow keys to pan, plus and minus keys to
         zoom. Markers can be activated to open a panel with details and an external Google Maps link.
       </p>
-      <MapContainer center={center} zoom={zoom} scrollWheelZoom className="z-0 h-[min(420px,55vh)] w-full">
+      <MapContainer
+        center={center}
+        zoom={zoom}
+        scrollWheelZoom
+        className="texas-map z-0 h-[min(420px,55vh)] w-full"
+      >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          subdomains="abcd"
+          maxZoom={20}
+          maxNativeZoom={20}
         />
         {fitBoundsToMarkers ? <FitBoundsToMarkers markers={markers} maxZoom={maxFitZoom} /> : null}
         <Recenter center={center} zoom={zoom} />
@@ -126,12 +136,17 @@ export function TexasMap({
               m.id === suppressDetailLinkFor.slug
 
             return (
-              <Marker key={m.id} position={[m.lat, m.lng]} title={m.title}>
+              <Marker
+                key={m.id}
+                position={[m.lat, m.lng]}
+                title={m.title}
+                icon={m.kind === 'place' ? placeIcon : eventIcon}
+              >
                 <Popup>
                   <div className="min-w-[140px] font-body text-ink">
                     <p
                       className={`text-xs font-bold uppercase tracking-wide ${
-                        m.kind === 'place' ? 'text-sage-dark' : 'text-mustard'
+                        m.kind === 'place' ? 'text-sage-dark' : 'text-gold'
                       }`}
                     >
                       <span className="sr-only">Listing type: </span>

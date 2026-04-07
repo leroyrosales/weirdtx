@@ -56,7 +56,7 @@ export function EventsPage() {
       <ul className="grid gap-4 sm:grid-cols-2">
         {sorted.map((e) => (
           <li key={e.slug}>
-            <article className="flex h-full min-h-[11rem] flex-col rounded-2xl border border-ink/10 bg-white/50 p-5 shadow-sm transition-all hover:border-mustard/55 hover:shadow-md">
+            <article className="flex h-full min-h-[11rem] flex-col rounded-2xl border border-ink/10 bg-white/50 p-5 shadow-sm transition-all hover:border-sand/55 hover:shadow-md">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <Link
                   to={`/regions/${regionToSlug(e.region)}`}

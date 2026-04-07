@@ -226,7 +226,7 @@ export function ExplorePage() {
                 <li key={e.slug}>
                   <Link
                     to={`/events/${e.slug}`}
-                    className="flex min-h-11 flex-col gap-0.5 rounded-lg border border-transparent px-2 py-2 hover:border-mustard/45 hover:bg-white/60 sm:min-h-0 sm:py-1.5"
+                    className="flex min-h-11 flex-col gap-0.5 rounded-lg border border-transparent px-2 py-2 hover:border-sand/45 hover:bg-white/60 sm:min-h-0 sm:py-1.5"
                     aria-label={`${e.title}, ${formatEventRange(e.starts, e.ends)}${'distanceMi' in e && e.distanceMi != null ? `, ${e.distanceMi} miles away` : ''}`}
                   >
                     <span className="font-semibold text-sky-deep">{e.title}</span>

@@ -151,7 +151,7 @@ export function HomePage() {
               <li key={e.slug}>
                 <Link
                   to={`/events/${e.slug}`}
-                  className="block rounded-xl border border-ink/10 bg-white/55 p-4 shadow-sm transition-all hover:border-mustard/55 hover:shadow"
+                  className="block rounded-xl border border-ink/10 bg-white/55 p-4 shadow-sm transition-all hover:border-sand/55 hover:shadow"
                   aria-label={`${e.title}, ${e.region}, ${e.city}`}
                 >
                   <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
