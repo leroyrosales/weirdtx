@@ -4,14 +4,16 @@
   --font-display: "Rye", ui-serif, Georgia, serif;
   --font-body: "Nunito", ui-sans-serif, system-ui, sans-serif;
   --color-cream: #fff8f0;
+  --color-white: #ffffff;
   --color-ink: #2a2520;
   --color-clay: #c75b4a;
   --color-clay-dark: #9a3f32;
-  --color-sage: #6b8f71;
-  --color-sage-dark: #4a6b50;
+  /* Primary accent (replaces former sage green) */
+  --color-sage: #005f86;
+  --color-sage-dark: #004060;
   /* Kept from the bolder pass: deep denim blue */
   --color-sky-deep: #154a7a;
-  --color-mustard: #e4b04a;
+  --color-sand: #d6d2c4;
   --color-lavender: #c4b5e0;
   /* Kept: gold accents (focus, stars, highlights) */
   --color-gold: #c9950c;
