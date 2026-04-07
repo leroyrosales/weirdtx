@@ -39,16 +39,18 @@ const KEY_ORDER = [
 ]
 
 function parseArgs(argv) {
-  const args = { limit: Infinity, offset: 0, sleepMs: 2500 }
+  const args = { limit: Infinity, offset: 0, sleepMs: 3000, cooldownMs: 10 * 60 * 1000 }
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]
     if (a === '--limit') args.limit = Number(argv[++i])
     else if (a === '--offset') args.offset = Number(argv[++i])
     else if (a === '--sleep-ms') args.sleepMs = Number(argv[++i])
+    else if (a === '--cooldown-ms') args.cooldownMs = Number(argv[++i])
   }
   if (!Number.isFinite(args.limit) || args.limit <= 0) args.limit = Infinity
   if (!Number.isFinite(args.offset) || args.offset < 0) args.offset = 0
-  if (!Number.isFinite(args.sleepMs) || args.sleepMs < 0) args.sleepMs = 900
+  if (!Number.isFinite(args.sleepMs) || args.sleepMs < 0) args.sleepMs = 3000
+  if (!Number.isFinite(args.cooldownMs) || args.cooldownMs < 0) args.cooldownMs = 10 * 60 * 1000
   return args
 }
 
@@ -256,7 +258,7 @@ async function suggestImage(data) {
 }
 
 async function main() {
-  const { limit, offset, sleepMs } = parseArgs(process.argv.slice(2))
+  const { limit, offset, sleepMs, cooldownMs } = parseArgs(process.argv.slice(2))
   const cache = loadCache()
 
   let scanned = 0
@@ -271,7 +273,8 @@ async function main() {
   let offsetSkipped = 0
 
   for (const { dir, kind } of CONTENT_DIRS) {
-    for (const name of readdirSync(dir)) {
+    const files = readdirSync(dir).filter((n) => n.endsWith('.md')).sort()
+    for (const name of files) {
       if (!name.endsWith('.md')) continue
       const fp = join(dir, name)
       const raw = readFileSync(fp, 'utf8')
@@ -333,14 +336,23 @@ async function main() {
 
         if (status === 429) {
           rateLimited++
-          // Stop early; rerun later. Continuing just burns time and keeps getting 429.
-          break
+          // Cool down, then keep going.
+          saveCache(cache)
+          console.log(
+            JSON.stringify(
+              { note: 'Rate limited (429). Cooling down...', cooldownMs, attempted, updated, errors },
+              null,
+              2,
+            ),
+          )
+          await sleep(cooldownMs)
+          continue
         }
 
         await sleep(Math.max(2000, sleepMs))
       }
     }
-    if (attempted >= limit || rateLimited > 0) break
+    if (attempted >= limit) break
   }
 
   saveCache(cache)

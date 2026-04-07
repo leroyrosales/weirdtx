@@ -7,6 +7,12 @@ lng: -95.535176
 tags:
   - "huntsville"
 teaser: "Captain Joe Byrd Cemetery — quiet history under open sky in Huntsville, East Texas."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/JoeByrdCemeteryHuntsvilleTX.jpg"
+  alt: "Captain Joe Byrd Cemetery"
+  credit: "Amy from Austin, TX, United States"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:JoeByrdCemeteryHuntsvilleTX.jpg"
+  license: "CC BY 2.0"
 ---
 
 **Captain Joe Byrd Cemetery** is part of the layered story of **Huntsville** and **East Texas**: names, dates, and the small monuments people leave behind.

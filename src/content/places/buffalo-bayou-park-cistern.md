@@ -7,6 +7,13 @@ lng: -95.376423
 tags:
   - "houston"
 teaser: "Buffalo Bayou Park Cistern — Gulf Coast landscape and fresh air near Houston."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Buffalo_Bayou.jpg/1920px-Buffalo_Ba\
+    you.jpg"
+  alt: "Buffalo Bayou Park Cistern"
+  credit: "Scott Ehardt"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Buffalo_Bayou.jpg"
+  license: "Public domain"
 ---
 
 **Buffalo Bayou Park Cistern** sits in the **Gulf Coast** country around **Houston**. Weather, seasons, and trail conditions can change fast out here.

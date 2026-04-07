@@ -7,6 +7,12 @@ lng: -97.745291
 tags:
   - "glen-rose"
 teaser: "Big Rocks Park — DFW landscape and fresh air near Glen Rose."
+image:
+  url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Glen_Rose_Texas.jpg"
+  alt: "Big Rocks Park"
+  credit: "w:Flickr user NZ Russ (https://www.flickr.com/people/nzruss/)"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Glen_Rose_Texas.jpg"
+  license: "CC BY-SA 2.0"
 ---
 
 **Big Rocks Park** sits in the **DFW** country around **Glen Rose**. Weather, seasons, and trail conditions can change fast out here.

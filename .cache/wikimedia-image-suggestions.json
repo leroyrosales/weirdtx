@@ -3,260 +3,388 @@
     "status": "error",
     "error": "Error: HTTP 429",
     "httpStatus": 429,
-    "at": "2026-04-07T18:56:52.349Z"
+    "at": "2026-04-07T19:20:15.948Z"
   },
   "place:Bumblebee Statue — Terrell": {
     "status": "error",
     "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:46:07.316Z"
+    "httpStatus": 429,
+    "at": "2026-04-07T19:30:57.630Z"
   },
   "place:Adrian E. Flatt, M.D., Hand Collection — Dallas": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:46:49.606Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:12.725Z"
   },
   "place:Aldridge Sawmill — Zavalla": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:47:32.160Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:13.228Z"
   },
   "place:Aurora Picture Show — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:48:14.274Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:13.859Z"
   },
   "place:Austin Beerworks — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:09.898Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:14.225Z"
   },
   "place:Austin State School Farm Colony — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:10.673Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:14.844Z"
   },
   "place:Baby Head Cemetery — Llano": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:11.612Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:15.383Z"
   },
   "place:Balanced Rock — Big Bend National Park": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:12.384Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sunset_at_Big_Bend_National_Park.jpg/1920px-Sunset_at_Big_Bend_National_Park.jpg",
+      "alt": "Balanced Rock",
+      "credit": "TripOfALifestyle.com",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Big_Bend_National_Park.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T20:00:16.244Z"
   },
   "place:Balmorhea State Park Pool — Balmorhea": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:13.355Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Balmorhea_pool_2009.jpg",
+      "alt": "Balmorhea State Park Pool",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balmorhea_pool_2009.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T20:00:19.858Z"
   },
   "place:Barkin' Springs — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:14.127Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:23.345Z"
   },
   "place:Barney Smith's Toilet Seat Art Museum — The Colony": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:15.206Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Barneysmithtoiletseat.jpg",
+      "alt": "Barney Smith's Toilet Seat Art Museum",
+      "credit": "Skudrafan1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barneysmithtoiletseat.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T20:00:24.406Z"
   },
   "place:Barton Springs — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:15.982Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Eliza_spring.jpg",
+      "alt": "Barton Springs",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eliza_spring.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T20:00:28.053Z"
   },
   "place:Batch Craft Beer & Kolaches — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:16.962Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:31.852Z"
   },
   "place:Congress Avenue Bridge Bats — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:17.739Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Congress_Avenue_Bridge.jpg/1920px-Congress_Avenue_Bridge.jpg",
+      "alt": "Congress Avenue Bridge Bats",
+      "credit": "Stuart Seeger from San Antonio, Texas, USA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Congress_Avenue_Bridge.jpg",
+      "license": "CC BY 2.0"
+    },
+    "at": "2026-04-07T20:00:32.705Z"
   },
   "place:Becknell Cemetery — Clarksville": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:18.664Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:36.713Z"
   },
   "place:Beer Can House — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:19.439Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Beer_Can_House.jpg",
+      "alt": "Beer Can House",
+      "credit": "Andrew Wiseman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beer_Can_House.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T20:00:38.134Z"
   },
   "place:Big Bertha Drum — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:20.438Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Big_Bertha.jpg",
+      "alt": "Big Bertha Drum",
+      "credit": "Enoch Lai at English Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Bertha.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T20:00:41.749Z"
   },
   "place:Big Rocks Park — Glen Rose": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:21.211Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Glen_Rose_Texas.jpg",
+      "alt": "Big Rocks Park",
+      "credit": "w:Flickr user NZ Russ (https://www.flickr.com/people/nzruss/)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glen_Rose_Texas.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    "at": "2026-04-07T20:00:45.330Z"
   },
   "place:Big Texan Steak Ranch & Brewery — Amarillo": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:22.179Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:00:48.906Z"
   },
   "place:Billy Bob’s Texas — Fort Worth": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:22.964Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Billy_Bobs_Texas_%282%29.jpg/1920px-Billy_Bobs_Texas_%282%29.jpg",
+      "alt": "Billy Bob’s Texas",
+      "credit": "David Herrera at flickr.com",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Billy_Bobs_Texas_(2).jpg",
+      "license": "CC BY 2.0"
+    },
+    "at": "2026-04-07T20:00:49.578Z"
   },
   "place:Bishop's Palace — Galveston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:23.967Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Colonel_Walter_Gresham_House%2C_1402_Broadway%2C_Galveston_%28Galveston_County%2C_Texas%29.jpg/1920px-Colonel_Walter_Gresham_House%2C_1402_Broadway%2C_Galveston_%28Galveston_County%2C_Texas%29.jpg",
+      "alt": "Bishop's Palace",
+      "credit": "Allen Stross, Photographer",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colonel_Walter_Gresham_House,_1402_Broadway,_Galveston_(Galveston_County,_Texas).jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T20:00:53.100Z"
   },
   "place:Blind Lemon Jefferson’s Grave — Wortham": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:24.745Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Blindlemonjeffersoncirca1926.jpg",
+      "alt": "Blind Lemon Jefferson’s Grave",
+      "credit": "Unknown authorUnknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blindlemonjeffersoncirca1926.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T20:00:56.742Z"
   },
   "place:Bob Wills Museum — Turkey": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:25.561Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Bob_Wills_photograph_-_Cropped.jpg",
+      "alt": "Bob Wills Museum",
+      "credit": "Paul Parry",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bob_Wills_photograph_-_Cropped.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T20:01:00.378Z"
   },
   "place:Booked Up — Archer City": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:26.570Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Archer_courthouse.jpg",
+      "alt": "Booked Up",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archer_courthouse.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T20:01:04.209Z"
   },
   "place:Boot Hill Cemetery — Tilden": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:27.343Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Mcmullen_courthouse.jpg",
+      "alt": "Boot Hill Cemetery",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mcmullen_courthouse.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T20:01:07.715Z"
   },
   "place:Boston Terrier Museum — Floydada": {
     "status": "no_match",
     "at": "2026-04-07T18:03:28.212Z"
   },
   "place:Bottle Cap Alley — College Station": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:28.229Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Dixie_chicken_in_college_station.jpg/1920px-Dixie_chicken_in_college_station.jpg",
+      "alt": "Bottle Cap Alley",
+      "credit": "Sucrine.\n\nOriginal uploader was Martious at en.wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dixie_chicken_in_college_station.jpg",
+      "license": "CC BY-SA 2.5"
+    },
+    "at": "2026-04-07T20:01:11.448Z"
   },
   "place:Bouldin Creek Cafe — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:28.999Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:14.991Z"
   },
   "place:Bowler Hat Sculpture — Dallas": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:29.996Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:15.513Z"
   },
   "place:Bracken Cave — San Antonio": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:30.771Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bracken_Cave_Bats.jpg/1920px-Bracken_Cave_Bats.jpg",
+      "alt": "Bracken Cave",
+      "credit": "Daniel Spiess",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bracken_Cave_Bats.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    "at": "2026-04-07T20:01:16.245Z"
   },
   "place:Broken Spoke — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:31.750Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:19.723Z"
   },
   "place:Brownsville City Cemetery — Brownsville": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:32.520Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:20.251Z"
   },
   "place:Bryan Mound Strategic Petroleum Reserve — Freeport": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:33.466Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/United_States_Strategic_Petroleum_Reserve_102.jpg/1920px-United_States_Strategic_Petroleum_Reserve_102.jpg",
+      "alt": "Bryan Mound Strategic Petroleum Reserve",
+      "credit": "ENERGY.GOV",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_States_Strategic_Petroleum_Reserve_102.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T20:01:20.918Z"
   },
   "place:Bryan Museum — Galveston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:34.242Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Children%27s-Home-George-Dealey.jpg",
+      "alt": "Bryan Museum",
+      "credit": "Jim Evans",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Children%27s-Home-George-Dealey.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T20:01:24.717Z"
   },
   "place:Buckhorn Saloon and Museum — San Antonio": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:35.222Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Buckhorn_Saloon_SA_2011-12-11.jpg",
+      "alt": "Buckhorn Saloon and Museum",
+      "credit": "Gaberlunzi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buckhorn_Saloon_SA_2011-12-11.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T20:01:28.446Z"
   },
   "place:Buffalo Bayou Park Cistern — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:35.999Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Buffalo_Bayou.jpg/1920px-Buffalo_Bayou.jpg",
+      "alt": "Buffalo Bayou Park Cistern",
+      "credit": "Scott Ehardt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buffalo_Bayou.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T20:01:32.103Z"
   },
   "place:Building 98 — Marfa": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:36.958Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marfa_courthouse.jpg",
+      "alt": "Building 98",
+      "credit": "The original uploader was Talshiarr at English Wikipedia.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marfa_courthouse.jpg",
+      "license": "CC BY-SA 2.5"
+    },
+    "at": "2026-04-07T20:01:35.630Z"
   },
   "place:Burns Original BBQ — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:37.734Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:39.138Z"
   },
   "place:C-Boy's Heart & Soul — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:38.750Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:39.797Z"
   },
   "place:Cactus King — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:39.520Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:40.292Z"
   },
   "place:Caddo Lake — Karnack": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:40.471Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:40.742Z"
   },
   "place:Cadillac Ranch — Amarillo": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:41.240Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cadillac_Ranch_2.jpg/1920px-Cadillac_Ranch_2.jpg",
+      "alt": "Cadillac Ranch",
+      "credit": "Marcin Wichary from San Francisco, U.S.A.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cadillac_Ranch_2.jpg",
+      "license": "CC BY 2.0"
+    },
+    "at": "2026-04-07T20:01:41.344Z"
   },
   "place:Caelum Mór — Arlington": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:42.212Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:44.848Z"
   },
   "place:Cajun Kitchen — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:42.990Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:45.362Z"
   },
   "place:Caprock Canyon State Park — Quitaque": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:43.963Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Caprock_Canyons_Haynes_Ridge_2005.JPG/1920px-Caprock_Canyons_Haynes_Ridge_2005.JPG",
+      "alt": "Caprock Canyon State Park",
+      "credit": "Leaflet",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caprock_Canyons_Haynes_Ridge_2005.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T20:01:45.992Z"
   },
   "place:Captain Joe Byrd Cemetery — Huntsville": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:44.741Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/JoeByrdCemeteryHuntsvilleTX.jpg",
+      "alt": "Captain Joe Byrd Cemetery",
+      "credit": "Amy from Austin, TX, United States",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JoeByrdCemeteryHuntsvilleTX.jpg",
+      "license": "CC BY 2.0"
+    },
+    "at": "2026-04-07T20:01:49.564Z"
   },
   "place:Carousel Lounge — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:45.724Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:53.095Z"
   },
   "place:Casa de Azucar — El Paso": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:46.495Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/AB_Quintanilla.png",
+      "alt": "Casa de Azucar",
+      "credit": "Tony Dandrades",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AB_Quintanilla.png",
+      "license": "CC BY 3.0"
+    },
+    "at": "2026-04-07T20:01:53.745Z"
   },
   "place:Casa Neverlandia — Austin": {
     "status": "no_match",
     "at": "2026-04-07T18:03:47.378Z"
   },
   "place:'Cast Away' Crossroads — Neece": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:47.402Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:57.014Z"
   },
   "place:Castroville Hearse — San Antonio": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:03:48.346Z"
+    "status": "no_match",
+    "at": "2026-04-07T20:01:57.488Z"
   },
   "place:Cathedral of Junk — Austin": {
     "status": "ok",
@@ -1618,64 +1746,110 @@
     "at": "2026-04-07T18:06:51.803Z"
   },
   "place:Palo Duro Canyon — Canyon": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:52.582Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Palo_Duro_Canyon_2.jpg/1920px-Palo_Duro_Canyon_2.jpg",
+      "alt": "Palo Duro Canyon",
+      "credit": "Kimberly Vardeman from Lubbock, TX, USA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palo_Duro_Canyon_2.jpg",
+      "license": "CC BY 3.0"
+    },
+    "at": "2026-04-07T19:12:44.737Z"
   },
   "place:Pantex Plant — Panhandle": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:53.356Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pantex_Aerial-DOE.jpg/1920px-Pantex_Aerial-DOE.jpg",
+      "alt": "Pantex Plant",
+      "credit": "U.S. Department of Energy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pantex_Aerial-DOE.jpg",
+      "license": "Public domain"
+    },
+    "at": "2026-04-07T19:12:47.829Z"
   },
   "place:Pape’s Nutcracker Museum — Seguin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:54.132Z"
+    "status": "no_match",
+    "at": "2026-04-07T19:12:50.807Z"
   },
   "place:Parr Park Rock Trail — Grapevine": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:54.910Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/CCHSfront.JPG",
+      "alt": "Parr Park Rock Trail",
+      "credit": "QuietlyThinking",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CCHSfront.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:12:51.392Z"
   },
   "place:Old Mill Pond Museum (formerly Parrot Park) — Lindale": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:55.686Z"
+    "status": "no_match",
+    "at": "2026-04-07T19:12:54.207Z"
   },
   "place:Patricia Huffman Smith NASA Museum — Hemphill": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:56.459Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/HemphillTexas1_%281_of_1%29.jpg/1920px-HemphillTexas1_%281_of_1%29.jpg",
+      "alt": "Patricia Huffman Smith NASA Museum",
+      "credit": "Renelibrary",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HemphillTexas1_(1_of_1).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-07T19:12:54.857Z"
   },
   "place:Paul Carr Jogging Trail — Houston": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:57.234Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Greg_Abbott_by_Gage_Skidmore.jpg/1920px-Greg_Abbott_by_Gage_Skidmore.jpg",
+      "alt": "Paul Carr Jogging Trail",
+      "credit": "Gage Skidmore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greg_Abbott_by_Gage_Skidmore.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-07T19:12:58.055Z"
   },
   "place:Pecan Pie Vending Machine — Cedar Creek": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:58.007Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cedar_creek_community_center.jpg",
+      "alt": "Pecan Pie Vending Machine",
+      "credit": "Larry D. Moore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cedar_creek_community_center.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:13:01.422Z"
   },
   "place:Peter Pan Mini-Golf — Austin": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:58.781Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/University_of_Texas_Main_Building_Tower_3.jpg/1920px-University_of_Texas_Main_Building_Tower_3.jpg",
+      "alt": "Peter Pan Mini-Golf",
+      "credit": "Kurt Kaiser",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_Texas_Main_Building_Tower_3.jpg",
+      "license": "CC0"
+    },
+    "at": "2026-04-07T19:13:04.578Z"
   },
   "place:The Petroleum Museum — Midland": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:06:59.558Z"
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Midland%2C_TX_skyline_%28cropped%29.jpg/1920px-Midland%2C_TX_skyline_%28cropped%29.jpg",
+      "alt": "The Petroleum Museum",
+      "credit": "Quintin Soloviev",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Midland,_TX_skyline_(cropped).jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-07T19:13:07.718Z"
   },
   "place:Phat Eatery — Katy": {
-    "status": "error",
-    "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:07:00.330Z"
+    "status": "no_match",
+    "at": "2026-04-07T19:13:10.457Z"
   },
   "place:Pinballz Arcade — Austin": {
     "status": "error",
     "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:07:01.106Z"
+    "httpStatus": 429,
+    "at": "2026-04-07T19:13:51.697Z"
   },
   "place:Pink Dolphin Monument — Galveston": {
     "status": "error",
@@ -1925,7 +2099,8 @@
   "place:Spirit of Texas Bank — Conroe": {
     "status": "error",
     "error": "Error: HTTP 429",
-    "at": "2026-04-07T18:07:39.882Z"
+    "httpStatus": 429,
+    "at": "2026-04-07T19:14:56.996Z"
   },
   "place:St. Thérèse of Lisieux Painting — San Antonio": {
     "status": "error",
