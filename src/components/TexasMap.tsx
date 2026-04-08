@@ -70,7 +70,7 @@ type TexasMapProps = {
 }
 
 const defaultCenter: [number, number] = [31.4, -99.2]
-const defaultZoom = 4
+const defaultZoom = 5
 
 function FitBoundsToMarkers({
   markers,
