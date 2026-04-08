@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { events, places } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
 import { sortByDistance } from '../lib/geo'
 
 type Kind = 'all' | 'places' | 'events'
@@ -12,7 +12,11 @@ type LocState = { lat: number; lng: number } | null | 'denied' | 'loading'
 const RADII = [25, 75, 200] as const
 
 export function ExplorePage() {
-  useDocumentTitle('Near me')
+  usePageSeo({
+    title: 'Near me',
+    description:
+      'Find weird Texas places and events near your location — optional geolocation, distance sort, and statewide map on Weird TX.',
+  })
   const [kind, setKind] = useState<Kind>('all')
   const [radiusMi, setRadiusMi] = useState<(typeof RADII)[number]>(75)
   const [userLoc, setUserLoc] = useState<LocState>(null)

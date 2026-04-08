@@ -3,10 +3,14 @@ import { Link } from 'react-router-dom'
 import { events, regions } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
 
 export function EventsPage() {
-  useDocumentTitle('Weird events')
+  usePageSeo({
+    title: 'Weird events',
+    description:
+      'Texas festivals, fairs, and one-off gatherings worth a detour — dates, cities, and maps on Weird TX.',
+  })
   const [region, setRegion] = useState<string>('')
 
   const filtered = useMemo(() => {

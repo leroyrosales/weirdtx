@@ -2,10 +2,14 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { places, regions } from '../lib/content'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
 
 export function PlacesPage() {
-  useDocumentTitle('Weird places')
+  usePageSeo({
+    title: 'Weird places',
+    description:
+      'Browse weird Texas places by region — roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
+  })
   const [region, setRegion] = useState<string>('')
 
   const filtered = useMemo(() => {

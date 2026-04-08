@@ -1,10 +1,28 @@
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { events, places } from '../lib/content'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { DEFAULT_DESCRIPTION, SITE_NAME, usePageSeo } from '../lib/seo'
 
 export function HomePage() {
-  useDocumentTitle('Home')
+  const jsonLd = useMemo(() => {
+    const origin = typeof window !== 'undefined' ? window.location.origin : ''
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: SITE_NAME,
+      alternateName: 'Weird Texas',
+      description: DEFAULT_DESCRIPTION,
+      url: origin ? `${origin}/` : '/',
+      inLanguage: 'en-US',
+    }
+  }, [])
+
+  usePageSeo({
+    title: 'Home',
+    description: DEFAULT_DESCRIPTION,
+    jsonLd,
+  })
   const featuredPlaces = places.filter((p) => p.featured).slice(0, 3)
   const today = new Date()
   const featuredEvents = (() => {

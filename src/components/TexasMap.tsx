@@ -93,7 +93,7 @@ export function TexasMap({
   center = defaultCenter,
   zoom = defaultZoom,
   fitBoundsToMarkers = false,
-  maxFitZoom = 10,
+  maxFitZoom = 12,
   className = '',
   ariaLabel = 'Interactive map of Texas places and events. Use zoom and pan controls to explore.',
   suppressDetailLinkFor,
@@ -117,7 +117,7 @@ export function TexasMap({
         center={center}
         zoom={zoom}
         scrollWheelZoom
-        className="texas-map z-0 h-[min(420px,55vh)] w-full"
+        className="texas-map z-0 h-[min(550px,65vh)] w-full"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'

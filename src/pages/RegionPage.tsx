@@ -2,14 +2,21 @@ import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { events, places, regions } from '../lib/content'
 import { encodeParam, regionFromSlug, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
 
 export function RegionPage() {
   const { region } = useParams<{ region: string }>()
   const regionValue = regionFromSlug(region, regions)
 
   const isValid = regionValue != null
-  useDocumentTitle(isValid && regionValue ? `Region: ${regionValue}` : 'Region not found')
+  usePageSeo({
+    title: isValid && regionValue ? `Region: ${regionValue}` : 'Region not found',
+    description:
+      isValid && regionValue
+        ? `Weird places and events in ${regionValue}, Texas — map and listings on Weird TX.`
+        : 'This region could not be found on Weird TX.',
+    noIndex: !isValid,
+  })
 
   if (!isValid) {
     return (

@@ -1,14 +1,30 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { getPlaceBySlug, places } from '../lib/content'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
+import { buildPlaceJsonLd } from '../lib/seoJsonLd'
 
 export function PlacePage() {
   const { slug } = useParams<{ slug: string }>()
   const place = slug ? getPlaceBySlug(slug) : undefined
 
-  useDocumentTitle(place?.title ?? 'Place not found')
+  const jsonLd = useMemo(() => {
+    if (!place) return null
+    return buildPlaceJsonLd(place, window.location.origin)
+  }, [place])
+
+  usePageSeo({
+    title: place?.title ?? 'Place not found',
+    description: place
+      ? place.teaser ??
+        `${place.title} — odd Texas place in ${place.city} (${place.region}). Map and details on Weird TX.`
+      : 'This Weird TX place could not be found.',
+    ogImage: place?.image?.url,
+    jsonLd,
+    noIndex: !place,
+  })
 
   if (!place) {
     return (

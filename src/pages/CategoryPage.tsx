@@ -1,13 +1,19 @@
 import { Link, useParams } from 'react-router-dom'
 import { events, places } from '../lib/content'
 import { decodeParam, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
 
 export function CategoryPage() {
   const { category } = useParams<{ category: string }>()
   const categoryValue = decodeParam(category).trim()
 
-  useDocumentTitle(categoryValue ? `Category: ${categoryValue}` : 'Category not found')
+  usePageSeo({
+    title: categoryValue ? `Category: ${categoryValue}` : 'Category not found',
+    description: categoryValue
+      ? `Weird Texas places and events in the "${categoryValue}" category — map and list on Weird TX.`
+      : 'This category could not be found on Weird TX.',
+    noIndex: !categoryValue,
+  })
 
   if (!categoryValue) {
     return (

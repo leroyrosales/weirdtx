@@ -1,13 +1,19 @@
 import { Link, useParams } from 'react-router-dom'
 import { events, places } from '../lib/content'
 import { decodeParam, encodeParam, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
 
 export function TagPage() {
   const { tag } = useParams<{ tag: string }>()
   const tagValue = decodeParam(tag).trim()
 
-  useDocumentTitle(tagValue ? `Tag: ${tagValue}` : 'Tag not found')
+  usePageSeo({
+    title: tagValue ? `Tag: ${tagValue}` : 'Tag not found',
+    description: tagValue
+      ? `Places and events tagged "${tagValue}" on Weird TX — odd Texas listings with an interactive map.`
+      : 'This tag could not be found on Weird TX.',
+    noIndex: !tagValue,
+  })
 
   if (!tagValue) {
     return (

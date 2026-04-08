@@ -1,15 +1,31 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { TexasMap } from '../components/TexasMap'
 import { events, getEventBySlug } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
-import { useDocumentTitle } from '../lib/useDocumentTitle'
+import { usePageSeo } from '../lib/seo'
+import { buildEventJsonLd } from '../lib/seoJsonLd'
 
 export function EventPage() {
   const { slug } = useParams<{ slug: string }>()
   const ev = slug ? getEventBySlug(slug) : undefined
 
-  useDocumentTitle(ev?.title ?? 'Event not found')
+  const jsonLd = useMemo(() => {
+    if (!ev) return null
+    return buildEventJsonLd(ev, window.location.origin)
+  }, [ev])
+
+  usePageSeo({
+    title: ev?.title ?? 'Event not found',
+    description: ev
+      ? ev.teaser ??
+        `${ev.title} — Texas event in ${ev.city} (${ev.region}), ${formatEventRange(ev.starts, ev.ends)}. Weird TX.`
+      : 'This Weird TX event could not be found.',
+    ogImage: ev?.image?.url,
+    jsonLd,
+    noIndex: !ev,
+  })
 
   if (!ev) {
     return (
