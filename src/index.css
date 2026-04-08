@@ -107,7 +107,8 @@ body {
   @apply mb-2 mt-2;
 }
 
-.leaflet-container a {
+/* Only popup links — never force all .leaflet-container anchors inline (breaks zoom +/- controls). */
+.leaflet-popup-content a {
   @apply inline;
 }
 
@@ -172,6 +173,12 @@ body {
 }
 
 .leaflet-container.texas-map .leaflet-bar a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
   color: var(--color-sky-deep);
   background-color: var(--color-cream);
   border-color: rgb(42 37 32 / 0.15);

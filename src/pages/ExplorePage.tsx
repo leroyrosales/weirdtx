@@ -5,6 +5,7 @@ import { events, places } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
 import { usePageSeo } from '../lib/seo'
 import { sortByDistance } from '../lib/geo'
+import { encodeParam, regionToSlug } from '../lib/routeParams'
 
 type Kind = 'all' | 'places' | 'events'
 type LocState = { lat: number; lng: number } | null | 'denied' | 'loading'
@@ -196,25 +197,80 @@ export function ExplorePage() {
           <h2 id="explore-places-heading" className="font-display text-xl tracking-wide text-sky-deep">
             Places
           </h2>
-          <ul className="mt-3 space-y-2">
+          <ul className="mt-3 grid gap-4">
             {placeItems.length === 0 ? (
               <li className="text-sm text-ink/65">No places in this view.</li>
             ) : (
-              placeItems.map((p) => (
-                <li key={p.slug}>
-                  <Link
-                    to={`/places/${p.slug}`}
-                    className="flex min-h-11 flex-wrap items-baseline justify-between gap-2 rounded-lg border border-transparent px-2 py-2 hover:border-sage/35 hover:bg-white/60 sm:min-h-0 sm:py-1.5"
-                    aria-label={`${p.title}, ${p.city}${'distanceMi' in p && p.distanceMi != null ? `, ${p.distanceMi} miles away` : ''}`}
+              placeItems.map((p) => {
+                const dist =
+                  'distanceMi' in p && p.distanceMi != null ? `${p.distanceMi} mi from you` : null
+                return (
+                  <li
+                    key={p.slug}
+                    className="overflow-hidden rounded-2xl border border-ink/10 bg-white/50 shadow-sm transition-all hover:border-sage/45 hover:shadow-md"
                   >
-                    <span className="font-semibold text-sky-deep">{p.title}</span>
-                    <span className="text-sm text-ink/65">
-                      {p.city}
-                      {'distanceMi' in p && p.distanceMi != null ? ` · ${p.distanceMi} mi` : ''}
-                    </span>
-                  </Link>
-                </li>
-              ))
+                    {p.image?.url ? (
+                      <Link
+                        to={`/places/${p.slug}`}
+                        className="block h-32 w-full overflow-hidden bg-ink/5 sm:h-36"
+                        aria-label={`${p.title}, ${p.city} — view place and photo`}
+                      >
+                        <img
+                          src={p.image.url}
+                          alt=""
+                          loading="lazy"
+                          className="h-full w-full object-cover"
+                        />
+                      </Link>
+                    ) : null}
+                    <div className="p-4">
+                      <div className="flex flex-wrap items-baseline justify-between gap-2">
+                        <Link
+                          to={`/regions/${regionToSlug(p.region)}`}
+                          className="text-xs font-bold uppercase tracking-wide text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
+                        >
+                          {p.region}
+                        </Link>
+                        {p.category ? (
+                          <Link
+                            to={`/categories/${encodeParam(p.category)}`}
+                            className="text-xs font-bold uppercase tracking-wide text-ink/55 underline decoration-2 underline-offset-2 hover:text-clay"
+                          >
+                            {p.category}
+                          </Link>
+                        ) : null}
+                      </div>
+                      <Link
+                        to={`/places/${p.slug}`}
+                        className="mt-1 font-display text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
+                        aria-label={`${p.title}, ${p.city}${dist ? `, ${dist}` : ''}`}
+                      >
+                        {p.title}
+                      </Link>
+                      <p className="text-sm text-ink/70">
+                        {p.city}
+                        {dist ? <span className="text-ink/55"> · {dist}</span> : null}
+                      </p>
+                      {p.teaser ? (
+                        <p className="mt-2 line-clamp-2 text-sm text-ink/80">{p.teaser}</p>
+                      ) : null}
+                      {p.tags?.length ? (
+                        <p className="mt-3 flex flex-wrap gap-2">
+                          {p.tags.slice(0, 6).map((t) => (
+                            <Link
+                              key={t}
+                              to={`/tags/${encodeParam(t)}`}
+                              className="rounded-full bg-ink/5 px-2 py-1 text-xs font-semibold text-ink/75 ring-1 ring-ink/10 hover:bg-ink/10"
+                            >
+                              {t}
+                            </Link>
+                          ))}
+                        </p>
+                      ) : null}
+                    </div>
+                  </li>
+                )
+              })
             )}
           </ul>
         </section>
@@ -222,25 +278,81 @@ export function ExplorePage() {
           <h2 id="explore-events-heading" className="font-display text-xl tracking-wide text-sky-deep">
             Events
           </h2>
-          <ul className="mt-3 space-y-2">
+          <ul className="mt-3 grid gap-4">
             {eventItems.length === 0 ? (
               <li className="text-sm text-ink/65">No events in this view.</li>
             ) : (
-              eventItems.map((e) => (
-                <li key={e.slug}>
-                  <Link
-                    to={`/events/${e.slug}`}
-                    className="flex min-h-11 flex-col gap-0.5 rounded-lg border border-transparent px-2 py-2 hover:border-sand/45 hover:bg-white/60 sm:min-h-0 sm:py-1.5"
-                    aria-label={`${e.title}, ${formatEventRange(e.starts, e.ends)}${'distanceMi' in e && e.distanceMi != null ? `, ${e.distanceMi} miles away` : ''}`}
+              eventItems.map((e) => {
+                const dist =
+                  'distanceMi' in e && e.distanceMi != null ? `${e.distanceMi} mi from you` : null
+                return (
+                  <li
+                    key={e.slug}
+                    className="overflow-hidden rounded-2xl border border-ink/10 bg-white/50 shadow-sm transition-all hover:border-sand/55 hover:shadow-md"
                   >
-                    <span className="font-semibold text-sky-deep">{e.title}</span>
-                    <span className="text-sm text-ink/65">
-                      {formatEventRange(e.starts, e.ends)}
-                      {'distanceMi' in e && e.distanceMi != null ? ` · ${e.distanceMi} mi` : ''}
-                    </span>
-                  </Link>
-                </li>
-              ))
+                    {e.image?.url ? (
+                      <Link
+                        to={`/events/${e.slug}`}
+                        className="block h-32 w-full overflow-hidden bg-ink/5 sm:h-36"
+                        aria-label={`${e.title} — view event and photo`}
+                      >
+                        <img
+                          src={e.image.url}
+                          alt=""
+                          loading="lazy"
+                          className="h-full w-full object-cover"
+                        />
+                      </Link>
+                    ) : null}
+                    <div className="p-4">
+                      <div className="flex flex-wrap items-baseline justify-between gap-2">
+                        <Link
+                          to={`/regions/${regionToSlug(e.region)}`}
+                          className="text-xs font-bold uppercase tracking-wide text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
+                        >
+                          {e.region}
+                        </Link>
+                        {e.category ? (
+                          <Link
+                            to={`/categories/${encodeParam(e.category)}`}
+                            className="text-xs font-bold uppercase tracking-wide text-ink/55 underline decoration-2 underline-offset-2 hover:text-clay"
+                          >
+                            {e.category}
+                          </Link>
+                        ) : null}
+                      </div>
+                      <Link
+                        to={`/events/${e.slug}`}
+                        className="mt-1 font-display text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
+                        aria-label={`${e.title}, ${formatEventRange(e.starts, e.ends)}${dist ? `, ${dist}` : ''}`}
+                      >
+                        {e.title}
+                      </Link>
+                      <p className="text-sm font-semibold text-clay">
+                        {formatEventRange(e.starts, e.ends)}
+                        {dist ? <span className="font-normal text-ink/55"> · {dist}</span> : null}
+                      </p>
+                      <p className="text-sm text-ink/70">{e.city}</p>
+                      {e.teaser ? (
+                        <p className="mt-2 line-clamp-2 text-sm text-ink/80">{e.teaser}</p>
+                      ) : null}
+                      {e.tags?.length ? (
+                        <p className="mt-3 flex flex-wrap gap-2">
+                          {e.tags.slice(0, 6).map((t) => (
+                            <Link
+                              key={t}
+                              to={`/tags/${encodeParam(t)}`}
+                              className="rounded-full bg-ink/5 px-2 py-1 text-xs font-semibold text-ink/75 ring-1 ring-ink/10 hover:bg-ink/10"
+                            >
+                              {t}
+                            </Link>
+                          ))}
+                        </p>
+                      ) : null}
+                    </div>
+                  </li>
+                )
+              })
             )}
           </ul>
         </section>
