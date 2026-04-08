@@ -87,7 +87,7 @@ export function HomePage() {
           Oddball landmarks, curious museums, desert mysteries, and festivals that could only happen
           here. Pick a spot on the map or let us find something odd near you.
         </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-3 sm:justify-start">
+        <div className="mt-8 flex flex-wrap items-stretch justify-center gap-3 sm:justify-start">
           <Link
             to="/explore"
             className="inline-flex min-h-11 items-center justify-center rounded-full bg-clay px-5 py-2.5 font-bold text-white shadow-md ring-2 ring-gold-bright/40 hover:bg-clay-dark"
@@ -101,6 +101,18 @@ export function HomePage() {
             aria-describedby="home-intro"
           >
             Browse all places
+          </Link>
+          <Link
+            to="/random"
+            aria-label="Open a random place or event listing"
+            aria-describedby="home-intro"
+            className="group relative inline-flex min-h-11 max-w-[16rem] flex-col items-center justify-center gap-0.5 overflow-hidden rounded-2xl border-2 border-dashed border-clay/60 bg-gradient-to-br from-gold-bright/20 via-white/90 to-sage/15 px-5 py-3 text-center shadow-sm ring-2 ring-transparent transition-all hover:-translate-y-0.5 hover:border-clay hover:ring-gold-bright/50 hover:shadow-md active:translate-y-0 sm:max-w-none sm:flex-row sm:gap-3 sm:rounded-full sm:px-6 sm:py-2.5"
+          >
+            <span className="relative flex flex-col items-center sm:items-start">
+              <span className="text-base font-extrabold tracking-wide text-sky-deep sm:text-lg">
+                See a random place
+              </span>
+            </span>
           </Link>
         </div>
       </section>

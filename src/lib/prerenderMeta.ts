@@ -165,6 +165,16 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     }
   }
 
+  if (path === '/random') {
+    return {
+      pageTitleShort: 'Random listing',
+      description: truncateMeta('Jump to a random Weird TX place or event.'),
+      canonicalUrl: `${base}/random`,
+      noIndex: true,
+      jsonLd: null,
+    }
+  }
+
   if (path.startsWith('/categories/')) {
     const raw = path.slice('/categories/'.length)
     const categoryValue = decodeParam(raw).trim()

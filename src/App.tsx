@@ -9,12 +9,14 @@ import { PlacesPage } from './pages/PlacesPage'
 import { TagPage } from './pages/TagPage'
 import { RegionPage } from './pages/RegionPage'
 import { CategoryPage } from './pages/CategoryPage'
+import { RandomListingPage } from './pages/RandomListingPage'
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
+        <Route path="random" element={<RandomListingPage />} />
         <Route path="explore" element={<ExplorePage />} />
         <Route path="places" element={<PlacesPage />} />
         <Route path="places/:slug" element={<PlacePage />} />

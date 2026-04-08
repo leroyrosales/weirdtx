@@ -35,7 +35,8 @@ const nav = [
   { to: '/explore', label: 'Near me' },
   { to: '/places', label: 'Places' },
   { to: '/events', label: 'Events' },
-]
+  { to: '/random', label: 'Random', ariaLabel: 'Random place or event' },
+] as const
 
 export function Layout() {
   const { pathname } = useLocation()
@@ -61,12 +62,14 @@ export function Layout() {
             </span>
           </Link>
           <nav className="flex flex-wrap gap-1 sm:gap-2" aria-label="Main navigation">
-            {nav.map(({ to, label }) => {
+            {nav.map(({ to, label, ...rest }) => {
               const active = to === '/' ? pathname === '/' : pathname.startsWith(to)
+              const ariaLabel = 'ariaLabel' in rest ? rest.ariaLabel : undefined
               return (
                 <Link
                   key={to}
                   to={to}
+                  aria-label={ariaLabel}
                   aria-current={active ? 'page' : undefined}
                   className={`inline-flex min-h-11 items-center justify-center rounded-full px-4 py-2 text-sm font-semibold transition-colors sm:min-h-0 sm:px-3 sm:py-1.5 ${
                     active
