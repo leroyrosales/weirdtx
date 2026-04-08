@@ -232,6 +232,18 @@ async function wikipediaSearchWithThumbnail(q) {
   }
 }
 
+async function commonsBestFileTitle(q) {
+  const j = await api('https://commons.wikimedia.org/w/api.php', {
+    action: 'query',
+    list: 'search',
+    srsearch: q,
+    srnamespace: 6, // File:
+    srlimit: 5,
+  })
+  const results = j?.query?.search ?? []
+  return results[0]?.title ? String(results[0].title) : null
+}
+
 function cacheKeyFromFrontmatter(data) {
   const title = String(data.title ?? '').trim()
   const city = String(data.city ?? '').trim()
@@ -277,20 +289,49 @@ async function suggestImage(data) {
 
   // Fallback path: Wikipedia title → Wikidata → P18 → Commons.
   const wikiTitle = await wikipediaBestTitle(q)
-  if (!wikiTitle) return null
-  const { qid, pageUrl } = await wikidataItemForWikipediaTitle(wikiTitle)
-  if (!qid) return null
-  const commonsFile = await commonsFileFromWikidataP18(qid)
-  if (!commonsFile) return null
-  const info = await commonsImageInfo(commonsFile)
-  if (!info.imageUrl) return null
-  return {
-    url: info.imageUrl,
-    alt: title,
-    credit: info.artist,
-    sourceUrl: info.filePageUrl ?? pageUrl ?? undefined,
-    license: info.license,
+  if (wikiTitle) {
+    const { qid, pageUrl } = await wikidataItemForWikipediaTitle(wikiTitle)
+    if (qid) {
+      const commonsFile = await commonsFileFromWikidataP18(qid)
+      if (commonsFile) {
+        const info = await commonsImageInfo(commonsFile)
+        if (info.imageUrl) {
+          return {
+            url: info.imageUrl,
+            alt: title,
+            credit: info.artist,
+            sourceUrl: info.filePageUrl ?? pageUrl ?? undefined,
+            license: info.license,
+          }
+        }
+      }
+    }
   }
+
+  // Final fallback: search Wikimedia Commons directly for a matching File:
+  // Useful when a good Commons photo exists but isn't surfaced via the Wikipedia/Wikidata paths.
+  const commonsQueries = [
+    city ? `${title} ${city} TX` : null,
+    city ? `${title} ${city}` : null,
+    `${title} Texas`,
+    title,
+  ].filter(Boolean)
+
+  for (const cq of commonsQueries) {
+    const fileTitle = await commonsBestFileTitle(cq)
+    if (!fileTitle) continue
+    const info = await commonsImageInfo(fileTitle)
+    if (!info.imageUrl) continue
+    return {
+      url: info.imageUrl,
+      alt: title,
+      credit: info.artist,
+      sourceUrl: info.filePageUrl ?? undefined,
+      license: info.license,
+    }
+  }
+
+  return null
 }
 
 function contentDirsForArgs(args) {
@@ -346,6 +387,48 @@ async function main() {
   const { limit, offset, sleepMs, cooldownMs } = args
   const contentDirs = contentDirsForArgs(args)
   const cache = loadCache()
+
+  function normalizeError(e) {
+    /** @type {any} */
+    const err = e
+    const status = typeof err === 'object' && err && 'status' in err ? Number(err.status) : undefined
+
+    // Node's fetch() often throws TypeError('fetch failed') with a nested `cause` that has the real info.
+    const cause = typeof err === 'object' && err ? err.cause : undefined
+    const causeObj =
+      cause && typeof cause === 'object'
+        ? {
+            name: cause.name,
+            message: cause.message,
+            code: cause.code,
+            errno: cause.errno,
+            syscall: cause.syscall,
+            hostname: cause.hostname,
+            address: cause.address,
+            port: cause.port,
+          }
+        : cause
+          ? { value: String(cause) }
+          : undefined
+
+    return {
+      status,
+      cacheEntry: {
+        status: 'error',
+        error: String(err),
+        errorName: typeof err === 'object' && err ? err.name : undefined,
+        errorMessage: typeof err === 'object' && err ? err.message : undefined,
+        httpStatus: Number.isFinite(status) ? status : undefined,
+        cause: causeObj,
+        at: new Date().toISOString(),
+      },
+      consoleLine: {
+        error: String(err),
+        httpStatus: Number.isFinite(status) ? status : undefined,
+        cause: causeObj,
+      },
+    }
+  }
 
   let scanned = 0
   let eligible = 0
@@ -421,13 +504,10 @@ async function main() {
         if (attempted % 25 === 0) saveCache(cache)
       } catch (e) {
         errors++
-        const status = typeof e === 'object' && e && 'status' in e ? Number(e.status) : undefined
-        cache[key] = {
-          status: 'error',
-          error: String(e),
-          httpStatus: Number.isFinite(status) ? status : undefined,
-          at: new Date().toISOString(),
-        }
+        const norm = normalizeError(e)
+        const status = norm.status
+        cache[key] = norm.cacheEntry
+        console.log(JSON.stringify({ note: 'image lookup error', key, ...norm.consoleLine }, null, 2))
 
         if (status === 429) {
           rateLimited++

@@ -4,6 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react(), tailwindcss()],
+  // Avoid dev-server churn when tools write under .cache/ or dist/ (not part of the module graph).
+  server: {
+    watch: {
+      ignored: ['**/.cache/**', '**/dist/**'],
+    },
+  },
   build: {
     // Client build must clear dist; SSR build writes only to dist/server (nested).
     emptyOutDir: !isSsrBuild,
