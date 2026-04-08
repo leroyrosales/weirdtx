@@ -12,7 +12,7 @@ export function EventPage() {
   const ev = slug ? getEventBySlug(slug) : undefined
 
   const jsonLd = useMemo(() => {
-    if (!ev) return null
+    if (!ev || typeof window === 'undefined') return null
     return buildEventJsonLd(ev, window.location.origin)
   }, [ev])
 

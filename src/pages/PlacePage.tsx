@@ -11,7 +11,7 @@ export function PlacePage() {
   const place = slug ? getPlaceBySlug(slug) : undefined
 
   const jsonLd = useMemo(() => {
-    if (!place) return null
+    if (!place || typeof window === 'undefined') return null
     return buildPlaceJsonLd(place, window.location.origin)
   }, [place])
 
