@@ -8,13 +8,15 @@
  *
  * Usage:
  *   node scripts/fill-images-wikimedia.mjs
+ *   node scripts/fill-images-wikimedia.mjs --places-only
+ *   node scripts/fill-images-wikimedia.mjs --events-only --limit 20 --sleep-ms 4000
  */
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { parse as parseYaml, stringify } from 'yaml'
 
 const ROOT = join(import.meta.dirname, '..')
-const CONTENT_DIRS = [
+const ALL_CONTENT_DIRS = [
   { dir: join(ROOT, 'src/content/places'), kind: 'place' },
   { dir: join(ROOT, 'src/content/events'), kind: 'event' },
 ]
@@ -39,13 +41,26 @@ const KEY_ORDER = [
 ]
 
 function parseArgs(argv) {
-  const args = { limit: Infinity, offset: 0, sleepMs: 3000, cooldownMs: 10 * 60 * 1000 }
+  const args = {
+    limit: Infinity,
+    offset: 0,
+    sleepMs: 3000,
+    cooldownMs: 10 * 60 * 1000,
+    placesOnly: false,
+    eventsOnly: false,
+  }
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]
     if (a === '--limit') args.limit = Number(argv[++i])
     else if (a === '--offset') args.offset = Number(argv[++i])
     else if (a === '--sleep-ms') args.sleepMs = Number(argv[++i])
     else if (a === '--cooldown-ms') args.cooldownMs = Number(argv[++i])
+    else if (a === '--places-only') args.placesOnly = true
+    else if (a === '--events-only') args.eventsOnly = true
+  }
+  if (args.placesOnly && args.eventsOnly) {
+    console.error('Use only one of --places-only or --events-only.')
+    process.exit(1)
   }
   if (!Number.isFinite(args.limit) || args.limit <= 0) args.limit = Infinity
   if (!Number.isFinite(args.offset) || args.offset < 0) args.offset = 0
@@ -257,8 +272,16 @@ async function suggestImage(data) {
   }
 }
 
+function contentDirsForArgs(args) {
+  if (args.placesOnly) return ALL_CONTENT_DIRS.filter((e) => e.kind === 'place')
+  if (args.eventsOnly) return ALL_CONTENT_DIRS.filter((e) => e.kind === 'event')
+  return ALL_CONTENT_DIRS
+}
+
 async function main() {
-  const { limit, offset, sleepMs, cooldownMs } = parseArgs(process.argv.slice(2))
+  const args = parseArgs(process.argv.slice(2))
+  const { limit, offset, sleepMs, cooldownMs } = args
+  const contentDirs = contentDirsForArgs(args)
   const cache = loadCache()
 
   let scanned = 0
@@ -272,7 +295,7 @@ async function main() {
   let rateLimited = 0
   let offsetSkipped = 0
 
-  for (const { dir, kind } of CONTENT_DIRS) {
+  for (const { dir, kind } of contentDirs) {
     const files = readdirSync(dir).filter((n) => n.endsWith('.md')).sort()
     for (const name of files) {
       if (!name.endsWith('.md')) continue
@@ -372,6 +395,7 @@ async function main() {
         rateLimited,
         failedParse,
         cacheFile: CACHE_FILE,
+        scope: args.placesOnly ? 'places' : args.eventsOnly ? 'events' : 'places+events',
       },
       null,
       2,

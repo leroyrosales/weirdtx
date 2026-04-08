@@ -119,15 +119,29 @@ export function HomePage() {
               <li key={p.slug}>
                 <Link
                   to={`/places/${p.slug}`}
-                  className="block rounded-xl border border-ink/10 bg-white/55 p-4 shadow-sm transition-all hover:border-sage/45 hover:shadow"
+                  className={`flex gap-4 rounded-xl border border-ink/10 bg-white/55 p-3 shadow-sm transition-all hover:border-sage/45 hover:shadow sm:p-4 ${
+                    p.image?.url ? 'items-stretch' : ''
+                  }`}
                   aria-label={`${p.title}, ${p.region}, ${p.city}`}
                 >
-                  <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
-                    {p.region}
-                  </span>
-                  <p className="font-display text-lg text-sky-deep">{p.title}</p>
-                  <p className="text-sm text-ink/70">{p.city}</p>
-                  {p.teaser ? <p className="mt-1 text-sm text-ink/80">{p.teaser}</p> : null}
+                  {p.image?.url ? (
+                    <div className="relative h-[4.5rem] w-[4.5rem] shrink-0 overflow-hidden rounded-lg bg-ink/5 sm:h-[5.25rem] sm:w-[5.25rem]">
+                      <img
+                        src={p.image.url}
+                        alt=""
+                        loading="lazy"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  ) : null}
+                  <div className="min-w-0 flex-1">
+                    <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
+                      {p.region}
+                    </span>
+                    <p className="font-display text-lg text-sky-deep">{p.title}</p>
+                    <p className="text-sm text-ink/70">{p.city}</p>
+                    {p.teaser ? <p className="mt-1 text-sm text-ink/80">{p.teaser}</p> : null}
+                  </div>
                 </Link>
               </li>
             ))}
