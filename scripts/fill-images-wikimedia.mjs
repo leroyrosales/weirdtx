@@ -10,6 +10,9 @@
  *   node scripts/fill-images-wikimedia.mjs
  *   node scripts/fill-images-wikimedia.mjs --places-only
  *   node scripts/fill-images-wikimedia.mjs --events-only --limit 20 --sleep-ms 4000
+ *   node scripts/fill-images-wikimedia.mjs --slug leander-dinosaur-tracks
+ *   node scripts/fill-images-wikimedia.mjs --slug eeyores-birthday --kind event
+ *   node scripts/fill-images-wikimedia.mjs --file src/content/places/leander-dinosaur-tracks.md
  */
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
@@ -48,6 +51,9 @@ function parseArgs(argv) {
     cooldownMs: 10 * 60 * 1000,
     placesOnly: false,
     eventsOnly: false,
+    slug: null,
+    file: null,
+    kind: null, // 'place' | 'event' | null
   }
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]
@@ -57,9 +63,24 @@ function parseArgs(argv) {
     else if (a === '--cooldown-ms') args.cooldownMs = Number(argv[++i])
     else if (a === '--places-only') args.placesOnly = true
     else if (a === '--events-only') args.eventsOnly = true
+    else if (a === '--slug') args.slug = String(argv[++i] ?? '').trim() || null
+    else if (a === '--file') args.file = String(argv[++i] ?? '').trim() || null
+    else if (a === '--kind') args.kind = String(argv[++i] ?? '').trim().toLowerCase() || null
   }
   if (args.placesOnly && args.eventsOnly) {
     console.error('Use only one of --places-only or --events-only.')
+    process.exit(1)
+  }
+  if (args.slug && args.file) {
+    console.error('Use only one of --slug or --file.')
+    process.exit(1)
+  }
+  if (args.kind && args.kind !== 'place' && args.kind !== 'event') {
+    console.error('Invalid --kind. Use "place" or "event".')
+    process.exit(1)
+  }
+  if (args.kind && (args.placesOnly || args.eventsOnly)) {
+    console.error('Do not combine --kind with --places-only/--events-only.')
     process.exit(1)
   }
   if (!Number.isFinite(args.limit) || args.limit <= 0) args.limit = Infinity
@@ -273,9 +294,51 @@ async function suggestImage(data) {
 }
 
 function contentDirsForArgs(args) {
+  if (args.kind) return ALL_CONTENT_DIRS.filter((e) => e.kind === args.kind)
   if (args.placesOnly) return ALL_CONTENT_DIRS.filter((e) => e.kind === 'place')
   if (args.eventsOnly) return ALL_CONTENT_DIRS.filter((e) => e.kind === 'event')
   return ALL_CONTENT_DIRS
+}
+
+function resolveSingleTarget(args, contentDirs) {
+  if (!args.slug && !args.file) return null
+
+  if (args.file) {
+    const fp = args.file.startsWith('/') ? args.file : join(ROOT, args.file)
+    if (!fp.endsWith('.md')) {
+      console.error('Target file must be a .md file.')
+      process.exit(1)
+    }
+    if (!existsSync(fp)) {
+      console.error(`Target file not found: ${args.file}`)
+      process.exit(1)
+    }
+    const dirEntry = contentDirs.find(({ dir }) => fp.startsWith(dir))
+    if (!dirEntry) {
+      console.error('Target file must be under src/content/places or src/content/events.')
+      process.exit(1)
+    }
+    return [{ fp, kind: dirEntry.kind }]
+  }
+
+  const filename = `${args.slug}.md`
+  /** @type {{ fp: string; kind: string }[]} */
+  const hits = []
+  for (const { dir, kind } of contentDirs) {
+    const fp = join(dir, filename)
+    if (existsSync(fp)) hits.push({ fp, kind })
+  }
+  if (hits.length === 0) {
+    console.error(`No markdown file found for slug "${args.slug}". Expected ${filename} under content directories.`)
+    process.exit(1)
+  }
+  if (hits.length > 1) {
+    console.error(
+      `Slug "${args.slug}" matched multiple files (place + event). Re-run with --kind place|event or use --file.`,
+    )
+    process.exit(1)
+  }
+  return hits
 }
 
 async function main() {
@@ -295,11 +358,20 @@ async function main() {
   let rateLimited = 0
   let offsetSkipped = 0
 
-  for (const { dir, kind } of contentDirs) {
-    const files = readdirSync(dir).filter((n) => n.endsWith('.md')).sort()
-    for (const name of files) {
-      if (!name.endsWith('.md')) continue
-      const fp = join(dir, name)
+  const single = resolveSingleTarget(args, contentDirs)
+  const dirIterations = single
+    ? [{ dir: null, kind: null, files: single.map((s) => ({ fp: s.fp, kind: s.kind })) }]
+    : contentDirs.map(({ dir, kind }) => ({
+        dir,
+        kind,
+        files: readdirSync(dir)
+          .filter((n) => n.endsWith('.md'))
+          .sort()
+          .map((name) => ({ fp: join(dir, name), kind })),
+      }))
+
+  for (const batch of dirIterations) {
+    for (const { fp, kind } of batch.files) {
       const raw = readFileSync(fp, 'utf8')
       const parsed = parseMatter(raw)
       scanned++
@@ -396,6 +468,7 @@ async function main() {
         failedParse,
         cacheFile: CACHE_FILE,
         scope: args.placesOnly ? 'places' : args.eventsOnly ? 'events' : 'places+events',
+        target: args.slug ? { slug: args.slug, kind: args.kind ?? null } : args.file ? { file: args.file } : null,
       },
       null,
       2,

@@ -2706,5 +2706,1659 @@
     "status": "error",
     "error": "Error: HTTP 429",
     "at": "2026-04-07T18:09:13.592Z"
+  },
+  "place:Leander Dinosaur Tracks, Leander": {
+    "status": "no_match",
+    "at": "2026-04-08T13:24:17.826Z"
+  },
+  "place:Wrong Store, Marfa": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marfa_courthouse.jpg",
+      "alt": "Wrong Store",
+      "credit": "The original uploader was Talshiarr at English Wikipedia.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marfa_courthouse.jpg",
+      "license": "CC BY-SA 2.5"
+    },
+    "at": "2026-04-08T13:25:28.349Z"
+  },
+  "place:Stonehenge II, Ingram": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Stonehenge_texas_01.JPG",
+      "alt": "Stonehenge II",
+      "credit": "Cqui",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge_texas_01.JPG",
+      "license": "CC BY-SA 2.5"
+    },
+    "at": "2026-04-08T13:25:54.714Z"
+  },
+  "place:Betty Head Oleander Garden Park, Galveston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/WestUSculpture.JPG/1920px-WestUSculpture.JPG",
+      "alt": "Betty Head Oleander Garden Park",
+      "credit": "WhisperToMe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WestUSculpture.JPG",
+      "license": "Public domain"
+    },
+    "at": "2026-04-08T13:26:50.741Z"
+  },
+  "place:Radio Tave, Houston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Web_Large-20241018_MW_3291-Edit.jpg/1920px-Web_Large-20241018_MW_3291-Edit.jpg",
+      "alt": "Radio Tave",
+      "credit": "ObscuraNomad",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Web_Large-20241018_MW_3291-Edit.jpg",
+      "license": "CC BY 4.0"
+    },
+    "at": "2026-04-08T13:27:11.605Z"
+  },
+  "place:Robert E. Howard Museum, Cross Plains": {
+    "status": "no_match",
+    "at": "2026-04-08T13:27:32.064Z"
+  },
+  "place:The Orange Show, Houston": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Orange_Show_Houston_Concert_Venue.jpg/1920px-The_Orange_Show_Houston_Concert_Venue.jpg",
+      "alt": "The Orange Show",
+      "credit": "Ed Uthman, Houston, Texas, USA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Orange_Show_Houston_Concert_Venue.jpg",
+      "license": "CC BY 3.0"
+    },
+    "at": "2026-04-08T13:27:47.966Z"
+  },
+  "place:Floating Mesa, Bushland": {
+    "status": "no_match",
+    "at": "2026-04-08T13:28:20.507Z"
+  },
+  "place:Santa Claus Museum, Columbus": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Renovation_of_Colorado_County_Courthouse%2C_Columbus%2C_TX_IMG_8230.JPG/1920px-Renovation_of_Colorado_County_Courthouse%2C_Columbus%2C_TX_IMG_8230.JPG",
+      "alt": "Santa Claus Museum",
+      "credit": "Billy Hathorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renovation_of_Colorado_County_Courthouse,_Columbus,_TX_IMG_8230.JPG",
+      "license": "CC BY-SA 4.0"
+    },
+    "at": "2026-04-08T13:29:06.963Z"
+  },
+  "place:World's Largest Pecan, Seguin": {
+    "status": "ok",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Seguin%2C_TX%2C_water_tower_IMG_8155.JPG/1920px-Seguin%2C_TX%2C_water_tower_IMG_8155.JPG",
+      "alt": "World's Largest Pecan",
+      "credit": "Billy Hathorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seguin,_TX,_water_tower_IMG_8155.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    "at": "2026-04-08T13:29:34.619Z"
+  },
+  "place:1890s Alien Gravesite, Aurora": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:18.396Z"
+  },
+  "place:Bumblebee Statue, Terrell": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:20.911Z"
+  },
+  "place:Adrian E. Flatt, M.D., Hand Collection, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:23.099Z"
+  },
+  "place:Aldridge Sawmill, Zavalla": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:25.418Z"
+  },
+  "place:Alley Oop Land and Museum, Iraan": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:27.558Z"
+  },
+  "place:Aurora Picture Show, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:29.982Z"
+  },
+  "place:Austin Beerworks, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:32.160Z"
+  },
+  "place:Austin State School Farm Colony, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:34.502Z"
+  },
+  "place:Baby Head Cemetery, Llano": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:36.676Z"
+  },
+  "place:Barkin' Springs, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:38.913Z"
+  },
+  "place:Batch Craft Beer & Kolaches, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:41.152Z"
+  },
+  "place:Becknell Cemetery, Clarksville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:43.337Z"
+  },
+  "place:Big Texan Steak Ranch & Brewery, Amarillo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:45.646Z"
+  },
+  "place:Boston Terrier Museum, Floydada": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:48.088Z"
+  },
+  "place:Bouldin Creek Cafe, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:50.294Z"
+  },
+  "place:Bowler Hat Sculpture, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:52.435Z"
+  },
+  "place:Broken Spoke, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:54.623Z"
+  },
+  "place:Brownsville City Cemetery, Brownsville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:56.753Z"
+  },
+  "place:Burns Original BBQ, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:30:59.191Z"
+  },
+  "place:C-Boy's Heart & Soul, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:01.315Z"
+  },
+  "place:Cactus King, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:03.442Z"
+  },
+  "place:Caddo Lake, Karnack": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:05.570Z"
+  },
+  "place:Caelum Mór, Arlington": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:07.753Z"
+  },
+  "place:Cajun Kitchen, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:09.881Z"
+  },
+  "place:Carousel Lounge, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:12.124Z"
+  },
+  "place:Casa Neverlandia, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:14.320Z"
+  },
+  "place:'Cast Away' Crossroads, Neece": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:16.438Z"
+  },
+  "place:Castroville Hearse, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:18.545Z"
+  },
+  "place:Chapel on the Dunes, Port Aransas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:20.924Z"
+  },
+  "place:Chef Point Bar & Restaurant, Watauga": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:23.038Z"
+  },
+  "place:Chris Park, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:25.223Z"
+  },
+  "place:Christie's Seafood & Steak, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:27.359Z"
+  },
+  "place:Roman Urn Collection at SAMA, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:29.463Z"
+  },
+  "place:Cinnamon Kandy the Circus Elephant, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:31.585Z"
+  },
+  "place:Classmates, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:33.677Z"
+  },
+  "place:The Cockroach Hall of Fame Museum, Plano": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:35.785Z"
+  },
+  "place:Collinsworth Cemetery, Plano": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:37.879Z"
+  },
+  "place:Comanche Lookout Park, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:40.011Z"
+  },
+  "place:Combine City, Amarillo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:42.143Z"
+  },
+  "place:Contrabando, Redford": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:44.291Z"
+  },
+  "place:Cool Crest Miniature Golf, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:46.428Z"
+  },
+  "place:Cowboy Hat and Boot Houses, Huntsville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:48.647Z"
+  },
+  "place:Curia Arcanum, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:50.951Z"
+  },
+  "place:Dallas Skyspace, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:53.136Z"
+  },
+  "place:Davis Cemetery, Leander": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:55.338Z"
+  },
+  "place:Dead Man's Hole, Marble Falls Township": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:57.472Z"
+  },
+  "place:Deer Horn Tree, Junction": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:31:59.605Z"
+  },
+  "place:Sunland Park Dinosaur Tracks, El Paso": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:02.115Z"
+  },
+  "place:Donn's Depot, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:04.469Z"
+  },
+  "place:Dutch Windmill Museum, Nederland": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:06.864Z"
+  },
+  "place:Easy Tiger, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:09.090Z"
+  },
+  "place:Eclectic Menagerie Park, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:11.231Z"
+  },
+  "place:End of An Ear, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:13.768Z"
+  },
+  "place:Epoch Coffee - NorthLoop, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:15.908Z"
+  },
+  "place:Espada Aqueduct, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:18.056Z"
+  },
+  "place:Esther's Follies, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:20.195Z"
+  },
+  "place:Eve's Garden B&B and Ecology Resource Center, Marathon": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:22.331Z"
+  },
+  "place:'Eye' Sculpture, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:24.453Z"
+  },
+  "place:Faith Alive Cowboy Church Radio Station, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:26.589Z"
+  },
+  "place:Fannin Battleground State Historic Site, Goliad": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:28.723Z"
+  },
+  "place:Fiesta Tower, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:30.860Z"
+  },
+  "place:Floppy Disk Repair Co., Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:33.018Z"
+  },
+  "place:Food Shark Museum of Electronic Wonders & Late Night Grilled Cheese Parlour, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:35.142Z"
+  },
+  "place:Forbidden Gardens, Katy": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:37.279Z"
+  },
+  "place:Camp Wolters, Mineral Wells": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:39.419Z"
+  },
+  "place:Fort Worth Stockyards, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:41.538Z"
+  },
+  "place:Fort Worth Water Gardens, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:43.667Z"
+  },
+  "place:Freeman Ranch Body Farm, San Marcos": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:45.803Z"
+  },
+  "place:Frost Bank Tower, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:47.927Z"
+  },
+  "place:Gene Cockrell's Yard Art, Canadian": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:50.083Z"
+  },
+  "place:Gerald D. Hines Waterwall Park, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:52.224Z"
+  },
+  "place:Geraldine Watson Rare Native Plant Preserve, Warren": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:54.354Z"
+  },
+  "place:Ghostcat Lounge, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:56.468Z"
+  },
+  "place:The Giant Eyeball, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:32:58.598Z"
+  },
+  "place:Giant Hog Stand, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:00.744Z"
+  },
+  "place:Giant 'Luecke' Signature, Smithville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:02.881Z"
+  },
+  "place:Giant Matthew McConaughey, Uvalde": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:05.017Z"
+  },
+  "place:‘Giant’ Marfa Mural, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:07.149Z"
+  },
+  "place:The Giant Stag of Converse, Converse": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:09.296Z"
+  },
+  "place:Glass Bathrooms of Sulphur Springs, Sulphur Springs": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:11.449Z"
+  },
+  "place:Glenn Goode's Big People, Gainesville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:13.586Z"
+  },
+  "place:Goatman's Bridge, Denton": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:15.715Z"
+  },
+  "place:Good Luck Gas Station, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:17.851Z"
+  },
+  "place:Grapevine Glockenspiel Clock Tower, Grapevine": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:19.992Z"
+  },
+  "place:Grave in the Road, Hearne": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:22.132Z"
+  },
+  "place:The Grave of Bonnie Parker, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:24.272Z"
+  },
+  "place:Grave of Howard Hughes, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:26.420Z"
+  },
+  "place:Grave of Pat the Horse, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:28.555Z"
+  },
+  "place:Grave of Sandra West and Her Ferrari, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:30.710Z"
+  },
+  "place:Gravesite of Clyde Barrow, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:32.863Z"
+  },
+  "place:Guadalupe Peak, Culberson County": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:35.006Z"
+  },
+  "place:Half Price Books Flagship Store, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:37.150Z"
+  },
+  "place:Harry Ransom Center, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:39.350Z"
+  },
+  "place:Helium Time Columns Monument, Amarillo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:41.475Z"
+  },
+  "place:'Hi, How Are You' Mural, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:43.614Z"
+  },
+  "place:High Country Market Bistro & GastroPub, Round Rock": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:45.751Z"
+  },
+  "place:Himalaya Restaurant, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:47.871Z"
+  },
+  "place:The Hobbit Café, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:50.009Z"
+  },
+  "place:HOPE Outdoor Gallery, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:52.148Z"
+  },
+  "place:Hot Wells Hotel and Spa, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:54.281Z"
+  },
+  "place:Hotel Paisano, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:56.419Z"
+  },
+  "place:House of Bowls, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:33:58.579Z"
+  },
+  "place:Houston Airport Subway, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:00.730Z"
+  },
+  "place:Houston Maritime Museum, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:02.863Z"
+  },
+  "place:Interimaginary Departures, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:05.339Z"
+  },
+  "place:'Johnny Loves Vivian' Bench, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:07.927Z"
+  },
+  "place:Kim Son, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:10.366Z"
+  },
+  "place:Kolache Shoppe, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:12.640Z"
+  },
+  "place:Koriente, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:14.770Z"
+  },
+  "place:Lajitas Ghost Town, Terlingua": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:17.031Z"
+  },
+  "place:Lala's Little Nugget, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:19.168Z"
+  },
+  "place:Lala’s Little Nugget, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:21.306Z"
+  },
+  "place:Last Remaining Boundary Marker for the Republic of Texas, Carthage": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:23.577Z"
+  },
+  "place:Lhakhang Cultural Exhibit, El Paso": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:26.033Z"
+  },
+  "place:Light of Saratoga, Saratoga": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:28.201Z"
+  },
+  "place:Lobanillo Swales, Bronson": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:30.416Z"
+  },
+  "place:The Boardwalk at Lake Weatherford, Weatherford": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:32.556Z"
+  },
+  "place:Lytton Springs General Store, Dale": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:34.945Z"
+  },
+  "place:Magic Lantern Castle Museum, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:37.084Z"
+  },
+  "place:Majors Stadium, Greenville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:39.435Z"
+  },
+  "place:LBJ Presidential Marker, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:41.564Z"
+  },
+  "place:‘Malin’s Fountain’, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:43.700Z"
+  },
+  "place:Man With a Briefcase, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:45.836Z"
+  },
+  "place:Maple Leaf Diner, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:47.975Z"
+  },
+  "place:Marfa Lights Viewing Area, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:50.102Z"
+  },
+  "place:Marfa Lights, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:52.240Z"
+  },
+  "place:Mariscal Mine, Big Bend National Park": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:54.381Z"
+  },
+  "place:Mayfield Park, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:56.502Z"
+  },
+  "place:McKittrick Canyon, Culberson County": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:34:58.641Z"
+  },
+  "place:McNutt Sculpture Garden, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:00.781Z"
+  },
+  "place:Memorial Park at UT Health Science Center, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:02.921Z"
+  },
+  "place:Mexic-Arte Museum, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:05.058Z"
+  },
+  "place:Mineral Wells Fossil Park, Mineral Wells": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:07.190Z"
+  },
+  "place:Miraflores, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:09.327Z"
+  },
+  "place:Mission San Jose, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:11.457Z"
+  },
+  "place:Molina's Cantina, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:13.595Z"
+  },
+  "place:Momo Spot, Irving": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:15.736Z"
+  },
+  "place:‘Moonwalker’, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:17.874Z"
+  },
+  "place:Mount Bonnell, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:20.015Z"
+  },
+  "place:‘Move One Place On’, Bellaire": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:22.150Z"
+  },
+  "place:Ms. Pearl, Cedar Creek": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:24.274Z"
+  },
+  "place:Mueller SunFlowers, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:26.418Z"
+  },
+  "place:Munster Mansion, Waxahachie": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:28.552Z"
+  },
+  "place:Museum of Health and Medical Science, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:30.687Z"
+  },
+  "place:Museum of Natural and Artificial Ephemerata, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:32.807Z"
+  },
+  "place:Museum of the Gulf Coast, Port Arthur": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:34.927Z"
+  },
+  "place:Museum of the Weird, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:37.051Z"
+  },
+  "place:Mustangs of Las Colinas, Irving": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:39.191Z"
+  },
+  "place:Naegelin's Bakery, New Braunfels": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:41.328Z"
+  },
+  "place:National Museum of Funeral History, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:43.457Z"
+  },
+  "place:National Museum of the Pacific War, Fredericksburg": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:45.606Z"
+  },
+  "place:National WASP WWII Museum, Sweetwater": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:47.744Z"
+  },
+  "place:Nature of the Waters, San Marcos": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:49.877Z"
+  },
+  "place:Newby-McMahon Building, Wichita Falls": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:52.019Z"
+  },
+  "place:Newman's Castle, Bellville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:54.160Z"
+  },
+  "place:Northeast Texas Rural Heritage Museum, Pittsburg": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:56.300Z"
+  },
+  "place:Blood Lake- the O.C. Fisher Reservoir, San Angelo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:35:58.435Z"
+  },
+  "place:O. Henry Museum, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:00.566Z"
+  },
+  "place:Oddwood Ales, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:02.703Z"
+  },
+  "place:Old Bayview Cemetery, Corpus Christi": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:04.807Z"
+  },
+  "place:Old Bluffton Underwater Ghost Town, Burnet": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:06.942Z"
+  },
+  "place:Old ‘Hanging’ Oak, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:09.093Z"
+  },
+  "place:Old Rip, Eastland": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:11.239Z"
+  },
+  "place:Old Stone Fort, Nacogdoches": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:13.379Z"
+  },
+  "place:Old Time Wooden Nickel Company, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:15.515Z"
+  },
+  "place:Old Tunnel Bat Colony, Fredericksburg": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:17.646Z"
+  },
+  "place:Old Zoo Nature Trails, Cisco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:19.770Z"
+  },
+  "place:Ghost Streets of Onion Creek, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:21.980Z"
+  },
+  "place:Ozymandias on the Plains, Amarillo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:24.195Z"
+  },
+  "place:Painted Churches of Texas, Schulenburg": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:26.339Z"
+  },
+  "place:Paisano Pete, Fort Stockton": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:28.472Z"
+  },
+  "place:Palace of the Golden Orbs, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:30.598Z"
+  },
+  "place:Pape’s Nutcracker Museum, Seguin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:32.931Z"
+  },
+  "place:Old Mill Pond Museum (formerly Parrot Park), Lindale": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:35.138Z"
+  },
+  "place:Phat Eatery, Katy": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:38.041Z"
+  },
+  "place:Pinballz Arcade, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:40.167Z"
+  },
+  "place:Pink Dolphin Monument, Galveston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:42.327Z"
+  },
+  "place:Pioneer Plaza Cattle Drive, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:44.468Z"
+  },
+  "place:Portland Cement Plant Ruins, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:46.604Z"
+  },
+  "place:Possum Kingdom Stone Arch Bridge, Graford": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:48.712Z"
+  },
+  "place:POST Houston, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:50.852Z"
+  },
+  "place:Prada Marfa, Valentine": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:52.986Z"
+  },
+  "place:Public School 972, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:55.131Z"
+  },
+  "place:Rattlers & Reptiles, Fort Davis": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:57.336Z"
+  },
+  "place:Regulator-Moderator War Centennial Marker, Linden": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:36:59.473Z"
+  },
+  "place:Republic of the Rio Grande Museum, Laredo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:01.619Z"
+  },
+  "place:Resaca De La Palma State Park, Brownsville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:03.749Z"
+  },
+  "place:Reveille Mascot Cemetery, College Station": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:05.955Z"
+  },
+  "place:Robert Bruno’s Steel House, Ransom Canyon": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:08.089Z"
+  },
+  "place:Robert E. Lee House, Boerne": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:10.300Z"
+  },
+  "place:Rosa's Cantina, El Paso": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:12.438Z"
+  },
+  "place:Rosita's Bridge, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:14.546Z"
+  },
+  "place:Rothko Chapel, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:16.692Z"
+  },
+  "place:Royse City Futuro House, Royse City": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:18.833Z"
+  },
+  "place:Rube Waddell's Grave, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:20.945Z"
+  },
+  "place:Ruins of St Dominic's Catholic Church, Hondo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:23.078Z"
+  },
+  "place:Rusk County Youth Expo Center, Henderson": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:25.225Z"
+  },
+  "place:Russian Banya Family Spa and Café, Carrollton": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:27.361Z"
+  },
+  "place:S. S. Selma, Galveston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:29.501Z"
+  },
+  "place:Sahara Lounge, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:31.636Z"
+  },
+  "place:Sal del Rey, Edinburg": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:33.778Z"
+  },
+  "place:The Salt Palace, Grand Saline": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:35.914Z"
+  },
+  "place:Sam Houston Statue, Huntsville": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:38.043Z"
+  },
+  "place:San Fernando Cathedral City Centers, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:40.180Z"
+  },
+  "place:Seaman's Memorial Tower, Aransas Pass": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:42.393Z"
+  },
+  "place:Seashell Graves of Comfort Cemetery, Comfort": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:44.535Z"
+  },
+  "place:Mirador de la Flor, Corpus Christi": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:46.659Z"
+  },
+  "place:Seminole Canyon, Comstock": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:48.805Z"
+  },
+  "place:Shamrock Blarney Stone, Shamrock": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:50.944Z"
+  },
+  "place:Shepard's Barber Shop, Conroe": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:53.155Z"
+  },
+  "place:Site of the Santa Claus Bank Robbery, Cisco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:55.292Z"
+  },
+  "place:Skyspace- The Color Inside, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:57.435Z"
+  },
+  "place:‘Sleeping Figure’, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:37:59.729Z"
+  },
+  "place:Smither Park, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:01.859Z"
+  },
+  "place:Snake Island, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:03.998Z"
+  },
+  "place:Southwest Regional Library Demo Garden, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:06.161Z"
+  },
+  "place:Soy Pinoy, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:08.295Z"
+  },
+  "place:Sparky Park, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:10.441Z"
+  },
+  "place:Spider House, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:12.599Z"
+  },
+  "place:Spirit of Texas Bank, Conroe": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:14.747Z"
+  },
+  "place:St. Thérèse of Lisieux Painting, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:16.871Z"
+  },
+  "place:Stanzel Model Aircraft Museum, Schulenburg": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:19.010Z"
+  },
+  "place:Stardust Motel Sign, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:21.122Z"
+  },
+  "place:Starship Pegasus, Italy": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:23.242Z"
+  },
+  "place:Stevie Ray Vaughan’s Grave, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:25.394Z"
+  },
+  "place:Stevie Ray Vaughan Statue, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:27.528Z"
+  },
+  "place:Stone Windmill, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:29.648Z"
+  },
+  "place:Stonehenge Replica, Odessa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:31.855Z"
+  },
+  "place:Sturrock Cemetery, Zavalla": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:33.989Z"
+  },
+  "place:Sugar Land Heritage Foundation and Museum, Sugar Land": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:36.092Z"
+  },
+  "place:Sul Ross Desk, Alpine": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:38.264Z"
+  },
+  "place:Desertron- The Superconducting Super Collider, Waxahachie": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:40.366Z"
+  },
+  "place:Susanna Dickinson Museum, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:42.514Z"
+  },
+  "place:Switched On, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:44.644Z"
+  },
+  "place:Taco Mex, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:46.784Z"
+  },
+  "place:Target Marathon, Alpine": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:48.921Z"
+  },
+  "place:Terlingua Ghost Town, Terlingua": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:51.059Z"
+  },
+  "place:Tesoros Trading Company Retail, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:53.183Z"
+  },
+  "place:Texas Broadcast Museum, Kilgore": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:55.316Z"
+  },
+  "place:Texas Centennial Art Deco Buildings, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:57.456Z"
+  },
+  "place:The Gas Station, Bastrop": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:38:59.569Z"
+  },
+  "place:Texas City Memorial, Texas City": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:01.679Z"
+  },
+  "place:Texas City Museum, Texas City": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:03.816Z"
+  },
+  "place:Texas Eiffel Tower, Paris": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:05.953Z"
+  },
+  "place:Texas Ranger Hall of Fame and Museum, Waco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:08.072Z"
+  },
+  "place:Brain Collection at the University of Texas at Austin, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:10.183Z"
+  },
+  "place:Texas Theatre, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:12.285Z"
+  },
+  "place:Texas Triffid Ranch, Richardson": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:14.436Z"
+  },
+  "place:Th_Prsrv, Kemah": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:16.557Z"
+  },
+  "place:Thanks-Giving Square, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:18.682Z"
+  },
+  "place:The Aristocrat Lounge, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:20.799Z"
+  },
+  "place:The Baker Hotel, Mineral Wells": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:22.934Z"
+  },
+  "place:The Berlin Bear, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:25.059Z"
+  },
+  "place:The Big Bubble, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:27.173Z"
+  },
+  "place:The Big Tree, Rockport": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:29.309Z"
+  },
+  "place:The Bottle House, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:31.434Z"
+  },
+  "place:The Butterfly Bar @ The VORTEX, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:33.552Z"
+  },
+  "place:The Cartoon Saloon, Comfort": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:35.678Z"
+  },
+  "place:The Chairy Orchard, Denton": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:37.806Z"
+  },
+  "place:The Church at Texas, Palmer": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:39.955Z"
+  },
+  "place:Devil's Sinkhole, Rocksprings": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:42.076Z"
+  },
+  "place:The Dinosaur Park, Cedar Creek": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:44.231Z"
+  },
+  "place:The Donnellan Crypt, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:46.357Z"
+  },
+  "place:The Electric Church, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:48.506Z"
+  },
+  "place:The Elissa, Galveston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:50.652Z"
+  },
+  "place:The First Inhabitant, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:52.790Z"
+  },
+  "place:The Flamingo House, Round Rock": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:54.927Z"
+  },
+  "place:The Goddess of Liberty, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:57.078Z"
+  },
+  "place:The Grand 1894 Opera House, Galveston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:39:59.241Z"
+  },
+  "place:The Grand, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:01.377Z"
+  },
+  "place:The Grave of Rope Walker, Corsicana": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:03.520Z"
+  },
+  "place:The Graves of ‘Dimebag Darrell’ and ‘Vinnie Paul the Brick Wall‘, Arlington": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:05.652Z"
+  },
+  "place:The Grotto, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:07.781Z"
+  },
+  "place:The Harry Ransom Center, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:09.911Z"
+  },
+  "place:The Leaning Tower of Texas, Groom": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:12.044Z"
+  },
+  "place:The Lost Arm of F. Stewart, Paradise": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:14.184Z"
+  },
+  "place:The Magic Time Machine, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:16.300Z"
+  },
+  "place:The Omelettry, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:18.413Z"
+  },
+  "place:The Palace Light Bulb, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:20.547Z"
+  },
+  "place:The Picasso Benches, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:22.651Z"
+  },
+  "place:The Fort Sam Houston Quadrangle and Museum, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:24.790Z"
+  },
+  "place:The Real Unreal, Grapevine": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:26.910Z"
+  },
+  "place:The Second Amendment Cowboy, Amarillo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:29.046Z"
+  },
+  "place:The Sentinel, Marfa": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:31.185Z"
+  },
+  "place:The Sometimes Islands, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:33.323Z"
+  },
+  "place:The Texas State Cemetery, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:35.457Z"
+  },
+  "place:The Texas Woofus, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:37.600Z"
+  },
+  "place:The Traveling Man, Dallas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:39.742Z"
+  },
+  "place:The Velveeta Room, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:41.854Z"
+  },
+  "place:The VORTEX, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:43.977Z"
+  },
+  "place:The Wilde Collection, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:46.112Z"
+  },
+  "place:The Witch’s Grave, Katy": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:48.249Z"
+  },
+  "place:Tomball Pickle Man, Tomball": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:50.375Z"
+  },
+  "place:Top 'o Hill Terrace, Arlington": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:52.547Z"
+  },
+  "place:Toy Joy, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:54.656Z"
+  },
+  "place:Treaty Oak, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:56.793Z"
+  },
+  "place:Twilight Epiphany Skyspace, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:40:58.918Z"
+  },
+  "place:Tyler Rose Garden, Tyler": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:01.049Z"
+  },
+  "place:U-Drop Inn, Shamrock": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:03.169Z"
+  },
+  "place:Umbrella Alley, Baytown": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:05.301Z"
+  },
+  "place:Umlauf Sculpture Garden & Museum, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:07.437Z"
+  },
+  "place:Uncommon Objects, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:09.576Z"
+  },
+  "place:Union Missionary Baptist Church, Jefferson": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:11.716Z"
+  },
+  "place:United Sisters, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:13.854Z"
+  },
+  "place:U.S. Army Medical Department Museum, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:15.986Z"
+  },
+  "place:Virtuoso Sculpture, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:18.114Z"
+  },
+  "place:Vision del Futuro, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:20.244Z"
+  },
+  "place:VW Slug Bug Ranch, Panhandle": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:22.355Z"
+  },
+  "place:Waco Mammoth Site, Waco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:24.473Z"
+  },
+  "place:Waco Suspension Bridge, Waco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:26.577Z"
+  },
+  "place:Waterloo Records & Video, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:28.685Z"
+  },
+  "place:Luling Watermelon Water Tower, Luling": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:30.824Z"
+  },
+  "place:Webb Gallery, Waxahachie": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:32.923Z"
   }
 }
