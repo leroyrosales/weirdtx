@@ -2889,7 +2889,7 @@
   "place:Burns Original BBQ, Houston": {
     "status": "error",
     "error": "TypeError: fetch failed",
-    "at": "2026-04-08T13:30:59.191Z"
+    "at": "2026-04-08T13:42:11.128Z"
   },
   "place:C-Boy's Heart & Soul, Austin": {
     "status": "error",
@@ -4360,5 +4360,90 @@
     "status": "error",
     "error": "TypeError: fetch failed",
     "at": "2026-04-08T13:41:32.923Z"
+  },
+  "place:Westcave Outdoor Discovery Center, Round Mountain": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:35.039Z"
+  },
+  "place:Wheatsville Food Co-Op, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:37.147Z"
+  },
+  "place:The Wheeler Historical Museum, Wheeler": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:39.287Z"
+  },
+  "place:'Where Independence Begins' Mural, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:41.449Z"
+  },
+  "place:Whip In, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:43.591Z"
+  },
+  "place:Whip in, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:45.710Z"
+  },
+  "place:Wink Sink, Winkler County": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:47.812Z"
+  },
+  "place:Woman Hollering Creek, Saint Hedwig": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:49.921Z"
+  },
+  "place:Woody’s Classic Cars and Baseball Museum, Cross Plains": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:52.037Z"
+  },
+  "place:World's Largest Bowie Knife, Bowie": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:54.141Z"
+  },
+  "place:World Trade Bridge, Laredo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:56.267Z"
+  },
+  "place:World's Largest Branding Iron, Vega": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:41:58.370Z"
+  },
+  "place:World's Largest Cowboy Boots, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:42:00.476Z"
+  },
+  "place:World's Largest Killer Bee, Hidalgo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:42:02.585Z"
+  },
+  "place:World's Largest Spur, Lampasas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:42:04.756Z"
+  },
+  "place:World’s Longest Car Wash, Katy": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:42:06.862Z"
+  },
+  "place:Wyler Aerial Tramway, El Paso": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "at": "2026-04-08T13:42:09.045Z"
   }
 }
