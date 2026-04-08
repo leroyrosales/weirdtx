@@ -175,6 +175,19 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     }
   }
 
+  // Sign-in /saved paused: restore block when SavedPlacesPage is wired back in.
+  // if (path === '/saved') {
+  //   return {
+  //     pageTitleShort: 'Saved places',
+  //     description: truncateMeta(
+  //       'Your Weird TX saved places list. Sign in with Google (Netlify Identity) to sync bookmarks.',
+  //     ),
+  //     canonicalUrl: `${base}/saved`,
+  //     noIndex: true,
+  //     jsonLd: null,
+  //   }
+  // }
+
   if (path.startsWith('/categories/')) {
     const raw = path.slice('/categories/'.length)
     const categoryValue = decodeParam(raw).trim()

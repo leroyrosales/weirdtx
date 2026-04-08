@@ -1,5 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
+import { useLayoutNav } from '../hooks/useLayoutNav'
+import { useRandomPick } from '../hooks/useRandomPick'
+import {
+  RANDOM_PICK_BUTTON_ACTIVE_CLASSES,
+  RANDOM_PICK_BUTTON_CLASSES,
+} from '../lib/randomPickButtonClasses'
 
 function ScrollToTopOnNavigate() {
   const { pathname } = useLocation()
@@ -30,20 +36,15 @@ function RouteAnnouncer() {
   )
 }
 
-const nav = [
-  { to: '/', label: 'Home' },
-  { to: '/explore', label: 'Near me' },
-  { to: '/places', label: 'Places' },
-  { to: '/events', label: 'Events' },
-  { to: '/random', label: 'Random', ariaLabel: 'Random place or event' },
-] as const
-
 export function Layout() {
   const { pathname } = useLocation()
+  const nav = useLayoutNav()
+  const { startRandomPick, randomJourneyActive } = useRandomPick()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   useEffect(() => {
-    setMobileMenuOpen(false)
+    const id = requestAnimationFrame(() => setMobileMenuOpen(false))
+    return () => cancelAnimationFrame(id)
   }, [pathname])
 
   useEffect(() => {
@@ -79,9 +80,28 @@ export function Layout() {
             className="hidden flex-wrap gap-1 sm:flex sm:gap-2"
             aria-label="Main navigation"
           >
-            {nav.map(({ to, label, ...rest }) => {
+            {nav.map((item) => {
+              if (item.kind === 'random') {
+                const { label, ariaLabel } = item
+                const active = pathname === '/random' || randomJourneyActive
+                return (
+                  <button
+                    key="random-nav"
+                    type="button"
+                    aria-label={ariaLabel}
+                    aria-pressed={randomJourneyActive}
+                    aria-busy={randomJourneyActive}
+                    onClick={() => startRandomPick()}
+                    className={`${RANDOM_PICK_BUTTON_CLASSES} min-w-0 transition-transform duration-200 ease-out sm:shrink-0 ${
+                      active ? `${RANDOM_PICK_BUTTON_ACTIVE_CLASSES} scale-[1.02]` : ''
+                    }`}
+                  >
+                    <span className="text-sm font-extrabold tracking-wide text-sky-deep sm:text-base">{label}</span>
+                  </button>
+                )
+              }
+              const { to, label, ariaLabel } = item
               const active = to === '/' ? pathname === '/' : pathname.startsWith(to)
-              const ariaLabel = 'ariaLabel' in rest ? rest.ariaLabel : undefined
               return (
                 <Link
                   key={to}
@@ -152,9 +172,32 @@ export function Layout() {
             aria-label="Main navigation"
           >
             <ul className="flex flex-col gap-1.5">
-              {nav.map(({ to, label, ...rest }) => {
+              {nav.map((item) => {
+                if (item.kind === 'random') {
+                  const { label, ariaLabel } = item
+                  const active = pathname === '/random' || randomJourneyActive
+                  return (
+                    <li key="random-nav-mobile">
+                      <button
+                        type="button"
+                        aria-label={ariaLabel}
+                        aria-pressed={randomJourneyActive}
+                        aria-busy={randomJourneyActive}
+                        onClick={() => {
+                          setMobileMenuOpen(false)
+                          startRandomPick()
+                        }}
+                        className={`${RANDOM_PICK_BUTTON_CLASSES} w-full py-[0.85rem] transition-transform duration-200 ease-out ${
+                          active ? `${RANDOM_PICK_BUTTON_ACTIVE_CLASSES} scale-[1.02]` : ''
+                        }`}
+                      >
+                        <span className="text-lg font-extrabold tracking-wide text-sky-deep">{label}</span>
+                      </button>
+                    </li>
+                  )
+                }
+                const { to, label, ariaLabel } = item
                 const active = to === '/' ? pathname === '/' : pathname.startsWith(to)
-                const ariaLabel = 'ariaLabel' in rest ? rest.ariaLabel : undefined
                 return (
                   <li key={to}>
                     <Link

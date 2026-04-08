@@ -1,5 +1,10 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import { useRandomPick } from '../hooks/useRandomPick'
+import {
+  RANDOM_PICK_BUTTON_ACTIVE_CLASSES,
+  RANDOM_PICK_BUTTON_CLASSES,
+} from '../lib/randomPickButtonClasses'
 import {
   listingCardBodyClasses,
   listingCardEventRowClass,
@@ -12,6 +17,8 @@ import { events, places } from '../lib/content'
 import { DEFAULT_DESCRIPTION, SITE_NAME, usePageSeo } from '../lib/seo'
 
 export function HomePage() {
+  const { startRandomPick, randomJourneyActive } = useRandomPick()
+
   const jsonLd = useMemo(() => {
     const origin = typeof window !== 'undefined' ? window.location.origin : ''
     return {
@@ -102,18 +109,23 @@ export function HomePage() {
           >
             Browse all places
           </Link>
-          <Link
-            to="/random"
+          <button
+            type="button"
             aria-label="Open a random place or event listing"
             aria-describedby="home-intro"
-            className="group relative inline-flex min-h-11 max-w-[16rem] flex-col items-center justify-center gap-0.5 overflow-hidden rounded-2xl border-2 border-dashed border-clay/60 bg-gradient-to-br from-gold-bright/20 via-white/90 to-sage/15 px-5 py-3 text-center shadow-sm ring-2 ring-transparent transition-all hover:-translate-y-0.5 hover:border-clay hover:ring-gold-bright/50 hover:shadow-md active:translate-y-0 sm:max-w-none sm:flex-row sm:gap-3 sm:rounded-full sm:px-6 sm:py-2.5"
+            aria-pressed={randomJourneyActive}
+            aria-busy={randomJourneyActive}
+            onClick={() => startRandomPick()}
+            className={`${RANDOM_PICK_BUTTON_CLASSES} max-w-[16rem] px-5 py-3 transition-transform duration-200 ease-out sm:max-w-none sm:gap-3 sm:px-6 sm:py-2.5 ${
+              randomJourneyActive ? `${RANDOM_PICK_BUTTON_ACTIVE_CLASSES} scale-[1.02]` : ''
+            }`}
           >
             <span className="relative flex flex-col items-center sm:items-start">
               <span className="text-base font-extrabold tracking-wide text-sky-deep sm:text-lg">
                 See a random place
               </span>
             </span>
-          </Link>
+          </button>
         </div>
       </section>
 

@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- shared layout helpers + components */
 import { Link } from 'react-router-dom'
 
 import { TexasFlagPlaceholder } from './TexasFlagPlaceholder'

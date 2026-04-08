@@ -4528,5 +4528,395 @@
       "hostname": "en.wikipedia.org"
     },
     "at": "2026-04-08T17:42:12.608Z"
+  },
+  "place:U.S. Army Medical Department Museum, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:42:22.592Z"
+  },
+  "place:Virtuoso Sculpture, Houston": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:42:32.674Z"
+  },
+  "place:Vision del Futuro, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:42:42.629Z"
+  },
+  "place:VW Slug Bug Ranch, Panhandle": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:42:52.632Z"
+  },
+  "place:Waco Mammoth Site, Waco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:43:02.639Z"
+  },
+  "place:Waco Suspension Bridge, Waco": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:43:12.637Z"
+  },
+  "place:Waterloo Records & Video, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:43:22.641Z"
+  },
+  "place:Luling Watermelon Water Tower, Luling": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:43:32.638Z"
+  },
+  "place:Webb Gallery, Waxahachie": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:43:42.634Z"
+  },
+  "place:Westcave Outdoor Discovery Center, Round Mountain": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:43:52.639Z"
+  },
+  "place:Wheatsville Food Co-Op, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:44:02.616Z"
+  },
+  "place:The Wheeler Historical Museum, Wheeler": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:44:12.643Z"
+  },
+  "place:'Where Independence Begins' Mural, Fort Worth": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:44:22.646Z"
+  },
+  "place:Whip In, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:44:32.632Z"
+  },
+  "place:Whip in, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:44:42.647Z"
+  },
+  "place:Wink Sink, Winkler County": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:44:52.655Z"
+  },
+  "place:Woody’s Classic Cars and Baseball Museum, Cross Plains": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:45:12.653Z"
+  },
+  "place:World's Largest Bowie Knife, Bowie": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:45:22.651Z"
+  },
+  "place:World Trade Bridge, Laredo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:45:32.651Z"
+  },
+  "place:World's Largest Branding Iron, Vega": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:45:42.644Z"
+  },
+  "place:World's Largest Cowboy Boots, San Antonio": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:45:52.661Z"
+  },
+  "place:World's Largest Killer Bee, Hidalgo": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:46:02.669Z"
+  },
+  "place:World's Largest Spur, Lampasas": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:46:22.669Z"
+  },
+  "place:World’s Longest Car Wash, Katy": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:46:32.690Z"
+  },
+  "place:Wyler Aerial Tramway, El Paso": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:46:52.719Z"
+  },
+  "place:Yippee Ki Yay Stickwork Sculptures, Austin": {
+    "status": "error",
+    "error": "TypeError: fetch failed",
+    "errorName": "TypeError",
+    "errorMessage": "fetch failed",
+    "cause": {
+      "name": "Error",
+      "message": "getaddrinfo ENOTFOUND en.wikipedia.org",
+      "code": "ENOTFOUND",
+      "errno": -3008,
+      "syscall": "getaddrinfo",
+      "hostname": "en.wikipedia.org"
+    },
+    "at": "2026-04-08T17:47:02.720Z"
   }
 }

@@ -5,6 +5,8 @@ import {
   listingCardBodyClasses,
   listingCardPlaceRowClass,
 } from '../components/listingCard'
+// Sign-in paused: restore SavePlaceButton below.
+// import { SavePlaceButton } from '../components/SavePlaceButton'
 import { TexasMap } from '../components/TexasMap'
 import { getPlaceBySlug, places } from '../lib/content'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
@@ -113,6 +115,7 @@ export function PlacePage() {
             </a>
           </p>
         ) : null}
+        {/* <SavePlaceButton slug={place.slug} title={place.title} /> */}
       </header>
 
       {place.image?.url ? (

@@ -6,6 +6,17 @@
 [build.environment]
   NODE_VERSION = "20.19.0"
 
+[functions]
+  directory = "netlify/functions"
+
+# Run `npm run dev:netlify` and open the URL Netlify prints (usually http://localhost:8888).
+# Identity, Google OAuth, and Functions need that proxy; plain `npm run dev` (Vite only) will not.
+# In Google Cloud Console, add the redirect URIs Netlify shows under Identity → Google provider.
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
+  publish = "dist"
+
 # SPA: let React Router handle client routes on refresh / deep links
 [[redirects]]
   from = "/*"

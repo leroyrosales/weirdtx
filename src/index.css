@@ -107,9 +107,65 @@ html {
   animation: weirdtx-mobile-nav-panel-in 0.42s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
+@keyframes weirdtx-random-splash-in {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes weirdtx-random-splash-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+
+@keyframes weirdtx-random-splash-star {
+  0%,
+  100% {
+    transform: rotate(-8deg) scale(1);
+  }
+  50% {
+    transform: rotate(8deg) scale(1.08);
+  }
+}
+
+.random-pick-splash[data-phase='open'] {
+  animation: weirdtx-random-splash-in 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.random-pick-splash[data-phase='leaving'] {
+  animation: weirdtx-random-splash-out 0.38s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.random-pick-splash[data-phase='open'] .random-pick-splash-star {
+  animation: weirdtx-random-splash-star 0.85s ease-in-out infinite;
+}
+
+.random-pick-splash[data-phase='open'] .random-pick-splash-headline {
+  animation: weirdtx-random-splash-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .mobile-nav-backdrop-enter,
   .mobile-nav-panel-enter {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .random-pick-splash[data-phase='open'],
+  .random-pick-splash[data-phase='leaving'],
+  .random-pick-splash[data-phase='open'] .random-pick-splash-star,
+  .random-pick-splash[data-phase='open'] .random-pick-splash-headline {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
