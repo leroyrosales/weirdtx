@@ -7,7 +7,7 @@ lng: -97.750673
 category: "Public Art"
 tags:
   - "austin"
-teaser: "Stevie Ray Vaughan Statue — public art and photo ops in Austin, Central Texas."
+teaser: "Stevie Ray Vaughan Statue, public art and photo ops in Austin, Central Texas."
 ---
 
 **Stevie Ray Vaughan Statue** lives in plain sight in **Austin** (Central Texas): color, scale, and the occasional inside joke baked into the streetscape.

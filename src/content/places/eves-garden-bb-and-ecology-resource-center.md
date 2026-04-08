@@ -7,9 +7,9 @@ lng: -103.246011
 category: "Outdoors"
 tags:
   - "marathon"
-teaser: "Eve's Garden B&B and Ecology Resource Center — Big Bend landscape and fresh air near Marathon."
+teaser: "Eve's Garden B&B and Ecology Resource Center, Big Bend landscape and fresh air near Marathon."
 ---
 
 **Eve's Garden B&B and Ecology Resource Center** sits in the **Big Bend** country around **Marathon**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

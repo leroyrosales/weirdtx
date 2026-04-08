@@ -6,9 +6,9 @@ lat: 29.332433
 lng: -98.462189
 tags:
   - "san-antonio"
-teaser: "Espada Aqueduct in San Antonio — a South Texas detour for odd-Texas hunters."
+teaser: "Espada Aqueduct in San Antonio, a South Texas detour for odd-Texas hunters."
 ---
 
-**Espada Aqueduct** is one of those **San Antonio** stops that makes **South Texas** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+**Espada Aqueduct** is one of those **San Antonio** stops that makes **South Texas** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.

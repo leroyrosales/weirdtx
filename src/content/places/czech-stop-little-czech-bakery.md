@@ -7,7 +7,7 @@ lng: -97.099624
 category: "Food & Drink"
 tags:
   - "west"
-teaser: "Czech Stop & Little Czech Bakery in West — flavor and Central Texas road-trip fuel."
+teaser: "Czech Stop & Little Czech Bakery in West, flavor and Central Texas road-trip fuel."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/CzechStopFFF2010_4kpx.jpg/1920px-Cz\
     echStopFFF2010_4kpx.jpg"

@@ -7,7 +7,7 @@ lng: -98.123744
 category: "Food & Drink"
 tags:
   - "new-braunfels"
-teaser: "Naegelin's Bakery in New Braunfels — flavor and Hill Country road-trip fuel."
+teaser: "Naegelin's Bakery in New Braunfels, flavor and Hill Country road-trip fuel."
 ---
 
 **Naegelin's Bakery** is a **New Braunfels** pit stop in **Hill Country**: the kind of place that turns “we should grab something” into a story.

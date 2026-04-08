@@ -7,7 +7,7 @@ lng: -97.336037
 category: "Public Art"
 tags:
   - "fort-worth"
-teaser: "'Where Independence Begins' Mural — public art and photo ops in Fort Worth, DFW."
+teaser: "'Where Independence Begins' Mural, public art and photo ops in Fort Worth, DFW."
 ---
 
 **'Where Independence Begins' Mural** lives in plain sight in **Fort Worth** (DFW): color, scale, and the occasional inside joke baked into the streetscape.

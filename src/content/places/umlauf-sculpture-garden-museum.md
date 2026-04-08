@@ -8,10 +8,10 @@ category: "Museum"
 tags:
   - "austin"
   - "interesting-spot"
-teaser: "From the Weird Texas map — Interesting Spots."
+teaser: "From the Weird Texas map: Interesting Spots."
 url: "https://www.umlaufsculpture.org/"
 ---
 
 Originally listed on the **Weird Texas** map under *Interesting Spots*.
 
-Coordinates and category come from the imported map; hours and details may change — check before you go.
+Coordinates and category come from the imported map; hours and details may change, so check before you go.

@@ -7,7 +7,7 @@ lng: -95.44056
 category: "Food & Drink"
 tags:
   - "houston"
-teaser: "Kolache Shoppe in Houston — flavor and Gulf Coast road-trip fuel."
+teaser: "Kolache Shoppe in Houston, flavor and Gulf Coast road-trip fuel."
 ---
 
 **Kolache Shoppe** is a **Houston** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

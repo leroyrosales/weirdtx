@@ -6,9 +6,9 @@ lat: 30.31191
 lng: -95.466902
 tags:
   - "conroe"
-teaser: "Spirit of Texas Bank in Conroe — a Gulf Coast detour for odd-Texas hunters."
+teaser: "Spirit of Texas Bank in Conroe, a Gulf Coast detour for odd-Texas hunters."
 ---
 
-**Spirit of Texas Bank** is one of those **Conroe** stops that makes **Gulf Coast** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+**Spirit of Texas Bank** is one of those **Conroe** stops that makes **Gulf Coast** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.

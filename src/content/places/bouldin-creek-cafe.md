@@ -8,10 +8,10 @@ category: "Outdoors"
 tags:
   - "austin"
   - "restaurant"
-teaser: "From the Weird Texas map — Restaurants."
+teaser: "From the Weird Texas map: Restaurants."
 url: "https://bouldincreekcafe.com/"
 ---
 
 Originally listed on the **Weird Texas** map under *Restaurants*.
 
-Coordinates and category come from the imported map; hours and details may change — check before you go.
+Coordinates and category come from the imported map; hours and details may change, so check before you go.

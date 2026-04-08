@@ -7,7 +7,7 @@ lng: -97.742169
 category: "Public Art"
 tags:
   - "austin"
-teaser: "'Hi, How Are You' Mural — public art and photo ops in Austin, Central Texas."
+teaser: "'Hi, How Are You' Mural, public art and photo ops in Austin, Central Texas."
 ---
 
 **'Hi, How Are You' Mural** lives in plain sight in **Austin** (Central Texas): color, scale, and the occasional inside joke baked into the streetscape.

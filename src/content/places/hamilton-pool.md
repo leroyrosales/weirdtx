@@ -10,7 +10,7 @@ tags:
   - "swimming"
   - "reservation"
 featured: true
-teaser: "A collapsed grotto turned jade swimming hole — reservations required, awe guaranteed."
+teaser: "A collapsed grotto turned jade swimming hole, reservations required, awe guaranteed."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Hamiltonpool.jpg"
   alt: "Hamilton Pool Preserve"

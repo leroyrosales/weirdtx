@@ -7,7 +7,7 @@ lng: -101.701126
 category: "Outdoors"
 tags:
   - "canyon"
-teaser: "Palo Duro Canyon — Panhandle landscape and fresh air near Canyon."
+teaser: "Palo Duro Canyon, Panhandle landscape and fresh air near Canyon."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Palo_Duro_Canyon_2.jpg/1920px-Palo_\
     Duro_Canyon_2.jpg"
@@ -19,4 +19,4 @@ image:
 
 **Palo Duro Canyon** sits in the **Panhandle** country around **Canyon**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

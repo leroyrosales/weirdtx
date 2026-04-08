@@ -1,4 +1,10 @@
 import { Link, useParams } from 'react-router-dom'
+import {
+  ListingCardImageLink,
+  listingCardBodyClasses,
+  listingCardEventRowClass,
+  listingCardPlaceRowClass,
+} from '../components/listingCard'
 import { events, places } from '../lib/content'
 import { decodeParam, encodeParam, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
@@ -10,7 +16,7 @@ export function TagPage() {
   usePageSeo({
     title: tagValue ? `Tag: ${tagValue}` : 'Tag not found',
     description: tagValue
-      ? `Places and events tagged "${tagValue}" on Weird TX — odd Texas listings with an interactive map.`
+      ? `Places and events tagged "${tagValue}" on Weird TX: odd Texas listings with an interactive map.`
       : 'This tag could not be found on Weird TX.',
     noIndex: !tagValue,
   })
@@ -54,22 +60,31 @@ export function TagPage() {
         {taggedPlaces.length ? (
           <ul className="mt-3 grid gap-3 sm:grid-cols-2">
             {taggedPlaces.map((p) => (
-              <li key={p.slug} className="rounded-2xl border border-ink/10 bg-white/50 p-4 shadow-sm">
-                <Link
-                  to={`/places/${p.slug}`}
-                  className="font-display text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
-                >
-                  {p.title}
-                </Link>
-                <p className="text-sm text-ink/70">
-                  <Link
-                    to={`/regions/${regionToSlug(p.region)}`}
-                    className="font-semibold text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
-                  >
-                    {p.region}
-                  </Link>{' '}
-                  · {p.city}
-                </p>
+              <li key={p.slug}>
+                <article className={listingCardPlaceRowClass()}>
+                  <ListingCardImageLink
+                    to={`/places/${p.slug}`}
+                    src={p.image?.url}
+                    ariaLabel={`${p.title}, ${p.city}, view place`}
+                  />
+                  <div className={listingCardBodyClasses}>
+                    <Link
+                      to={`/places/${p.slug}`}
+                      className="font-display text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
+                    >
+                      {p.title}
+                    </Link>
+                    <p className="text-sm text-ink/70">
+                      <Link
+                        to={`/regions/${regionToSlug(p.region)}`}
+                        className="font-semibold text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
+                      >
+                        {p.region}
+                      </Link>{' '}
+                      · {p.city}
+                    </p>
+                  </div>
+                </article>
               </li>
             ))}
           </ul>
@@ -83,22 +98,31 @@ export function TagPage() {
         {taggedEvents.length ? (
           <ul className="mt-3 grid gap-3 sm:grid-cols-2">
             {taggedEvents.map((e) => (
-              <li key={e.slug} className="rounded-2xl border border-ink/10 bg-white/50 p-4 shadow-sm">
-                <Link
-                  to={`/events/${e.slug}`}
-                  className="font-display text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
-                >
-                  {e.title}
-                </Link>
-                <p className="text-sm text-ink/70">
-                  <Link
-                    to={`/regions/${regionToSlug(e.region)}`}
-                    className="font-semibold text-sand underline decoration-2 underline-offset-2 hover:text-clay"
-                  >
-                    {e.region}
-                  </Link>{' '}
-                  · {e.city}
-                </p>
+              <li key={e.slug}>
+                <article className={listingCardEventRowClass()}>
+                  <ListingCardImageLink
+                    to={`/events/${e.slug}`}
+                    src={e.image?.url}
+                    ariaLabel={`${e.title}, view event`}
+                  />
+                  <div className={listingCardBodyClasses}>
+                    <Link
+                      to={`/events/${e.slug}`}
+                      className="font-display text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
+                    >
+                      {e.title}
+                    </Link>
+                    <p className="text-sm text-ink/70">
+                      <Link
+                        to={`/regions/${regionToSlug(e.region)}`}
+                        className="font-semibold text-sage-dark underline decoration-2 underline-offset-2 hover:text-clay"
+                      >
+                        {e.region}
+                      </Link>{' '}
+                      · {e.city}
+                    </p>
+                  </div>
+                </article>
               </li>
             ))}
           </ul>

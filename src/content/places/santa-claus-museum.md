@@ -7,9 +7,9 @@ lng: -96.542191
 category: "Museum"
 tags:
   - "columbus"
-teaser: "Exhibits and odd collections in Columbus — a Central Texas stop for curious minds."
+teaser: "Exhibits and odd collections in Columbus, a Central Texas stop for curious minds."
 ---
 
 **Santa Claus Museum** adds texture to **Columbus** (Central Texas): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

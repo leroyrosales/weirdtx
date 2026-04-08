@@ -7,7 +7,7 @@ lng: -97.7153176
 tags:
   - "austin"
   - "interesting-spot"
-teaser: "From the Weird Texas map — Interesting Spots."
+teaser: "From the Weird Texas map: Interesting Spots."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nick_Rattigan_for_Surf_Curse%2C_2022_%28c\
     ropped%29.jpg"
@@ -19,4 +19,4 @@ image:
 
 Originally listed on the **Weird Texas** map under *Interesting Spots*.
 
-Coordinates and category come from the imported map; hours and details may change — check before you go.
+Coordinates and category come from the imported map; hours and details may change, so check before you go.

@@ -7,7 +7,7 @@ lng: -100.893869
 category: "Museum"
 tags:
   - "turkey"
-teaser: "Exhibits and odd collections in Turkey — a Panhandle stop for curious minds."
+teaser: "Exhibits and odd collections in Turkey, a Panhandle stop for curious minds."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/7/70/Bob_Wills_photograph_-_Cropped.jpg"
   alt: "Bob Wills Museum"
@@ -18,4 +18,4 @@ image:
 
 **Bob Wills Museum** adds texture to **Turkey** (Panhandle): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

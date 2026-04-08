@@ -7,7 +7,7 @@ lng: -97.253633
 category: "Food & Drink"
 tags:
   - "watauga"
-teaser: "Chef Point Bar & Restaurant in Watauga — flavor and DFW road-trip fuel."
+teaser: "Chef Point Bar & Restaurant in Watauga, flavor and DFW road-trip fuel."
 ---
 
 **Chef Point Bar & Restaurant** is a **Watauga** pit stop in **DFW**: the kind of place that turns “we should grab something” into a story.

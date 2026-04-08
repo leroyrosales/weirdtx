@@ -7,9 +7,9 @@ lng: -97.346595
 category: "Structure"
 tags:
   - "fort-worth"
-teaser: "The Palace Light Bulb — built character in Fort Worth, DFW."
+teaser: "The Palace Light Bulb, built character in Fort Worth, DFW."
 ---
 
 **The Palace Light Bulb** is part of **Fort Worth**’s skyline or street grid in **DFW**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

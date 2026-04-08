@@ -7,7 +7,7 @@ lng: -104.105045
 category: "Public Art"
 tags:
   - "marfa"
-teaser: "‘Giant’ Marfa Mural — public art and photo ops in Marfa, Big Bend."
+teaser: "‘Giant’ Marfa Mural, public art and photo ops in Marfa, Big Bend."
 ---
 
 **‘Giant’ Marfa Mural** lives in plain sight in **Marfa** (Big Bend): color, scale, and the occasional inside joke baked into the streetscape.

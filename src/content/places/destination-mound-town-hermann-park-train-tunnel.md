@@ -7,7 +7,7 @@ lng: -95.389596
 category: "Outdoors"
 tags:
   - "houston"
-teaser: "Destination Mound Town (Hermann Park Train Tunnel) — Gulf Coast landscape and fresh air
+teaser: "Destination Mound Town (Hermann Park Train Tunnel), Gulf Coast landscape and fresh air
   near Houston."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Hermann_Park_Railroad%2C_Houston%2C\
@@ -20,4 +20,4 @@ image:
 
 **Destination Mound Town (Hermann Park Train Tunnel)** sits in the **Gulf Coast** country around **Houston**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

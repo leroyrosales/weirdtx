@@ -7,9 +7,9 @@ lng: -97.078628
 category: "Structure"
 tags:
   - "grapevine"
-teaser: "Grapevine Glockenspiel Clock Tower — built character in Grapevine, DFW."
+teaser: "Grapevine Glockenspiel Clock Tower, built character in Grapevine, DFW."
 ---
 
 **Grapevine Glockenspiel Clock Tower** is part of **Grapevine**’s skyline or street grid in **DFW**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

@@ -7,7 +7,7 @@ lng: -95.418972
 category: "Structure"
 tags:
   - "houston"
-teaser: "Beer Can House — built character in Houston, Gulf Coast."
+teaser: "Beer Can House, built character in Houston, Gulf Coast."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Beer_Can_House.jpg"
   alt: "Beer Can House"
@@ -18,4 +18,4 @@ image:
 
 **Beer Can House** is part of **Houston**’s skyline or street grid in **Gulf Coast**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

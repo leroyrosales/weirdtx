@@ -61,7 +61,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     return {
       pageTitleShort: 'Near me',
       description: truncateMeta(
-        'Find weird Texas places and events near your location — optional geolocation, distance sort, and statewide map on Weird TX.',
+        'Find weird Texas places and events near your location, with optional geolocation, distance sort, and a statewide map on Weird TX.',
       ),
       canonicalUrl,
       noIndex: false,
@@ -73,7 +73,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     return {
       pageTitleShort: 'Weird places',
       description: truncateMeta(
-        'Browse weird Texas places by region — roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
+        'Browse weird Texas places by region: roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
       ),
       canonicalUrl,
       noIndex: false,
@@ -85,7 +85,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     return {
       pageTitleShort: 'Weird events',
       description: truncateMeta(
-        'Texas festivals, fairs, and one-off gatherings worth a detour — dates, cities, and maps on Weird TX.',
+        'Texas festivals, fairs, and one-off gatherings worth a detour, with dates, cities, and maps on Weird TX.',
       ),
       canonicalUrl,
       noIndex: false,
@@ -103,7 +103,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
       pageTitleShort: place.title,
       description: truncateMeta(
         place.teaser ??
-          `${place.title} — odd Texas place in ${place.city} (${place.region}). Map and details on Weird TX.`,
+          `${place.title}: odd Texas place in ${place.city} (${place.region}). Map and details on Weird TX.`,
       ),
       canonicalUrl,
       noIndex: false,
@@ -122,7 +122,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
       pageTitleShort: ev.title,
       description: truncateMeta(
         ev.teaser ??
-          `${ev.title} — Texas event in ${ev.city} (${ev.region}), ${formatEventRange(ev.starts, ev.ends)}. Weird TX.`,
+          `${ev.title}: Texas event in ${ev.city} (${ev.region}), ${formatEventRange(ev.starts, ev.ends)}. Weird TX.`,
       ),
       canonicalUrl,
       noIndex: false,
@@ -140,7 +140,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     return {
       pageTitleShort: `Tag: ${tagValue}`,
       description: truncateMeta(
-        `Places and events tagged "${tagValue}" on Weird TX — odd Texas listings with an interactive map.`,
+        `Places and events tagged "${tagValue}" on Weird TX: odd Texas listings with an interactive map.`,
       ),
       canonicalUrl,
       noIndex: false,
@@ -157,7 +157,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     return {
       pageTitleShort: `Region: ${regionValue}`,
       description: truncateMeta(
-        `Weird places and events in ${regionValue}, Texas — map and listings on Weird TX.`,
+        `Weird places and events in ${regionValue}, Texas, with a map and listings on Weird TX.`,
       ),
       canonicalUrl,
       noIndex: false,
@@ -174,7 +174,7 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     return {
       pageTitleShort: `Category: ${categoryValue}`,
       description: truncateMeta(
-        `Weird Texas places and events in the "${categoryValue}" category — map and list on Weird TX.`,
+        `Weird Texas places and events in the "${categoryValue}" category, with a map and list on Weird TX.`,
       ),
       canonicalUrl,
       noIndex: false,

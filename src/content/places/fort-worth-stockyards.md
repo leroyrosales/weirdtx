@@ -7,9 +7,9 @@ lng: -97.346111
 category: "Structure"
 tags:
   - "fort-worth"
-teaser: "Fort Worth Stockyards — built character in Fort Worth, DFW."
+teaser: "Fort Worth Stockyards, built character in Fort Worth, DFW."
 ---
 
 **Fort Worth Stockyards** is part of **Fort Worth**’s skyline or street grid in **DFW**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

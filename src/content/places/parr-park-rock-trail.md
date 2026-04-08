@@ -7,7 +7,7 @@ lng: -97.105158
 category: "Outdoors"
 tags:
   - "grapevine"
-teaser: "Parr Park Rock Trail — DFW landscape and fresh air near Grapevine."
+teaser: "Parr Park Rock Trail, DFW landscape and fresh air near Grapevine."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/d/d7/CCHSfront.JPG"
   alt: "Parr Park Rock Trail"
@@ -18,4 +18,4 @@ image:
 
 **Parr Park Rock Trail** sits in the **DFW** country around **Grapevine**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

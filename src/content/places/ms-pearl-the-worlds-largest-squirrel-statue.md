@@ -7,7 +7,7 @@ lng: -97.510834
 category: "Public Art"
 tags:
   - "cedar-creek"
-teaser: "Ms. Pearl — public art and photo ops in Cedar Creek, Central Texas."
+teaser: "Ms. Pearl, public art and photo ops in Cedar Creek, Central Texas."
 ---
 
 **Ms. Pearl** lives in plain sight in **Cedar Creek** (Central Texas): color, scale, and the occasional inside joke baked into the streetscape.

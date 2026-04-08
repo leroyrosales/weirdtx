@@ -10,4 +10,4 @@ teaser: A Pease Park tradition of whimsy, drum circles, and very serious silline
 url: https://eeyores.org/
 ---
 
-Donkey-themed charity bash with costumes, live music, and local nonprofits. **Free to attend** (donations encouraged). Expect crowds — arrive early or bike if you can.
+Donkey-themed charity bash with costumes, live music, and local nonprofits. **Free to attend** (donations encouraged). Expect crowds, arrive early or bike if you can.

@@ -7,9 +7,9 @@ lng: -95.396166
 category: "Sacred Site"
 tags:
   - "houston"
-teaser: "Rothko Chapel in Houston — Gulf Coast faith, stone, and community."
+teaser: "Rothko Chapel in Houston, Gulf Coast faith, stone, and community."
 ---
 
 **Rothko Chapel** anchors **Houston** (Gulf Coast) for worshippers and visitors alike. Treat it as a living site, not just a backdrop.
 
-Step quietly during services, dress modestly if asked, and skip the flash — many sanctuaries restrict photography.
+Step quietly during services, dress modestly if asked, and skip the flash; many sanctuaries restrict photography.

@@ -7,7 +7,7 @@ lng: -96.46254
 category: "Cemetery"
 tags:
   - "wortham"
-teaser: "Blind Lemon Jefferson’s Grave — quiet history under open sky in Wortham, Central Texas."
+teaser: "Blind Lemon Jefferson’s Grave, quiet history under open sky in Wortham, Central Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Blindlemonjeffersoncirca1926.jpg"
   alt: "Blind Lemon Jefferson’s Grave"
@@ -18,4 +18,4 @@ image:
 
 **Blind Lemon Jefferson’s Grave** is part of the layered story of **Wortham** and **Central Texas**: names, dates, and the small monuments people leave behind.
 
-Respect posted rules, keep voices low, and double-check access before you visit — rural and urban cemeteries alike can have limited hours.
+Respect posted rules, keep voices low, and double-check access before you visit. Rural and urban cemeteries alike can have limited hours.

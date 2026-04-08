@@ -1,5 +1,11 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import {
+  ListingCardImageLink,
+  listingCardBodyClasses,
+  listingCardEventRowClass,
+  listingCardPlaceRowClass,
+} from '../components/listingCard'
 import { TexasMap } from '../components/TexasMap'
 import { events, places } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
@@ -16,7 +22,7 @@ export function ExplorePage() {
   usePageSeo({
     title: 'Near me',
     description:
-      'Find weird Texas places and events near your location — optional geolocation, distance sort, and statewide map on Weird TX.',
+      'Find weird Texas places and events near your location, with optional geolocation, distance sort, and a statewide map on Weird TX.',
   })
   const [kind, setKind] = useState<Kind>('all')
   const [radiusMi, setRadiusMi] = useState<(typeof RADII)[number]>(75)
@@ -99,7 +105,7 @@ export function ExplorePage() {
 
   const statusMessage =
     userLoc === 'denied'
-      ? 'Location unavailable — showing all of Texas.'
+      ? 'Location unavailable; showing all of Texas.'
       : userLoc === 'loading'
         ? 'Requesting your location…'
         : userLoc && typeof userLoc === 'object'
@@ -112,7 +118,7 @@ export function ExplorePage() {
         <h1 className="font-display text-3xl tracking-wide text-sky-deep">Near me</h1>
         <p className="mt-2 max-w-2xl text-ink/80">
           Share your location to sort pins by distance and filter by radius. Your coordinates stay in
-          your browser — we never send them anywhere.
+          your browser; we never send them anywhere.
         </p>
       </div>
 
@@ -205,25 +211,14 @@ export function ExplorePage() {
                 const dist =
                   'distanceMi' in p && p.distanceMi != null ? `${p.distanceMi} mi from you` : null
                 return (
-                  <li
-                    key={p.slug}
-                    className="overflow-hidden rounded-2xl border border-ink/10 bg-white/50 shadow-sm transition-all hover:border-sage/45 hover:shadow-md"
-                  >
-                    {p.image?.url ? (
-                      <Link
+                  <li key={p.slug}>
+                    <article className={listingCardPlaceRowClass()}>
+                      <ListingCardImageLink
                         to={`/places/${p.slug}`}
-                        className="block h-32 w-full overflow-hidden bg-ink/5 sm:h-36"
-                        aria-label={`${p.title}, ${p.city} — view place and photo`}
-                      >
-                        <img
-                          src={p.image.url}
-                          alt=""
-                          loading="lazy"
-                          className="h-full w-full object-cover"
-                        />
-                      </Link>
-                    ) : null}
-                    <div className="p-4">
+                        src={p.image?.url}
+                        ariaLabel={`${p.title}, ${p.city}, view place`}
+                      />
+                      <div className={listingCardBodyClasses}>
                       <div className="flex flex-wrap items-baseline justify-between gap-2">
                         <Link
                           to={`/regions/${regionToSlug(p.region)}`}
@@ -267,7 +262,8 @@ export function ExplorePage() {
                           ))}
                         </p>
                       ) : null}
-                    </div>
+                      </div>
+                    </article>
                   </li>
                 )
               })
@@ -286,25 +282,14 @@ export function ExplorePage() {
                 const dist =
                   'distanceMi' in e && e.distanceMi != null ? `${e.distanceMi} mi from you` : null
                 return (
-                  <li
-                    key={e.slug}
-                    className="overflow-hidden rounded-2xl border border-ink/10 bg-white/50 shadow-sm transition-all hover:border-sand/55 hover:shadow-md"
-                  >
-                    {e.image?.url ? (
-                      <Link
+                  <li key={e.slug}>
+                    <article className={listingCardEventRowClass()}>
+                      <ListingCardImageLink
                         to={`/events/${e.slug}`}
-                        className="block h-32 w-full overflow-hidden bg-ink/5 sm:h-36"
-                        aria-label={`${e.title} — view event and photo`}
-                      >
-                        <img
-                          src={e.image.url}
-                          alt=""
-                          loading="lazy"
-                          className="h-full w-full object-cover"
-                        />
-                      </Link>
-                    ) : null}
-                    <div className="p-4">
+                        src={e.image?.url}
+                        ariaLabel={`${e.title}, view event`}
+                      />
+                      <div className={listingCardBodyClasses}>
                       <div className="flex flex-wrap items-baseline justify-between gap-2">
                         <Link
                           to={`/regions/${regionToSlug(e.region)}`}
@@ -349,7 +334,8 @@ export function ExplorePage() {
                           ))}
                         </p>
                       ) : null}
-                    </div>
+                      </div>
+                    </article>
                   </li>
                 )
               })

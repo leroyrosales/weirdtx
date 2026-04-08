@@ -7,9 +7,9 @@ lng: -93.932912
 category: "Museum"
 tags:
   - "port-arthur"
-teaser: "Exhibits and odd collections in Port Arthur — a Gulf Coast stop for curious minds."
+teaser: "Exhibits and odd collections in Port Arthur, a Gulf Coast stop for curious minds."
 ---
 
 **Museum of the Gulf Coast** adds texture to **Port Arthur** (Gulf Coast): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

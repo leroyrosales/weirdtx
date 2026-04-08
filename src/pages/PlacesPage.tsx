@@ -1,5 +1,10 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import {
+  ListingCardImageLink,
+  listingCardBodyClasses,
+  listingCardPlaceRowClass,
+} from '../components/listingCard'
 import { places, regions } from '../lib/content'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
@@ -8,7 +13,7 @@ export function PlacesPage() {
   usePageSeo({
     title: 'Weird places',
     description:
-      'Browse weird Texas places by region — roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
+      'Browse weird Texas places by region: roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
   })
   const [region, setRegion] = useState<string>('')
 
@@ -27,7 +32,7 @@ export function PlacesPage() {
       <div>
         <h1 className="font-display text-3xl tracking-wide text-sky-deep">Weird places</h1>
         <p className="mt-2 max-w-2xl text-ink/80">
-          Roadside wonders, odd museums, and landscapes that feel a little unreal — organized by
+          Roadside wonders, odd museums, and landscapes that feel a little unreal, organized by
           region so you can plan a loop.
         </p>
       </div>
@@ -58,26 +63,13 @@ export function PlacesPage() {
       <ul className="grid gap-4 sm:grid-cols-2">
         {sorted.map((p) => (
           <li key={p.slug}>
-            <article
-              className={`flex h-full min-h-[11rem] flex-col overflow-hidden rounded-2xl border border-ink/10 bg-white/50 shadow-sm transition-all hover:border-sage/45 hover:shadow-md ${
-                p.image?.url ? 'sm:min-h-[10.5rem] sm:flex-row' : ''
-              }`}
-            >
-              {p.image?.url ? (
-                <Link
-                  to={`/places/${p.slug}`}
-                  className="relative aspect-[16/10] w-full shrink-0 overflow-hidden bg-ink/5 sm:aspect-auto sm:h-auto sm:w-40 md:w-44"
-                  aria-label={`${p.title}, ${p.city} — view place and photo`}
-                >
-                  <img
-                    src={p.image.url}
-                    alt=""
-                    loading="lazy"
-                    className="h-full min-h-[9.5rem] w-full object-cover sm:min-h-full"
-                  />
-                </Link>
-              ) : null}
-              <div className="flex min-w-0 flex-1 flex-col p-5">
+            <article className={listingCardPlaceRowClass()}>
+              <ListingCardImageLink
+                to={`/places/${p.slug}`}
+                src={p.image?.url}
+                ariaLabel={`${p.title}, ${p.city}, view place`}
+              />
+              <div className={`${listingCardBodyClasses} flex flex-col`}>
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <Link
                     to={`/regions/${regionToSlug(p.region)}`}
@@ -96,7 +88,7 @@ export function PlacesPage() {
                 </div>
                 <Link
                   to={`/places/${p.slug}`}
-                  className="font-display relative z-10 mt-1 text-xl text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
+                  className="font-display relative z-10 mt-1 text-lg text-sky-deep underline decoration-2 underline-offset-2 hover:text-clay"
                   aria-label={`${p.title}, ${p.city}, ${p.region}`}
                 >
                   {p.title}

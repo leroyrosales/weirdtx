@@ -7,7 +7,7 @@ lng: -94.044178
 category: "Structure"
 tags:
   - "texarkana"
-teaser: "Ace of Clubs House — built character in Texarkana, East Texas."
+teaser: "Ace of Clubs House, built character in Texarkana, East Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Texarkana_April_2016_109_%28Ace_of_\
     Clubs_House%29_%28cropped%29.jpg/1920px-Texarkana_April_2016_109_%28Ace_of_Clubs_House%29_%28cr\
@@ -21,4 +21,4 @@ image:
 
 **Ace of Clubs House** is part of **Texarkana**’s skyline or street grid in **East Texas**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

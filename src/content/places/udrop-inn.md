@@ -7,9 +7,9 @@ lng: -100.248604
 category: "Structure"
 tags:
   - "shamrock"
-teaser: "U-Drop Inn — built character in Shamrock, Panhandle."
+teaser: "U-Drop Inn, built character in Shamrock, Panhandle."
 ---
 
 **U-Drop Inn** is part of **Shamrock**’s skyline or street grid in **Panhandle**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

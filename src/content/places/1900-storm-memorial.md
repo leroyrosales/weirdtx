@@ -7,7 +7,7 @@ lng: -94.815162
 category: "Memorial"
 tags:
   - "galveston"
-teaser: "1900 Storm Memorial — Gulf Coast remembers, in Galveston."
+teaser: "1900 Storm Memorial, Gulf Coast remembers, in Galveston."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Galveston_Hurricane_%281900%29_SWA.JPG"
   alt: "1900 Storm Memorial"
@@ -17,4 +17,4 @@ image:
 
 **1900 Storm Memorial** marks a moment or a life tied to **Galveston** and **Gulf Coast**. Worth slowing down for, even if you only read the plaque once.
 
-Sites on public land are usually dawn-to-dusk; roadside markers are pull-off quickies — watch traffic and private property lines.
+Sites on public land are usually dawn-to-dusk; roadside markers are pull-off quickies. Watch traffic and private property lines.

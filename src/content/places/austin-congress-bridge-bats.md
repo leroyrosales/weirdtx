@@ -7,7 +7,7 @@ lng: -97.74517
 category: "Structure"
 tags:
   - "austin"
-teaser: "Congress Bridge Bats — built character in Austin, Central Texas."
+teaser: "Congress Bridge Bats, built character in Austin, Central Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Congress_Avenue_Bridge.jpg/1920px-C\
     ongress_Avenue_Bridge.jpg"
@@ -19,4 +19,4 @@ image:
 
 **Congress Bridge Bats** is part of **Austin**’s skyline or street grid in **Central Texas**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

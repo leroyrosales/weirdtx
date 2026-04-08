@@ -7,7 +7,7 @@ lng: -97.7163959
 tags:
   - "austin"
   - "bar"
-teaser: "From the Weird Texas map — Bars."
+teaser: "From the Weird Texas map: Bars."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/2/29/Leonard_Cohen_concert_of_the_2008_tour.jpg"
   alt: "Kitty Cohen's"
@@ -18,4 +18,4 @@ image:
 
 Originally listed on the **Weird Texas** map under *Bars*.
 
-Coordinates and category come from the imported map; hours and details may change — check before you go.
+Coordinates and category come from the imported map; hours and details may change, so check before you go.

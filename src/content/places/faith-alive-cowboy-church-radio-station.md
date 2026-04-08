@@ -7,9 +7,9 @@ lng: -104.011288
 category: "Sacred Site"
 tags:
   - "marfa"
-teaser: "Faith Alive Cowboy Church Radio Station in Marfa — Big Bend faith, stone, and community."
+teaser: "Faith Alive Cowboy Church Radio Station in Marfa, Big Bend faith, stone, and community."
 ---
 
 **Faith Alive Cowboy Church Radio Station** anchors **Marfa** (Big Bend) for worshippers and visitors alike. Treat it as a living site, not just a backdrop.
 
-Step quietly during services, dress modestly if asked, and skip the flash — many sanctuaries restrict photography.
+Step quietly during services, dress modestly if asked, and skip the flash; many sanctuaries restrict photography.

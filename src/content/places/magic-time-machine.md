@@ -7,7 +7,7 @@ lng: -98.4609582
 tags:
   - "san-antonio"
   - "restaurant"
-teaser: "From the Weird Texas map — Restaurants."
+teaser: "From the Weird Texas map: Restaurants."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/a/ac/SPURSStadium.jpg"
   alt: "Magic Time Machine"
@@ -18,4 +18,4 @@ image:
 
 Originally listed on the **Weird Texas** map under *Restaurants*.
 
-Coordinates and category come from the imported map; hours and details may change — check before you go.
+Coordinates and category come from the imported map; hours and details may change, so check before you go.

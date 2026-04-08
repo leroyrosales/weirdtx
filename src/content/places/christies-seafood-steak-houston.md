@@ -7,7 +7,7 @@ lng: -95.489588
 category: "Food & Drink"
 tags:
   - "houston"
-teaser: "Christie's Seafood & Steak in Houston — flavor and Gulf Coast road-trip fuel."
+teaser: "Christie's Seafood & Steak in Houston, flavor and Gulf Coast road-trip fuel."
 ---
 
 **Christie's Seafood & Steak** is a **Houston** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

@@ -8,7 +8,7 @@ tags:
   - "orange"
   - "gardens"
   - "nature"
-teaser: "250+ acres along Adams Bayou in Orange—formal gardens, wetlands, bayou outpost tours, and a
+teaser: "250+ acres along Adams Bayou in Orange: formal gardens, wetlands, bayou outpost tours, and a
   LEED Platinum nature center (free admission most days)."
 address: "2111 West Park Avenue, Orange, TX 77630"
 url: "https://www.shangrilagardens.org/"

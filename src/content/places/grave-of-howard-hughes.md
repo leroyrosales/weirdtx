@@ -7,9 +7,9 @@ lng: -95.384986
 category: "Cemetery"
 tags:
   - "houston"
-teaser: "Grave of Howard Hughes — quiet history under open sky in Houston, Gulf Coast."
+teaser: "Grave of Howard Hughes, quiet history under open sky in Houston, Gulf Coast."
 ---
 
 **Grave of Howard Hughes** is part of the layered story of **Houston** and **Gulf Coast**: names, dates, and the small monuments people leave behind.
 
-Respect posted rules, keep voices low, and double-check access before you visit — rural and urban cemeteries alike can have limited hours.
+Respect posted rules, keep voices low, and double-check access before you visit. Rural and urban cemeteries alike can have limited hours.

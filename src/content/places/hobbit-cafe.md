@@ -7,7 +7,7 @@ lng: -95.414845
 category: "Food & Drink"
 tags:
   - "houston"
-teaser: "The Hobbit Café in Houston — flavor and Gulf Coast road-trip fuel."
+teaser: "The Hobbit Café in Houston, flavor and Gulf Coast road-trip fuel."
 ---
 
 **The Hobbit Café** is a **Houston** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

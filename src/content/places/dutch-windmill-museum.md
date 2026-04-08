@@ -7,9 +7,9 @@ lng: -93.99388
 category: "Museum"
 tags:
   - "nederland"
-teaser: "Exhibits and odd collections in Nederland — a Gulf Coast stop for curious minds."
+teaser: "Exhibits and odd collections in Nederland, a Gulf Coast stop for curious minds."
 ---
 
 **Dutch Windmill Museum** adds texture to **Nederland** (Gulf Coast): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

@@ -7,7 +7,7 @@ lng: -94.789121
 category: "Museum"
 tags:
   - "galveston"
-teaser: "Exhibits and odd collections in Galveston — a Gulf Coast stop for curious minds."
+teaser: "Exhibits and odd collections in Galveston, a Gulf Coast stop for curious minds."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Children%27s-Home-George-Dealey.jpg"
   alt: "Bryan Museum"
@@ -18,4 +18,4 @@ image:
 
 **Bryan Museum** adds texture to **Galveston** (Gulf Coast): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

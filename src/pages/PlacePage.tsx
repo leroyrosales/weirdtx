@@ -19,7 +19,7 @@ export function PlacePage() {
     title: place?.title ?? 'Place not found',
     description: place
       ? place.teaser ??
-        `${place.title} — odd Texas place in ${place.city} (${place.region}). Map and details on Weird TX.`
+        `${place.title}: odd Texas place in ${place.city} (${place.region}). Map and details on Weird TX.`
       : 'This Weird TX place could not be found.',
     ogImage: place?.image?.url,
     jsonLd,
@@ -178,7 +178,7 @@ export function PlacePage() {
                 >
                   {p.title}
                 </Link>
-                <span className="text-ink/65"> — {p.city}</span>
+                <span className="text-ink/65"> · {p.city}</span>
               </li>
             ))}
           </ul>

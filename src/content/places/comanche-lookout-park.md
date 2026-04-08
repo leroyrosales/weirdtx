@@ -7,9 +7,9 @@ lng: -98.366368
 category: "Outdoors"
 tags:
   - "san-antonio"
-teaser: "Comanche Lookout Park — South Texas landscape and fresh air near San Antonio."
+teaser: "Comanche Lookout Park, South Texas landscape and fresh air near San Antonio."
 ---
 
 **Comanche Lookout Park** sits in the **South Texas** country around **San Antonio**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

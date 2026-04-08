@@ -7,7 +7,7 @@ lng: -106.454337
 category: "Memorial"
 tags:
   - "el-paso"
-teaser: "Chamizal National Memorial — West Texas remembers, in El Paso."
+teaser: "Chamizal National Memorial, West Texas remembers, in El Paso."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chamizal_visitor_center.JPG"
   alt: "Chamizal National Memorial"
@@ -18,4 +18,4 @@ image:
 
 **Chamizal National Memorial** marks a moment or a life tied to **El Paso** and **West Texas**. Worth slowing down for, even if you only read the plaque once.
 
-Sites on public land are usually dawn-to-dusk; roadside markers are pull-off quickies — watch traffic and private property lines.
+Sites on public land are usually dawn-to-dusk; roadside markers are pull-off quickies. Watch traffic and private property lines.

@@ -7,7 +7,7 @@ lng: -97.129398
 category: "Museum"
 tags:
   - "waco"
-teaser: "Exhibits and odd collections in Waco — a Central Texas stop for curious minds."
+teaser: "Exhibits and odd collections in Waco, a Central Texas stop for curious minds."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dr_Pepper_Dose_2024.jpg/1920px-Dr_P\
     epper_Dose_2024.jpg"
@@ -19,4 +19,4 @@ image:
 
 **Dr Pepper Museum** adds texture to **Waco** (Central Texas): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

@@ -7,7 +7,7 @@ lng: -98.394802
 category: "Folklore"
 tags:
   - "burnet"
-teaser: "Old Bluffton Underwater Ghost Town — Hill Country legend, tall tale, or roadside whispers
+teaser: "Old Bluffton Underwater Ghost Town, Hill Country legend, tall tale, or roadside whispers
   near Burnet."
 ---
 

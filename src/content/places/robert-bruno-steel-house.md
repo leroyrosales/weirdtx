@@ -7,9 +7,9 @@ lng: -101.676922
 category: "Structure"
 tags:
   - "ransom-canyon"
-teaser: "Robert Bruno’s Steel House — built character in Ransom Canyon, Panhandle."
+teaser: "Robert Bruno’s Steel House, built character in Ransom Canyon, Panhandle."
 ---
 
 **Robert Bruno’s Steel House** is part of **Ransom Canyon**’s skyline or street grid in **Panhandle**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

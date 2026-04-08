@@ -73,11 +73,11 @@ function ensureDir(file) {
 
 async function main() {
   if (!existsSync(SITEMAP)) {
-    console.error('prerender: missing dist/sitemap.xml — run client vite build first')
+    console.error('prerender: missing dist/sitemap.xml; run client vite build first')
     process.exit(1)
   }
   if (!existsSync(SERVER_ENTRY)) {
-    console.error('prerender: missing dist/server/entry-server.js — run SSR build first')
+    console.error('prerender: missing dist/server/entry-server.js; run SSR build first')
     process.exit(1)
   }
 

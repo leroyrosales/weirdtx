@@ -7,7 +7,7 @@ lng: -95.571918
 category: "Food & Drink"
 tags:
   - "houston"
-teaser: "Cajun Kitchen in Houston — flavor and Gulf Coast road-trip fuel."
+teaser: "Cajun Kitchen in Houston, flavor and Gulf Coast road-trip fuel."
 ---
 
 **Cajun Kitchen** is a **Houston** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

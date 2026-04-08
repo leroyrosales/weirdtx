@@ -7,9 +7,9 @@ lng: -95.601151
 category: "Outdoors"
 tags:
   - "sulphur-springs"
-teaser: "Glass Bathrooms of Sulphur Springs — East Texas landscape and fresh air near Sulphur Springs."
+teaser: "Glass Bathrooms of Sulphur Springs, East Texas landscape and fresh air near Sulphur Springs."
 ---
 
 **Glass Bathrooms of Sulphur Springs** sits in the **East Texas** country around **Sulphur Springs**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

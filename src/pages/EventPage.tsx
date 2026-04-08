@@ -20,7 +20,7 @@ export function EventPage() {
     title: ev?.title ?? 'Event not found',
     description: ev
       ? ev.teaser ??
-        `${ev.title} — Texas event in ${ev.city} (${ev.region}), ${formatEventRange(ev.starts, ev.ends)}. Weird TX.`
+        `${ev.title}: Texas event in ${ev.city} (${ev.region}), ${formatEventRange(ev.starts, ev.ends)}. Weird TX.`
       : 'This Weird TX event could not be found.',
     ogImage: ev?.image?.url,
     jsonLd,
@@ -181,7 +181,7 @@ export function EventPage() {
                 </Link>
                 <span className="text-ink/65">
                   {' '}
-                  — {formatEventRange(e.starts, e.ends)}
+                  · {formatEventRange(e.starts, e.ends)}
                 </span>
               </li>
             ))}

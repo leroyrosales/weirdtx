@@ -7,7 +7,7 @@ lng: -98.552135
 category: "Structure"
 tags:
   - "san-antonio"
-teaser: "Old Applewhite Bridge — built character in San Antonio, South Texas."
+teaser: "Old Applewhite Bridge, built character in San Antonio, South Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Corpus_Christi_skyline.jpg/1920px-C\
     orpus_Christi_skyline.jpg"
@@ -19,4 +19,4 @@ image:
 
 **Old Applewhite Bridge** is part of **San Antonio**’s skyline or street grid in **South Texas**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

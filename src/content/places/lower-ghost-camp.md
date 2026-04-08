@@ -7,7 +7,7 @@ lng: -100.540225
 category: "Folklore"
 tags:
   - "san-angelo"
-teaser: "Lower Ghost Camp — West Texas legend, tall tale, or roadside whispers near San Angelo."
+teaser: "Lower Ghost Camp, West Texas legend, tall tale, or roadside whispers near San Angelo."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Val_Verde_County_Courthouse_in_Del_Rio%2C\
     _TX_DSCN1423.JPG"

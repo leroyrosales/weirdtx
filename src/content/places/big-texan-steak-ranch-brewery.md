@@ -7,7 +7,7 @@ lng: -101.754857
 category: "Food & Drink"
 tags:
   - "amarillo"
-teaser: "Big Texan Steak Ranch & Brewery in Amarillo — flavor and Panhandle road-trip fuel."
+teaser: "Big Texan Steak Ranch & Brewery in Amarillo, flavor and Panhandle road-trip fuel."
 ---
 
 **Big Texan Steak Ranch & Brewery** is a **Amarillo** pit stop in **Panhandle**: the kind of place that turns “we should grab something” into a story.

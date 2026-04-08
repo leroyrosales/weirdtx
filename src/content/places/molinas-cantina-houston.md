@@ -7,7 +7,7 @@ lng: -95.506372
 category: "Food & Drink"
 tags:
   - "houston"
-teaser: "Molina's Cantina in Houston — flavor and Gulf Coast road-trip fuel."
+teaser: "Molina's Cantina in Houston, flavor and Gulf Coast road-trip fuel."
 ---
 
 **Molina's Cantina** is a **Houston** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

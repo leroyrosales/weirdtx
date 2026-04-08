@@ -10,25 +10,25 @@ Start the file with YAML between `---` lines, then the article body in Markdown.
 
 **Required fields**
 
-- `title` — display name  
+- `title`, display name  
 - `city`  
-- `region` — must be one of: Panhandle, West Texas, Hill Country, Central Texas, DFW, East Texas, Gulf Coast, South Texas, Big Bend  
-- `lat` / `lng` — decimal coordinates (look them up in Google Maps → right‑click → coordinates)
+- `region`, must be one of: Panhandle, West Texas, Hill Country, Central Texas, DFW, East Texas, Gulf Coast, South Texas, Big Bend  
+- `lat` / `lng`, decimal coordinates (look them up in Google Maps → right‑click → coordinates)
 
 **Optional fields**
 
-- `tags` — list in square brackets, e.g. `[art, roadside]`  
-- `featured` — `true` to show on the home page  
-- `teaser` — one-line blurb for cards  
-- `address` — street or directions string  
+- `tags`, list in square brackets, e.g. `[art, roadside]`  
+- `featured`, `true` to show on the home page  
+- `teaser`, one-line blurb for cards  
+- `address`, street or directions string  
 
 ## Events
 
 Same idea in `events/`, with these **required** fields:
 
 - `title`, `city`, `region`, `lat`, `lng`  
-- `starts` — start date as `YYYY-MM-DD`  
-- `ends` — optional end date (same format) for multi-day events  
+- `starts`, start date as `YYYY-MM-DD`  
+- `ends`, optional end date (same format) for multi-day events  
 
 Optional: `tags`, `featured`, `teaser`.
 

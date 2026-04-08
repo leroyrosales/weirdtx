@@ -7,7 +7,7 @@ lng: -96.792944
 category: "Public Art"
 tags:
   - "dallas"
-teaser: "Bowler Hat Sculpture — public art and photo ops in Dallas, DFW."
+teaser: "Bowler Hat Sculpture, public art and photo ops in Dallas, DFW."
 ---
 
 **Bowler Hat Sculpture** lives in plain sight in **Dallas** (DFW): color, scale, and the occasional inside joke baked into the streetscape.

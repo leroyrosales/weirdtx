@@ -6,7 +6,7 @@ lat: 29.303445
 lng: -94.782168
 tags:
   - "galveston"
-teaser: "Bishop's Palace in Galveston — a Gulf Coast detour for odd-Texas hunters."
+teaser: "Bishop's Palace in Galveston, a Gulf Coast detour for odd-Texas hunters."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Colonel_Walter_Gresham_House%2C_140\
     2_Broadway%2C_Galveston_%28Galveston_County%2C_Texas%29.jpg/1920px-Colonel_Walter_Gresham_House\
@@ -18,6 +18,6 @@ image:
   license: "Public domain"
 ---
 
-**Bishop's Palace** is one of those **Galveston** stops that makes **Gulf Coast** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+**Bishop's Palace** is one of those **Galveston** stops that makes **Gulf Coast** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.

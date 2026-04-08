@@ -7,7 +7,7 @@ lng: -95.290241
 category: "Museum"
 tags:
   - "humble"
-teaser: "Exhibits and odd collections in Humble — a Gulf Coast stop for curious minds."
+teaser: "Exhibits and odd collections in Humble, a Gulf Coast stop for curious minds."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/DowntownHumbleTexas.jpg/1920px-Down\
     townHumbleTexas.jpg"
@@ -19,4 +19,4 @@ image:
 
 **DeLorean Museum** adds texture to **Humble** (Gulf Coast): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

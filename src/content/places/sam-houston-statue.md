@@ -7,7 +7,7 @@ lng: -95.510652
 category: "Public Art"
 tags:
   - "huntsville"
-teaser: "Sam Houston Statue — public art and photo ops in Huntsville, East Texas."
+teaser: "Sam Houston Statue, public art and photo ops in Huntsville, East Texas."
 ---
 
 **Sam Houston Statue** lives in plain sight in **Huntsville** (East Texas): color, scale, and the occasional inside joke baked into the streetscape.

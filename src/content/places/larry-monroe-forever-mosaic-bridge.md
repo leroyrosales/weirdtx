@@ -7,7 +7,7 @@ lng: -97.744406
 category: "Public Art"
 tags:
   - "austin"
-teaser: "Larry Monroe Forever Bridge — public art and photo ops in Austin, Central Texas."
+teaser: "Larry Monroe Forever Bridge, public art and photo ops in Austin, Central Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Larry_Monroe_Forever_Bridge.jpg"
   alt: "Larry Monroe Forever Bridge"

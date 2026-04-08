@@ -7,7 +7,7 @@ lng: -103.776752
 category: "Folklore"
 tags:
   - "terlingua"
-teaser: "Lajitas Ghost Town — Big Bend legend, tall tale, or roadside whispers near Terlingua."
+teaser: "Lajitas Ghost Town, Big Bend legend, tall tale, or roadside whispers near Terlingua."
 ---
 
 **Lajitas Ghost Town** sits in the **Terlingua** orbit of **Big Bend** lore: the sort of story that grows every time someone retells it after midnight.

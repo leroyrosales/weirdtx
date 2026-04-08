@@ -7,7 +7,7 @@ lng: -95.385494
 category: "Entertainment"
 tags:
   - "tyler"
-teaser: "Apache Drive-In Theatre — lights, lore, or a night out in Tyler, East Texas."
+teaser: "Apache Drive-In Theatre, lights, lore, or a night out in Tyler, East Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mount_Bonnell_2008.jpg/1920px-Mount\
     _Bonnell_2008.jpg"

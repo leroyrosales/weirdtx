@@ -215,7 +215,7 @@ function cacheKeyFromFrontmatter(data) {
   const title = String(data.title ?? '').trim()
   const city = String(data.city ?? '').trim()
   // City helps disambiguate (e.g. “Cathedral”).
-  return `${title} — ${city}`.trim()
+  return `${title}, ${city}`.trim()
 }
 
 function loadCache() {

@@ -7,7 +7,7 @@ lng: -97.771277
 category: "Outdoors"
 tags:
   - "austin"
-teaser: "Barton Springs — Central Texas landscape and fresh air near Austin."
+teaser: "Barton Springs, Central Texas landscape and fresh air near Austin."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/0/04/Eliza_spring.jpg"
   alt: "Barton Springs"
@@ -18,4 +18,4 @@ image:
 
 **Barton Springs** sits in the **Central Texas** country around **Austin**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

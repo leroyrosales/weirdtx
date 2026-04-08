@@ -6,7 +6,7 @@ lat: 33.594204
 lng: -98.625767
 tags:
   - "archer-city"
-teaser: "Booked Up in Archer City — a DFW detour for odd-Texas hunters."
+teaser: "Booked Up in Archer City, a DFW detour for odd-Texas hunters."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Archer_courthouse.jpg"
   alt: "Booked Up"
@@ -15,6 +15,6 @@ image:
   license: "CC BY 4.0"
 ---
 
-**Booked Up** is one of those **Archer City** stops that makes **DFW** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+**Booked Up** is one of those **Archer City** stops that makes **DFW** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.

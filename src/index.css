@@ -107,7 +107,7 @@ body {
   @apply mb-2 mt-2;
 }
 
-/* Only popup links — never force all .leaflet-container anchors inline (breaks zoom +/- controls). */
+/* Only popup links; never force all .leaflet-container anchors inline (breaks zoom +/- controls). */
 .leaflet-popup-content a {
   @apply inline;
 }

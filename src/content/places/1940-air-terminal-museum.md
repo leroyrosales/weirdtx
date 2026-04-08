@@ -7,7 +7,7 @@ lng: -95.286903
 category: "Museum"
 tags:
   - "houston"
-teaser: "Exhibits and odd collections in Houston — a Gulf Coast stop for curious minds."
+teaser: "Exhibits and odd collections in Houston, a Gulf Coast stop for curious minds."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/8/84/1940_Air_Terminal_Museum.jpg"
   alt: "1940 Air Terminal Museum"
@@ -18,4 +18,4 @@ image:
 
 **1940 Air Terminal Museum** adds texture to **Houston** (Gulf Coast): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.

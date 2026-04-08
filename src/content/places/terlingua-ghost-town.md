@@ -10,7 +10,7 @@ tags:
   - "ruins"
   - "chili"
 featured: true
-teaser: "Ruins, starlight, and the spirit of the old quicksilver boom — plus legendary chili
+teaser: "Ruins, starlight, and the spirit of the old quicksilver boom, plus legendary chili
   cookoffs nearby."
 ---
 

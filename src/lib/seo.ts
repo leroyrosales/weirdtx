@@ -72,7 +72,7 @@ export type PageSeoOptions = {
   /** Absolute or site-relative image URL for Open Graph / Twitter. */
   ogImage?: string
   jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null
-  /** Soft 404s and error states — avoid indexing thin duplicate pages. */
+  /** Soft 404s and error states: avoid indexing thin duplicate pages. */
   noIndex?: boolean
 }
 

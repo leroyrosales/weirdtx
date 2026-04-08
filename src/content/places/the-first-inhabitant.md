@@ -6,9 +6,9 @@ lat: 29.423529
 lng: -98.488148
 tags:
   - "san-antonio"
-teaser: "The First Inhabitant in San Antonio — a South Texas detour for odd-Texas hunters."
+teaser: "The First Inhabitant in San Antonio, a South Texas detour for odd-Texas hunters."
 ---
 
-**The First Inhabitant** is one of those **San Antonio** stops that makes **South Texas** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+**The First Inhabitant** is one of those **San Antonio** stops that makes **South Texas** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.

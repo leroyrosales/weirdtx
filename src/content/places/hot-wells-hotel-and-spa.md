@@ -7,9 +7,9 @@ lng: -98.470189
 category: "Structure"
 tags:
   - "san-antonio"
-teaser: "Hot Wells Hotel and Spa — built character in San Antonio, South Texas."
+teaser: "Hot Wells Hotel and Spa, built character in San Antonio, South Texas."
 ---
 
 **Hot Wells Hotel and Spa** is part of **San Antonio**’s skyline or street grid in **South Texas**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

@@ -6,9 +6,9 @@ lat: 35.186488
 lng: -101.974123
 tags:
   - "amarillo"
-teaser: "The Second Amendment Cowboy in Amarillo — a Panhandle detour for odd-Texas hunters."
+teaser: "The Second Amendment Cowboy in Amarillo, a Panhandle detour for odd-Texas hunters."
 ---
 
-**The Second Amendment Cowboy** is one of those **Amarillo** stops that makes **Panhandle** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+**The Second Amendment Cowboy** is one of those **Amarillo** stops that makes **Panhandle** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.

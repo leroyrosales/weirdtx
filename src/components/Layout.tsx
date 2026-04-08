@@ -53,7 +53,7 @@ export function Layout() {
           <Link
             to="/"
             className="inline-flex min-h-11 min-w-11 items-center font-display text-xl tracking-wide text-sky-deep transition-colors hover:text-clay sm:min-h-0 sm:min-w-0 sm:text-3xl"
-            aria-label="Weird TX — Home"
+            aria-label="Weird TX home"
           >
             Weird TX
             <span className="ml-1 text-gold-bright drop-shadow-sm" aria-hidden>

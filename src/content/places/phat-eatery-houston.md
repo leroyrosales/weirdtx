@@ -7,7 +7,7 @@ lng: -95.774215
 category: "Food & Drink"
 tags:
   - "katy"
-teaser: "Phat Eatery in Katy — flavor and Gulf Coast road-trip fuel."
+teaser: "Phat Eatery in Katy, flavor and Gulf Coast road-trip fuel."
 ---
 
 **Phat Eatery** is a **Katy** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

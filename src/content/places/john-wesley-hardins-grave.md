@@ -7,7 +7,7 @@ lng: -106.449567
 category: "Cemetery"
 tags:
   - "el-paso"
-teaser: "John Wesley Hardin's Grave — quiet history under open sky in El Paso, West Texas."
+teaser: "John Wesley Hardin's Grave, quiet history under open sky in El Paso, West Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/b/b3/John_Wesley_Hardin.gif"
   alt: "John Wesley Hardin's Grave"
@@ -18,4 +18,4 @@ image:
 
 **John Wesley Hardin's Grave** is part of the layered story of **El Paso** and **West Texas**: names, dates, and the small monuments people leave behind.
 
-Respect posted rules, keep voices low, and double-check access before you visit — rural and urban cemeteries alike can have limited hours.
+Respect posted rules, keep voices low, and double-check access before you visit. Rural and urban cemeteries alike can have limited hours.

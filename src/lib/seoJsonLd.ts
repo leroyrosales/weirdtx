@@ -32,7 +32,7 @@ export function buildPlaceJsonLd(place: PlaceItem, origin: string) {
 export function buildEventJsonLd(ev: EventItem, origin: string) {
   const desc =
     ev.teaser ??
-    `${ev.title} — Texas event in ${ev.city}, ${ev.region}. Dates and map on Weird TX.`
+    `${ev.title}: Texas event in ${ev.city}, ${ev.region}. Dates and map on Weird TX.`
 
   return {
     '@context': 'https://schema.org',

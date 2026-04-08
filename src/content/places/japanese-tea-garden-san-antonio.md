@@ -7,7 +7,7 @@ lng: -98.476995
 category: "Outdoors"
 tags:
   - "san-antonio"
-teaser: "Japanese Tea Garden — South Texas landscape and fresh air near San Antonio."
+teaser: "Japanese Tea Garden, South Texas landscape and fresh air near San Antonio."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/a/a6/SATeaGarden02.JPG"
   alt: "Japanese Tea Garden"
@@ -18,4 +18,4 @@ image:
 
 **Japanese Tea Garden** sits in the **South Texas** country around **San Antonio**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

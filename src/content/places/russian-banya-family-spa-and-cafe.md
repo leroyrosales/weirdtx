@@ -7,7 +7,7 @@ lng: -96.859581
 category: "Food & Drink"
 tags:
   - "carrollton"
-teaser: "Russian Banya Family Spa and Café in Carrollton — flavor and DFW road-trip fuel."
+teaser: "Russian Banya Family Spa and Café in Carrollton, flavor and DFW road-trip fuel."
 ---
 
 **Russian Banya Family Spa and Café** is a **Carrollton** pit stop in **DFW**: the kind of place that turns “we should grab something” into a story.

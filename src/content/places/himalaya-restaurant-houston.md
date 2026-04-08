@@ -7,7 +7,7 @@ lng: -95.500796
 category: "Food & Drink"
 tags:
   - "houston"
-teaser: "Himalaya Restaurant in Houston — flavor and Gulf Coast road-trip fuel."
+teaser: "Himalaya Restaurant in Houston, flavor and Gulf Coast road-trip fuel."
 ---
 
 **Himalaya Restaurant** is a **Houston** pit stop in **Gulf Coast**: the kind of place that turns “we should grab something” into a story.

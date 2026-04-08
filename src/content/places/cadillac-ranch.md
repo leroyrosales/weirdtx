@@ -9,7 +9,7 @@ tags:
   - "roadside"
   - "free"
 featured: true
-teaser: "Ten tailfins in the dirt — bring a can of spray paint and leave your mark (legally)."
+teaser: "Ten tailfins in the dirt, bring a can of spray paint and leave your mark (legally)."
 address: "13651 I-40 Frontage Rd, Amarillo"
 url: "https://www.facebook.com/1974cadillacranch/"
 image:

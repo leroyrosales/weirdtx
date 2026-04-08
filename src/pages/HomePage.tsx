@@ -1,5 +1,12 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import {
+  listingCardBodyClasses,
+  listingCardEventRowClass,
+  listingCardPlaceRowClass,
+  listingCardThumbClasses,
+  ListingCardThumbMedia,
+} from '../components/listingCard'
 import { TexasMap } from '../components/TexasMap'
 import { events, places } from '../lib/content'
 import { DEFAULT_DESCRIPTION, SITE_NAME, usePageSeo } from '../lib/seo'
@@ -103,7 +110,7 @@ export function HomePage() {
           Statewide map
         </h2>
         <p className="mt-1 text-ink/75">
-          Open a pin for a quick link — every listing has coordinates. Map tiles © OpenStreetMap
+          Open a pin for a quick link; every listing has coordinates. Map tiles © OpenStreetMap
           contributors.
         </p>
         <div className="mt-4">
@@ -137,22 +144,13 @@ export function HomePage() {
               <li key={p.slug}>
                 <Link
                   to={`/places/${p.slug}`}
-                  className={`flex gap-4 rounded-xl border border-ink/10 bg-white/55 p-3 shadow-sm transition-all hover:border-sage/45 hover:shadow sm:p-4 ${
-                    p.image?.url ? 'items-stretch' : ''
-                  }`}
+                  className={listingCardPlaceRowClass()}
                   aria-label={`${p.title}, ${p.region}, ${p.city}`}
                 >
-                  {p.image?.url ? (
-                    <div className="relative h-[4.5rem] w-[4.5rem] shrink-0 overflow-hidden rounded-lg bg-ink/5 sm:h-[5.25rem] sm:w-[5.25rem]">
-                      <img
-                        src={p.image.url}
-                        alt=""
-                        loading="lazy"
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                  ) : null}
-                  <div className="min-w-0 flex-1">
+                  <div className={listingCardThumbClasses}>
+                    <ListingCardThumbMedia src={p.image?.url} />
+                  </div>
+                  <div className={listingCardBodyClasses}>
                     <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
                       {p.region}
                     </span>
@@ -183,15 +181,20 @@ export function HomePage() {
               <li key={e.slug}>
                 <Link
                   to={`/events/${e.slug}`}
-                  className="block rounded-xl border border-ink/10 bg-white/55 p-4 shadow-sm transition-all hover:border-sand/55 hover:shadow"
+                  className={listingCardEventRowClass()}
                   aria-label={`${e.title}, ${e.region}, ${e.city}`}
                 >
-                  <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
-                    {e.region}
-                  </span>
-                  <p className="font-display text-lg text-sky-deep">{e.title}</p>
-                  <p className="text-sm text-ink/70">{e.city}</p>
-                  {e.teaser ? <p className="mt-1 text-sm text-ink/80">{e.teaser}</p> : null}
+                  <div className={listingCardThumbClasses}>
+                    <ListingCardThumbMedia src={e.image?.url} />
+                  </div>
+                  <div className={listingCardBodyClasses}>
+                    <span className="text-xs font-bold uppercase tracking-wide text-sage-dark">
+                      {e.region}
+                    </span>
+                    <p className="font-display text-lg text-sky-deep">{e.title}</p>
+                    <p className="text-sm text-ink/70">{e.city}</p>
+                    {e.teaser ? <p className="mt-1 text-sm text-ink/80">{e.teaser}</p> : null}
+                  </div>
                 </Link>
               </li>
             ))}

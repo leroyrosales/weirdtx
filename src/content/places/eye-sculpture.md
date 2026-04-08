@@ -7,7 +7,7 @@ lng: -96.798246
 category: "Public Art"
 tags:
   - "dallas"
-teaser: "'Eye' Sculpture — public art and photo ops in Dallas, DFW."
+teaser: "'Eye' Sculpture, public art and photo ops in Dallas, DFW."
 ---
 
 **'Eye' Sculpture** lives in plain sight in **Dallas** (DFW): color, scale, and the occasional inside joke baked into the streetscape.

@@ -7,7 +7,7 @@ lng: -96.822586
 category: "Structure"
 tags:
   - "dallas"
-teaser: "Lee Harvey Oswald's Rooming House — built character in Dallas, DFW."
+teaser: "Lee Harvey Oswald's Rooming House, built character in Dallas, DFW."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/7/71/1026_N_Beckley.jpg"
   alt: "Lee Harvey Oswald's Rooming House"
@@ -18,4 +18,4 @@ image:
 
 **Lee Harvey Oswald's Rooming House** is part of **Dallas**’s skyline or street grid in **DFW**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.

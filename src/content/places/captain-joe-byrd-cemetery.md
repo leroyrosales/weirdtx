@@ -7,7 +7,7 @@ lng: -95.535176
 category: "Cemetery"
 tags:
   - "huntsville"
-teaser: "Captain Joe Byrd Cemetery — quiet history under open sky in Huntsville, East Texas."
+teaser: "Captain Joe Byrd Cemetery, quiet history under open sky in Huntsville, East Texas."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/JoeByrdCemeteryHuntsvilleTX.jpg"
   alt: "Captain Joe Byrd Cemetery"
@@ -18,4 +18,4 @@ image:
 
 **Captain Joe Byrd Cemetery** is part of the layered story of **Huntsville** and **East Texas**: names, dates, and the small monuments people leave behind.
 
-Respect posted rules, keep voices low, and double-check access before you visit — rural and urban cemeteries alike can have limited hours.
+Respect posted rules, keep voices low, and double-check access before you visit. Rural and urban cemeteries alike can have limited hours.

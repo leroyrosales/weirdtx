@@ -8,7 +8,7 @@ starts: 2026-11-06
 ends: 2026-11-08
 tags: [food, festival, outdoors]
 featured: true
-teaser: The granddaddy of competitive chili — desert air, serious spice, and serious fun.
+teaser: The granddaddy of competitive chili, desert air, serious spice, and serious fun.
 url: https://abowlofred.com/
 ---
 

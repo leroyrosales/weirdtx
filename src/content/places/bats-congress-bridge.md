@@ -9,7 +9,7 @@ tags:
   - "wildlife"
   - "sunset"
   - "free"
-teaser: "The world's largest urban bat colony takes flight at dusk — bring a picnic blanket."
+teaser: "The world's largest urban bat colony takes flight at dusk, bring a picnic blanket."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Congress_Avenue_Bridge.jpg/1920px-C\
     ongress_Avenue_Bridge.jpg"

@@ -119,74 +119,74 @@ function copyForKind(kind, title, city, region) {
   /** @type {Record<string, { teaser: string; body: string }>} */
   const m = {
     cemetery: {
-      teaser: `${title} — quiet history under open sky in ${c}, ${r}.`,
+      teaser: `${title}, quiet history under open sky in ${c}, ${r}.`,
       body: `**${title}** is part of the layered story of **${c}** and **${r}**: names, dates, and the small monuments people leave behind.
 
-Respect posted rules, keep voices low, and double-check access before you visit — rural and urban cemeteries alike can have limited hours.`,
+Respect posted rules, keep voices low, and double-check access before you visit. Rural and urban cemeteries alike can have limited hours.`,
     },
     museum: {
-      teaser: `Exhibits and odd collections in ${c} — a ${r} stop for curious minds.`,
+      teaser: `Exhibits and odd collections in ${c}, a ${r} stop for curious minds.`,
       body: `**${title}** adds texture to **${c}** (${r}): local history, niche obsessions, and the kind of detail you only get by standing in the room.
 
-Call ahead or check the venue’s site for tickets, closures, and photography rules — small museums rotate shows and hours often.`,
+Call ahead or check the venue’s site for tickets, closures, and photography rules. Small museums rotate shows and hours often.`,
     },
     outdoors: {
-      teaser: `${title} — ${r} landscape and fresh air near ${c}.`,
+      teaser: `${title}, ${r} landscape and fresh air near ${c}.`,
       body: `**${title}** sits in the **${r}** country around **${c}**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.`,
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.`,
     },
     food: {
-      teaser: `${title} in ${c} — flavor and ${r} road-trip fuel.`,
+      teaser: `${title} in ${c}, flavor and ${r} road-trip fuel.`,
       body: `**${title}** is a **${c}** pit stop in **${r}**: the kind of place that turns “we should grab something” into a story.
 
 Menus and hours shift; weekends and holidays get weird. A quick call or peek at their latest posts saves a hungry wrong turn.`,
     },
     publicArt: {
-      teaser: `${title} — public art and photo ops in ${c}, ${r}.`,
+      teaser: `${title}, public art and photo ops in ${c}, ${r}.`,
       body: `**${title}** lives in plain sight in **${c}** (${r}): color, scale, and the occasional inside joke baked into the streetscape.
 
 Lighting and crowds change the shot. If it’s on private property, be polite, don’t block driveways, and move along if someone asks.`,
     },
     structure: {
-      teaser: `${title} — built character in ${c}, ${r}.`,
+      teaser: `${title}, built character in ${c}, ${r}.`,
       body: `**${title}** is part of **${c}**’s skyline or street grid in **${r}**: engineering, ego, or both.
 
-Access varies — some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.`,
+Access varies. Some spots are exterior-only. Check whether tours or tickets are required before you plan around going inside.`,
     },
     entertainment: {
-      teaser: `${title} — lights, lore, or a night out in ${c}, ${r}.`,
+      teaser: `${title}, lights, lore, or a night out in ${c}, ${r}.`,
       body: `**${title}** is a **${c}** hangout in **${r}** where the show (or the sign out front) is half the draw.
 
 Seasonal schedules and renovations happen. Confirm what’s playing, what’s open, and whether cash is still king at the box office.`,
     },
     sacred: {
-      teaser: `${title} in ${c} — ${r} faith, stone, and community.`,
+      teaser: `${title} in ${c}, ${r} faith, stone, and community.`,
       body: `**${title}** anchors **${c}** (${r}) for worshippers and visitors alike. Treat it as a living site, not just a backdrop.
 
-Step quietly during services, dress modestly if asked, and skip the flash — many sanctuaries restrict photography.`,
+Step quietly during services, dress modestly if asked, and skip the flash; many sanctuaries restrict photography.`,
     },
     retail: {
-      teaser: `${title} — browse something you didn’t know you needed in ${c}.`,
+      teaser: `${title}, browse something you didn’t know you needed in ${c}.`,
       body: `**${title}** is a **${c}** browse in **${r}**: stock changes, and the best finds rarely ship.
 
-Small shops keep odd hours. If you’re making a pilgrimage, call first — especially mid-week or after holidays.`,
+Small shops keep odd hours. If you’re making a pilgrimage, call first, especially mid-week or after holidays.`,
     },
     memorial: {
-      teaser: `${title} — ${r} remembers, in ${c}.`,
+      teaser: `${title}, ${r} remembers, in ${c}.`,
       body: `**${title}** marks a moment or a life tied to **${c}** and **${r}**. Worth slowing down for, even if you only read the plaque once.
 
-Sites on public land are usually dawn-to-dusk; roadside markers are pull-off quickies — watch traffic and private property lines.`,
+Sites on public land are usually dawn-to-dusk; roadside markers are pull-off quickies. Watch traffic and private property lines.`,
     },
     folklore: {
-      teaser: `${title} — ${r} legend, tall tale, or roadside whispers near ${c}.`,
+      teaser: `${title}, ${r} legend, tall tale, or roadside whispers near ${c}.`,
       body: `**${title}** sits in the **${c}** orbit of **${r}** lore: the sort of story that grows every time someone retells it after midnight.
 
 Go for the atmosphere, not the guarantee. Respect neighbors, don’t trespass, and remember the best version is often the one told on the drive home.`,
     },
     general: {
-      teaser: `${title} in ${c} — a ${r} detour for odd-Texas hunters.`,
-      body: `**${title}** is one of those **${c}** stops that makes **${r}** feel bigger than the postcard — a little history, a little weird, a good excuse to pull over.
+      teaser: `${title} in ${c}, a ${r} detour for odd-Texas hunters.`,
+      body: `**${title}** is one of those **${c}** stops that makes **${r}** feel bigger than the postcard: a little history, a little weird, and a good excuse to pull over.
 
 Details drift: hours, admission, and what’s still standing can change. Verify before you go, especially for rural pins and one-off attractions.`,
     },

@@ -8,7 +8,7 @@ category: "Food & Drink"
 tags:
   - "austin"
   - "restaurant"
-teaser: "From the Weird Texas map — Restaurants."
+teaser: "From the Weird Texas map: Restaurants."
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Magnolia_Cafe.jpg/1920px-Magnolia_C\
     afe.jpg"
@@ -20,4 +20,4 @@ image:
 
 Originally listed on the **Weird Texas** map under *Restaurants*.
 
-Coordinates and category come from the imported map; hours and details may change — check before you go.
+Coordinates and category come from the imported map; hours and details may change, so check before you go.

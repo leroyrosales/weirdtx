@@ -7,9 +7,9 @@ lng: -98.820967
 category: "Outdoors"
 tags:
   - "fredericksburg"
-teaser: "Old Tunnel Bat Colony — Hill Country landscape and fresh air near Fredericksburg."
+teaser: "Old Tunnel Bat Colony, Hill Country landscape and fresh air near Fredericksburg."
 ---
 
 **Old Tunnel Bat Colony** sits in the **Hill Country** country around **Fredericksburg**. Weather, seasons, and trail conditions can change fast out here.
 
-Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive — especially for swimming holes and remote sites.
+Pack water, mind burn bans and wildlife, and confirm park or preserve hours before you drive, especially for swimming holes and remote sites.

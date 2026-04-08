@@ -7,7 +7,7 @@ lng: -95.365113
 category: "Public Art"
 tags:
   - "houston"
-teaser: "Virtuoso Sculpture — public art and photo ops in Houston, Gulf Coast."
+teaser: "Virtuoso Sculpture, public art and photo ops in Houston, Gulf Coast."
 ---
 
 **Virtuoso Sculpture** lives in plain sight in **Houston** (Gulf Coast): color, scale, and the occasional inside joke baked into the streetscape.
