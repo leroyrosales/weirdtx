@@ -1,16 +1,23 @@
 import { getEventBySlug, getPlaceBySlug, regions } from './content'
 import { formatEventRange } from './dates'
-import { decodeParam, regionFromSlug } from './routeParams'
-import { DEFAULT_DESCRIPTION, SITE_NAME, truncateMeta } from './seo'
-import { buildEventJsonLd, buildPlaceJsonLd } from './seoJsonLd'
+import { decodeParam, encodeParam, regionFromSlug, regionToSlug } from './routeParams'
+import { DEFAULT_DESCRIPTION, truncateMeta } from './seo'
+import {
+  buildCollectionPageJsonLd,
+  buildEventJsonLd,
+  buildHomeJsonLd,
+  buildPlaceJsonLd,
+} from './seoJsonLd'
 
 export type PrerenderHead = {
-  /** Title segment before ` · ${SITE_NAME}` */
+  /** Title segment before ` · Weird TX` */
   pageTitleShort: string
   description: string
   canonicalUrl: string
   noIndex: boolean
   ogImage?: string
+  ogImageAlt?: string
+  ogType?: 'website' | 'article'
   jsonLd: Record<string, unknown> | Record<string, unknown>[] | null
 }
 
@@ -45,51 +52,58 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
       description: truncateMeta(DEFAULT_DESCRIPTION),
       canonicalUrl: `${base}/`,
       noIndex: false,
-      jsonLd: {
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        name: SITE_NAME,
-        alternateName: 'Weird Texas',
-        description: DEFAULT_DESCRIPTION,
-        url: `${base}/`,
-        inLanguage: 'en-US',
-      },
+      jsonLd: buildHomeJsonLd(base),
     }
   }
 
   if (path === '/explore') {
+    const desc =
+      'Find weird Texas places and events near your location, with optional geolocation, distance sort, and a statewide map on Weird TX.'
     return {
       pageTitleShort: 'Near me',
-      description: truncateMeta(
-        'Find weird Texas places and events near your location, with optional geolocation, distance sort, and a statewide map on Weird TX.',
-      ),
+      description: truncateMeta(desc),
       canonicalUrl,
       noIndex: false,
-      jsonLd: null,
+      jsonLd: buildCollectionPageJsonLd({
+        origin: base,
+        name: 'Near me: weird Texas by distance',
+        description: desc,
+        path: '/explore',
+      }),
     }
   }
 
   if (path === '/places') {
+    const desc =
+      'Browse weird Texas places by region: roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.'
     return {
       pageTitleShort: 'Weird places',
-      description: truncateMeta(
-        'Browse weird Texas places by region: roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
-      ),
+      description: truncateMeta(desc),
       canonicalUrl,
       noIndex: false,
-      jsonLd: null,
+      jsonLd: buildCollectionPageJsonLd({
+        origin: base,
+        name: 'Weird Texas places',
+        description: desc,
+        path: '/places',
+      }),
     }
   }
 
   if (path === '/events') {
+    const desc =
+      'Texas festivals, fairs, and one-off gatherings worth a detour, with dates, cities, and maps on Weird TX.'
     return {
       pageTitleShort: 'Weird events',
-      description: truncateMeta(
-        'Texas festivals, fairs, and one-off gatherings worth a detour, with dates, cities, and maps on Weird TX.',
-      ),
+      description: truncateMeta(desc),
       canonicalUrl,
       noIndex: false,
-      jsonLd: null,
+      jsonLd: buildCollectionPageJsonLd({
+        origin: base,
+        name: 'Weird Texas events',
+        description: desc,
+        path: '/events',
+      }),
     }
   }
 
@@ -108,6 +122,8 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
       canonicalUrl,
       noIndex: false,
       ogImage: place.image?.url,
+      ogImageAlt: place.image?.alt ?? `${place.title} photo`,
+      ogType: 'article',
       jsonLd: buildPlaceJsonLd(place, base),
     }
   }
@@ -127,6 +143,8 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
       canonicalUrl,
       noIndex: false,
       ogImage: ev.image?.url,
+      ogImageAlt: ev.image?.alt ?? `${ev.title} photo`,
+      ogType: 'article',
       jsonLd: buildEventJsonLd(ev, base),
     }
   }
@@ -137,14 +155,18 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     if (!tagValue) {
       return notFound(origin, path, 'Tag not found')
     }
+    const desc = `Places and events tagged "${tagValue}" on Weird TX: odd Texas listings with an interactive map.`
     return {
       pageTitleShort: `Tag: ${tagValue}`,
-      description: truncateMeta(
-        `Places and events tagged "${tagValue}" on Weird TX: odd Texas listings with an interactive map.`,
-      ),
+      description: truncateMeta(desc),
       canonicalUrl,
       noIndex: false,
-      jsonLd: null,
+      jsonLd: buildCollectionPageJsonLd({
+        origin: base,
+        name: `Weird Texas tag: ${tagValue}`,
+        description: desc,
+        path: `/tags/${encodeParam(tagValue)}`,
+      }),
     }
   }
 
@@ -154,14 +176,18 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     if (!regionValue) {
       return notFound(origin, path, 'Region not found')
     }
+    const desc = `Weird places and events in ${regionValue}, Texas, with a map and listings on Weird TX.`
     return {
       pageTitleShort: `Region: ${regionValue}`,
-      description: truncateMeta(
-        `Weird places and events in ${regionValue}, Texas, with a map and listings on Weird TX.`,
-      ),
+      description: truncateMeta(desc),
       canonicalUrl,
       noIndex: false,
-      jsonLd: null,
+      jsonLd: buildCollectionPageJsonLd({
+        origin: base,
+        name: `Weird Texas: ${regionValue}`,
+        description: desc,
+        path: `/regions/${regionToSlug(regionValue)}`,
+      }),
     }
   }
 
@@ -194,14 +220,18 @@ export function buildHeadTags(pathname: string, origin: string): PrerenderHead {
     if (!categoryValue) {
       return notFound(origin, path, 'Category not found')
     }
+    const desc = `Weird Texas places and events in the "${categoryValue}" category, with a map and list on Weird TX.`
     return {
       pageTitleShort: `Category: ${categoryValue}`,
-      description: truncateMeta(
-        `Weird Texas places and events in the "${categoryValue}" category, with a map and list on Weird TX.`,
-      ),
+      description: truncateMeta(desc),
       canonicalUrl,
       noIndex: false,
-      jsonLd: null,
+      jsonLd: buildCollectionPageJsonLd({
+        origin: base,
+        name: `Weird Texas category: ${categoryValue}`,
+        description: desc,
+        path: `/categories/${encodeParam(categoryValue)}`,
+      }),
     }
   }
 

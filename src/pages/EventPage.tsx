@@ -28,6 +28,8 @@ export function EventPage() {
         `${ev.title}: Texas event in ${ev.city} (${ev.region}), ${formatEventRange(ev.starts, ev.ends)}. Weird TX.`
       : 'This Weird TX event could not be found.',
     ogImage: ev?.image?.url,
+    ogImageAlt: ev?.image?.alt ?? (ev ? `${ev.title} photo` : undefined),
+    ogType: ev ? 'article' : 'website',
     jsonLd,
     noIndex: !ev,
   })

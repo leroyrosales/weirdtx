@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   ListingCardImageLink,
@@ -6,18 +7,31 @@ import {
   listingCardPlaceRowClass,
 } from '../components/listingCard'
 import { events, places } from '../lib/content'
-import { decodeParam, regionToSlug } from '../lib/routeParams'
+import { decodeParam, encodeParam, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
+import { buildCollectionPageJsonLd } from '../lib/seoJsonLd'
 
 export function CategoryPage() {
   const { category } = useParams<{ category: string }>()
   const categoryValue = decodeParam(category).trim()
 
+  const categoryDesc = categoryValue
+    ? `Weird Texas places and events in the "${categoryValue}" category, with a map and list on Weird TX.`
+    : 'This category could not be found on Weird TX.'
+  const jsonLd = useMemo(() => {
+    if (!categoryValue || typeof window === 'undefined') return null
+    return buildCollectionPageJsonLd({
+      origin: window.location.origin,
+      name: `Weird Texas category: ${categoryValue}`,
+      description: categoryDesc,
+      path: `/categories/${encodeParam(categoryValue)}`,
+    })
+  }, [categoryValue, categoryDesc])
+
   usePageSeo({
     title: categoryValue ? `Category: ${categoryValue}` : 'Category not found',
-    description: categoryValue
-      ? `Weird Texas places and events in the "${categoryValue}" category, with a map and list on Weird TX.`
-      : 'This category could not be found on Weird TX.',
+    description: categoryDesc,
+    jsonLd,
     noIndex: !categoryValue,
   })
 

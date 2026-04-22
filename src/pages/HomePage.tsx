@@ -14,22 +14,15 @@ import {
 } from '../components/listingCard'
 import { TexasMap } from '../components/TexasMap'
 import { events, places } from '../lib/content'
-import { DEFAULT_DESCRIPTION, SITE_NAME, usePageSeo } from '../lib/seo'
+import { DEFAULT_DESCRIPTION, usePageSeo } from '../lib/seo'
+import { buildHomeJsonLd } from '../lib/seoJsonLd'
 
 export function HomePage() {
   const { startRandomPick, randomJourneyActive } = useRandomPick()
 
   const jsonLd = useMemo(() => {
-    const origin = typeof window !== 'undefined' ? window.location.origin : ''
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      name: SITE_NAME,
-      alternateName: 'Weird Texas',
-      description: DEFAULT_DESCRIPTION,
-      url: origin ? `${origin}/` : '/',
-      inLanguage: 'en-US',
-    }
+    if (typeof window === 'undefined') return null
+    return buildHomeJsonLd(window.location.origin)
   }, [])
 
   usePageSeo({

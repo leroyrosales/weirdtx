@@ -29,6 +29,8 @@ export function PlacePage() {
         `${place.title}: odd Texas place in ${place.city} (${place.region}). Map and details on Weird TX.`
       : 'This Weird TX place could not be found.',
     ogImage: place?.image?.url,
+    ogImageAlt: place?.image?.alt ?? (place ? `${place.title} photo` : undefined),
+    ogType: place ? 'article' : 'website',
     jsonLd,
     noIndex: !place,
   })

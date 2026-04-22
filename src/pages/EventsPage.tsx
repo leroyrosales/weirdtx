@@ -9,12 +9,25 @@ import { events, regions } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
+import { buildCollectionPageJsonLd } from '../lib/seoJsonLd'
 
 export function EventsPage() {
+  const desc =
+    'Texas festivals, fairs, and one-off gatherings worth a detour, with dates, cities, and maps on Weird TX.'
+  const jsonLd = useMemo(() => {
+    if (typeof window === 'undefined') return null
+    return buildCollectionPageJsonLd({
+      origin: window.location.origin,
+      name: 'Weird Texas events',
+      description: desc,
+      path: '/events',
+    })
+  }, [desc])
+
   usePageSeo({
     title: 'Weird events',
-    description:
-      'Texas festivals, fairs, and one-off gatherings worth a detour, with dates, cities, and maps on Weird TX.',
+    description: desc,
+    jsonLd,
   })
   const [region, setRegion] = useState<string>('')
 

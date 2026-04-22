@@ -21,7 +21,7 @@ function safeJsonLd(obj) {
   return raw.replace(/</g, '\\u003c')
 }
 
-function injectHead(html, { fullTitle, description, canonicalUrl, noIndex, ogImage, jsonLd }) {
+function injectHead(html, { fullTitle, description, canonicalUrl, noIndex, ogImage, ogImageAlt, ogType, jsonLd }) {
   let out = html
   out = out.replace(/<title>[^<]*<\/title>/, `<title>${escAttr(fullTitle)}</title>`)
   out = out.replace(
@@ -37,6 +37,11 @@ function injectHead(html, { fullTitle, description, canonicalUrl, noIndex, ogIma
   const ogImgLine = ogImage
     ? `    <meta property="og:image" content="${escAttr(ogImage)}" />\n    <meta name="twitter:image" content="${escAttr(ogImage)}" />\n`
     : ''
+  const ogImageAltLine =
+    ogImage && ogImageAlt
+      ? `    <meta property="og:image:alt" content="${escAttr(ogImageAlt)}" />\n    <meta name="twitter:image:alt" content="${escAttr(ogImageAlt)}" />\n`
+      : ''
+  const ogTypeVal = ogType ?? 'website'
 
   const ldLine = jsonLd
     ? `    <script type="application/ld+json" data-weirdtx-prerender>${safeJsonLd(jsonLd)}</script>\n`
@@ -48,9 +53,9 @@ function injectHead(html, { fullTitle, description, canonicalUrl, noIndex, ogIma
     <meta property="og:description" content="${escAttr(description)}" />
     <meta property="og:url" content="${escAttr(canonicalUrl)}" />
     <meta property="og:site_name" content="Weird TX" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="${escAttr(ogTypeVal)}" />
     <meta property="og:locale" content="en_US" />
-${ogImgLine}    <meta name="twitter:card" content="${twCard}" />
+${ogImgLine}${ogImageAltLine}    <meta name="twitter:card" content="${twCard}" />
     <meta name="twitter:title" content="${escAttr(fullTitle)}" />
     <meta name="twitter:description" content="${escAttr(description)}" />
 ${ldLine}`
@@ -112,6 +117,8 @@ async function main() {
       canonicalUrl: head.canonicalUrl,
       noIndex: head.noIndex,
       ogImage: head.ogImage,
+      ogImageAlt: head.ogImageAlt,
+      ogType: head.ogType,
       jsonLd: head.jsonLd,
     })
 

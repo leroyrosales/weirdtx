@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom'
 export const SITE_NAME = 'Weird TX'
 
 export const DEFAULT_DESCRIPTION =
-  'Discover oddball Texas landmarks, roadside wonders, small-town museums, and weird festivals, mapped and organized by region. Plan your next Lone Star detour.'
+  'Weird Texas map: oddball landmarks, roadside art, small museums, ghost towns, and strange festivals by region. Plan Lone Star road trips with coordinates and photos.'
 
 const MAX_DESC = 165
 
@@ -71,6 +71,10 @@ export type PageSeoOptions = {
   canonicalPath?: string
   /** Absolute or site-relative image URL for Open Graph / Twitter. */
   ogImage?: string
+  /** Alt text for the OG/Twitter image (accessibility and social previews). */
+  ogImageAlt?: string
+  /** Open Graph type; use `article` for shareable detail pages when helpful. */
+  ogType?: 'website' | 'article'
   jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null
   /** Soft 404s and error states: avoid indexing thin duplicate pages. */
   noIndex?: boolean
@@ -90,6 +94,8 @@ export function usePageSeo({
   description,
   canonicalPath,
   ogImage,
+  ogImageAlt,
+  ogType = 'website',
   jsonLd,
   noIndex,
 }: PageSeoOptions) {
@@ -117,7 +123,7 @@ export function usePageSeo({
     upsertMeta('property', 'og:description', desc)
     upsertMeta('property', 'og:url', pageUrl)
     upsertMeta('property', 'og:site_name', SITE_NAME)
-    upsertMeta('property', 'og:type', 'website')
+    upsertMeta('property', 'og:type', ogType)
     upsertMeta('property', 'og:locale', 'en_US')
 
     if (ogImage) {
@@ -125,10 +131,20 @@ export function usePageSeo({
       upsertMeta('property', 'og:image', abs)
       upsertMeta('name', 'twitter:card', 'summary_large_image')
       upsertMeta('name', 'twitter:image', abs)
+      const imgAlt = (ogImageAlt ?? '').trim()
+      if (imgAlt) {
+        upsertMeta('property', 'og:image:alt', imgAlt)
+        upsertMeta('name', 'twitter:image:alt', imgAlt)
+      } else {
+        document.head.querySelector('meta[property="og:image:alt"][data-weirdtx-seo]')?.remove()
+        document.head.querySelector('meta[name="twitter:image:alt"][data-weirdtx-seo]')?.remove()
+      }
     } else {
       upsertMeta('name', 'twitter:card', 'summary')
       document.head.querySelector('meta[name="twitter:image"][data-weirdtx-seo]')?.remove()
       document.head.querySelector('meta[property="og:image"][data-weirdtx-seo]')?.remove()
+      document.head.querySelector('meta[property="og:image:alt"][data-weirdtx-seo]')?.remove()
+      document.head.querySelector('meta[name="twitter:image:alt"][data-weirdtx-seo]')?.remove()
     }
 
     upsertMeta('name', 'twitter:title', fullTitle)
@@ -146,6 +162,8 @@ export function usePageSeo({
     location.pathname,
     location.search,
     ogImage,
+    ogImageAlt,
+    ogType,
     jsonLd,
     noIndex,
   ])

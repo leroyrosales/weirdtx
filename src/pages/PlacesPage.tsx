@@ -8,12 +8,25 @@ import {
 import { places, regions } from '../lib/content'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
+import { buildCollectionPageJsonLd } from '../lib/seoJsonLd'
 
 export function PlacesPage() {
+  const desc =
+    'Browse weird Texas places by region: roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.'
+  const jsonLd = useMemo(() => {
+    if (typeof window === 'undefined') return null
+    return buildCollectionPageJsonLd({
+      origin: window.location.origin,
+      name: 'Weird Texas places',
+      description: desc,
+      path: '/places',
+    })
+  }, [desc])
+
   usePageSeo({
     title: 'Weird places',
-    description:
-      'Browse weird Texas places by region: roadside art, small museums, odd monuments, and map-ready coordinates on Weird TX.',
+    description: desc,
+    jsonLd,
   })
   const [region, setRegion] = useState<string>('')
 

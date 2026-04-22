@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   ListingCardImageLink,
@@ -9,18 +10,31 @@ import { TexasMap } from '../components/TexasMap'
 import { events, places, regions } from '../lib/content'
 import { encodeParam, regionFromSlug, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
+import { buildCollectionPageJsonLd } from '../lib/seoJsonLd'
 
 export function RegionPage() {
   const { region } = useParams<{ region: string }>()
   const regionValue = regionFromSlug(region, regions)
 
   const isValid = regionValue != null
+  const regionDesc =
+    isValid && regionValue
+      ? `Weird places and events in ${regionValue}, Texas, with a map and listings on Weird TX.`
+      : 'This region could not be found on Weird TX.'
+  const jsonLd = useMemo(() => {
+    if (!isValid || !regionValue || typeof window === 'undefined') return null
+    return buildCollectionPageJsonLd({
+      origin: window.location.origin,
+      name: `Weird Texas: ${regionValue}`,
+      description: regionDesc,
+      path: `/regions/${regionToSlug(regionValue)}`,
+    })
+  }, [isValid, regionValue, regionDesc])
+
   usePageSeo({
     title: isValid && regionValue ? `Region: ${regionValue}` : 'Region not found',
-    description:
-      isValid && regionValue
-        ? `Weird places and events in ${regionValue}, Texas, with a map and listings on Weird TX.`
-        : 'This region could not be found on Weird TX.',
+    description: regionDesc,
+    jsonLd,
     noIndex: !isValid,
   })
 

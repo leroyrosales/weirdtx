@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   ListingCardImageLink,
@@ -8,16 +9,29 @@ import {
 import { events, places } from '../lib/content'
 import { decodeParam, encodeParam, regionToSlug } from '../lib/routeParams'
 import { usePageSeo } from '../lib/seo'
+import { buildCollectionPageJsonLd } from '../lib/seoJsonLd'
 
 export function TagPage() {
   const { tag } = useParams<{ tag: string }>()
   const tagValue = decodeParam(tag).trim()
 
+  const tagDesc = tagValue
+    ? `Places and events tagged "${tagValue}" on Weird TX: odd Texas listings with an interactive map.`
+    : 'This tag could not be found on Weird TX.'
+  const jsonLd = useMemo(() => {
+    if (!tagValue || typeof window === 'undefined') return null
+    return buildCollectionPageJsonLd({
+      origin: window.location.origin,
+      name: `Weird Texas tag: ${tagValue}`,
+      description: tagDesc,
+      path: `/tags/${encodeParam(tagValue)}`,
+    })
+  }, [tagValue, tagDesc])
+
   usePageSeo({
     title: tagValue ? `Tag: ${tagValue}` : 'Tag not found',
-    description: tagValue
-      ? `Places and events tagged "${tagValue}" on Weird TX: odd Texas listings with an interactive map.`
-      : 'This tag could not be found on Weird TX.',
+    description: tagDesc,
+    jsonLd,
     noIndex: !tagValue,
   })
 

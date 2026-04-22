@@ -10,6 +10,7 @@ import { TexasMap } from '../components/TexasMap'
 import { events, places } from '../lib/content'
 import { formatEventRange } from '../lib/dates'
 import { usePageSeo } from '../lib/seo'
+import { buildCollectionPageJsonLd } from '../lib/seoJsonLd'
 import { sortByDistance } from '../lib/geo'
 import { encodeParam, regionToSlug } from '../lib/routeParams'
 
@@ -19,10 +20,22 @@ type LocState = { lat: number; lng: number } | null | 'denied' | 'loading'
 const RADII = [25, 75, 200] as const
 
 export function ExplorePage() {
+  const exploreDesc =
+    'Find weird Texas places and events near your location, with optional geolocation, distance sort, and a statewide map on Weird TX.'
+  const jsonLd = useMemo(() => {
+    if (typeof window === 'undefined') return null
+    return buildCollectionPageJsonLd({
+      origin: window.location.origin,
+      name: 'Near me: weird Texas by distance',
+      description: exploreDesc,
+      path: '/explore',
+    })
+  }, [exploreDesc])
+
   usePageSeo({
     title: 'Near me',
-    description:
-      'Find weird Texas places and events near your location, with optional geolocation, distance sort, and a statewide map on Weird TX.',
+    description: exploreDesc,
+    jsonLd,
   })
   const [kind, setKind] = useState<Kind>('all')
   const [radiusMi, setRadiusMi] = useState<(typeof RADII)[number]>(75)
